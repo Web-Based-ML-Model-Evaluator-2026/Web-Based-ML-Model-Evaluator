@@ -1,0 +1,17 @@
+/* Load basic Tailwind styles */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  /* Default styling (Light Mode) */
+  body {
+    @apply bg-light-bg text-light-textPrimary;
+    @apply transition-colors duration-200; /* Makes changing themes smooth */
+  }
+
+  /* Dark Mode styling */
+  .dark body {
+    @apply bg-dark-bg text-dark-textPrimary;
+  }
+}
