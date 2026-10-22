@@ -1,0 +1,13 @@
+node_modules/
+*/node_modules/
+*/*/node_modules/
+.vite/
+dist/
+build/
+__pycache__/
+*/__pycache__/
+*.pyc
+backend/uploads/*.csv
+!backend/uploads/.gitkeep
+.DS_Store
+Thumbs.db
