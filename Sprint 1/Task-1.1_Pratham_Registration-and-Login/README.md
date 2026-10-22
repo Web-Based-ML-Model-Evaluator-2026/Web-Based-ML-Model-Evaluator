@@ -1,4 +1,4 @@
-﻿# Task 1.1 â€” Registration and Login
+﻿# Task 1.1 Registration and Login
 
 Owner: Pratham Kumar
 Sprint: Sprint 1
