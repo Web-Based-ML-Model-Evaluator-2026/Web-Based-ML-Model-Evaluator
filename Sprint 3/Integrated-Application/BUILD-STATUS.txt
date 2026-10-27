@@ -1,0 +1,6 @@
+Build verification
+==================
+- Python compile: PASS
+- Unit tests: 8 passed, 0 failed
+- HTTP server smoke test: NOT CONFIRMED in the packaging environment; verify locally using /api/health and the manual test plan.
+- Browser interaction: not run in this packaging environment; perform on Windows after extraction.
