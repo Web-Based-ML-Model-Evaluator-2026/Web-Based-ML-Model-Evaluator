@@ -1,0 +1,20 @@
+Web-Based ML Model Evaluator — Packaging Verification
+
+Checks completed in the packaging environment:
+- Python unittest suite: PASS (5 tests)
+  - CSV parsing and descriptive statistics
+  - Rejection of empty, header-only, duplicate-header, and ragged-row CSVs
+  - Salted password hashing behavior
+  - Registration, project creation, CSV upload, dataset preview/statistics, and preprocessing API flow
+  - Authentication-required behavior and invalid CSV rejection
+- JavaScript syntax check (`node --check app/app.js`): PASS
+- Runtime dependencies: Python standard library only; no pip install or Node build required to launch.
+
+Not claimed as tested:
+- Interactive browser automation / cross-browser visual checks
+- Execution on the user's specific Windows desktop
+- Public/production deployment security
+- Experiments 4–6 (model training, evaluation, comparison, reporting), intentionally deferred
+
+Run the test suite on the target PC after extraction using:
+  py -3 -m unittest discover -s tests -v
