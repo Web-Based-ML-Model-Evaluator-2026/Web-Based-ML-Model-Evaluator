@@ -1,0 +1,5 @@
+id,name,notes,empty_col
+1,Alice,ok,
+
+2,Bob,=HYPERLINK("http://x"),
+3,Carol,fine,
