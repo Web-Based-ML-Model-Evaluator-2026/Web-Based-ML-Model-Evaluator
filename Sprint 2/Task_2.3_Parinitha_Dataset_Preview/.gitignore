@@ -1,0 +1,8 @@
+# Do not commit local environments or secrets
+.venv/
+venv/
+node_modules/
+.env
+.env.*
+__pycache__/
+*.py[cod]
