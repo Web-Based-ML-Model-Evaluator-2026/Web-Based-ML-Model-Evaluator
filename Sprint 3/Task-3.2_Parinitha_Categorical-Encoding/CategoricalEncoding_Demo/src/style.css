@@ -1,0 +1,12 @@
+*{box-sizing:border-box} :root{font-family:Inter,system-ui,Arial,sans-serif;color:#1f2937;background:#f3f6fb}body{margin:0}
+.toolbar{display:flex;flex-wrap:wrap;align-items:center;gap:12px;padding:16px max(20px,calc((100% - 1100px)/2));background:#111827;color:white}
+.toolbar button,.toolbar label{border:1px solid #cbd5e1;border-radius:8px;background:white;color:#111827;padding:9px 12px;font:inherit;cursor:pointer}.toolbar input{display:block;margin-top:6px;max-width:240px}.error{color:#fecaca}
+.ce-page{max-width:1100px;margin:0 auto;padding:28px 20px 60px}.ce-header{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:center;gap:16px;margin-bottom:22px}
+.ce-eyebrow{color:#2563eb;font-weight:800;letter-spacing:.12em;font-size:12px}.ce-header h1{margin:5px 0;font-size:clamp(30px,4vw,42px)}.ce-muted{color:#64748b}.ce-chip{border-radius:999px;background:#dbeafe;color:#1d4ed8;padding:8px 12px;font-weight:700}
+.ce-stats{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px;margin-bottom:18px}.ce-stat,.ce-card{background:white;border:1px solid #e2e8f0;border-radius:14px;box-shadow:0 3px 12px #0f172a0a}
+.ce-stat{padding:18px;display:flex;flex-direction:column;gap:8px}.ce-stat span{color:#64748b;font-size:14px}.ce-stat strong{font-size:28px}.ce-card{padding:20px;margin:16px 0}.ce-card h2{margin-top:0;font-size:20px}
+.ce-table-wrap{overflow-x:auto}.ce-table{border-collapse:collapse;width:100%;font-size:14px}.ce-table th,.ce-table td{border-bottom:1px solid #e2e8f0;padding:11px 12px;text-align:left;white-space:nowrap}.ce-table th{background:#f8fafc;color:#475569}
+.ce-form-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px;margin:16px 0}.ce-form-grid label{display:flex;flex-direction:column;gap:8px;font-weight:600}.ce-form-grid select{padding:11px;border:1px solid #cbd5e1;border-radius:8px;background:white;font:inherit}
+.ce-checkbox{display:flex;align-items:flex-start;gap:9px;color:#475569;margin:12px 0 18px}.ce-button{border:0;border-radius:8px;background:#2563eb;color:white;padding:11px 16px;font:inherit;font-weight:700;cursor:pointer}.ce-button:disabled{opacity:.45;cursor:not-allowed}
+.ce-error{background:#fee2e2;color:#991b1b;padding:10px;border-radius:8px}.ce-success{background:#dcfce7;color:#166534;padding:10px;border-radius:8px}
+@media(max-width:640px){.ce-stats,.ce-form-grid{grid-template-columns:1fr}}
