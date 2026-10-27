@@ -2,12 +2,10 @@ name: Sprint 3 - Task 3.4 Target Selection & Data Splitting CI
 
 on:
   push:
-    paths:
-      - 'Sprint 3/Task-3.4_Shreyas_Target-Selection-and-Data-Splitting/**'
-      - '.github/workflows/task-3.4-ci.yml'
+    branches:
+      - task-3.4-shreyas-target-selection-and-data-splitting
   pull_request:
-    paths:
-      - 'Sprint 3/Task-3.4_Shreyas_Target-Selection-and-Data-Splitting/**'
+    types: [opened, synchronize, reopened]
 
 jobs:
   backend-validation:
