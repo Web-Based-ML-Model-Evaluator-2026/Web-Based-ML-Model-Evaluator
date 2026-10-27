@@ -1,0 +1,9 @@
+student_id,study_hours,attendance,score,department,passed
+S001,2.5,82,65,Computer Science,yes
+S002,4,95,88,Computer Science,yes
+S003,1.5,72,52,Electronics,no
+S004,5,98,94,Electronics,yes
+S005,3,86,76,Information Science,yes
+S006,2,75,61,Electronics,no
+S007,2.8,80,70,Information Science,no
+S008,4.5,92,91,Computer Science,yes
