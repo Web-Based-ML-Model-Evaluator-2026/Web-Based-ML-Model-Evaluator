@@ -1,0 +1,6 @@
+__pycache__/
+*.py[cod]
+*$py.class
+splits/*.csv
+splits/*.pkl
+!splits/.gitkeep
