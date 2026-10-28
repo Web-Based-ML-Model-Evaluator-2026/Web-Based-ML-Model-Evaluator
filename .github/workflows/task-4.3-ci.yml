@@ -1,0 +1,54 @@
+name: Task 4.3 CI/CD Pipeline
+
+on:
+  push:
+    branches: [ "main", "sprint-4*" ]
+  pull_request:
+    branches: [ "main", "sprint-4*" ]
+
+jobs:
+  backend-validation:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        # EXACT path to your backend folder
+        working-directory: './Sprint 4/Task 4.3_Shreyas_Model training and testing/backend'
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+        
+      - name: Set up Python 3.12
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.12'
+          
+      - name: Install Backend Dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+          
+      - name: Syntax & Compilation Check
+        run: python -m py_compile server.py model_trainer.py
+
+  frontend-validation:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        # EXACT path to your frontend folder
+        working-directory: './Sprint 4/Task 4.3_Shreyas_Model training and testing/frontend'
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+        
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+          cache-dependency-path: './Sprint 4/Task 4.3_Shreyas_Model training and testing/frontend/package-lock.json'
+          
+      - name: Install Frontend Dependencies
+        run: npm install
+        
+      - name: Build React Application
+        run: npm run build
