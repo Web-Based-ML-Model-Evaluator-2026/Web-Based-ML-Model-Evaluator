@@ -1,16 +1,22 @@
-# React + Vite
+# 🖥️ Sprint 1 - Task 1.2: User Dashboard & Navigation Layout
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+## 📖 Executive Summary
+This module establishes the foundational User Interface (UI) and global routing architecture for the ML Evaluator web application. It delivers a centralized dashboard for project overviews and a persistent navigation system. As the primary structural shell of the application, this task ensures that all future sprint modules (Data Upload, Preprocessing, Splitting, and Evaluation) can seamlessly plug into a cohesive, responsive Single Page Application (SPA) environment.
 
-Currently, two official plugins are available:
+## 🏗️ System Architecture
+- **Frontend Framework (React + Vite):** Utilizes Vite for lightning-fast Hot Module Replacement (HMR) and optimized production builds. 
+- **Styling Engine (Tailwind CSS):** Implements a utility-first CSS design system to guarantee a fully responsive layout across desktop and mobile viewports using modern Flexbox and Grid paradigms.
+- **Routing Layer (React Router):** Manages client-side navigation without page reloads, maintaining application state and ensuring smooth transitions between different machine learning pipeline stages.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🚀 Core Functionalities
+- **Global Navigation System:** A persistent sidebar/top navigation bar that provides intuitive access to core application workflows (Dashboard, Dataset Ingestion, Data Preprocessing, Model Training, and Evaluation).
+- **Project Overview Dashboard:** A centralized landing page displaying high-level project metrics, pipeline progress indicators, and system health status.
+- **Responsive Layout Shell:** A modular UI wrapper that adapts to different screen sizes, ensuring the complex data tables and charts in future sprints have a stable, scrollable container.
+- **Dynamic Active States:** Visual feedback on navigation links to indicate the user's current location within the multi-step ML evaluation process.
+- **Component Modularity:** Clean separation of UI components (`Sidebar.jsx`, `Navbar.jsx`, `Dashboard.jsx`) to allow parallel development by team members in subsequent sprints.
 
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the Oxlint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+## 🛠️ Local Setup & Execution
+1. **Navigate to the frontend directory:**
+   ```bash
+   cd frontend
+   npm run dev
