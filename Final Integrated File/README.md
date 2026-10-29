@@ -1,19 +1,19 @@
-# Web-Based ML Model Evaluator — Sprint 1–3 Demonstration Build
+# Web-Based ML Model Evaluator — Final Integrated Demonstration Build
 
-A self-contained, locally hosted web application that combines the core Sprint 1–3 demonstration flow. It uses **Python's standard library only**: no Node.js, Flask, database server, or internet connection is required to run the application. Python 3.10+ is recommended.
+A self-contained, locally hosted web application that combines the core Sprint 1–3 demonstration workflows for Team 13's Web-Based ML Model Evaluator. It uses Python's standard library, browser-based JavaScript, and SQLite. No separate database server or internet connection is required to run the application. Python 3.10 or newer is recommended.
 
-## Included functionality
+## Included Functionality
 
-- **Sprint 1:** account registration/login/logout, salted PBKDF2 password hashes, session cookies, user-owned projects, project deletion, SQLite persistence.
-- **Sprint 2:** CSV upload, validation (size, extension, header, duplicate columns, row shape, row/column limits), preview, missing-value counts, duplicate-row count, inferred column types, unique counts and numeric summaries.
-- **Sprint 3:** missing-value strategies (mean/Unknown, mode, zero/Unknown, drop incomplete rows), categorical one-hot/label encoding, min-max/standard scaling, optional target column and train/test split preview.
-- Responsive dashboard, project cards, sample CSV, local SQLite database, automated tests, and a retained source snapshot of the uploaded team repository.
+- **Sprint 1 — Authentication and Project Management:** Account registration, login/logout, salted PBKDF2 password hashing, session cookies, user-owned projects, project deletion, and SQLite persistence.
+- **Sprint 2 — Dataset Upload and Exploration:** CSV upload and validation, file-size and row/column limits, header and duplicate-column checks, dataset preview, missing-value counts, duplicate-row counts, inferred column types, unique counts, and numerical summaries.
+- **Sprint 3 — Data Preprocessing:** Missing-value handling, categorical one-hot/label encoding, min-max/standard scaling, optional target-column selection, and train/test split preview.
+- **Additional Components:** Responsive dashboard, project cards, sample CSV dataset, local SQLite database, automated tests, Windows startup script, and a retained source snapshot of the uploaded team repository.
 
-## Run on Windows
+## Running the Application on Windows
 
-1. Extract `Web-Based-ML-Model-Evaluator-Final.zip` into a normal folder on your Desktop (do not run it from inside the ZIP).
-2. Install Python 3.10 or newer if it is not already installed. During setup, select **Add Python to PATH**.
-3. Open the extracted folder in File Explorer.
+1. Extract the application ZIP into a normal folder on your computer. Do not run it directly from inside the ZIP archive.
+2. Install Python 3.10 or newer if it is not already installed. Select **Add Python to PATH** during installation if that option is available.
+3. Open the extracted application folder in File Explorer.
 4. Double-click `START-WINDOWS.bat`, or open PowerShell in the extracted folder and run:
 
    ```powershell
@@ -21,36 +21,45 @@ A self-contained, locally hosted web application that combines the core Sprint 1
    ```
 
 5. Open **http://127.0.0.1:8000** in your browser.
-6. Register an account, create a project, then select **Datasets → Load sample dataset** or upload `sample-data\customer_churn_sample.csv`.
-7. Open **Preprocessing**, select the project and dataset, configure options, and run the preprocessing preview.
-8. Stop the server with **Ctrl+C** in the terminal.
+6. Register an account and create a project.
+7. Select **Datasets → Load sample dataset**, or upload `sample-data\customer_churn_sample.csv`.
+8. Open **Preprocessing**, select the project and dataset, configure the available options, and run the preprocessing preview.
+9. Stop the server by pressing **Ctrl+C** in the terminal.
 
-The server listens on localhost only by default. It is intended for a local class demonstration, not public production hosting. SQLite data is created in the `data` folder on first run. To reset the demo, stop the server and delete `data\evaluator.sqlite3`.
+The server listens on localhost by default and is intended for a local academic demonstration, not public production hosting. SQLite data is created in the `data` folder on first run. To reset the demo, stop the server and delete `data\evaluator.sqlite3`.
 
-## Run automated tests
+## Running Automated Tests
 
-From PowerShell in the extracted folder:
+Run the following command in PowerShell from the extracted application folder:
 
 ```powershell
 py -3 -m unittest discover -s tests -v
 ```
 
-The test suite checks CSV validation/statistics, password hashing, registration, authentication boundaries, project creation, upload, preview, and preprocessing API flow. Tests use a temporary database and do not change the demonstration database.
+The test suite checks CSV validation and statistics, password hashing, registration, authentication boundaries, project creation, upload, preview, and preprocessing API workflows. Tests use a temporary database and should not modify the demonstration database.
 
-## Important scope and accuracy notes
+`TEST-REPORT.txt` records the checks performed during packaging. Browser automation and execution on every target Windows environment have not been verified.
+
+## Scope and Limitations
 
 - The uploaded CSV is retained unchanged. Preprocessing produces a response preview and does not overwrite the original dataset.
-- The test/train split is a **row-count preview**, not a persisted model-ready split artifact. This demo does not train or evaluate machine-learning models.
-- Experiments 4, 5, and 6 (model selection/training/evaluation/comparison/reporting) are intentionally deferred, as requested.
-- OTP email delivery and a production CAPTCHA are not included. Do not present them as implemented.
-- The application is a local demonstration implementation assembled for reliable one-command startup. The original Sprint source snapshot is included under `reference-source/` for traceability; this ZIP does not claim that every standalone team implementation has been merged line-for-line.
-- Before public deployment, add HTTPS, a durable session store, CSRF protections, stronger operational controls, and a production web server. Do not expose this demo server directly to the internet.
+- The train/test split is a **row-count preview**, not a persisted model-ready split artifact.
+- This demonstration does not yet train or evaluate machine-learning models.
+- Experiments 4, 5, and 6—model selection, training, evaluation, comparison, and reporting—remain outside this application's implemented scope.
+- OTP email delivery and production CAPTCHA are not implemented.
+- The application is a local demonstration build assembled for reliable startup. The original Sprint source snapshot is retained under `reference-source/` for traceability; this does not imply that every standalone team implementation has been merged line-for-line.
+- Before public deployment, additional safeguards are required, including HTTPS, durable session storage, CSRF protection, stronger operational controls, and a production web server. Do not expose the demonstration server directly to the internet.
 
-## Folder map
+## Folder Structure
 
-- `app/` — application server and browser UI.
+- `app/` — application server and browser interface.
+- `data/` — SQLite database, created during execution.
+- `sample-data/` — sample CSV dataset.
 - `tests/` — automated standard-library tests.
-- `sample-data/` — sample dataset for demonstration.
-- `reference-source/team-sprint-source-snapshot.zip` — supplied team repository snapshot used as reference.
-- `START-WINDOWS.bat` — Windows launcher.
-- `TEST-REPORT.txt` — results from checks run while packaging this archive.
+- `reference-source/team-sprint-source-snapshot.zip` — retained team repository source snapshot for reference.
+- `START-WINDOWS.bat` — Windows startup script.
+- `TEST-REPORT.txt` — packaging verification report.
+
+## Project Status
+
+This build demonstrates the core Sprint 1–3 workflows. Later model training, evaluation, comparison, and reporting functionality must be verified separately before being described as implemented.
