@@ -11,6 +11,7 @@ MAX_BYTES=5*1024*1024
 
 def now(): return datetime.now(timezone.utc).isoformat()
 @contextmanager
+
 def connect():
  c=sqlite3.connect(DB); c.row_factory=sqlite3.Row; c.execute('PRAGMA foreign_keys=ON')
  try:
@@ -18,6 +19,7 @@ def connect():
  except Exception:
   c.rollback(); raise
  finally: c.close()
+
 def init_db():
  with connect() as c:
   c.executescript('''CREATE TABLE IF NOT EXISTS users(id INTEGER PRIMARY KEY, name TEXT NOT NULL,email TEXT UNIQUE NOT NULL,pw_hash TEXT NOT NULL,created TEXT NOT NULL);
@@ -26,13 +28,17 @@ def init_db():
   CREATE TABLE IF NOT EXISTS datasets(id INTEGER PRIMARY KEY,user_id INTEGER NOT NULL REFERENCES users(id) ON DELETE CASCADE,project_id INTEGER REFERENCES projects(id) ON DELETE CASCADE,filename TEXT NOT NULL,path TEXT NOT NULL,rows_count INTEGER,columns_count INTEGER,created TEXT NOT NULL);
   CREATE TABLE IF NOT EXISTS experiments(id INTEGER PRIMARY KEY,user_id INTEGER NOT NULL REFERENCES users(id) ON DELETE CASCADE,project_id INTEGER REFERENCES projects(id) ON DELETE CASCADE,dataset_id INTEGER NOT NULL REFERENCES datasets(id) ON DELETE CASCADE,model TEXT NOT NULL,task TEXT NOT NULL,target TEXT NOT NULL,metrics TEXT NOT NULL,config TEXT NOT NULL,created TEXT NOT NULL);
   ''')
+
 def hash_pw(pw,salt=None):
  salt=salt or secrets.token_hex(16); digest=hashlib.pbkdf2_hmac('sha256',pw.encode(),salt.encode(),180000).hex(); return salt+'$'+digest
+
 def check_pw(pw,stored):
  try: salt,d=stored.split('$',1); return hmac.compare_digest(hash_pw(pw,salt).split('$',1)[1],d)
  except Exception:return False
+
 def response_json(handler,status,obj):
  b=json.dumps(obj,allow_nan=False).encode(); handler.send_response(status); handler.send_header('Content-Type','application/json; charset=utf-8'); handler.send_header('Content-Length',str(len(b))); handler.send_header('X-Content-Type-Options','nosniff'); handler.send_header('Cache-Control','no-store'); handler.end_headers(); handler.wfile.write(b)
+
 def csv_data(text):
  if not text.strip(): raise ValueError('CSV file is empty.')
  reader=csv.DictReader(io.StringIO(text)); headers=reader.fieldnames
@@ -47,17 +53,21 @@ def csv_data(text):
  if not rows: raise ValueError('CSV contains no data rows.')
  if len(rows)>100000: raise ValueError('CSV exceeds the 100,000 row limit.')
  return headers,rows
+
 def auth_user(h):
  token=h.headers.get('Authorization','').removeprefix('Bearer ').strip()
  if not token:return None
  with connect() as c: row=c.execute('SELECT u.* FROM sessions s JOIN users u ON u.id=s.user_id WHERE s.token=?',(token,)).fetchone()
  return dict(row) if row else None
+
 def owned(c,table,ident,user_id): return c.execute(f'SELECT * FROM {table} WHERE id=? AND user_id=?',(ident,user_id)).fetchone()
+
 def metrics_for(y_true,y_pred,task):
  from sklearn.metrics import accuracy_score,precision_score,recall_score,f1_score,confusion_matrix,mean_absolute_error,mean_squared_error,r2_score
  if task=='classification':
   return {'accuracy':round(float(accuracy_score(y_true,y_pred)),4),'precision_weighted':round(float(precision_score(y_true,y_pred,average='weighted',zero_division=0)),4),'recall_weighted':round(float(recall_score(y_true,y_pred,average='weighted',zero_division=0)),4),'f1_weighted':round(float(f1_score(y_true,y_pred,average='weighted',zero_division=0)),4),'confusion_matrix':confusion_matrix(y_true,y_pred).tolist()}
  return {'mae':round(float(mean_absolute_error(y_true,y_pred)),4),'rmse':round(float(mean_squared_error(y_true,y_pred)**0.5),4),'r2':round(float(r2_score(y_true,y_pred)),4) if len(y_true)>1 else None}
+
 def run_model(csv_text,target,task,model_name,test_size,missing,encoding,scaling,seed=42):
  import pandas as pd
  from sklearn.model_selection import train_test_split
@@ -104,6 +114,7 @@ def run_model(csv_text,target,task,model_name,test_size,missing,encoding,scaling
  pipe=Pipeline([('preprocessor',pre),('model',models[model_name])]); pipe.fit(X_train,y_train); pred=pipe.predict(X_test)
  met=metrics_for(y_test,pred,task)
  return {'metrics':met,'train_rows':len(X_train),'test_rows':len(X_test),'feature_count':len(X.columns),'target':target,'task':task,'model':model_name,'classes':sorted(y.astype(str).unique().tolist()) if task=='classification' else [],'predictions':[{'actual':str(a),'predicted':str(p)} for a,p in zip(y_test.tolist()[:100],pred.tolist()[:100])], 'config':{'test_size':test_size,'missing':missing,'encoding':encoding,'scaling':scaling,'seed':seed}}
+
 class Handler(BaseHTTPRequestHandler):
  def body(self):
   n=int(self.headers.get('Content-Length','0'))
@@ -134,6 +145,7 @@ class Handler(BaseHTTPRequestHandler):
      d=dict(x); d['metrics']=json.loads(d['metrics']);d['config']=json.loads(d['config']);arr.append(d)
     return self.send_json(200,arr)
   return self.send_json(404,{'error':'Not found'})
+
  def do_POST(self):
   path=urlparse(self.path).path
   try: p=self.body()
@@ -200,6 +212,7 @@ class Handler(BaseHTTPRequestHandler):
   except Exception as e:
    traceback.print_exc();return self.send_json(500,{'error':'Server error: '+str(e)})
  def log_message(self,fmt,*args):print('[ModelLab]',fmt%args)
+
 def main():
  init_db(); host=os.environ.get('HOST','127.0.0.1');port=int(os.environ.get('PORT','8000'));print(f'ModelLab running at http://{host}:{port}');ThreadingHTTPServer((host,port),Handler).serve_forever()
 if __name__=='__main__':main()
