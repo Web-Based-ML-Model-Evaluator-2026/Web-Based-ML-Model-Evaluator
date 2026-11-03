@@ -1,0 +1,801 @@
+customer_id,age,tenure_months,monthly_charges,contract_type,internet_service,payment_method,paperless_billing,partner,dependents,phone_service,multiple_lines,online_security,online_backup,device_protection,tech_support,streaming_tv,streaming_movies,support_plan,region,primary_device,discount_tier,complaints_last_year,late_payments,service_fee,total_charges,churn
+C00000,23,0,126.41,Month-to-month,DSL,Credit card,Yes,Yes,No,No,No,No,Yes,Desktop,No,Yes,No,No,North,Desktop,5%,3,1,20.39,27.98,Yes
+C00001,62,22,116.06,One year,None,Credit card,Yes,No,No,Yes,No,No,No,Mobile,No,Yes,Yes,No,South,Mobile,10%,1,1,11.35,2320.83,No
+C00002,55,37,85.15,One year,Fiber,Mailed check,No,Yes,No,Yes,No,No,No,Mobile,No,Yes,No,No,East,Mobile,None,2,2,27.62,3065.08,No
+C00003,43,67,115.82,Month-to-month,DSL,Electronic check,Yes,No,No,Yes,Yes,No,Yes,Desktop,No,No,Yes,No,Central,Desktop,None,0,2,41.31,7911.35,Yes
+C00004,43,53,78.34,Two year,DSL,Electronic check,No,No,No,Yes,Yes,No,No,Mobile,Yes,No,Yes,Yes,East,Mobile,10%,0,4,22.07,4044.58,No
+C00005,67,57,83.68,Month-to-month,Fiber,Mailed check,No,Yes,Yes,Yes,Yes,Yes,Yes,Mobile,Yes,Yes,Yes,No,North,Mobile,5%,1,0,36.16,4891.94,No
+C00006,22,39,47.38,Month-to-month,Fiber,Bank transfer,Yes,Yes,Yes,Yes,No,No,Yes,Mobile,No,Yes,Yes,No,South,Mobile,10%,2,0,17.28,1498.17,Yes
+C00007,58,8,89.12,Month-to-month,DSL,Electronic check,Yes,No,No,Yes,No,No,Yes,Mobile,No,No,Yes,Yes,West,Mobile,5%,0,1,32.19,629.05,No
+C00008,29,28,79.69,Two year,Fiber,Credit card,No,No,No,Yes,Yes,Yes,Yes,Mobile,No,No,No,Yes,East,Mobile,10%,2,1,21.24,2205.62,No
+C00009,23,72,41.53,Month-to-month,None,Bank transfer,Yes,Yes,No,Yes,Yes,Yes,Yes,Tablet,No,No,No,Yes,North,Tablet,None,0,0,34.06,3251.54,Yes
+C00010,48,3,76.57,Month-to-month,Fiber,Credit card,No,Yes,No,Yes,No,Yes,No,Mobile,Yes,No,Yes,Yes,East,Mobile,None,0,1,28.99,54.35,No
+C00011,74,64,75.77,Month-to-month,Fiber,Bank transfer,No,Yes,Yes,Yes,No,Yes,No,Desktop,Yes,Yes,Yes,No,East,Desktop,10%,2,0,20.72,4949.93,No
+C00012,60,49,128.33,One year,Cable,Bank transfer,No,No,No,No,No,No,No,Mobile,No,Yes,No,No,North,Mobile,None,0,0,27.09,6446.71,No
+C00013,62,20,103.04,Month-to-month,Fiber,Credit card,No,No,No,Yes,Yes,Yes,No,Desktop,No,Yes,No,No,South,Desktop,10%,0,0,23.79,1952.58,Yes
+C00014,59,56,78.32,Month-to-month,None,Mailed check,No,Yes,No,Yes,No,No,No,Desktop,Yes,Yes,No,Yes,Central,Desktop,None,2,1,19.23,4329.89,No
+C00015,63,61,84.97,One year,Cable,Credit card,Yes,No,No,Yes,Yes,Yes,No,Tablet,No,Yes,Yes,No,West,Tablet,None,1,2,47.99,5204.41,No
+C00016,47,3,79.24,Month-to-month,Fiber,Mailed check,Yes,No,Yes,Yes,No,Yes,Yes,Mobile,No,Yes,Yes,No,North,Mobile,None,2,2,30.68,15.5,Yes
+C00017,25,7,72.32,Month-to-month,DSL,Electronic check,Yes,No,No,Yes,Yes,Yes,No,Desktop,No,No,Yes,Yes,North,Desktop,10%,1,1,8.57,437.97,Yes
+C00018,66,48,47.69,Month-to-month,DSL,Credit card,No,Yes,No,No,Yes,Yes,No,Mobile,No,No,Yes,No,South,Mobile,10%,2,1,27.52,2480.54,Yes
+C00019,44,72,73.77,Month-to-month,Cable,Bank transfer,No,Yes,No,Yes,No,No,Yes,Desktop,No,No,No,No,East,Desktop,None,1,4,45.98,5389.84,No
+C00020,47,1,57.11,Month-to-month,Cable,Mailed check,Yes,Yes,No,Yes,No,Yes,Yes,Tablet,No,Yes,Yes,No,East,Tablet,None,0,1,25.86,33.6,No
+C00021,39,48,42.99,Two year,Cable,Electronic check,Yes,Yes,Yes,No,Yes,Yes,No,Desktop,No,Yes,No,Yes,West,Desktop,None,4,0,52.97,2080.48,No
+C00022,28,9,92.31,One year,DSL,Mailed check,No,Yes,No,Yes,No,Yes,No,Desktop,No,No,No,No,North,Desktop,None,2,0,24.72,917.93,No
+C00023,71,47,88.96,One year,Fiber,Electronic check,Yes,Yes,No,Yes,Yes,Yes,Yes,Desktop,Yes,No,No,Yes,North,Desktop,10%,2,2,41.04,4296.98,No
+C00024,63,45,27.97,Two year,DSL,Credit card,No,Yes,No,Yes,Yes,No,Yes,Tablet,Yes,No,Yes,Yes,West,Tablet,None,3,2,47.44,1175.19,No
+C00025,55,6,74.56,Month-to-month,None,Credit card,No,No,No,Yes,Yes,No,Yes,Mobile,No,No,Yes,Yes,Central,Mobile,None,2,1,40.4,677.57,Yes
+C00026,41,49,105.88,Month-to-month,DSL,Credit card,Yes,Yes,Yes,Yes,No,Yes,Yes,Mobile,No,Yes,Yes,No,North,Mobile,None,5,1,18.51,5385.57,Yes
+C00027,65,65,107.66,Two year,DSL,Mailed check,Yes,No,Yes,Yes,Yes,No,No,Desktop,No,No,Yes,Yes,South,Desktop,5%,2,1,23.69,7099.49,Yes
+C00028,49,63,106.72,Month-to-month,DSL,Bank transfer,Yes,Yes,Yes,Yes,No,No,Yes,Tablet,Yes,Yes,No,No,West,Tablet,5%,0,1,49.04,6596.92,No
+C00029,43,2,79.09,One year,Cable,Mailed check,No,No,Yes,Yes,No,No,Yes,Mobile,No,Yes,No,Yes,North,Mobile,5%,0,0,25.34,5.15,Yes
+C00030,44,17,54.34,One year,None,Credit card,Yes,Yes,No,Yes,Yes,No,No,Mobile,Yes,No,Yes,No,Central,Mobile,5%,1,0,46.71,874.79,No
+C00031,31,17,47.66,Month-to-month,Fiber,Mailed check,Yes,No,No,Yes,Yes,Yes,No,Mobile,No,Yes,No,No,South,Mobile,15%,1,1,29.84,819.33,Yes
+C00032,23,33,87.65,Month-to-month,Fiber,Credit card,No,No,Yes,Yes,Yes,No,No,Mobile,No,Yes,No,No,East,Mobile,None,5,1,36.7,2627.18,Yes
+C00033,50,10,88.62,Month-to-month,DSL,Bank transfer,Yes,Yes,No,Yes,Yes,No,No,Mobile,No,Yes,Yes,Yes,South,Mobile,10%,0,1,18.37,960.4,Yes
+C00034,69,62,114.05,Month-to-month,DSL,Bank transfer,No,No,No,Yes,No,No,Yes,Mobile,No,Yes,No,Yes,West,Mobile,5%,0,1,27.7,7264.22,Yes
+C00035,21,56,108.8,Month-to-month,DSL,Bank transfer,Yes,Yes,No,Yes,No,No,No,Mobile,Yes,Yes,No,No,North,Mobile,None,0,1,24.5,6179.27,Yes
+C00036,67,59,74.3,Month-to-month,Fiber,Bank transfer,Yes,No,Yes,Yes,Yes,No,No,Desktop,No,Yes,No,Yes,North,Desktop,10%,1,1,37.71,4282.29,No
+C00037,66,14,43.16,One year,Fiber,Credit card,Yes,Yes,No,Yes,Yes,Yes,No,Mobile,No,Yes,No,No,East,Mobile,5%,2,2,36.12,485.08,No
+C00038,34,1,69.07,Two year,DSL,Bank transfer,Yes,Yes,Yes,Yes,No,No,Yes,Mobile,No,No,Yes,No,Central,Mobile,5%,6,6,40.55,114.05,No
+C00039,54,66,84.08,One year,DSL,Mailed check,Yes,Yes,No,Yes,No,No,Yes,Mobile,No,Yes,No,No,West,Mobile,None,0,3,29.11,5526.28,No
+C00040,27,21,72.34,Month-to-month,DSL,Credit card,No,No,Yes,Yes,Yes,No,No,Mobile,No,No,No,No,West,Mobile,None,1,0,23.84,1585.6,Yes
+C00041,61,47,61.82,Month-to-month,Cable,Bank transfer,Yes,Yes,No,Yes,Yes,No,Yes,Mobile,No,Yes,Yes,No,East,Mobile,10%,0,2,37.19,2995.8,Yes
+C00042,58,66,85.08,Month-to-month,DSL,Electronic check,No,No,No,Yes,No,No,No,Mobile,No,No,No,Yes,North,Mobile,None,0,1,22.64,5779.06,Yes
+C00043,38,2,63.89,Month-to-month,Cable,Credit card,No,Yes,Yes,Yes,No,No,No,Mobile,No,Yes,No,No,East,Mobile,None,0,1,47.94,0.0,No
+C00044,21,0,60.41,Two year,DSL,Mailed check,No,Yes,Yes,Yes,No,No,No,Desktop,No,Yes,Yes,Yes,Central,Desktop,None,0,1,33.63,33.24,No
+C00045,74,0,86.72,Month-to-month,DSL,Bank transfer,No,Yes,No,Yes,Yes,Yes,No,Mobile,No,Yes,Yes,No,West,Mobile,None,0,0,31.09,0.0,Yes
+C00046,43,11,66.74,Month-to-month,DSL,Electronic check,Yes,No,No,Yes,Yes,No,No,Mobile,No,No,No,Yes,West,Mobile,10%,2,0,40.55,719.34,No
+C00047,69,3,84.83,Two year,Fiber,Bank transfer,Yes,No,No,Yes,Yes,No,No,Mobile,Yes,No,No,Yes,South,Mobile,5%,1,3,34.08,384.15,No
+C00048,57,59,85.65,Month-to-month,Fiber,Mailed check,No,Yes,Yes,No,No,No,No,Mobile,No,No,Yes,No,East,Mobile,15%,1,0,15.1,5199.32,Yes
+C00049,63,44,46.1,Month-to-month,DSL,Electronic check,No,No,Yes,Yes,Yes,Yes,Yes,Mobile,No,No,Yes,Yes,West,Mobile,None,1,0,22.26,2238.17,No
+C00050,62,71,64.53,Month-to-month,Cable,Electronic check,Yes,Yes,No,Yes,No,No,Yes,Mobile,No,No,No,Yes,West,Mobile,None,4,2,47.69,4645.47,Yes
+C00051,29,58,118.26,One year,DSL,Credit card,No,Yes,No,Yes,No,No,Yes,Mobile,Yes,Yes,Yes,No,Central,Mobile,None,1,1,36.01,6842.58,No
+C00052,39,70,45.46,One year,Fiber,Bank transfer,No,No,Yes,Yes,Yes,No,Yes,Mobile,No,Yes,Yes,Yes,West,Mobile,None,0,0,14.82,3144.27,No
+C00053,45,17,18.73,Month-to-month,DSL,Credit card,No,Yes,No,Yes,Yes,Yes,Yes,Desktop,No,No,Yes,No,South,Desktop,10%,3,0,39.23,58.2,No
+C00054,46,21,25.87,Two year,Fiber,Mailed check,Yes,Yes,No,Yes,Yes,No,Yes,Mobile,No,No,Yes,Yes,South,Mobile,None,0,1,28.29,744.23,No
+C00055,20,62,78.82,Two year,Cable,Mailed check,Yes,No,Yes,Yes,No,Yes,No,Mobile,Yes,Yes,No,Yes,West,Mobile,None,1,1,24.51,4838.56,No
+C00056,49,17,78.87,Two year,Cable,Bank transfer,Yes,Yes,Yes,No,No,Yes,Yes,Mobile,Yes,No,Yes,Yes,Central,Mobile,10%,1,2,21.26,1416.67,Yes
+C00057,26,4,74.71,Month-to-month,DSL,Credit card,Yes,No,Yes,No,No,No,No,Mobile,No,No,No,No,Central,Mobile,5%,0,1,47.0,400.69,Yes
+C00058,61,48,112.0,Month-to-month,DSL,Electronic check,Yes,No,No,No,No,No,No,Desktop,Yes,Yes,No,No,West,Desktop,None,0,2,11.41,5189.2,Yes
+C00059,57,58,18.0,Two year,Fiber,Mailed check,Yes,No,No,Yes,Yes,Yes,No,Mobile,No,No,No,Yes,East,Mobile,10%,1,1,24.95,905.5,No
+C00060,71,70,89.09,Month-to-month,DSL,Mailed check,Yes,No,No,Yes,Yes,No,Yes,Mobile,No,No,No,No,Central,Mobile,5%,2,2,36.44,6468.35,No
+C00061,61,67,121.72,One year,Cable,Credit card,Yes,No,Yes,No,Yes,No,Yes,Tablet,No,Yes,No,No,Central,Tablet,10%,1,0,53.94,8198.81,No
+C00062,39,8,46.42,One year,Cable,Bank transfer,Yes,Yes,No,No,No,Yes,No,Mobile,Yes,No,No,No,North,Mobile,5%,0,2,41.65,284.27,No
+C00063,74,56,67.37,Month-to-month,DSL,Mailed check,Yes,No,No,Yes,Yes,Yes,Yes,Mobile,No,No,No,No,South,Mobile,None,1,0,24.85,3753.77,Yes
+C00064,41,61,56.92,One year,Fiber,Bank transfer,Yes,No,No,Yes,Yes,No,No,Desktop,No,No,Yes,No,South,Desktop,None,4,1,53.35,3635.06,No
+C00065,36,50,52.96,Two year,Fiber,Electronic check,No,No,No,Yes,No,No,Yes,Tablet,No,No,No,No,East,Tablet,None,1,1,18.74,2788.15,No
+C00066,70,59,68.86,One year,Fiber,Bank transfer,No,Yes,Yes,Yes,Yes,No,No,Mobile,Yes,No,Yes,No,South,Mobile,10%,0,1,38.18,3842.83,No
+C00067,39,61,117.97,Month-to-month,Fiber,Mailed check,No,No,No,Yes,No,No,Yes,Desktop,Yes,No,Yes,No,South,Desktop,5%,2,3,40.85,7441.31,Yes
+C00068,22,32,129.45,Two year,Fiber,Mailed check,No,No,No,Yes,No,No,No,Mobile,No,No,Yes,Yes,North,Mobile,10%,5,0,24.43,4287.32,No
+C00069,45,2,68.59,Month-to-month,None,Credit card,Yes,Yes,No,Yes,No,No,Yes,Desktop,No,Yes,No,Yes,North,Desktop,5%,3,0,43.37,114.31,Yes
+C00070,64,33,131.34,One year,DSL,Bank transfer,No,No,Yes,Yes,No,No,Yes,Mobile,Yes,Yes,No,No,East,Mobile,None,1,0,28.83,4155.46,Yes
+C00071,28,14,79.0,One year,Fiber,Credit card,Yes,Yes,No,Yes,Yes,Yes,No,Desktop,No,Yes,Yes,Yes,Central,Desktop,None,0,0,43.34,1264.1,No
+C00072,44,8,127.1,One year,Fiber,Bank transfer,No,Yes,No,No,No,Yes,Yes,Mobile,Yes,Yes,No,Yes,South,Mobile,None,1,1,12.92,1088.26,No
+C00073,25,9,75.39,Month-to-month,Fiber,Electronic check,Yes,No,No,Yes,No,Yes,Yes,Mobile,No,No,Yes,Yes,South,Mobile,None,1,1,39.02,459.84,No
+C00074,57,50,81.67,Month-to-month,Cable,Credit card,Yes,Yes,No,Yes,No,No,No,Mobile,Yes,No,Yes,Yes,South,Mobile,5%,1,1,30.05,4048.69,No
+C00075,45,36,88.23,Month-to-month,Fiber,Credit card,Yes,Yes,No,Yes,Yes,No,Yes,Desktop,No,Yes,Yes,No,Central,Desktop,15%,3,0,48.8,3645.21,No
+C00076,37,39,167.01,Month-to-month,Cable,Credit card,Yes,Yes,Yes,Yes,Yes,No,Yes,Desktop,No,Yes,No,No,West,Desktop,None,1,1,34.47,6515.87,Yes
+C00077,31,54,101.84,Month-to-month,Cable,Credit card,No,Yes,No,Yes,Yes,Yes,No,Desktop,Yes,No,Yes,No,West,Desktop,5%,2,3,49.99,5388.06,Yes
+C00078,50,40,58.2,One year,Fiber,Electronic check,No,No,No,Yes,No,No,Yes,Tablet,No,Yes,Yes,Yes,North,Tablet,None,1,1,41.09,2176.73,No
+C00079,56,45,105.13,Month-to-month,DSL,Bank transfer,Yes,No,No,Yes,Yes,Yes,No,Mobile,Yes,No,No,No,Central,Mobile,10%,0,0,33.47,4996.66,No
+C00080,72,6,67.87,One year,None,Credit card,Yes,No,Yes,Yes,No,Yes,Yes,Desktop,No,Yes,Yes,No,North,Desktop,None,2,1,44.45,534.38,No
+C00081,43,62,64.29,Two year,Fiber,Mailed check,No,Yes,Yes,Yes,Yes,Yes,Yes,Mobile,Yes,Yes,No,No,Central,Mobile,5%,2,1,44.53,4197.1,No
+C00082,27,32,103.44,Month-to-month,Fiber,Electronic check,No,No,No,Yes,No,No,Yes,Tablet,Yes,Yes,No,No,Central,Tablet,None,1,1,40.66,3347.31,Yes
+C00083,66,11,78.87,One year,None,Bank transfer,No,No,Yes,Yes,No,Yes,Yes,Desktop,No,Yes,Yes,No,East,Desktop,None,3,2,7.49,1055.67,Yes
+C00084,54,59,85.8,One year,Cable,Electronic check,No,No,No,Yes,Yes,No,No,Mobile,Yes,No,No,No,Central,Mobile,5%,0,0,23.21,4934.95,No
+C00085,58,53,78.39,Month-to-month,DSL,Bank transfer,No,Yes,No,Yes,No,No,No,Mobile,No,Yes,No,No,Central,Mobile,None,1,0,51.61,4179.06,Yes
+C00086,23,3,87.42,Month-to-month,DSL,Credit card,No,Yes,Yes,Yes,Yes,No,No,Desktop,Yes,Yes,Yes,No,East,Desktop,None,3,1,19.93,305.32,Yes
+C00087,36,14,89.9,One year,Fiber,Credit card,No,No,No,Yes,Yes,Yes,No,Desktop,No,Yes,Yes,No,West,Desktop,None,0,1,45.59,1465.97,Yes
+C00088,62,1,23.76,Two year,Cable,Bank transfer,Yes,No,No,Yes,Yes,No,Yes,Desktop,No,Yes,Yes,No,East,Desktop,15%,1,3,43.48,71.59,No
+C00089,66,19,96.66,One year,DSL,Mailed check,No,Yes,No,Yes,Yes,No,No,Mobile,No,No,Yes,Yes,East,Mobile,None,0,1,26.29,1742.71,No
+C00090,43,7,50.5,Two year,Fiber,Credit card,Yes,No,No,Yes,No,No,Yes,Mobile,Yes,No,Yes,No,South,Mobile,5%,0,1,11.06,363.11,No
+C00091,64,51,37.62,Two year,DSL,Mailed check,Yes,Yes,Yes,Yes,No,No,Yes,Tablet,Yes,No,Yes,Yes,West,Tablet,10%,2,0,28.17,1667.16,No
+C00092,66,38,76.36,Month-to-month,None,Electronic check,No,Yes,Yes,No,No,No,Yes,Desktop,No,No,No,Yes,South,Desktop,5%,0,3,59.94,2553.53,Yes
+C00093,40,71,80.35,One year,Cable,Credit card,Yes,No,No,Yes,No,No,No,Mobile,No,Yes,Yes,No,North,Mobile,None,2,1,24.64,5829.55,Yes
+C00094,70,54,58.58,Month-to-month,Fiber,Credit card,No,No,No,Yes,Yes,No,Yes,Desktop,No,Yes,Yes,No,South,Desktop,5%,1,0,25.47,3107.11,Yes
+C00095,34,44,101.27,Two year,Fiber,Mailed check,No,Yes,No,Yes,Yes,No,No,Desktop,Yes,No,Yes,Yes,North,Desktop,None,1,0,23.03,4416.67,No
+C00096,31,37,40.42,Month-to-month,None,Electronic check,Yes,No,No,Yes,No,Yes,Yes,Desktop,Yes,No,No,Yes,Central,Desktop,5%,1,0,49.58,1620.18,No
+C00097,57,3,66.61,Month-to-month,None,Credit card,Yes,No,Yes,No,Yes,No,Yes,Desktop,No,No,Yes,Yes,South,Desktop,None,0,0,32.09,409.38,Yes
+C00098,54,5,61.62,Two year,DSL,Credit card,No,Yes,No,Yes,No,Yes,No,Desktop,No,Yes,Yes,No,West,Desktop,10%,1,1,27.49,388.27,No
+C00099,26,44,76.7,Month-to-month,DSL,Mailed check,No,No,Yes,Yes,No,No,Yes,Desktop,No,No,Yes,Yes,East,Desktop,10%,1,2,51.96,3664.01,Yes
+C00100,66,0,85.81,One year,DSL,Credit card,No,No,Yes,Yes,No,No,Yes,Mobile,Yes,No,Yes,No,South,Mobile,None,1,1,41.95,75.4,No
+C00101,29,3,49.78,Month-to-month,Fiber,Mailed check,Yes,No,No,Yes,No,Yes,No,Mobile,Yes,Yes,Yes,No,South,Mobile,None,2,2,23.97,194.67,No
+C00102,64,15,98.28,Two year,Fiber,Bank transfer,No,No,No,Yes,No,No,Yes,Desktop,No,Yes,No,No,Central,Desktop,None,4,0,20.32,1510.26,No
+C00103,18,64,79.76,Two year,Fiber,Bank transfer,Yes,No,No,Yes,No,No,Yes,Desktop,No,No,No,No,East,Desktop,5%,2,1,48.9,4911.82,Yes
+C00104,64,33,25.03,Month-to-month,Fiber,Mailed check,Yes,Yes,No,Yes,Yes,Yes,No,Mobile,Yes,Yes,Yes,Yes,East,Mobile,None,4,1,35.2,969.39,No
+C00105,63,51,23.16,One year,Cable,Electronic check,Yes,Yes,No,Yes,Yes,Yes,No,Desktop,No,No,Yes,Yes,West,Desktop,5%,1,1,16.41,814.34,No
+C00106,63,30,77.66,Month-to-month,Fiber,Credit card,Yes,No,No,Yes,No,No,Yes,Mobile,No,No,Yes,No,Central,Mobile,5%,2,0,13.6,2241.86,Yes
+C00107,56,12,71.81,One year,Fiber,Bank transfer,No,No,No,Yes,No,No,No,Mobile,No,Yes,Yes,Yes,West,Mobile,15%,2,0,21.61,865.16,No
+C00108,45,27,75.1,One year,DSL,Electronic check,No,Yes,No,Yes,No,No,Yes,Desktop,No,Yes,Yes,Yes,East,Desktop,None,3,0,20.13,1909.24,No
+C00109,58,6,77.22,One year,Fiber,Electronic check,Yes,Yes,No,Yes,Yes,Yes,Yes,Tablet,No,No,No,Yes,Central,Tablet,None,0,2,10.45,395.56,No
+C00110,34,56,84.32,Month-to-month,Fiber,Electronic check,No,No,No,Yes,No,Yes,Yes,Mobile,No,Yes,Yes,Yes,Central,Mobile,None,0,1,21.81,4997.83,No
+C00111,63,13,104.53,Month-to-month,DSL,Mailed check,Yes,Yes,Yes,No,No,Yes,No,Mobile,No,No,Yes,No,Central,Mobile,5%,1,4,23.97,1524.49,Yes
+C00112,50,27,46.89,One year,Fiber,Bank transfer,No,Yes,Yes,Yes,Yes,No,Yes,Mobile,No,Yes,Yes,No,North,Mobile,None,2,0,29.45,1163.16,No
+C00113,44,71,45.18,Month-to-month,DSL,Credit card,Yes,No,No,Yes,Yes,No,Yes,Mobile,Yes,Yes,No,No,Central,Mobile,None,2,1,55.31,3137.35,Yes
+C00114,47,43,47.39,Month-to-month,None,Bank transfer,Yes,No,No,Yes,No,No,No,Mobile,No,No,No,No,North,Mobile,None,1,0,31.8,1846.22,No
+C00115,50,33,86.09,Month-to-month,Fiber,Bank transfer,No,No,No,Yes,Yes,Yes,No,Mobile,No,No,Yes,No,West,Mobile,10%,2,0,32.99,2946.72,Yes
+C00116,20,39,112.86,Month-to-month,None,Mailed check,No,No,Yes,Yes,Yes,No,Yes,Mobile,No,No,Yes,No,West,Mobile,15%,1,3,41.11,4364.08,No
+C00117,26,57,65.92,Two year,None,Mailed check,No,Yes,No,Yes,Yes,No,No,Desktop,No,No,No,No,South,Desktop,None,0,0,32.15,3462.47,No
+C00118,32,18,18.0,Month-to-month,Cable,Mailed check,No,No,No,Yes,No,Yes,Yes,Desktop,No,No,No,No,North,Desktop,None,2,1,39.8,339.12,No
+C00119,24,46,30.29,Month-to-month,DSL,Electronic check,Yes,Yes,Yes,No,Yes,No,No,Desktop,No,No,No,Yes,Central,Desktop,None,2,0,38.37,1459.19,Yes
+C00120,43,63,54.67,Two year,DSL,Mailed check,Yes,Yes,No,Yes,No,Yes,Yes,Mobile,No,No,No,No,Central,Mobile,None,3,3,36.47,3588.68,Yes
+C00121,56,41,62.38,Month-to-month,DSL,Credit card,No,No,No,Yes,Yes,No,Yes,Mobile,No,Yes,No,Yes,North,Mobile,15%,0,1,68.2,2546.58,No
+C00122,55,32,66.57,One year,DSL,Credit card,No,No,No,No,Yes,Yes,No,Mobile,No,Yes,Yes,Yes,West,Mobile,None,2,0,45.93,2074.34,No
+C00123,45,10,79.08,Month-to-month,Fiber,Bank transfer,Yes,No,Yes,Yes,No,No,No,Tablet,No,No,No,Yes,North,Tablet,5%,2,3,22.02,1088.74,Yes
+C00124,67,18,69.27,Two year,None,Bank transfer,Yes,Yes,No,Yes,Yes,No,No,Mobile,Yes,No,Yes,No,East,Mobile,15%,2,4,39.44,1247.85,No
+C00125,50,69,107.38,One year,DSL,Credit card,No,No,Yes,Yes,No,No,No,Desktop,No,No,Yes,No,South,Desktop,5%,4,1,25.5,7517.15,No
+C00126,22,39,59.07,Two year,Cable,Mailed check,Yes,No,No,Yes,No,No,Yes,Mobile,No,No,Yes,No,West,Mobile,None,3,0,40.36,2222.8,No
+C00127,62,21,53.86,Month-to-month,Fiber,Electronic check,Yes,No,No,Yes,No,No,No,Desktop,Yes,No,Yes,No,East,Desktop,5%,0,1,18.5,1234.55,No
+C00128,51,30,91.41,Month-to-month,Fiber,Electronic check,No,No,No,Yes,Yes,Yes,No,Mobile,No,No,Yes,Yes,East,Mobile,None,2,0,21.71,2523.96,No
+C00129,54,42,35.0,One year,DSL,Electronic check,Yes,Yes,Yes,Yes,Yes,No,No,Mobile,No,Yes,Yes,No,West,Mobile,None,1,0,39.13,1400.69,No
+C00130,50,39,88.91,Month-to-month,DSL,Mailed check,Yes,No,No,Yes,No,No,Yes,Desktop,Yes,Yes,Yes,Yes,East,Desktop,15%,1,3,46.97,3286.25,Yes
+C00131,50,51,80.87,Month-to-month,DSL,Credit card,No,No,Yes,Yes,Yes,Yes,Yes,Mobile,Yes,Yes,No,No,North,Mobile,None,1,1,41.03,4033.62,No
+C00132,23,18,73.87,Month-to-month,Fiber,Credit card,Yes,No,No,Yes,Yes,No,No,Desktop,Yes,No,No,Yes,East,Desktop,None,1,0,45.25,1517.23,No
+C00133,50,47,122.47,Two year,Fiber,Bank transfer,No,No,No,Yes,Yes,Yes,No,Mobile,No,No,Yes,Yes,West,Mobile,None,0,1,39.49,5664.24,No
+C00134,64,32,60.58,One year,DSL,Credit card,No,No,No,Yes,Yes,Yes,Yes,Tablet,No,Yes,No,No,East,Tablet,None,0,1,37.07,2046.3,No
+C00135,35,68,135.69,One year,Fiber,Bank transfer,Yes,Yes,No,Yes,Yes,No,Yes,Desktop,No,Yes,Yes,No,North,Desktop,5%,1,0,28.96,9454.51,No
+C00136,52,11,71.69,One year,None,Electronic check,No,Yes,No,Yes,No,Yes,Yes,Mobile,Yes,Yes,No,No,North,Mobile,10%,1,1,44.76,784.45,Yes
+C00137,19,10,42.24,Month-to-month,Fiber,Electronic check,No,No,No,Yes,Yes,No,Yes,Desktop,Yes,Yes,No,No,South,Desktop,5%,1,0,47.3,571.47,Yes
+C00138,38,33,79.96,Month-to-month,Fiber,Mailed check,Yes,No,No,Yes,No,Yes,No,Desktop,No,Yes,No,No,West,Desktop,None,2,0,34.24,2718.34,Yes
+C00139,43,37,47.87,Month-to-month,Fiber,Credit card,No,No,No,Yes,No,Yes,No,Desktop,Yes,Yes,Yes,No,South,Desktop,None,1,0,33.6,1788.66,No
+C00140,74,50,56.95,One year,DSL,Electronic check,Yes,Yes,Yes,No,Yes,Yes,No,Mobile,No,No,No,Yes,Central,Mobile,None,1,1,54.1,2960.05,No
+C00141,30,29,89.12,Month-to-month,DSL,Credit card,Yes,Yes,No,Yes,No,Yes,No,Mobile,No,No,Yes,Yes,South,Mobile,5%,1,1,34.75,2860.47,Yes
+C00142,34,66,93.56,Two year,DSL,Credit card,No,No,Yes,Yes,Yes,No,Yes,Desktop,No,Yes,No,Yes,East,Desktop,10%,2,1,35.91,6079.37,No
+C00143,41,34,60.58,One year,None,Credit card,No,No,No,Yes,Yes,No,No,Mobile,No,Yes,No,Yes,West,Mobile,5%,1,2,40.81,1915.84,No
+C00144,75,9,105.65,Month-to-month,Fiber,Credit card,No,Yes,Yes,Yes,Yes,No,Yes,Desktop,No,No,Yes,No,West,Desktop,10%,3,1,33.83,798.16,Yes
+C00145,67,8,110.41,Month-to-month,DSL,Bank transfer,No,No,Yes,Yes,No,No,Yes,Mobile,No,No,Yes,No,North,Mobile,10%,3,1,25.16,1032.44,Yes
+C00146,20,71,118.22,Month-to-month,Fiber,Electronic check,No,Yes,No,Yes,No,No,Yes,Desktop,No,No,Yes,No,North,Desktop,None,2,0,39.54,8563.03,Yes
+C00147,31,9,92.82,Two year,Fiber,Credit card,Yes,No,Yes,Yes,No,Yes,Yes,Mobile,Yes,No,No,No,North,Mobile,5%,1,0,34.53,754.82,No
+C00148,65,69,116.18,Two year,DSL,Credit card,Yes,Yes,No,Yes,No,Yes,Yes,Desktop,Yes,Yes,No,No,Central,Desktop,10%,2,0,57.11,7696.02,No
+C00149,21,20,25.34,Two year,Fiber,Bank transfer,No,Yes,No,Yes,Yes,No,Yes,Mobile,No,No,No,No,North,Mobile,15%,1,0,44.46,405.59,No
+C00150,67,6,69.1,Month-to-month,DSL,Mailed check,No,Yes,Yes,Yes,No,No,Yes,Mobile,No,No,No,Yes,North,Mobile,None,0,1,27.85,496.78,Yes
+C00151,34,22,53.72,Month-to-month,DSL,Mailed check,Yes,No,Yes,Yes,No,No,Yes,Mobile,No,No,No,Yes,West,Mobile,5%,2,2,43.75,1171.83,Yes
+C00152,71,44,81.34,Month-to-month,Cable,Credit card,Yes,No,No,Yes,Yes,No,No,Desktop,Yes,No,No,No,West,Desktop,None,0,0,38.69,3606.01,No
+C00153,35,31,62.0,Month-to-month,DSL,Bank transfer,No,No,Yes,Yes,Yes,No,No,Mobile,Yes,Yes,Yes,No,Central,Mobile,10%,1,1,50.71,1843.5,No
+C00154,43,57,73.35,Month-to-month,DSL,Electronic check,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Desktop,No,Yes,No,Yes,South,Desktop,15%,1,1,28.71,4333.06,No
+C00155,56,44,130.7,Month-to-month,Fiber,Bank transfer,Yes,Yes,Yes,Yes,Yes,Yes,No,Mobile,No,No,Yes,Yes,West,Mobile,15%,1,2,37.26,5802.28,No
+C00156,25,29,73.25,Two year,Fiber,Electronic check,No,Yes,No,Yes,Yes,Yes,No,Desktop,No,Yes,No,No,North,Desktop,None,0,3,33.81,2212.22,No
+C00157,50,46,89.59,Month-to-month,Fiber,Electronic check,Yes,No,No,Yes,No,No,Yes,Desktop,No,Yes,No,No,East,Desktop,None,3,1,35.7,4145.0,No
+C00158,47,70,71.5,Month-to-month,DSL,Bank transfer,No,Yes,Yes,Yes,Yes,No,Yes,Mobile,Yes,Yes,Yes,Yes,North,Mobile,10%,1,1,24.38,5083.66,No
+C00159,63,30,80.12,One year,None,Electronic check,No,No,No,Yes,No,No,Yes,Mobile,No,No,No,No,Central,Mobile,5%,1,4,41.91,2472.39,Yes
+C00160,75,11,78.17,One year,Fiber,Credit card,No,No,No,Yes,No,Yes,No,Mobile,No,Yes,Yes,No,East,Mobile,15%,3,0,40.02,720.66,Yes
+C00161,56,29,90.55,One year,DSL,Electronic check,No,No,Yes,Yes,Yes,No,Yes,Desktop,No,Yes,No,Yes,South,Desktop,None,0,1,50.42,2681.91,No
+C00162,41,61,110.63,One year,Cable,Bank transfer,No,Yes,No,Yes,No,No,Yes,Tablet,No,No,Yes,No,Central,Tablet,10%,2,0,34.88,6867.16,No
+C00163,41,15,124.13,Two year,Cable,Mailed check,No,No,No,Yes,Yes,No,No,Mobile,No,No,Yes,Yes,North,Mobile,5%,2,1,30.06,2035.22,No
+C00164,42,69,86.67,One year,DSL,Bank transfer,Yes,Yes,No,Yes,Yes,No,No,Desktop,Yes,Yes,No,No,West,Desktop,None,2,0,44.47,6042.65,Yes
+C00165,65,42,94.51,Month-to-month,DSL,Mailed check,No,Yes,No,Yes,No,Yes,No,Desktop,No,No,Yes,No,East,Desktop,None,1,2,25.47,3824.63,Yes
+C00166,36,43,45.78,One year,DSL,Credit card,No,No,No,Yes,No,Yes,Yes,Desktop,No,No,No,Yes,West,Desktop,10%,0,0,48.02,1846.84,No
+C00167,27,23,75.54,Month-to-month,Cable,Electronic check,Yes,No,Yes,Yes,Yes,No,Yes,Mobile,No,Yes,Yes,No,South,Mobile,None,0,2,47.99,1672.15,No
+C00168,37,67,104.33,Month-to-month,Fiber,Electronic check,Yes,No,No,Yes,No,No,Yes,Tablet,No,Yes,Yes,No,Central,Tablet,10%,1,2,50.09,7018.53,Yes
+C00169,19,2,102.25,Month-to-month,None,Electronic check,Yes,Yes,No,Yes,No,Yes,Yes,Mobile,No,No,Yes,No,East,Mobile,5%,1,0,39.52,186.16,Yes
+C00170,24,21,83.93,Month-to-month,Fiber,Electronic check,Yes,No,No,Yes,No,Yes,No,Desktop,Yes,Yes,Yes,Yes,East,Desktop,None,0,1,29.16,1593.97,No
+C00171,23,30,102.82,One year,Cable,Credit card,Yes,No,Yes,Yes,No,Yes,Yes,Mobile,No,Yes,Yes,No,East,Mobile,None,0,0,36.31,2915.14,No
+C00172,62,34,91.74,Month-to-month,Fiber,Electronic check,No,Yes,No,Yes,Yes,No,No,Desktop,No,No,No,No,South,Desktop,15%,1,0,39.56,2804.38,No
+C00173,59,34,111.61,Month-to-month,Fiber,Bank transfer,Yes,No,Yes,Yes,Yes,Yes,Yes,Tablet,Yes,Yes,No,No,South,Tablet,10%,0,1,28.28,3326.82,Yes
+C00174,58,10,86.1,Month-to-month,Fiber,Electronic check,Yes,Yes,No,Yes,Yes,Yes,No,Tablet,No,Yes,No,Yes,North,Tablet,10%,3,2,51.0,841.23,No
+C00175,44,16,68.04,Two year,DSL,Bank transfer,Yes,No,No,Yes,No,No,No,Mobile,No,Yes,Yes,No,East,Mobile,10%,3,2,41.96,1436.67,No
+C00176,59,6,87.4,Month-to-month,Fiber,Credit card,Yes,No,No,Yes,No,No,Yes,Desktop,No,Yes,No,No,East,Desktop,5%,0,3,24.29,793.92,No
+C00177,27,41,18.0,One year,Fiber,Bank transfer,No,No,Yes,Yes,No,Yes,No,Mobile,No,Yes,No,No,South,Mobile,15%,1,2,57.59,591.27,No
+C00178,70,25,88.72,Two year,DSL,Bank transfer,Yes,No,No,Yes,No,Yes,No,Desktop,No,Yes,No,No,Central,Desktop,5%,1,0,36.17,2240.49,No
+C00179,47,41,18.0,Month-to-month,Fiber,Mailed check,No,Yes,Yes,No,No,Yes,Yes,Mobile,No,No,No,Yes,North,Mobile,5%,0,1,21.87,518.31,No
+C00180,72,43,29.74,One year,Cable,Credit card,Yes,No,Yes,Yes,Yes,Yes,Yes,Desktop,No,No,Yes,Yes,Central,Desktop,None,0,0,25.04,1082.0,No
+C00181,26,51,90.65,Month-to-month,Cable,Credit card,Yes,No,No,Yes,Yes,Yes,No,Mobile,No,No,Yes,No,Central,Mobile,None,0,0,52.85,4443.53,Yes
+C00182,46,39,91.37,Month-to-month,DSL,Bank transfer,No,Yes,No,Yes,No,Yes,No,Mobile,Yes,Yes,No,No,North,Mobile,10%,1,2,56.9,3529.61,No
+C00183,58,47,45.45,One year,Fiber,Bank transfer,Yes,Yes,No,Yes,Yes,No,Yes,Mobile,No,Yes,No,Yes,West,Mobile,None,1,0,47.11,2108.78,No
+C00184,46,42,58.06,Two year,Fiber,Credit card,No,No,No,Yes,No,No,Yes,Mobile,No,Yes,No,No,South,Mobile,10%,3,0,50.83,2476.43,No
+C00185,43,47,116.38,Month-to-month,None,Bank transfer,No,No,Yes,Yes,Yes,No,Yes,Mobile,No,No,No,No,North,Mobile,15%,1,0,49.6,5569.34,Yes
+C00186,27,45,64.45,Month-to-month,Fiber,Credit card,No,No,Yes,Yes,No,No,No,Desktop,No,No,No,Yes,Central,Desktop,None,2,1,41.68,2849.72,Yes
+C00187,40,23,140.8,Month-to-month,Fiber,Credit card,Yes,No,No,Yes,No,Yes,No,Desktop,Yes,No,Yes,Yes,North,Desktop,None,1,1,38.95,3243.83,No
+C00188,31,17,77.95,Month-to-month,None,Credit card,Yes,No,No,Yes,No,No,Yes,Desktop,No,No,Yes,No,South,Desktop,5%,1,0,41.48,1161.08,No
+C00189,35,57,89.43,One year,None,Mailed check,Yes,Yes,No,Yes,No,No,Yes,Desktop,Yes,No,Yes,No,North,Desktop,None,0,1,43.83,4895.84,No
+C00190,57,25,123.27,One year,Fiber,Bank transfer,Yes,Yes,Yes,Yes,No,No,No,Mobile,Yes,Yes,No,Yes,North,Mobile,10%,3,0,26.1,2856.9,No
+C00191,54,40,81.67,One year,DSL,Electronic check,Yes,No,No,Yes,No,Yes,Yes,Mobile,No,Yes,No,No,North,Mobile,5%,3,0,43.78,3364.19,Yes
+C00192,53,14,49.93,Month-to-month,DSL,Mailed check,No,No,No,Yes,Yes,Yes,No,Mobile,Yes,No,Yes,No,Central,Mobile,None,0,1,52.5,648.33,No
+C00193,38,31,74.93,One year,Cable,Bank transfer,Yes,No,Yes,Yes,No,No,No,Mobile,No,No,No,No,North,Mobile,5%,3,3,32.52,2042.16,No
+C00194,73,38,77.0,One year,Fiber,Electronic check,No,No,Yes,Yes,No,No,No,Desktop,Yes,Yes,No,No,West,Desktop,5%,0,2,31.24,2916.54,Yes
+C00195,23,45,39.79,One year,Fiber,Bank transfer,Yes,No,No,Yes,Yes,Yes,No,Desktop,No,Yes,No,No,North,Desktop,None,0,2,40.72,1603.23,No
+C00196,37,38,70.84,Month-to-month,DSL,Bank transfer,Yes,No,No,Yes,Yes,No,No,Desktop,No,No,No,No,Central,Desktop,None,2,1,27.2,2940.98,Yes
+C00197,24,26,57.22,Month-to-month,Fiber,Mailed check,No,No,No,Yes,Yes,No,Yes,Desktop,No,No,No,Yes,Central,Desktop,None,0,1,19.2,1400.9,Yes
+C00198,37,70,103.88,Month-to-month,DSL,Credit card,Yes,Yes,No,Yes,No,No,No,Mobile,No,No,No,No,West,Mobile,10%,1,0,48.77,7373.83,Yes
+C00199,73,37,78.97,Month-to-month,Fiber,Bank transfer,Yes,No,No,Yes,No,Yes,No,Desktop,No,No,Yes,Yes,Central,Desktop,None,2,0,29.59,3085.23,No
+C00200,39,59,70.08,Month-to-month,Cable,Credit card,No,No,Yes,Yes,Yes,No,No,Mobile,No,No,Yes,No,South,Mobile,None,1,0,35.22,3991.48,Yes
+C00201,70,53,75.03,Month-to-month,Cable,Credit card,No,Yes,No,Yes,No,No,Yes,Desktop,No,No,No,Yes,West,Desktop,None,0,0,27.68,3988.0,No
+C00202,46,40,84.25,One year,DSL,Bank transfer,No,No,Yes,Yes,Yes,Yes,No,Mobile,No,Yes,Yes,No,South,Mobile,None,1,0,50.32,3453.02,No
+C00203,58,64,95.27,Month-to-month,Cable,Mailed check,No,No,No,Yes,No,No,No,Mobile,No,Yes,No,Yes,West,Mobile,None,1,1,45.24,6114.61,No
+C00204,44,9,50.01,One year,Fiber,Mailed check,No,No,Yes,No,Yes,No,Yes,Mobile,Yes,No,No,Yes,Central,Mobile,10%,0,2,32.11,504.26,Yes
+C00205,33,67,48.84,Month-to-month,DSL,Mailed check,No,No,Yes,Yes,Yes,No,Yes,Mobile,Yes,Yes,No,Yes,West,Mobile,None,1,1,20.84,3072.84,Yes
+C00206,62,62,108.93,One year,Fiber,Bank transfer,No,Yes,No,Yes,Yes,Yes,No,Mobile,No,Yes,Yes,No,South,Mobile,5%,2,0,30.84,6836.77,Yes
+C00207,74,36,66.45,Month-to-month,Cable,Bank transfer,Yes,Yes,No,Yes,Yes,No,No,Mobile,No,No,No,No,West,Mobile,None,1,1,41.84,2319.28,Yes
+C00208,33,53,38.33,Month-to-month,Cable,Credit card,No,Yes,No,Yes,Yes,No,No,Desktop,No,Yes,Yes,Yes,Central,Desktop,None,0,1,37.26,2083.91,No
+C00209,63,37,90.43,One year,None,Mailed check,Yes,Yes,No,Yes,No,Yes,Yes,Tablet,No,Yes,No,No,Central,Tablet,None,0,1,36.31,3483.91,No
+C00210,33,19,90.97,Two year,Cable,Credit card,Yes,No,No,Yes,Yes,Yes,Yes,Mobile,Yes,Yes,No,No,West,Mobile,10%,2,2,37.54,1828.75,No
+C00211,59,58,35.14,Month-to-month,None,Credit card,Yes,No,No,No,Yes,Yes,No,Mobile,No,Yes,No,Yes,West,Mobile,15%,1,2,44.11,2090.43,No
+C00212,63,17,84.43,Month-to-month,Fiber,Mailed check,No,No,No,Yes,No,Yes,Yes,Desktop,No,No,No,No,West,Desktop,None,0,0,34.5,1531.63,Yes
+C00213,44,22,98.6,One year,None,Bank transfer,Yes,Yes,No,Yes,Yes,No,No,Mobile,No,No,Yes,No,West,Mobile,15%,0,1,40.4,2272.46,No
+C00214,60,37,88.48,One year,DSL,Credit card,No,Yes,No,Yes,Yes,No,No,Desktop,Yes,No,Yes,Yes,North,Desktop,None,1,0,23.16,3498.09,No
+C00215,33,61,95.7,Month-to-month,DSL,Mailed check,Yes,Yes,No,Yes,No,Yes,Yes,Mobile,Yes,No,No,No,Central,Mobile,5%,1,1,65.65,5832.59,No
+C00216,22,28,38.68,Month-to-month,DSL,Mailed check,No,No,No,No,Yes,No,No,Mobile,No,No,Yes,Yes,North,Mobile,10%,1,0,31.59,1107.63,No
+C00217,23,36,87.27,Month-to-month,Fiber,Credit card,No,Yes,No,Yes,No,Yes,No,Mobile,Yes,Yes,Yes,No,East,Mobile,None,1,1,37.44,3281.53,Yes
+C00218,43,3,69.53,Two year,Fiber,Bank transfer,No,No,No,Yes,Yes,No,Yes,Mobile,No,Yes,No,No,South,Mobile,None,3,1,41.8,135.03,No
+C00219,70,8,64.48,Month-to-month,Fiber,Credit card,Yes,No,Yes,Yes,No,No,Yes,Desktop,No,Yes,No,No,South,Desktop,None,2,0,30.07,315.55,No
+C00220,25,4,102.38,Month-to-month,Fiber,Bank transfer,No,No,Yes,Yes,Yes,No,Yes,Desktop,Yes,Yes,No,No,South,Desktop,5%,2,2,35.09,483.5,Yes
+C00221,44,5,119.42,Two year,DSL,Mailed check,Yes,Yes,No,Yes,No,No,No,Mobile,Yes,No,No,No,North,Mobile,None,2,3,34.95,566.2,No
+C00222,58,63,128.24,Month-to-month,Cable,Bank transfer,No,Yes,Yes,Yes,No,No,Yes,Tablet,No,Yes,Yes,No,East,Tablet,10%,1,1,24.03,7897.99,No
+C00223,29,61,114.81,Month-to-month,DSL,Mailed check,Yes,No,No,Yes,No,Yes,Yes,Mobile,No,Yes,No,Yes,East,Mobile,None,1,2,40.26,7078.49,Yes
+C00224,59,59,74.93,Month-to-month,DSL,Bank transfer,No,No,No,Yes,Yes,Yes,Yes,Mobile,No,Yes,No,Yes,East,Mobile,15%,1,1,15.21,4635.54,No
+C00225,35,4,87.88,Month-to-month,DSL,Mailed check,No,Yes,Yes,Yes,Yes,No,Yes,Desktop,Yes,Yes,Yes,No,North,Desktop,None,0,0,56.03,107.06,Yes
+C00226,64,5,99.47,Month-to-month,DSL,Credit card,No,No,No,Yes,No,Yes,Yes,Desktop,No,No,Yes,Yes,West,Desktop,5%,0,1,44.52,650.7,No
+C00227,51,20,81.39,Month-to-month,Fiber,Credit card,No,No,Yes,Yes,Yes,Yes,No,Mobile,No,Yes,No,Yes,North,Mobile,None,0,1,42.67,1247.24,No
+C00228,49,41,81.66,One year,Cable,Credit card,Yes,Yes,No,Yes,Yes,Yes,No,Mobile,No,Yes,No,Yes,Central,Mobile,None,0,2,14.16,3288.02,No
+C00229,28,24,101.07,One year,Fiber,Mailed check,No,Yes,No,No,No,No,Yes,Mobile,No,Yes,Yes,No,North,Mobile,None,3,2,25.49,2701.76,Yes
+C00230,44,35,76.34,Month-to-month,Cable,Bank transfer,Yes,Yes,Yes,Yes,Yes,No,No,Mobile,Yes,Yes,Yes,Yes,North,Mobile,5%,1,2,51.67,2622.65,No
+C00231,67,12,57.58,Month-to-month,Cable,Electronic check,No,Yes,Yes,Yes,Yes,No,No,Desktop,No,No,Yes,Yes,South,Desktop,None,3,2,84.81,704.45,No
+C00232,19,53,66.39,Month-to-month,DSL,Electronic check,Yes,Yes,No,Yes,No,No,Yes,Mobile,No,Yes,Yes,Yes,East,Mobile,5%,1,0,49.34,3633.1,No
+C00233,61,22,95.75,Two year,Cable,Bank transfer,No,No,No,Yes,No,Yes,No,Desktop,No,Yes,Yes,No,Central,Desktop,15%,1,2,47.44,1849.03,No
+C00234,46,4,78.08,Month-to-month,Fiber,Mailed check,No,Yes,Yes,Yes,No,Yes,No,Mobile,No,Yes,No,No,East,Mobile,None,3,0,41.3,323.13,Yes
+C00235,59,54,87.53,One year,Cable,Credit card,No,No,No,Yes,No,No,Yes,Mobile,Yes,Yes,No,Yes,South,Mobile,None,5,0,24.83,4736.25,No
+C00236,56,65,96.76,Month-to-month,Cable,Bank transfer,No,No,Yes,Yes,Yes,No,No,Mobile,Yes,Yes,Yes,No,Central,Mobile,None,1,1,46.94,6568.75,Yes
+C00237,43,1,67.5,One year,Cable,Mailed check,Yes,Yes,No,Yes,Yes,Yes,Yes,Mobile,Yes,No,Yes,No,South,Mobile,None,2,1,21.79,0.0,Yes
+C00238,35,31,99.17,Month-to-month,DSL,Bank transfer,No,Yes,Yes,Yes,No,No,No,Desktop,No,Yes,Yes,Yes,Central,Desktop,None,0,1,20.47,3017.04,No
+C00239,54,60,88.61,One year,Cable,Mailed check,No,No,No,Yes,No,No,No,Tablet,Yes,Yes,No,No,East,Tablet,10%,1,1,19.72,5177.35,No
+C00240,26,51,43.43,Month-to-month,None,Bank transfer,No,No,Yes,Yes,Yes,Yes,Yes,Desktop,No,Yes,No,No,South,Desktop,None,2,1,46.71,2059.77,Yes
+C00241,51,62,118.38,Two year,DSL,Bank transfer,No,No,No,Yes,No,Yes,No,Desktop,Yes,Yes,Yes,No,South,Desktop,None,1,1,34.31,7508.67,No
+C00242,23,30,63.98,Month-to-month,Cable,Mailed check,No,Yes,No,Yes,No,No,Yes,Mobile,No,Yes,Yes,Yes,North,Mobile,5%,1,0,36.21,1923.4,No
+C00243,55,27,31.66,One year,Cable,Bank transfer,Yes,Yes,Yes,Yes,Yes,No,Yes,Tablet,No,No,No,Yes,West,Tablet,None,1,1,34.82,771.48,No
+C00244,54,51,48.74,Two year,DSL,Electronic check,No,Yes,No,Yes,No,No,No,Desktop,No,Yes,No,No,East,Desktop,5%,1,1,21.49,2408.06,No
+C00245,22,11,49.41,Two year,None,Credit card,No,No,Yes,Yes,Yes,No,Yes,Desktop,Yes,No,No,No,West,Desktop,15%,1,0,26.95,459.03,No
+C00246,61,17,79.46,Month-to-month,Fiber,Electronic check,No,No,No,Yes,Yes,No,Yes,Mobile,No,No,Yes,No,West,Mobile,None,1,1,27.55,1279.75,Yes
+C00247,42,43,70.33,Month-to-month,DSL,Bank transfer,Yes,No,No,Yes,No,No,No,Mobile,Yes,Yes,No,No,North,Mobile,5%,0,0,18.14,2834.52,Yes
+C00248,63,48,68.57,Month-to-month,Fiber,Electronic check,No,No,No,Yes,Yes,Yes,Yes,Desktop,No,No,No,Yes,Central,Desktop,10%,1,1,28.95,3252.55,No
+C00249,20,8,95.35,Month-to-month,Fiber,Bank transfer,No,Yes,Yes,Yes,Yes,No,No,Mobile,No,Yes,No,No,East,Mobile,5%,3,1,22.02,708.92,Yes
+C00250,28,37,87.52,One year,Cable,Credit card,Yes,No,Yes,Yes,No,No,Yes,Mobile,No,No,Yes,No,West,Mobile,10%,1,2,41.93,3124.57,No
+C00251,46,26,86.85,Two year,Fiber,Electronic check,Yes,Yes,Yes,Yes,Yes,No,No,Mobile,Yes,Yes,No,No,North,Mobile,10%,1,1,42.93,2281.36,No
+C00252,28,36,89.48,Two year,Fiber,Electronic check,Yes,No,No,Yes,Yes,Yes,Yes,Desktop,No,Yes,Yes,Yes,West,Desktop,5%,4,1,19.48,3257.26,No
+C00253,37,69,95.25,Month-to-month,Fiber,Bank transfer,No,No,Yes,No,No,No,Yes,Mobile,No,Yes,No,Yes,West,Mobile,5%,0,5,31.44,6488.75,Yes
+C00254,56,5,18.98,One year,DSL,Electronic check,Yes,No,No,Yes,Yes,No,No,Desktop,No,No,No,No,South,Desktop,10%,2,2,57.27,73.28,Yes
+C00255,26,72,67.8,Two year,Cable,Mailed check,No,Yes,No,Yes,No,Yes,No,Desktop,No,No,No,No,Central,Desktop,5%,2,0,23.23,5205.39,No
+C00256,57,32,18.0,Two year,Cable,Mailed check,No,No,No,Yes,Yes,Yes,Yes,Mobile,No,Yes,No,No,West,Mobile,5%,0,1,40.12,894.06,No
+C00257,23,56,79.01,Month-to-month,Fiber,Bank transfer,Yes,No,No,Yes,No,Yes,No,Mobile,Yes,No,Yes,Yes,Central,Mobile,None,1,2,36.27,4266.45,Yes
+C00258,28,30,77.87,Month-to-month,DSL,Electronic check,Yes,Yes,Yes,Yes,Yes,No,No,Tablet,No,No,No,Yes,Central,Tablet,10%,1,0,48.11,2198.93,No
+C00259,52,22,107.27,Two year,DSL,Mailed check,Yes,Yes,No,No,No,No,Yes,Mobile,No,No,Yes,No,South,Mobile,None,2,1,38.55,2201.03,No
+C00260,64,56,111.25,Month-to-month,DSL,Bank transfer,No,No,Yes,Yes,No,Yes,Yes,Mobile,No,Yes,Yes,No,Central,Mobile,None,1,2,29.82,6388.56,No
+C00261,27,50,83.68,Month-to-month,DSL,Credit card,Yes,Yes,No,Yes,No,No,Yes,Mobile,Yes,No,No,No,West,Mobile,None,1,0,35.8,4124.22,No
+C00262,35,10,63.99,Two year,Fiber,Electronic check,Yes,Yes,No,Yes,Yes,Yes,No,Mobile,No,Yes,No,No,North,Mobile,None,1,1,35.98,675.85,No
+C00263,71,51,91.58,Two year,DSL,Bank transfer,Yes,Yes,No,Yes,Yes,No,Yes,Desktop,No,Yes,Yes,No,West,Desktop,5%,1,3,33.9,4970.13,No
+C00264,75,54,63.22,Two year,DSL,Mailed check,Yes,Yes,No,Yes,No,No,No,Mobile,Yes,Yes,No,No,East,Mobile,None,4,0,19.17,3412.31,No
+C00265,51,28,77.96,One year,DSL,Electronic check,No,Yes,Yes,Yes,Yes,No,No,Desktop,No,No,No,No,Central,Desktop,5%,5,2,49.92,2288.82,Yes
+C00266,43,67,105.61,Month-to-month,DSL,Electronic check,No,No,No,Yes,No,No,Yes,Mobile,No,No,Yes,No,North,Mobile,5%,0,1,47.8,7153.93,Yes
+C00267,38,46,62.38,Month-to-month,Cable,Credit card,Yes,Yes,Yes,Yes,No,Yes,Yes,Tablet,No,No,No,No,South,Tablet,None,2,0,22.47,2781.25,Yes
+C00268,53,24,100.56,Month-to-month,Cable,Bank transfer,Yes,No,No,Yes,No,No,No,Desktop,No,No,No,No,South,Desktop,None,2,3,31.39,2572.31,Yes
+C00269,52,0,96.97,Month-to-month,Fiber,Credit card,Yes,Yes,No,Yes,Yes,No,No,Mobile,No,Yes,Yes,No,East,Mobile,5%,1,2,32.3,0.0,Yes
+C00270,35,49,51.27,Month-to-month,Cable,Credit card,No,Yes,Yes,Yes,No,No,Yes,Desktop,No,Yes,No,No,West,Desktop,10%,1,1,21.12,2713.21,No
+C00271,19,15,105.27,One year,Cable,Credit card,Yes,Yes,No,Yes,No,No,No,Mobile,No,No,No,No,South,Mobile,None,1,0,12.6,1490.93,No
+C00272,26,55,97.56,Month-to-month,Fiber,Electronic check,No,No,No,Yes,Yes,No,Yes,Tablet,No,No,No,No,West,Tablet,None,2,2,26.95,5294.1,Yes
+C00273,73,38,80.85,One year,DSL,Electronic check,No,No,Yes,Yes,No,No,Yes,Desktop,No,Yes,No,No,North,Desktop,None,2,0,30.72,2909.03,No
+C00274,42,34,56.65,Month-to-month,Fiber,Electronic check,Yes,No,No,Yes,Yes,Yes,Yes,Mobile,Yes,Yes,No,No,South,Mobile,None,0,1,17.71,1787.46,Yes
+C00275,45,11,53.94,Month-to-month,Cable,Bank transfer,Yes,Yes,No,Yes,Yes,No,No,Mobile,Yes,No,No,No,West,Mobile,None,1,0,37.12,529.33,Yes
+C00276,45,51,62.95,Month-to-month,Fiber,Mailed check,Yes,Yes,No,Yes,Yes,Yes,No,Tablet,No,Yes,No,No,South,Tablet,15%,1,0,48.95,2845.75,No
+C00277,63,12,93.19,Month-to-month,DSL,Credit card,No,Yes,No,Yes,No,Yes,No,Desktop,No,No,No,No,East,Desktop,None,1,1,45.11,1083.28,Yes
+C00278,21,30,51.24,Two year,Fiber,Electronic check,Yes,No,No,Yes,No,Yes,No,Mobile,No,No,No,Yes,West,Mobile,None,0,1,33.48,1461.0,No
+C00279,22,61,90.25,Month-to-month,DSL,Credit card,Yes,Yes,Yes,No,No,Yes,Yes,Mobile,Yes,Yes,No,No,South,Mobile,10%,1,1,12.92,5623.75,No
+C00280,33,67,43.23,Month-to-month,None,Mailed check,Yes,No,No,Yes,No,No,Yes,Mobile,No,Yes,No,No,Central,Mobile,5%,1,2,43.59,2959.86,Yes
+C00281,46,72,72.29,One year,Fiber,Electronic check,Yes,No,No,Yes,No,No,No,Desktop,No,No,No,Yes,Central,Desktop,None,1,1,36.76,5098.73,No
+C00282,56,69,81.07,Month-to-month,Cable,Credit card,Yes,No,No,Yes,Yes,No,Yes,Desktop,No,Yes,No,No,Central,Desktop,5%,4,1,40.09,5525.05,Yes
+C00283,46,40,146.46,Month-to-month,None,Bank transfer,No,No,No,Yes,Yes,Yes,No,Desktop,Yes,Yes,No,No,East,Desktop,15%,1,1,58.23,5823.21,Yes
+C00284,43,14,39.44,Month-to-month,Cable,Credit card,Yes,Yes,No,Yes,Yes,No,No,Desktop,No,Yes,Yes,Yes,South,Desktop,None,1,1,25.1,775.05,Yes
+C00285,72,61,119.22,Month-to-month,Fiber,Credit card,Yes,No,No,Yes,No,No,Yes,Desktop,No,No,Yes,No,Central,Desktop,None,1,2,0.5,7149.07,No
+C00286,27,58,82.2,One year,Cable,Credit card,Yes,Yes,No,Yes,Yes,Yes,No,Mobile,No,No,No,No,West,Mobile,10%,1,1,22.36,4659.64,Yes
+C00287,51,72,89.51,Month-to-month,Fiber,Credit card,No,No,No,Yes,Yes,No,No,Desktop,Yes,Yes,No,No,West,Desktop,10%,1,5,40.83,6275.43,Yes
+C00288,49,47,81.31,Month-to-month,Fiber,Bank transfer,Yes,No,No,Yes,Yes,No,Yes,Mobile,Yes,No,Yes,No,North,Mobile,15%,2,1,35.32,3599.26,No
+C00289,45,10,90.45,Month-to-month,Cable,Bank transfer,Yes,Yes,No,No,No,Yes,No,Desktop,No,Yes,No,No,Central,Desktop,None,3,2,20.41,950.55,Yes
+C00290,64,36,73.7,One year,DSL,Electronic check,Yes,No,No,Yes,No,No,Yes,Mobile,No,Yes,Yes,No,East,Mobile,15%,1,3,17.96,2683.64,No
+C00291,33,32,118.71,Month-to-month,DSL,Electronic check,No,Yes,Yes,Yes,No,No,Yes,Desktop,No,Yes,Yes,No,West,Desktop,None,2,2,30.74,3991.13,Yes
+C00292,73,61,65.22,Two year,Fiber,Credit card,No,Yes,Yes,Yes,Yes,Yes,No,Desktop,Yes,Yes,Yes,Yes,Central,Desktop,10%,0,2,20.05,4134.63,No
+C00293,37,28,109.7,Month-to-month,Cable,Mailed check,No,No,No,Yes,Yes,No,No,Desktop,No,No,Yes,No,North,Desktop,10%,1,1,41.25,3431.17,No
+C00294,49,23,59.96,One year,Cable,Electronic check,No,Yes,No,Yes,No,No,Yes,Mobile,No,No,No,No,North,Mobile,None,2,2,30.06,1368.0,Yes
+C00295,48,5,76.31,Month-to-month,DSL,Electronic check,No,No,No,Yes,Yes,No,No,Desktop,Yes,Yes,No,No,North,Desktop,None,1,1,27.47,342.47,No
+C00296,67,60,47.99,Month-to-month,Cable,Bank transfer,Yes,No,Yes,Yes,No,No,No,Mobile,No,No,Yes,No,West,Mobile,5%,0,0,25.9,2684.37,Yes
+C00297,43,55,90.74,Month-to-month,Fiber,Credit card,Yes,No,Yes,Yes,No,No,No,Mobile,No,No,Yes,No,Central,Mobile,10%,2,1,38.16,5095.19,No
+C00298,34,3,118.46,One year,Fiber,Electronic check,Yes,Yes,No,Yes,Yes,No,No,Desktop,No,No,Yes,No,North,Desktop,None,2,1,35.51,373.16,No
+C00299,19,31,75.83,Two year,DSL,Electronic check,No,Yes,No,Yes,No,No,Yes,Desktop,No,Yes,No,Yes,North,Desktop,10%,1,2,37.42,2448.42,No
+C00300,39,35,72.49,Month-to-month,None,Bank transfer,No,No,Yes,Yes,Yes,No,No,Mobile,No,Yes,Yes,No,East,Mobile,None,0,0,37.16,2366.28,No
+C00301,65,34,46.79,Month-to-month,Fiber,Bank transfer,No,Yes,No,Yes,Yes,No,Yes,Tablet,Yes,Yes,Yes,No,South,Tablet,None,2,0,34.13,1643.6,No
+C00302,18,67,71.58,Two year,Fiber,Bank transfer,No,No,No,Yes,No,Yes,Yes,Mobile,Yes,Yes,Yes,No,North,Mobile,None,1,0,22.6,4826.64,No
+C00303,69,10,33.4,Month-to-month,Fiber,Credit card,Yes,Yes,No,Yes,No,No,Yes,Tablet,Yes,Yes,Yes,No,West,Tablet,15%,1,1,26.24,354.86,Yes
+C00304,49,22,52.44,Month-to-month,Cable,Bank transfer,Yes,Yes,Yes,Yes,Yes,No,Yes,Desktop,Yes,Yes,No,No,Central,Desktop,None,0,1,30.26,1051.19,Yes
+C00305,26,13,84.35,Month-to-month,Fiber,Mailed check,Yes,No,No,Yes,No,No,No,Tablet,No,Yes,No,No,South,Tablet,5%,2,2,59.78,1274.95,Yes
+C00306,35,17,114.93,One year,DSL,Credit card,No,No,No,Yes,No,No,No,Desktop,No,No,Yes,No,North,Desktop,None,1,0,18.81,2261.36,Yes
+C00307,50,66,156.66,One year,None,Credit card,No,No,No,Yes,Yes,No,No,Tablet,No,No,Yes,Yes,South,Tablet,15%,2,1,29.97,10173.01,No
+C00308,36,68,61.58,One year,Fiber,Electronic check,Yes,No,Yes,Yes,No,Yes,Yes,Desktop,Yes,No,No,No,North,Desktop,10%,2,3,36.18,4295.51,No
+C00309,24,3,118.19,Two year,DSL,Bank transfer,Yes,Yes,No,Yes,No,Yes,No,Mobile,No,Yes,Yes,No,East,Mobile,None,1,0,31.36,0.0,No
+C00310,56,46,84.83,Month-to-month,DSL,Electronic check,No,Yes,No,Yes,Yes,Yes,Yes,Mobile,Yes,No,No,No,North,Mobile,None,0,2,47.89,4002.47,Yes
+C00311,56,16,73.77,Month-to-month,Cable,Electronic check,No,Yes,No,Yes,Yes,Yes,Yes,Desktop,No,No,No,No,South,Desktop,None,0,1,31.3,899.8,No
+C00312,24,14,90.11,Month-to-month,Fiber,Bank transfer,No,No,No,Yes,No,No,Yes,Mobile,Yes,No,Yes,Yes,North,Mobile,None,0,3,32.19,1182.79,No
+C00313,34,21,79.73,Month-to-month,Fiber,Electronic check,No,Yes,No,Yes,Yes,Yes,No,Tablet,No,No,No,No,West,Tablet,10%,1,2,44.78,1477.38,No
+C00314,32,14,81.09,Month-to-month,Fiber,Mailed check,Yes,No,No,Yes,No,Yes,Yes,Mobile,No,No,No,No,East,Mobile,5%,1,1,56.73,1102.92,No
+C00315,56,35,66.57,Month-to-month,Cable,Credit card,Yes,Yes,Yes,No,No,Yes,No,Desktop,Yes,No,Yes,No,North,Desktop,None,0,0,51.89,2455.77,Yes
+C00316,60,72,38.85,Month-to-month,Cable,Credit card,No,No,No,Yes,No,No,No,Mobile,No,No,No,Yes,North,Mobile,10%,1,1,33.36,2518.6,Yes
+C00317,60,42,34.78,One year,Fiber,Bank transfer,No,No,Yes,Yes,Yes,No,No,Desktop,No,No,No,Yes,East,Desktop,None,1,0,34.41,1406.84,No
+C00318,72,52,96.29,Month-to-month,Fiber,Bank transfer,No,No,No,Yes,Yes,No,Yes,Tablet,No,No,No,No,East,Tablet,None,1,1,35.56,4930.07,No
+C00319,62,36,70.25,Month-to-month,Cable,Credit card,No,Yes,No,Yes,No,Yes,No,Mobile,No,No,No,No,North,Mobile,None,1,1,36.76,2766.16,No
+C00320,36,1,61.31,One year,Fiber,Mailed check,No,No,Yes,Yes,Yes,Yes,Yes,Desktop,Yes,Yes,No,Yes,South,Desktop,None,1,2,24.83,126.07,No
+C00321,24,6,78.24,One year,Fiber,Mailed check,Yes,Yes,Yes,Yes,No,Yes,No,Mobile,No,No,No,Yes,West,Mobile,5%,0,1,46.24,292.86,No
+C00322,53,19,100.26,One year,DSL,Electronic check,Yes,Yes,Yes,Yes,No,No,No,Desktop,Yes,Yes,No,No,East,Desktop,None,1,0,37.48,1834.25,No
+C00323,71,17,83.05,One year,Fiber,Bank transfer,No,Yes,No,Yes,No,Yes,Yes,Desktop,No,No,Yes,Yes,North,Desktop,5%,2,0,34.46,1645.27,No
+C00324,74,61,59.63,One year,Fiber,Credit card,No,Yes,No,Yes,No,Yes,Yes,Mobile,Yes,No,No,No,South,Mobile,None,2,0,19.75,3744.58,No
+C00325,31,61,112.34,Month-to-month,DSL,Mailed check,Yes,No,No,Yes,Yes,No,No,Mobile,No,No,Yes,No,North,Mobile,5%,0,0,35.75,6715.0,Yes
+C00326,31,62,122.22,Month-to-month,Fiber,Credit card,No,Yes,Yes,Yes,Yes,No,Yes,Mobile,No,Yes,No,Yes,Central,Mobile,None,1,4,12.28,7537.58,Yes
+C00327,20,46,91.85,One year,DSL,Credit card,Yes,Yes,Yes,Yes,Yes,No,No,Mobile,Yes,No,No,No,Central,Mobile,None,0,0,28.02,4189.83,Yes
+C00328,26,40,105.26,Month-to-month,Cable,Bank transfer,Yes,No,Yes,Yes,No,Yes,No,Desktop,No,Yes,Yes,Yes,South,Desktop,None,0,0,28.24,4129.7,No
+C00329,50,47,112.77,Month-to-month,DSL,Mailed check,No,No,No,Yes,No,Yes,No,Mobile,No,Yes,No,Yes,South,Mobile,None,1,2,38.44,5043.66,No
+C00330,49,29,109.64,Month-to-month,Fiber,Electronic check,No,No,No,No,No,No,No,Tablet,Yes,Yes,No,No,North,Tablet,None,1,0,57.56,3077.92,No
+C00331,39,48,95.19,Month-to-month,Cable,Bank transfer,Yes,No,No,Yes,No,No,Yes,Tablet,No,No,Yes,No,West,Tablet,None,2,2,41.86,4777.5,Yes
+C00332,35,57,94.75,Month-to-month,Fiber,Credit card,Yes,Yes,No,Yes,Yes,No,No,Tablet,No,Yes,No,No,Central,Tablet,10%,0,1,52.38,5343.58,Yes
+C00333,66,55,92.55,Month-to-month,Cable,Bank transfer,No,No,No,Yes,No,No,No,Desktop,No,Yes,No,Yes,South,Desktop,None,1,1,42.74,5074.76,No
+C00334,44,44,47.27,One year,Fiber,Bank transfer,No,Yes,No,Yes,Yes,No,Yes,Mobile,No,No,No,Yes,West,Mobile,10%,1,2,48.5,2100.96,No
+C00335,64,4,97.62,Two year,Cable,Mailed check,Yes,Yes,No,Yes,Yes,Yes,Yes,Desktop,No,No,Yes,No,South,Desktop,5%,1,0,57.29,723.2,No
+C00336,73,52,40.04,Month-to-month,Fiber,Mailed check,No,Yes,No,Yes,Yes,No,Yes,Desktop,No,Yes,No,No,Central,Desktop,5%,3,0,26.22,2083.41,Yes
+C00337,36,26,55.75,Two year,Fiber,Bank transfer,Yes,No,No,Yes,Yes,Yes,Yes,Tablet,Yes,No,No,No,South,Tablet,5%,2,0,25.43,1613.59,No
+C00338,29,54,114.5,Month-to-month,DSL,Bank transfer,No,Yes,No,Yes,No,Yes,Yes,Mobile,Yes,Yes,Yes,Yes,North,Mobile,None,2,0,43.03,6093.27,No
+C00339,73,39,101.53,Two year,Fiber,Mailed check,Yes,No,Yes,Yes,Yes,Yes,Yes,Mobile,Yes,No,No,No,Central,Mobile,10%,1,0,34.96,3920.76,No
+C00340,54,64,119.65,Two year,Fiber,Electronic check,No,Yes,No,Yes,Yes,No,No,Tablet,No,Yes,No,No,Central,Tablet,10%,1,3,37.64,7659.48,No
+C00341,34,24,70.39,Month-to-month,Cable,Bank transfer,No,Yes,Yes,No,No,No,Yes,Desktop,No,No,No,No,South,Desktop,10%,1,2,32.02,1573.24,No
+C00342,54,67,45.74,One year,Cable,Mailed check,No,Yes,No,Yes,No,Yes,Yes,Mobile,No,No,Yes,Yes,Central,Mobile,None,2,0,27.84,3034.02,Yes
+C00343,47,61,71.27,Two year,Fiber,Electronic check,No,Yes,Yes,Yes,Yes,Yes,Yes,Desktop,Yes,No,No,No,South,Desktop,5%,1,0,54.45,4480.68,No
+C00344,70,24,80.86,Two year,Cable,Mailed check,No,Yes,Yes,Yes,Yes,No,No,Mobile,No,No,No,Yes,South,Mobile,None,1,1,21.8,1820.59,No
+C00345,32,35,80.21,Two year,Cable,Bank transfer,No,No,Yes,Yes,No,No,Yes,Desktop,No,No,Yes,No,East,Desktop,None,0,0,43.24,2807.36,No
+C00346,75,38,109.74,Month-to-month,Cable,Credit card,No,No,No,Yes,No,Yes,Yes,Mobile,No,Yes,Yes,No,West,Mobile,None,3,1,41.29,4276.43,Yes
+C00347,72,56,67.88,Month-to-month,DSL,Credit card,No,Yes,No,Yes,Yes,Yes,No,Mobile,Yes,Yes,No,No,South,Mobile,None,1,2,16.05,3677.61,Yes
+C00348,28,50,87.86,Two year,DSL,Credit card,No,No,No,Yes,Yes,No,Yes,Mobile,No,Yes,No,No,West,Mobile,5%,3,1,25.03,4557.31,Yes
+C00349,27,62,50.32,One year,DSL,Mailed check,No,Yes,No,Yes,Yes,No,Yes,Mobile,Yes,Yes,Yes,No,West,Mobile,10%,0,2,27.05,3130.77,No
+C00350,48,27,90.61,One year,DSL,Mailed check,No,Yes,No,Yes,Yes,No,No,Mobile,Yes,No,No,No,North,Mobile,None,2,4,41.78,2421.7,Yes
+C00351,20,36,78.09,Month-to-month,None,Mailed check,No,Yes,No,Yes,No,Yes,No,Mobile,No,Yes,No,No,Central,Mobile,5%,4,0,30.6,2510.02,No
+C00352,35,31,57.01,Month-to-month,Fiber,Bank transfer,Yes,No,Yes,Yes,Yes,Yes,No,Mobile,No,No,Yes,No,North,Mobile,5%,1,0,33.97,1711.27,Yes
+C00353,43,66,71.4,Month-to-month,Fiber,Electronic check,No,Yes,No,No,No,No,No,Desktop,No,Yes,No,Yes,East,Desktop,15%,1,5,17.51,4768.14,Yes
+C00354,74,22,72.84,One year,Fiber,Mailed check,Yes,No,No,Yes,Yes,Yes,Yes,Desktop,No,Yes,No,No,East,Desktop,5%,1,0,62.91,1864.28,Yes
+C00355,75,42,70.44,Month-to-month,None,Electronic check,No,Yes,No,Yes,No,No,No,Desktop,No,No,Yes,No,East,Desktop,None,0,1,35.85,3043.66,Yes
+C00356,26,8,127.6,One year,DSL,Electronic check,Yes,No,No,Yes,No,Yes,Yes,Mobile,Yes,No,Yes,No,North,Mobile,None,0,0,40.99,1189.73,Yes
+C00357,69,62,75.24,Two year,DSL,Electronic check,No,Yes,No,Yes,Yes,No,Yes,Mobile,No,No,Yes,No,South,Mobile,5%,1,2,28.51,4483.51,No
+C00358,23,28,71.17,Month-to-month,Cable,Mailed check,Yes,No,Yes,Yes,No,No,No,Desktop,No,Yes,No,No,North,Desktop,None,0,3,27.17,1973.74,No
+C00359,61,24,19.27,Month-to-month,None,Credit card,No,No,No,Yes,No,No,Yes,Desktop,Yes,No,Yes,Yes,Central,Desktop,15%,0,1,57.95,645.59,Yes
+C00360,67,42,52.96,Month-to-month,Fiber,Electronic check,No,Yes,No,Yes,No,No,Yes,Tablet,No,No,No,No,North,Tablet,15%,1,3,12.0,2091.16,Yes
+C00361,69,36,70.63,Two year,Cable,Electronic check,Yes,Yes,No,Yes,Yes,No,No,Tablet,No,Yes,Yes,Yes,East,Tablet,15%,1,0,38.34,2687.46,No
+C00362,30,61,58.8,One year,Cable,Credit card,No,No,No,No,Yes,Yes,Yes,Desktop,Yes,No,Yes,Yes,South,Desktop,None,0,1,20.46,3696.8,No
+C00363,69,38,116.69,Month-to-month,Fiber,Bank transfer,Yes,No,Yes,Yes,No,Yes,No,Desktop,No,No,Yes,No,North,Desktop,10%,0,0,30.14,4475.43,Yes
+C00364,24,37,73.38,Month-to-month,Cable,Mailed check,No,No,Yes,Yes,Yes,Yes,Yes,Mobile,No,Yes,No,Yes,South,Mobile,5%,1,4,27.34,2665.75,Yes
+C00365,48,7,114.08,Month-to-month,Fiber,Bank transfer,No,Yes,Yes,Yes,No,No,No,Desktop,No,Yes,No,No,Central,Desktop,None,0,0,23.17,650.62,No
+C00366,45,1,79.73,Month-to-month,DSL,Bank transfer,Yes,No,Yes,Yes,No,No,Yes,Tablet,No,Yes,Yes,No,East,Tablet,None,0,0,35.43,346.04,No
+C00367,36,29,79.04,Two year,DSL,Mailed check,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Desktop,No,No,No,Yes,Central,Desktop,None,1,1,4.18,2386.94,No
+C00368,19,72,75.51,One year,Fiber,Mailed check,Yes,Yes,No,Yes,Yes,Yes,Yes,Mobile,No,No,No,No,Central,Mobile,None,0,0,31.21,5487.81,Yes
+C00369,62,66,78.11,Month-to-month,Fiber,Credit card,Yes,No,No,Yes,No,Yes,No,Mobile,No,No,No,Yes,East,Mobile,15%,3,1,33.92,5093.33,No
+C00370,37,45,126.13,Two year,Fiber,Mailed check,Yes,No,No,Yes,Yes,Yes,Yes,Mobile,No,No,Yes,No,Central,Mobile,10%,4,1,18.69,5681.53,Yes
+C00371,56,46,18.0,Month-to-month,Fiber,Bank transfer,No,No,No,Yes,Yes,No,No,Mobile,No,Yes,No,No,South,Mobile,None,2,0,53.16,852.71,No
+C00372,41,28,21.96,Two year,DSL,Mailed check,No,No,Yes,No,No,Yes,Yes,Desktop,Yes,No,No,No,East,Desktop,5%,0,2,27.87,674.86,No
+C00373,39,12,62.79,Month-to-month,Fiber,Electronic check,Yes,Yes,No,Yes,Yes,No,No,Desktop,Yes,Yes,No,No,West,Desktop,None,1,0,32.15,863.63,Yes
+C00374,69,0,78.41,One year,Fiber,Electronic check,Yes,No,Yes,Yes,Yes,No,No,Mobile,Yes,No,No,No,East,Mobile,None,2,2,27.89,0.0,No
+C00375,23,24,97.32,Two year,DSL,Mailed check,Yes,Yes,No,No,Yes,Yes,No,Desktop,No,Yes,Yes,No,Central,Desktop,None,0,1,34.02,2115.69,No
+C00376,60,23,91.25,Month-to-month,DSL,Bank transfer,No,Yes,Yes,Yes,Yes,Yes,Yes,Mobile,No,Yes,No,No,North,Mobile,5%,3,0,50.7,2111.39,No
+C00377,61,13,67.24,One year,DSL,Electronic check,Yes,Yes,No,Yes,Yes,No,No,Desktop,No,Yes,No,No,East,Desktop,5%,0,0,64.68,612.04,Yes
+C00378,40,18,106.53,Two year,None,Mailed check,Yes,No,No,Yes,Yes,No,No,Mobile,No,Yes,No,No,West,Mobile,10%,0,2,43.95,1868.99,No
+C00379,33,1,106.85,Month-to-month,Fiber,Electronic check,Yes,No,No,Yes,No,No,No,Mobile,No,Yes,No,Yes,South,Mobile,10%,0,2,48.06,30.47,Yes
+C00380,18,44,83.15,Month-to-month,Cable,Bank transfer,Yes,Yes,No,Yes,Yes,Yes,Yes,Desktop,No,No,Yes,No,Central,Desktop,None,1,0,55.6,3732.36,No
+C00381,72,67,104.95,One year,Fiber,Electronic check,No,No,No,Yes,No,No,No,Desktop,No,Yes,No,Yes,South,Desktop,10%,0,0,37.99,7329.04,Yes
+C00382,72,50,85.63,Month-to-month,Cable,Electronic check,Yes,No,Yes,Yes,Yes,No,No,Desktop,No,No,Yes,No,South,Desktop,None,1,0,53.84,3989.81,Yes
+C00383,31,32,62.28,Month-to-month,None,Mailed check,No,No,No,Yes,No,No,No,Mobile,No,Yes,No,Yes,South,Mobile,None,0,3,44.51,2334.09,No
+C00384,19,30,97.54,Month-to-month,Cable,Mailed check,No,No,No,Yes,Yes,No,Yes,Desktop,Yes,No,No,Yes,West,Desktop,5%,1,2,36.73,2891.24,No
+C00385,25,22,81.1,One year,DSL,Electronic check,No,Yes,No,Yes,No,No,No,Mobile,No,Yes,No,No,North,Mobile,None,2,0,39.2,1836.37,No
+C00386,21,10,78.04,Month-to-month,DSL,Electronic check,Yes,No,No,Yes,Yes,Yes,No,Mobile,No,Yes,Yes,No,North,Mobile,None,2,1,13.14,568.18,Yes
+C00387,66,43,119.24,Month-to-month,Fiber,Bank transfer,No,No,No,Yes,No,No,Yes,Desktop,No,Yes,No,No,West,Desktop,None,2,0,38.51,5276.85,Yes
+C00388,69,41,18.0,Two year,DSL,Electronic check,Yes,No,No,Yes,No,No,No,Desktop,No,No,Yes,No,South,Desktop,None,1,1,16.48,744.22,No
+C00389,26,0,38.3,Month-to-month,Cable,Bank transfer,No,No,No,Yes,Yes,No,No,Tablet,No,No,No,No,North,Tablet,15%,1,0,15.5,0.0,Yes
+C00390,61,30,44.76,Two year,None,Mailed check,No,Yes,Yes,Yes,No,No,Yes,Mobile,No,Yes,No,Yes,South,Mobile,None,2,1,37.31,1052.19,Yes
+C00391,28,20,67.83,Month-to-month,DSL,Mailed check,Yes,Yes,Yes,Yes,Yes,No,No,Desktop,Yes,Yes,Yes,Yes,South,Desktop,5%,0,2,21.63,1367.67,No
+C00392,39,12,70.87,Two year,Fiber,Electronic check,No,No,Yes,Yes,Yes,No,No,Mobile,No,No,No,No,North,Mobile,15%,1,0,34.91,977.31,Yes
+C00393,52,51,35.79,One year,DSL,Electronic check,No,Yes,No,Yes,Yes,No,Yes,Desktop,No,No,No,Yes,Central,Desktop,5%,0,1,36.66,1789.85,No
+C00394,59,38,50.42,Month-to-month,Fiber,Bank transfer,No,Yes,Yes,Yes,No,No,No,Desktop,No,Yes,Yes,No,North,Desktop,None,0,0,37.2,2092.09,Yes
+C00395,68,46,53.9,Two year,Fiber,Electronic check,Yes,No,Yes,Yes,No,No,Yes,Desktop,No,Yes,Yes,Yes,East,Desktop,15%,1,2,24.15,2649.33,No
+C00396,20,52,146.81,Month-to-month,Fiber,Bank transfer,No,No,Yes,Yes,No,No,Yes,Desktop,Yes,No,Yes,Yes,South,Desktop,None,2,0,45.78,7537.96,No
+C00397,29,71,128.45,Month-to-month,Cable,Credit card,Yes,No,No,No,No,Yes,No,Desktop,No,Yes,Yes,Yes,South,Desktop,None,1,1,33.93,9359.22,No
+C00398,34,58,66.47,Month-to-month,Fiber,Bank transfer,Yes,No,Yes,Yes,No,Yes,No,Mobile,No,Yes,No,Yes,North,Mobile,5%,0,1,40.29,3862.05,No
+C00399,35,45,67.82,One year,Fiber,Electronic check,No,No,Yes,Yes,No,No,No,Tablet,No,Yes,No,Yes,Central,Tablet,None,1,0,20.64,3059.36,No
+C00400,75,64,45.82,Month-to-month,Fiber,Mailed check,Yes,No,No,Yes,No,No,No,Tablet,No,Yes,No,No,Central,Tablet,10%,2,2,32.86,2947.33,Yes
+C00401,63,34,24.57,Month-to-month,Cable,Bank transfer,No,No,Yes,Yes,Yes,No,Yes,Mobile,No,No,Yes,Yes,North,Mobile,None,2,1,48.17,845.78,Yes
+C00402,36,71,74.73,Month-to-month,DSL,Electronic check,Yes,Yes,No,Yes,No,No,No,Mobile,No,Yes,No,No,North,Mobile,5%,2,0,46.64,4911.31,Yes
+C00403,74,55,50.06,Month-to-month,Fiber,Credit card,Yes,No,No,Yes,Yes,No,Yes,Mobile,Yes,Yes,No,No,Central,Mobile,10%,1,1,25.43,2725.47,Yes
+C00404,46,47,75.62,Month-to-month,Fiber,Electronic check,Yes,Yes,No,No,Yes,No,Yes,Desktop,Yes,Yes,No,No,East,Desktop,15%,0,1,28.45,3349.55,Yes
+C00405,47,65,33.19,Month-to-month,DSL,Credit card,No,Yes,No,Yes,No,No,Yes,Tablet,No,No,Yes,No,North,Tablet,None,0,1,23.14,2401.3,No
+C00406,43,37,56.66,Month-to-month,Fiber,Credit card,No,Yes,No,Yes,Yes,Yes,No,Desktop,No,Yes,Yes,No,North,Desktop,None,3,2,27.12,2334.33,Yes
+C00407,26,52,82.16,Month-to-month,DSL,Electronic check,Yes,No,Yes,Yes,Yes,No,No,Mobile,No,Yes,No,Yes,East,Mobile,15%,1,2,18.21,4400.11,No
+C00408,72,20,88.25,One year,DSL,Bank transfer,No,No,Yes,Yes,No,No,Yes,Mobile,No,Yes,No,Yes,East,Mobile,5%,1,3,33.34,1729.23,No
+C00409,18,70,89.69,Month-to-month,None,Bank transfer,Yes,No,Yes,Yes,No,No,No,Mobile,Yes,No,Yes,No,West,Mobile,None,0,0,42.6,6127.1,Yes
+C00410,28,45,41.03,One year,Fiber,Electronic check,No,No,Yes,Yes,Yes,Yes,No,Mobile,Yes,No,No,No,North,Mobile,None,2,0,25.58,1747.71,No
+C00411,31,57,101.93,Month-to-month,DSL,Electronic check,Yes,No,No,Yes,Yes,No,No,Mobile,No,Yes,No,Yes,South,Mobile,10%,4,0,33.91,6101.41,No
+C00412,34,33,55.59,Month-to-month,Fiber,Electronic check,No,Yes,Yes,Yes,Yes,Yes,No,Mobile,No,Yes,No,No,South,Mobile,5%,0,0,32.35,1730.64,No
+C00413,25,63,95.72,Month-to-month,None,Bank transfer,Yes,No,Yes,No,Yes,Yes,Yes,Mobile,No,Yes,Yes,No,East,Mobile,5%,0,1,47.66,5677.02,No
+C00414,19,5,77.7,Month-to-month,None,Credit card,Yes,No,No,Yes,Yes,No,Yes,Mobile,No,Yes,No,No,South,Mobile,10%,1,0,27.66,543.02,Yes
+C00415,57,8,39.46,Month-to-month,Cable,Electronic check,No,No,No,Yes,No,Yes,No,Desktop,No,No,Yes,No,South,Desktop,None,2,0,28.1,540.76,Yes
+C00416,74,37,69.15,One year,DSL,Electronic check,No,Yes,Yes,No,Yes,No,No,Mobile,No,No,No,No,Central,Mobile,None,2,1,24.85,2807.43,No
+C00417,25,53,88.23,Month-to-month,Fiber,Mailed check,Yes,Yes,Yes,Yes,No,No,No,Mobile,Yes,Yes,Yes,No,East,Mobile,5%,2,0,21.35,4831.94,Yes
+C00418,35,59,95.16,Month-to-month,Cable,Credit card,No,No,Yes,Yes,Yes,Yes,Yes,Desktop,No,Yes,Yes,No,East,Desktop,10%,0,2,41.35,5794.67,Yes
+C00419,47,32,74.05,One year,Cable,Bank transfer,No,Yes,Yes,Yes,No,No,No,Tablet,No,Yes,No,Yes,North,Tablet,None,2,1,33.38,2377.54,Yes
+C00420,71,47,120.89,Month-to-month,Fiber,Credit card,Yes,Yes,No,Yes,No,No,Yes,Desktop,Yes,No,No,Yes,North,Desktop,5%,1,2,35.66,5370.39,No
+C00421,58,40,106.21,Month-to-month,DSL,Electronic check,Yes,Yes,No,Yes,Yes,No,Yes,Desktop,Yes,No,No,No,West,Desktop,None,0,1,50.3,4252.58,Yes
+C00422,62,70,70.81,Month-to-month,DSL,Credit card,No,Yes,No,Yes,No,No,Yes,Desktop,No,Yes,No,No,Central,Desktop,None,1,0,50.98,5049.94,No
+C00423,51,47,99.0,Month-to-month,Cable,Electronic check,No,Yes,No,Yes,Yes,No,Yes,Desktop,No,Yes,No,No,East,Desktop,15%,1,1,15.25,4632.71,Yes
+C00424,42,30,132.15,Month-to-month,DSL,Bank transfer,No,No,No,No,No,Yes,Yes,Desktop,No,Yes,No,No,North,Desktop,None,2,0,42.77,3937.37,Yes
+C00425,29,70,132.89,One year,DSL,Credit card,No,No,No,No,No,Yes,No,Mobile,No,Yes,Yes,Yes,East,Mobile,None,2,2,37.71,9157.68,Yes
+C00426,68,7,43.62,Two year,DSL,Credit card,No,No,Yes,Yes,No,No,Yes,Desktop,No,Yes,No,No,South,Desktop,10%,1,2,29.46,155.08,Yes
+C00427,64,71,52.06,Month-to-month,Fiber,Electronic check,No,Yes,Yes,Yes,No,No,Yes,Mobile,No,Yes,Yes,Yes,North,Mobile,None,0,3,38.93,3971.98,Yes
+C00428,19,11,119.58,One year,Fiber,Mailed check,No,Yes,No,Yes,No,No,Yes,Mobile,No,No,No,No,North,Mobile,None,1,3,14.28,1596.53,No
+C00429,59,21,48.37,One year,Fiber,Electronic check,Yes,Yes,No,Yes,Yes,Yes,No,Mobile,Yes,Yes,Yes,No,East,Mobile,10%,3,2,52.55,1015.37,Yes
+C00430,22,59,40.97,Month-to-month,Cable,Bank transfer,No,Yes,Yes,Yes,Yes,Yes,No,Mobile,No,Yes,Yes,Yes,East,Mobile,None,0,1,41.18,2459.46,Yes
+C00431,60,53,64.39,One year,DSL,Mailed check,No,Yes,Yes,Yes,No,No,No,Mobile,Yes,No,No,Yes,East,Mobile,5%,1,2,24.62,3265.54,Yes
+C00432,65,70,89.77,One year,DSL,Bank transfer,Yes,No,No,Yes,No,Yes,No,Desktop,No,No,Yes,No,West,Desktop,None,4,1,27.98,6380.29,No
+C00433,25,54,75.13,Two year,Fiber,Bank transfer,No,No,Yes,Yes,Yes,No,Yes,Mobile,No,No,No,Yes,South,Mobile,None,0,1,14.56,4320.97,No
+C00434,43,46,59.78,Two year,Fiber,Mailed check,No,No,No,Yes,No,No,Yes,Mobile,No,No,Yes,Yes,South,Mobile,5%,2,0,31.23,2520.5,No
+C00435,25,25,59.12,Month-to-month,DSL,Electronic check,Yes,Yes,No,Yes,Yes,Yes,Yes,Mobile,Yes,No,Yes,No,West,Mobile,None,0,2,29.21,1547.58,No
+C00436,50,0,58.05,Month-to-month,Fiber,Mailed check,Yes,Yes,No,Yes,Yes,Yes,Yes,Mobile,No,Yes,No,No,North,Mobile,10%,1,0,19.1,80.85,Yes
+C00437,71,9,53.37,Month-to-month,Fiber,Bank transfer,Yes,Yes,Yes,Yes,No,No,No,Desktop,No,Yes,No,No,North,Desktop,15%,1,2,44.32,559.47,Yes
+C00438,22,21,141.89,Month-to-month,Cable,Credit card,Yes,Yes,Yes,No,No,Yes,Yes,Mobile,Yes,Yes,No,Yes,Central,Mobile,10%,1,1,50.32,3226.11,No
+C00439,41,2,86.33,Month-to-month,Fiber,Credit card,Yes,No,No,Yes,No,No,No,Mobile,No,No,No,No,South,Mobile,None,2,1,34.67,478.06,Yes
+C00440,74,37,102.83,Two year,Fiber,Bank transfer,Yes,Yes,No,Yes,No,No,Yes,Mobile,No,No,No,Yes,North,Mobile,None,5,0,31.33,3769.69,No
+C00441,35,56,64.31,Month-to-month,DSL,Mailed check,Yes,No,Yes,Yes,Yes,Yes,Yes,Mobile,Yes,No,Yes,Yes,West,Mobile,10%,1,1,40.22,3702.34,No
+C00442,25,70,72.79,Month-to-month,Cable,Bank transfer,Yes,No,Yes,Yes,No,No,No,Mobile,Yes,No,No,Yes,East,Mobile,None,2,1,34.76,5107.94,Yes
+C00443,46,35,58.02,Two year,Fiber,Electronic check,Yes,Yes,No,Yes,Yes,Yes,Yes,Mobile,No,Yes,Yes,Yes,North,Mobile,10%,1,0,22.01,1935.88,No
+C00444,47,63,18.0,Month-to-month,Cable,Credit card,No,Yes,No,Yes,No,Yes,No,Desktop,Yes,No,Yes,Yes,Central,Desktop,10%,1,2,27.17,1174.62,No
+C00445,56,71,39.42,Month-to-month,None,Bank transfer,Yes,Yes,No,Yes,No,No,No,Tablet,Yes,No,Yes,Yes,South,Tablet,None,2,1,31.44,2899.54,No
+C00446,36,62,27.3,Two year,DSL,Credit card,No,Yes,No,Yes,Yes,No,No,Desktop,No,No,Yes,Yes,West,Desktop,None,2,1,37.98,1725.14,No
+C00447,73,33,18.0,Month-to-month,DSL,Mailed check,Yes,No,No,Yes,No,No,Yes,Mobile,No,No,Yes,No,West,Mobile,5%,1,1,35.11,461.82,Yes
+C00448,48,23,44.53,Month-to-month,Cable,Bank transfer,No,No,No,Yes,Yes,Yes,No,Mobile,No,Yes,No,No,Central,Mobile,5%,1,3,37.52,954.66,Yes
+C00449,34,71,115.1,Month-to-month,DSL,Electronic check,No,No,Yes,No,No,No,No,Desktop,No,No,Yes,Yes,West,Desktop,None,0,0,16.7,8103.71,No
+C00450,73,17,76.76,Two year,Fiber,Bank transfer,No,No,No,Yes,Yes,No,Yes,Mobile,No,Yes,No,Yes,West,Mobile,5%,2,0,42.98,1178.55,No
+C00451,71,30,114.14,Month-to-month,DSL,Electronic check,Yes,Yes,No,Yes,Yes,No,No,Tablet,No,Yes,No,No,North,Tablet,10%,1,1,35.04,3471.23,No
+C00452,46,5,89.51,Month-to-month,Fiber,Credit card,No,Yes,Yes,Yes,No,No,No,Mobile,No,Yes,Yes,No,Central,Mobile,None,2,1,65.63,510.27,Yes
+C00453,19,57,99.91,Month-to-month,Fiber,Credit card,Yes,Yes,No,Yes,No,No,Yes,Mobile,No,Yes,Yes,No,North,Mobile,None,0,2,30.35,5841.8,Yes
+C00454,52,47,52.77,Month-to-month,Fiber,Mailed check,Yes,Yes,No,Yes,Yes,Yes,No,Mobile,No,No,No,Yes,South,Mobile,10%,1,4,38.88,2351.55,No
+C00455,50,6,92.67,Two year,Fiber,Mailed check,No,No,Yes,No,No,No,No,Tablet,No,No,No,No,East,Tablet,10%,1,1,68.95,469.4,No
+C00456,26,16,98.4,Month-to-month,Fiber,Credit card,Yes,No,No,Yes,No,No,Yes,Tablet,No,Yes,Yes,Yes,South,Tablet,15%,0,2,37.33,1807.59,No
+C00457,54,40,61.85,Two year,DSL,Bank transfer,Yes,Yes,No,No,No,Yes,No,Desktop,No,No,No,Yes,East,Desktop,None,0,0,34.19,2449.33,No
+C00458,66,39,93.67,Month-to-month,None,Bank transfer,No,Yes,No,Yes,No,No,No,Mobile,No,Yes,Yes,No,North,Mobile,10%,0,1,23.16,3657.65,Yes
+C00459,24,58,93.85,Month-to-month,Fiber,Bank transfer,Yes,Yes,No,Yes,Yes,No,Yes,Desktop,No,Yes,No,No,East,Desktop,10%,1,2,53.34,5417.03,Yes
+C00460,59,19,62.61,Two year,DSL,Bank transfer,No,No,No,Yes,No,No,Yes,Mobile,No,No,Yes,No,South,Mobile,10%,2,0,21.09,1359.54,No
+C00461,26,67,46.56,Month-to-month,DSL,Mailed check,Yes,Yes,No,No,No,Yes,No,Mobile,No,Yes,No,No,West,Mobile,None,1,1,40.13,3295.29,Yes
+C00462,61,32,44.84,Month-to-month,Fiber,Mailed check,Yes,Yes,No,Yes,No,No,Yes,Desktop,No,No,Yes,Yes,East,Desktop,None,0,3,29.32,1601.86,Yes
+C00463,42,60,80.42,Two year,Fiber,Mailed check,Yes,Yes,No,Yes,No,No,No,Tablet,Yes,No,Yes,Yes,West,Tablet,5%,0,1,32.73,4829.19,No
+C00464,18,17,87.16,Month-to-month,Fiber,Electronic check,Yes,No,No,Yes,No,No,No,Mobile,Yes,No,Yes,No,North,Mobile,None,0,1,17.91,1350.85,Yes
+C00465,74,2,55.81,Month-to-month,Fiber,Credit card,Yes,No,No,Yes,No,No,No,Mobile,Yes,Yes,Yes,No,Central,Mobile,None,0,1,51.12,400.4,Yes
+C00466,27,4,78.74,Two year,Fiber,Credit card,Yes,No,No,Yes,No,Yes,Yes,Mobile,No,No,Yes,Yes,South,Mobile,15%,1,0,31.67,443.41,No
+C00467,52,27,93.98,Month-to-month,Fiber,Bank transfer,Yes,Yes,No,Yes,No,No,Yes,Mobile,No,Yes,Yes,No,South,Mobile,None,0,1,20.42,2468.96,Yes
+C00468,28,69,95.31,Month-to-month,DSL,Bank transfer,Yes,Yes,Yes,Yes,No,No,Yes,Mobile,Yes,No,Yes,Yes,East,Mobile,15%,1,0,50.03,6789.96,No
+C00469,72,3,121.45,Month-to-month,Fiber,Bank transfer,Yes,No,No,Yes,No,No,No,Desktop,No,No,No,Yes,North,Desktop,5%,1,1,28.95,284.01,Yes
+C00470,60,26,113.76,Month-to-month,Fiber,Credit card,No,Yes,No,Yes,Yes,No,Yes,Mobile,Yes,Yes,No,No,Central,Mobile,10%,2,0,39.02,3169.37,Yes
+C00471,64,7,49.96,Month-to-month,Fiber,Credit card,No,Yes,No,Yes,Yes,No,Yes,Desktop,Yes,Yes,No,Yes,South,Desktop,None,2,0,45.1,571.46,No
+C00472,43,68,125.14,One year,DSL,Credit card,No,No,No,Yes,No,No,Yes,Mobile,No,Yes,Yes,No,Central,Mobile,5%,2,0,40.69,8371.3,No
+C00473,45,49,63.13,Month-to-month,Fiber,Mailed check,No,Yes,No,No,Yes,No,No,Mobile,No,Yes,Yes,No,North,Mobile,5%,1,2,8.64,3180.63,No
+C00474,54,55,107.26,One year,DSL,Credit card,Yes,Yes,Yes,Yes,No,Yes,No,Mobile,No,Yes,Yes,Yes,Central,Mobile,15%,2,1,43.34,6016.63,No
+C00475,63,52,79.9,Month-to-month,Fiber,Electronic check,Yes,No,Yes,Yes,No,No,No,Mobile,No,Yes,Yes,Yes,South,Mobile,None,1,1,33.79,4547.04,Yes
+C00476,67,47,66.46,Month-to-month,Fiber,Mailed check,No,No,No,Yes,Yes,No,Yes,Mobile,No,No,Yes,Yes,West,Mobile,None,3,1,31.05,3012.27,No
+C00477,19,56,27.38,Month-to-month,None,Electronic check,Yes,Yes,No,Yes,Yes,No,Yes,Desktop,Yes,No,No,No,Central,Desktop,15%,1,0,33.69,1748.16,Yes
+C00478,56,0,73.2,One year,Fiber,Bank transfer,No,Yes,No,Yes,Yes,Yes,Yes,Tablet,No,Yes,Yes,No,North,Tablet,None,2,2,15.68,2.6,No
+C00479,24,63,34.34,Month-to-month,Fiber,Mailed check,Yes,No,No,Yes,Yes,Yes,Yes,Mobile,No,Yes,Yes,No,South,Mobile,5%,0,4,37.31,1977.22,Yes
+C00480,34,54,105.08,Month-to-month,Fiber,Credit card,Yes,Yes,No,Yes,No,Yes,Yes,Desktop,Yes,No,No,Yes,Central,Desktop,None,0,1,18.63,5656.32,Yes
+C00481,66,53,120.47,Two year,None,Credit card,No,Yes,No,Yes,No,No,No,Tablet,No,No,No,No,North,Tablet,None,2,1,31.57,6385.28,Yes
+C00482,32,28,55.69,Month-to-month,DSL,Credit card,No,No,No,Yes,Yes,No,Yes,Mobile,No,No,Yes,Yes,North,Mobile,5%,1,1,36.88,1400.49,No
+C00483,64,58,86.46,Month-to-month,DSL,Electronic check,No,No,No,Yes,Yes,Yes,Yes,Desktop,No,No,Yes,No,East,Desktop,5%,1,1,47.89,5061.51,Yes
+C00484,44,27,57.69,Two year,None,Electronic check,Yes,No,No,Yes,Yes,Yes,No,Tablet,No,No,No,No,North,Tablet,5%,0,0,25.16,1701.3,No
+C00485,31,3,60.4,Month-to-month,Fiber,Electronic check,Yes,Yes,No,Yes,No,No,No,Desktop,No,No,Yes,No,Central,Desktop,None,2,0,52.42,216.93,Yes
+C00486,37,66,99.69,Month-to-month,None,Credit card,No,Yes,No,Yes,No,Yes,Yes,Desktop,Yes,No,No,Yes,Central,Desktop,10%,2,0,46.36,6498.26,No
+C00487,48,17,76.92,Month-to-month,Fiber,Bank transfer,Yes,No,Yes,No,Yes,No,No,Desktop,No,No,Yes,Yes,North,Desktop,15%,2,1,29.85,1285.37,Yes
+C00488,62,7,126.71,Month-to-month,DSL,Electronic check,No,No,Yes,Yes,No,Yes,Yes,Mobile,No,Yes,Yes,Yes,North,Mobile,None,2,1,21.7,886.29,Yes
+C00489,53,45,64.5,Month-to-month,DSL,Mailed check,Yes,Yes,Yes,Yes,Yes,No,No,Desktop,Yes,No,Yes,No,West,Desktop,None,1,2,17.67,2935.1,No
+C00490,72,17,105.98,One year,Fiber,Bank transfer,No,No,No,No,No,Yes,Yes,Tablet,Yes,No,Yes,No,East,Tablet,None,2,3,38.26,1968.13,No
+C00491,68,62,80.73,Month-to-month,None,Electronic check,No,Yes,No,Yes,Yes,No,Yes,Mobile,No,Yes,Yes,Yes,Central,Mobile,10%,1,0,26.15,5046.05,Yes
+C00492,61,32,100.28,One year,Fiber,Mailed check,Yes,No,No,No,No,No,No,Desktop,Yes,Yes,Yes,No,Central,Desktop,None,2,2,49.39,2998.56,No
+C00493,52,0,65.48,Two year,None,Electronic check,No,No,No,Yes,No,No,Yes,Mobile,No,No,No,No,East,Mobile,5%,1,0,26.85,0.0,Yes
+C00494,34,69,76.61,One year,Fiber,Bank transfer,Yes,Yes,Yes,Yes,Yes,No,Yes,Mobile,No,No,No,Yes,South,Mobile,None,3,0,24.19,5310.99,No
+C00495,41,37,74.77,One year,DSL,Credit card,Yes,No,No,Yes,No,No,Yes,Desktop,Yes,No,Yes,Yes,West,Desktop,5%,2,1,37.8,2935.11,No
+C00496,24,19,54.59,One year,None,Bank transfer,No,No,No,Yes,No,Yes,No,Desktop,No,No,No,Yes,West,Desktop,10%,2,2,26.77,1231.89,No
+C00497,39,49,96.54,Two year,Fiber,Mailed check,No,Yes,Yes,No,Yes,No,No,Desktop,Yes,No,No,No,East,Desktop,5%,0,0,35.1,4996.66,No
+C00498,71,38,96.21,Month-to-month,None,Mailed check,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Desktop,No,Yes,Yes,No,South,Desktop,None,1,0,46.83,3675.57,No
+C00499,42,2,94.62,Month-to-month,DSL,Credit card,Yes,No,Yes,Yes,Yes,No,No,Mobile,No,Yes,Yes,No,South,Mobile,None,3,0,36.41,303.74,Yes
+C00500,24,55,121.04,Month-to-month,Cable,Bank transfer,Yes,Yes,No,Yes,No,No,Yes,Tablet,Yes,Yes,Yes,No,East,Tablet,5%,3,4,36.45,6439.03,Yes
+C00501,55,29,118.58,Month-to-month,Fiber,Mailed check,No,Yes,Yes,Yes,Yes,No,No,Desktop,No,Yes,Yes,No,East,Desktop,None,0,1,37.46,3503.3,Yes
+C00502,73,51,67.5,Month-to-month,DSL,Bank transfer,No,Yes,No,Yes,Yes,No,Yes,Desktop,No,No,No,No,East,Desktop,10%,0,1,14.68,3281.21,No
+C00503,68,65,88.45,One year,DSL,Mailed check,No,No,No,Yes,No,Yes,Yes,Mobile,No,No,Yes,No,North,Mobile,None,1,0,39.7,5739.87,No
+C00504,33,44,60.54,Month-to-month,DSL,Credit card,Yes,Yes,No,Yes,No,Yes,Yes,Mobile,No,Yes,Yes,No,Central,Mobile,None,2,2,36.92,3118.24,Yes
+C00505,44,49,78.65,Two year,Fiber,Credit card,Yes,No,No,Yes,No,Yes,Yes,Tablet,No,Yes,Yes,No,West,Tablet,None,1,0,45.71,3899.38,No
+C00506,48,18,61.21,Month-to-month,Fiber,Bank transfer,Yes,Yes,Yes,No,Yes,No,Yes,Mobile,No,No,Yes,No,Central,Mobile,5%,1,2,42.27,972.21,Yes
+C00507,32,17,123.36,Month-to-month,Cable,Mailed check,Yes,Yes,No,Yes,No,No,Yes,Mobile,Yes,No,Yes,No,Central,Mobile,15%,0,0,32.58,2158.29,Yes
+C00508,33,30,88.18,Month-to-month,Fiber,Mailed check,Yes,No,No,Yes,Yes,No,Yes,Desktop,No,No,Yes,No,West,Desktop,None,0,0,47.39,2567.84,Yes
+C00509,31,62,71.9,Month-to-month,Cable,Bank transfer,No,Yes,No,Yes,Yes,No,No,Desktop,Yes,Yes,Yes,No,South,Desktop,None,1,2,31.49,4313.69,Yes
+C00510,75,38,111.42,Month-to-month,None,Bank transfer,Yes,Yes,Yes,Yes,No,Yes,Yes,Desktop,No,No,Yes,No,West,Desktop,None,2,1,37.97,4549.43,Yes
+C00511,61,25,18.0,Month-to-month,Fiber,Bank transfer,Yes,Yes,No,Yes,No,No,Yes,Desktop,No,No,No,No,East,Desktop,15%,0,1,31.27,610.02,No
+C00512,66,56,21.61,Month-to-month,Fiber,Credit card,No,No,No,Yes,No,Yes,No,Tablet,No,No,No,No,Central,Tablet,10%,0,2,40.54,1261.99,No
+C00513,65,62,100.28,Month-to-month,DSL,Credit card,No,Yes,Yes,Yes,Yes,No,Yes,Mobile,No,No,No,No,South,Mobile,None,2,0,30.48,6158.59,Yes
+C00514,73,65,79.69,Month-to-month,Fiber,Credit card,No,Yes,Yes,Yes,No,No,No,Desktop,Yes,No,No,No,North,Desktop,5%,1,0,54.77,5133.23,No
+C00515,24,21,85.01,Month-to-month,DSL,Mailed check,Yes,Yes,Yes,Yes,Yes,No,No,Desktop,No,Yes,No,No,North,Desktop,10%,1,0,59.21,2016.58,Yes
+C00516,69,51,40.86,Month-to-month,DSL,Bank transfer,Yes,Yes,No,Yes,Yes,Yes,No,Desktop,No,Yes,Yes,No,North,Desktop,10%,0,2,45.49,2129.85,Yes
+C00517,21,43,77.35,Month-to-month,DSL,Mailed check,No,Yes,No,No,Yes,Yes,No,Mobile,No,Yes,Yes,Yes,West,Mobile,None,1,1,53.5,2863.63,No
+C00518,45,32,134.1,Month-to-month,Fiber,Electronic check,No,No,No,Yes,No,No,No,Mobile,No,No,Yes,No,North,Mobile,10%,1,2,16.53,4654.34,Yes
+C00519,52,28,101.08,Month-to-month,DSL,Mailed check,Yes,Yes,No,Yes,Yes,Yes,Yes,Desktop,Yes,No,No,No,North,Desktop,5%,0,1,17.94,2857.7,Yes
+C00520,38,8,82.75,Month-to-month,DSL,Bank transfer,No,Yes,No,Yes,No,No,No,Desktop,No,Yes,Yes,No,South,Desktop,None,1,0,31.14,713.51,Yes
+C00521,26,20,65.71,One year,Fiber,Mailed check,Yes,No,No,Yes,Yes,No,No,Mobile,Yes,Yes,No,No,West,Mobile,None,1,1,35.49,1477.2,No
+C00522,29,40,66.95,Two year,DSL,Credit card,Yes,No,Yes,Yes,No,Yes,No,Desktop,Yes,Yes,No,No,East,Desktop,None,0,0,32.62,2747.81,No
+C00523,65,64,18.38,Two year,Cable,Credit card,Yes,Yes,Yes,Yes,No,Yes,Yes,Desktop,No,Yes,Yes,No,South,Desktop,None,1,2,15.29,1288.36,No
+C00524,36,63,85.21,Month-to-month,DSL,Electronic check,No,Yes,No,Yes,No,No,Yes,Mobile,No,No,No,Yes,South,Mobile,None,1,0,48.82,5304.67,No
+C00525,35,13,101.67,Month-to-month,DSL,Mailed check,Yes,Yes,No,Yes,Yes,No,Yes,Desktop,Yes,No,Yes,No,Central,Desktop,10%,1,0,60.85,1137.24,Yes
+C00526,71,49,33.88,Month-to-month,Fiber,Bank transfer,No,No,No,Yes,Yes,No,No,Desktop,Yes,Yes,Yes,Yes,East,Desktop,10%,0,0,50.37,1702.15,No
+C00527,26,6,59.48,One year,Fiber,Mailed check,Yes,Yes,No,Yes,No,No,Yes,Mobile,No,Yes,No,No,South,Mobile,None,3,1,48.03,571.62,No
+C00528,71,49,45.59,One year,Fiber,Electronic check,Yes,Yes,No,Yes,Yes,Yes,No,Mobile,Yes,No,Yes,No,West,Mobile,None,0,2,37.71,2136.74,No
+C00529,71,24,50.97,Two year,Fiber,Electronic check,No,Yes,Yes,Yes,No,No,Yes,Mobile,Yes,No,No,No,South,Mobile,5%,1,0,24.88,1114.08,No
+C00530,52,32,79.5,Two year,None,Mailed check,No,Yes,No,Yes,Yes,No,Yes,Desktop,Yes,Yes,Yes,Yes,South,Desktop,None,1,4,35.87,2727.15,No
+C00531,27,52,19.64,Month-to-month,Fiber,Electronic check,Yes,Yes,Yes,Yes,No,No,No,Mobile,Yes,Yes,Yes,Yes,West,Mobile,None,1,0,60.27,952.69,Yes
+C00532,27,31,95.2,One year,Cable,Bank transfer,Yes,Yes,No,Yes,Yes,No,No,Mobile,Yes,Yes,No,No,South,Mobile,10%,1,3,30.78,2889.62,Yes
+C00533,34,58,99.11,One year,Fiber,Credit card,Yes,No,No,Yes,Yes,No,No,Mobile,No,Yes,Yes,No,East,Mobile,None,2,0,29.54,5692.41,Yes
+C00534,51,38,70.97,Month-to-month,Fiber,Mailed check,Yes,No,Yes,Yes,Yes,No,No,Desktop,No,No,Yes,Yes,West,Desktop,None,2,2,48.29,2687.11,No
+C00535,26,72,18.0,Two year,Fiber,Mailed check,Yes,No,Yes,No,No,No,No,Desktop,No,No,No,No,South,Desktop,10%,4,2,49.08,1059.95,No
+C00536,44,46,50.1,Month-to-month,Fiber,Mailed check,No,No,No,Yes,No,No,No,Mobile,No,No,Yes,Yes,North,Mobile,5%,1,0,24.83,2223.7,Yes
+C00537,24,21,112.52,Two year,Cable,Credit card,Yes,Yes,No,Yes,Yes,No,Yes,Tablet,No,Yes,Yes,No,Central,Tablet,None,0,2,31.86,2397.48,No
+C00538,49,56,18.0,One year,None,Bank transfer,No,No,No,Yes,Yes,Yes,No,Mobile,No,Yes,Yes,Yes,South,Mobile,5%,1,0,28.98,1041.49,No
+C00539,19,29,68.27,Month-to-month,Cable,Bank transfer,No,No,Yes,Yes,Yes,No,No,Mobile,No,Yes,No,Yes,South,Mobile,15%,0,0,35.84,2153.53,No
+C00540,59,38,44.96,One year,Fiber,Mailed check,No,No,No,Yes,No,No,No,Mobile,No,No,No,Yes,East,Mobile,None,1,1,48.24,1984.39,No
+C00541,21,9,100.53,Month-to-month,Cable,Electronic check,No,No,No,Yes,Yes,Yes,No,Desktop,No,No,No,No,North,Desktop,5%,2,0,25.35,1131.64,Yes
+C00542,29,8,59.1,One year,Fiber,Mailed check,No,Yes,No,Yes,Yes,No,No,Desktop,No,Yes,Yes,No,North,Desktop,None,0,1,48.08,610.0,Yes
+C00543,28,41,89.31,One year,None,Credit card,Yes,Yes,No,Yes,No,No,Yes,Mobile,No,No,No,No,East,Mobile,None,3,3,36.22,3639.4,Yes
+C00544,66,13,93.83,One year,DSL,Electronic check,Yes,Yes,No,Yes,No,No,No,Desktop,No,Yes,Yes,No,Central,Desktop,None,0,0,62.91,1126.33,No
+C00545,21,72,129.41,Two year,Fiber,Bank transfer,No,Yes,No,Yes,No,No,No,Desktop,Yes,No,No,Yes,East,Desktop,None,1,1,38.83,9320.2,No
+C00546,42,62,72.32,Month-to-month,Fiber,Mailed check,Yes,Yes,No,Yes,No,Yes,Yes,Desktop,No,Yes,No,Yes,East,Desktop,None,4,0,33.84,4571.68,No
+C00547,52,51,88.53,Month-to-month,Fiber,Electronic check,No,Yes,No,Yes,No,Yes,No,Tablet,No,No,Yes,Yes,West,Tablet,10%,2,1,41.9,4638.32,No
+C00548,47,53,36.42,Month-to-month,Fiber,Electronic check,No,Yes,No,Yes,No,Yes,No,Desktop,Yes,No,No,No,Central,Desktop,None,3,0,30.95,2023.72,Yes
+C00549,57,43,111.33,Month-to-month,None,Mailed check,No,No,No,Yes,No,No,No,Mobile,No,Yes,No,Yes,Central,Mobile,10%,1,1,13.46,4769.01,No
+C00550,64,4,56.71,Month-to-month,Cable,Mailed check,Yes,No,No,Yes,No,Yes,No,Mobile,Yes,Yes,No,No,North,Mobile,None,0,0,32.11,344.87,Yes
+C00551,40,28,62.3,Month-to-month,None,Electronic check,Yes,No,Yes,Yes,No,No,Yes,Tablet,Yes,Yes,No,Yes,East,Tablet,10%,2,0,31.92,1933.53,No
+C00552,66,36,77.38,Month-to-month,Fiber,Mailed check,Yes,Yes,Yes,Yes,Yes,Yes,No,Desktop,No,Yes,Yes,Yes,East,Desktop,5%,0,0,15.89,2917.7,No
+C00553,36,66,34.24,Month-to-month,DSL,Mailed check,Yes,No,No,Yes,No,Yes,No,Mobile,Yes,No,No,Yes,South,Mobile,None,1,1,34.12,2255.04,Yes
+C00554,75,16,84.41,Two year,Fiber,Mailed check,Yes,No,No,Yes,No,No,Yes,Tablet,No,No,Yes,Yes,Central,Tablet,10%,3,0,10.19,1225.48,Yes
+C00555,47,36,105.09,Month-to-month,DSL,Electronic check,Yes,No,No,No,No,Yes,No,Desktop,No,No,Yes,No,South,Desktop,10%,0,2,30.83,3654.6,Yes
+C00556,60,25,86.2,Two year,Fiber,Bank transfer,Yes,No,No,No,No,No,Yes,Desktop,No,Yes,Yes,No,Central,Desktop,None,1,1,37.92,2052.82,No
+C00557,68,9,33.51,Month-to-month,Fiber,Mailed check,No,Yes,No,Yes,Yes,Yes,No,Desktop,No,No,Yes,Yes,North,Desktop,None,0,2,36.16,340.15,Yes
+C00558,63,7,74.53,Month-to-month,DSL,Mailed check,No,Yes,No,Yes,Yes,No,No,Mobile,No,Yes,No,No,West,Mobile,5%,1,0,30.07,599.68,Yes
+C00559,67,26,98.78,Month-to-month,Fiber,Bank transfer,No,No,No,Yes,No,No,No,Desktop,No,Yes,Yes,No,West,Desktop,5%,0,0,33.97,2356.1,Yes
+C00560,49,6,25.42,Month-to-month,DSL,Electronic check,Yes,No,Yes,Yes,No,Yes,No,Tablet,No,No,Yes,No,East,Tablet,None,1,1,25.59,76.92,Yes
+C00561,20,4,47.91,Month-to-month,DSL,Electronic check,Yes,Yes,No,Yes,No,Yes,Yes,Mobile,No,Yes,Yes,No,North,Mobile,10%,0,1,35.13,228.13,No
+C00562,46,25,102.54,Month-to-month,Fiber,Credit card,No,Yes,Yes,Yes,No,Yes,Yes,Mobile,No,No,No,No,North,Mobile,None,3,1,35.7,2428.55,Yes
+C00563,28,14,85.56,Month-to-month,None,Electronic check,Yes,Yes,No,Yes,No,No,No,Desktop,No,Yes,No,No,West,Desktop,None,1,1,24.2,1262.93,No
+C00564,69,40,89.54,Month-to-month,DSL,Electronic check,Yes,Yes,No,Yes,Yes,No,Yes,Mobile,No,Yes,No,No,Central,Mobile,5%,1,2,38.21,3535.49,Yes
+C00565,31,1,130.07,Month-to-month,Cable,Electronic check,No,No,No,Yes,Yes,No,No,Mobile,No,No,No,No,East,Mobile,15%,2,4,38.14,21.56,Yes
+C00566,31,22,91.12,Month-to-month,DSL,Mailed check,No,No,Yes,Yes,No,Yes,Yes,Mobile,Yes,No,Yes,No,North,Mobile,None,2,3,33.01,2012.62,Yes
+C00567,32,33,96.42,One year,Cable,Bank transfer,No,Yes,No,Yes,Yes,No,No,Mobile,Yes,No,No,Yes,West,Mobile,None,2,0,64.05,3240.7,No
+C00568,55,70,153.9,Month-to-month,Cable,Bank transfer,Yes,Yes,Yes,Yes,Yes,Yes,No,Mobile,No,Yes,No,No,East,Mobile,None,0,0,33.31,10645.72,No
+C00569,51,46,72.01,Two year,Cable,Mailed check,Yes,Yes,No,Yes,No,No,Yes,Desktop,Yes,Yes,No,No,North,Desktop,5%,2,2,31.65,3276.07,No
+C00570,73,64,55.66,One year,DSL,Credit card,Yes,Yes,Yes,Yes,No,No,Yes,Desktop,No,Yes,Yes,Yes,South,Desktop,None,2,2,29.93,3632.39,Yes
+C00571,42,25,89.98,Two year,Fiber,Credit card,No,No,No,Yes,Yes,Yes,Yes,Desktop,No,Yes,Yes,No,South,Desktop,None,0,1,23.35,2135.19,No
+C00572,34,32,90.29,Two year,Fiber,Electronic check,Yes,No,No,Yes,Yes,No,No,Mobile,No,No,No,No,Central,Mobile,None,2,2,43.23,2640.62,Yes
+C00573,20,30,63.25,Month-to-month,DSL,Credit card,Yes,No,Yes,Yes,Yes,Yes,Yes,Mobile,Yes,Yes,Yes,Yes,Central,Mobile,10%,1,2,26.77,1667.01,No
+C00574,18,64,49.09,Month-to-month,Fiber,Electronic check,Yes,Yes,Yes,Yes,Yes,Yes,No,Mobile,No,Yes,Yes,No,North,Mobile,None,3,2,28.18,3079.05,Yes
+C00575,39,70,142.68,Month-to-month,Fiber,Bank transfer,Yes,No,No,Yes,No,No,Yes,Desktop,No,Yes,Yes,No,East,Desktop,5%,1,0,28.54,9789.84,Yes
+C00576,71,70,87.15,One year,Fiber,Mailed check,Yes,No,Yes,Yes,Yes,No,No,Tablet,Yes,Yes,Yes,No,North,Tablet,None,3,0,23.18,6048.34,Yes
+C00577,48,54,57.5,One year,DSL,Bank transfer,No,Yes,Yes,Yes,No,No,No,Mobile,No,No,Yes,Yes,East,Mobile,None,0,1,13.99,3354.74,No
+C00578,69,36,103.65,Month-to-month,Fiber,Credit card,No,No,No,Yes,Yes,No,Yes,Tablet,No,No,No,Yes,North,Tablet,None,3,0,29.44,3524.61,No
+C00579,23,39,74.94,Two year,DSL,Bank transfer,No,No,No,Yes,No,Yes,Yes,Mobile,No,No,Yes,No,West,Mobile,None,1,4,45.48,2880.27,No
+C00580,23,71,70.92,Month-to-month,Cable,Mailed check,Yes,No,No,No,Yes,No,Yes,Mobile,No,No,No,Yes,North,Mobile,None,1,0,37.36,5355.17,No
+C00581,66,20,93.74,Month-to-month,Cable,Credit card,No,Yes,No,Yes,No,No,No,Desktop,Yes,Yes,Yes,Yes,Central,Desktop,None,2,1,53.73,1936.02,No
+C00582,24,25,41.83,One year,Fiber,Credit card,No,Yes,No,Yes,No,Yes,No,Mobile,No,Yes,No,Yes,South,Mobile,None,0,0,44.01,990.59,No
+C00583,21,65,87.87,Month-to-month,DSL,Bank transfer,Yes,No,No,Yes,Yes,No,No,Tablet,No,No,Yes,Yes,South,Tablet,None,0,1,41.29,5688.02,No
+C00584,41,28,131.56,One year,DSL,Electronic check,No,Yes,No,Yes,Yes,No,No,Mobile,Yes,Yes,No,No,Central,Mobile,None,2,1,57.59,3748.08,No
+C00585,71,17,91.05,One year,DSL,Mailed check,Yes,Yes,No,No,Yes,No,No,Desktop,No,No,No,No,Central,Desktop,None,1,1,33.83,1802.22,No
+C00586,57,40,67.47,Month-to-month,DSL,Credit card,No,No,No,Yes,Yes,Yes,Yes,Mobile,No,Yes,No,No,North,Mobile,None,2,0,35.76,2619.17,No
+C00587,23,23,63.8,Month-to-month,Fiber,Credit card,Yes,Yes,No,Yes,No,No,Yes,Mobile,No,Yes,Yes,No,North,Mobile,None,1,3,34.86,1353.76,Yes
+C00588,66,65,66.51,Month-to-month,None,Bank transfer,Yes,Yes,No,Yes,No,Yes,No,Mobile,No,Yes,No,No,Central,Mobile,5%,0,1,53.53,4116.33,No
+C00589,66,66,70.89,One year,Fiber,Electronic check,Yes,No,Yes,Yes,Yes,Yes,No,Tablet,No,Yes,Yes,Yes,Central,Tablet,15%,0,0,35.03,4694.2,No
+C00590,64,22,67.42,Month-to-month,Cable,Electronic check,No,No,No,Yes,Yes,Yes,No,Desktop,No,No,Yes,Yes,East,Desktop,5%,1,0,27.22,1272.39,Yes
+C00591,70,38,103.66,Two year,DSL,Electronic check,Yes,No,Yes,Yes,No,No,No,Desktop,Yes,Yes,Yes,Yes,North,Desktop,None,0,0,42.05,3869.51,No
+C00592,31,71,29.47,Two year,Fiber,Credit card,No,No,No,Yes,No,Yes,Yes,Mobile,Yes,Yes,No,Yes,North,Mobile,15%,2,0,25.2,1956.07,No
+C00593,74,54,102.14,Month-to-month,Cable,Bank transfer,Yes,Yes,Yes,Yes,No,No,No,Mobile,No,Yes,No,Yes,South,Mobile,15%,1,0,41.4,5676.68,Yes
+C00594,36,15,67.37,Month-to-month,Fiber,Electronic check,No,Yes,No,Yes,No,Yes,No,Mobile,No,Yes,No,Yes,West,Mobile,None,0,2,39.97,934.29,No
+C00595,64,43,88.55,One year,Cable,Credit card,Yes,No,No,Yes,No,No,Yes,Desktop,No,No,No,Yes,North,Desktop,None,2,0,32.73,3867.19,No
+C00596,51,45,46.44,One year,DSL,Mailed check,Yes,Yes,No,Yes,No,No,Yes,Mobile,Yes,No,Yes,No,West,Mobile,10%,1,1,41.79,1849.19,Yes
+C00597,63,47,115.2,Month-to-month,Fiber,Mailed check,Yes,Yes,Yes,Yes,No,Yes,No,Mobile,No,No,Yes,No,Central,Mobile,15%,1,0,17.15,5434.13,Yes
+C00598,54,1,112.88,Month-to-month,Fiber,Electronic check,Yes,Yes,Yes,Yes,Yes,No,Yes,Desktop,Yes,Yes,Yes,No,North,Desktop,10%,2,2,36.96,0.0,Yes
+C00599,55,21,104.87,Month-to-month,Cable,Bank transfer,Yes,No,No,Yes,No,Yes,Yes,Desktop,Yes,Yes,Yes,No,Central,Desktop,5%,2,1,29.45,2138.42,Yes
+C00600,53,62,35.59,Two year,Fiber,Electronic check,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Mobile,Yes,Yes,No,No,Central,Mobile,5%,0,0,69.35,2538.26,No
+C00601,63,17,101.22,Month-to-month,Cable,Bank transfer,No,No,No,Yes,No,No,No,Mobile,No,Yes,No,Yes,South,Mobile,15%,1,1,36.87,1860.57,Yes
+C00602,60,21,89.34,Two year,Cable,Mailed check,Yes,Yes,No,Yes,No,No,Yes,Mobile,No,No,No,No,North,Mobile,None,0,0,27.84,1856.88,No
+C00603,25,23,33.05,Month-to-month,DSL,Mailed check,Yes,No,Yes,Yes,Yes,Yes,Yes,Desktop,Yes,No,No,Yes,South,Desktop,None,1,0,18.46,1239.99,No
+C00604,65,12,77.32,Two year,Fiber,Electronic check,Yes,Yes,No,Yes,Yes,No,Yes,Mobile,Yes,No,No,No,South,Mobile,10%,2,1,50.66,790.56,No
+C00605,49,11,88.21,Month-to-month,Cable,Credit card,No,Yes,No,Yes,Yes,Yes,Yes,Desktop,No,Yes,No,No,South,Desktop,None,4,0,30.8,1145.09,No
+C00606,36,25,93.57,Month-to-month,None,Mailed check,Yes,No,Yes,Yes,No,No,Yes,Mobile,No,Yes,Yes,No,Central,Mobile,None,1,3,25.5,2109.35,No
+C00607,47,63,82.96,Two year,Fiber,Mailed check,No,No,No,Yes,Yes,No,No,Tablet,No,No,No,Yes,North,Tablet,None,0,0,39.04,5189.89,No
+C00608,74,0,86.15,Two year,Fiber,Credit card,Yes,Yes,Yes,Yes,Yes,No,Yes,Tablet,Yes,Yes,No,No,South,Tablet,None,1,1,42.8,0.0,Yes
+C00609,67,20,119.26,Month-to-month,Fiber,Electronic check,No,Yes,No,Yes,No,No,Yes,Mobile,No,No,No,No,West,Mobile,None,3,1,42.61,2423.79,No
+C00610,66,4,112.33,Month-to-month,Fiber,Credit card,Yes,Yes,No,Yes,No,No,No,Mobile,No,Yes,No,No,North,Mobile,5%,4,1,35.24,457.72,Yes
+C00611,44,40,18.0,Month-to-month,Cable,Bank transfer,Yes,Yes,No,Yes,Yes,No,No,Mobile,No,No,No,No,North,Mobile,None,0,0,36.91,673.85,Yes
+C00612,63,18,69.11,Month-to-month,DSL,Credit card,No,No,No,Yes,Yes,Yes,No,Desktop,Yes,No,No,No,South,Desktop,5%,0,0,37.78,1407.79,Yes
+C00613,40,57,73.39,Month-to-month,DSL,Mailed check,Yes,Yes,Yes,Yes,No,Yes,No,Mobile,No,No,Yes,Yes,Central,Mobile,None,2,1,39.04,4098.17,Yes
+C00614,57,42,28.94,Two year,Fiber,Mailed check,Yes,No,No,Yes,No,No,Yes,Desktop,No,Yes,Yes,No,Central,Desktop,15%,1,1,40.1,1264.51,No
+C00615,55,57,80.64,Month-to-month,Fiber,Mailed check,No,Yes,No,Yes,No,Yes,Yes,Mobile,Yes,No,No,No,Central,Mobile,5%,2,2,48.13,4719.56,No
+C00616,32,46,112.97,One year,Fiber,Electronic check,Yes,No,No,Yes,Yes,No,Yes,Mobile,Yes,No,No,Yes,Central,Mobile,15%,0,2,35.68,4974.14,No
+C00617,33,32,47.58,Month-to-month,Cable,Mailed check,No,Yes,No,Yes,Yes,Yes,Yes,Desktop,No,No,Yes,Yes,North,Desktop,None,2,1,25.2,1410.3,Yes
+C00618,21,62,87.42,Month-to-month,DSL,Mailed check,Yes,Yes,No,Yes,Yes,No,No,Desktop,No,Yes,Yes,No,East,Desktop,None,2,1,33.27,5428.12,Yes
+C00619,26,34,52.36,One year,Fiber,Credit card,Yes,Yes,No,Yes,No,Yes,Yes,Desktop,No,Yes,No,No,East,Desktop,10%,1,0,44.05,1874.76,No
+C00620,43,69,59.19,Month-to-month,Cable,Bank transfer,Yes,No,No,Yes,Yes,No,No,Desktop,No,No,No,No,North,Desktop,10%,2,2,13.56,4297.3,Yes
+C00621,45,72,119.37,One year,Fiber,Mailed check,Yes,No,No,Yes,Yes,No,No,Desktop,No,Yes,Yes,No,Central,Desktop,None,1,1,13.63,8562.26,No
+C00622,27,42,62.81,Month-to-month,Fiber,Mailed check,Yes,No,No,Yes,Yes,Yes,No,Mobile,Yes,Yes,No,No,West,Mobile,5%,2,2,46.02,2590.55,No
+C00623,42,49,90.94,Two year,Fiber,Bank transfer,No,Yes,No,Yes,Yes,No,No,Tablet,No,Yes,Yes,No,Central,Tablet,5%,1,2,53.24,4325.17,No
+C00624,53,18,25.61,One year,None,Electronic check,No,Yes,No,Yes,No,No,No,Desktop,Yes,Yes,Yes,Yes,South,Desktop,None,4,1,19.82,510.48,No
+C00625,31,59,130.14,Two year,Cable,Bank transfer,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Desktop,No,Yes,No,No,West,Desktop,5%,1,2,36.21,7633.69,No
+C00626,37,49,94.87,Month-to-month,DSL,Bank transfer,No,Yes,No,Yes,No,Yes,No,Tablet,Yes,Yes,No,No,North,Tablet,None,2,0,30.21,4607.53,Yes
+C00627,39,65,72.89,Month-to-month,Fiber,Electronic check,No,No,Yes,Yes,Yes,No,No,Mobile,No,Yes,No,Yes,North,Mobile,None,0,2,31.87,4723.77,No
+C00628,47,19,94.12,Month-to-month,Fiber,Mailed check,No,No,No,Yes,Yes,No,No,Desktop,No,Yes,Yes,No,West,Desktop,10%,3,1,38.67,1871.02,Yes
+C00629,39,57,38.53,Month-to-month,DSL,Electronic check,Yes,No,Yes,Yes,No,Yes,Yes,Desktop,Yes,Yes,Yes,Yes,North,Desktop,None,3,2,19.49,2111.65,No
+C00630,60,34,111.11,Month-to-month,Fiber,Mailed check,No,No,Yes,Yes,No,No,No,Mobile,Yes,Yes,No,No,South,Mobile,10%,1,1,21.71,3661.92,Yes
+C00631,36,13,68.93,Month-to-month,None,Bank transfer,Yes,Yes,No,Yes,No,Yes,No,Desktop,No,Yes,No,No,West,Desktop,10%,2,1,31.38,960.85,No
+C00632,43,12,72.29,Month-to-month,Cable,Credit card,No,Yes,No,Yes,Yes,Yes,Yes,Mobile,Yes,Yes,No,No,East,Mobile,15%,3,1,33.26,413.62,Yes
+C00633,40,41,64.23,Month-to-month,DSL,Electronic check,No,No,No,Yes,No,No,No,Mobile,Yes,Yes,Yes,No,South,Mobile,None,0,1,21.49,2542.88,Yes
+C00634,28,23,61.74,Month-to-month,Cable,Electronic check,Yes,Yes,No,Yes,Yes,Yes,Yes,Mobile,No,Yes,No,No,South,Mobile,None,1,1,44.48,1247.32,No
+C00635,57,7,97.45,Month-to-month,None,Bank transfer,Yes,Yes,Yes,Yes,No,Yes,Yes,Desktop,No,Yes,Yes,No,West,Desktop,None,2,1,29.99,862.64,No
+C00636,31,31,85.17,Month-to-month,DSL,Credit card,Yes,No,No,Yes,Yes,No,No,Desktop,No,Yes,No,No,Central,Desktop,5%,1,1,29.94,2574.13,Yes
+C00637,35,47,96.25,One year,DSL,Mailed check,No,No,No,Yes,No,Yes,No,Mobile,Yes,No,No,No,West,Mobile,None,5,1,38.39,4439.64,No
+C00638,63,23,77.75,Month-to-month,None,Electronic check,No,No,No,Yes,Yes,Yes,Yes,Mobile,No,Yes,Yes,Yes,South,Mobile,10%,1,1,33.45,1780.96,Yes
+C00639,73,69,92.37,Month-to-month,Fiber,Mailed check,Yes,Yes,No,No,No,No,Yes,Desktop,No,No,Yes,Yes,East,Desktop,None,1,2,45.05,6284.22,No
+C00640,56,56,66.27,Month-to-month,Cable,Mailed check,Yes,No,Yes,Yes,Yes,No,Yes,Mobile,No,No,No,No,North,Mobile,None,4,0,23.8,3650.72,Yes
+C00641,71,37,140.43,One year,Fiber,Electronic check,Yes,Yes,No,No,No,No,No,Mobile,No,No,Yes,Yes,North,Mobile,10%,1,2,18.23,5210.48,No
+C00642,67,68,34.1,Month-to-month,DSL,Bank transfer,Yes,Yes,No,No,No,No,Yes,Mobile,No,No,Yes,No,South,Mobile,10%,1,0,31.28,2255.49,No
+C00643,45,31,113.31,One year,Cable,Mailed check,No,Yes,Yes,Yes,Yes,No,No,Desktop,Yes,No,No,No,South,Desktop,None,1,0,35.72,3448.23,Yes
+C00644,62,10,116.3,Two year,DSL,Credit card,Yes,No,No,Yes,Yes,Yes,Yes,Mobile,No,No,No,No,Central,Mobile,5%,2,2,20.11,1011.48,No
+C00645,37,2,54.14,Month-to-month,DSL,Electronic check,Yes,No,No,Yes,No,No,No,Desktop,Yes,No,Yes,Yes,Central,Desktop,None,0,3,18.35,0.0,Yes
+C00646,44,68,140.42,Two year,DSL,Mailed check,No,No,Yes,Yes,No,Yes,Yes,Desktop,Yes,Yes,No,No,North,Desktop,10%,0,0,37.19,9557.66,No
+C00647,49,70,105.87,One year,Fiber,Credit card,Yes,Yes,No,Yes,No,Yes,Yes,Mobile,No,No,Yes,No,South,Mobile,None,1,0,25.91,7456.89,Yes
+C00648,73,53,105.19,Month-to-month,Fiber,Electronic check,No,No,Yes,Yes,No,No,Yes,Desktop,No,Yes,Yes,No,North,Desktop,5%,1,1,17.57,5360.85,Yes
+C00649,67,7,78.78,Month-to-month,Fiber,Mailed check,No,Yes,Yes,No,Yes,No,No,Mobile,No,Yes,Yes,Yes,North,Mobile,None,2,0,46.58,665.45,No
+C00650,46,21,71.92,One year,DSL,Bank transfer,Yes,No,No,Yes,Yes,No,No,Mobile,Yes,No,Yes,No,South,Mobile,None,1,2,27.42,1624.93,No
+C00651,55,2,72.14,Two year,DSL,Electronic check,No,Yes,Yes,No,Yes,Yes,Yes,Mobile,Yes,No,No,Yes,Central,Mobile,10%,1,1,48.8,290.48,No
+C00652,29,3,88.93,Month-to-month,Fiber,Credit card,No,Yes,Yes,Yes,Yes,Yes,Yes,Desktop,No,Yes,No,No,North,Desktop,None,2,0,35.34,311.77,No
+C00653,64,17,117.23,Month-to-month,Cable,Electronic check,No,No,No,Yes,Yes,No,No,Tablet,No,Yes,Yes,Yes,West,Tablet,None,2,1,38.54,2088.47,No
+C00654,50,41,83.08,Month-to-month,Fiber,Mailed check,Yes,Yes,Yes,Yes,No,No,Yes,Desktop,Yes,No,Yes,No,South,Desktop,None,1,0,32.46,3734.03,Yes
+C00655,48,4,52.48,Month-to-month,DSL,Electronic check,Yes,No,No,Yes,Yes,No,Yes,Desktop,No,No,Yes,Yes,East,Desktop,None,0,2,3.14,164.69,No
+C00656,62,71,101.08,One year,Fiber,Mailed check,Yes,Yes,No,Yes,Yes,Yes,Yes,Mobile,No,Yes,Yes,No,Central,Mobile,10%,1,1,21.36,7019.83,No
+C00657,54,33,103.79,Month-to-month,Fiber,Bank transfer,Yes,No,Yes,Yes,No,Yes,No,Tablet,No,No,No,Yes,Central,Tablet,None,1,3,33.49,3194.96,No
+C00658,22,19,96.33,One year,Cable,Bank transfer,Yes,Yes,No,Yes,No,No,Yes,Mobile,No,Yes,No,No,Central,Mobile,10%,3,1,39.38,2093.62,Yes
+C00659,34,37,98.87,Two year,DSL,Mailed check,No,Yes,Yes,Yes,Yes,No,Yes,Mobile,No,Yes,Yes,No,East,Mobile,10%,1,1,13.52,3923.51,No
+C00660,28,57,70.41,One year,Fiber,Mailed check,No,Yes,No,Yes,No,Yes,Yes,Tablet,Yes,Yes,No,No,North,Tablet,None,0,1,34.36,3874.68,No
+C00661,60,22,51.99,One year,None,Electronic check,Yes,Yes,Yes,Yes,No,Yes,No,Mobile,No,No,Yes,Yes,Central,Mobile,10%,2,0,21.53,1034.68,No
+C00662,20,3,53.69,One year,Cable,Electronic check,Yes,No,No,Yes,No,Yes,No,Mobile,No,Yes,Yes,Yes,Central,Mobile,None,1,2,37.82,112.47,No
+C00663,29,3,32.21,Two year,Cable,Electronic check,Yes,Yes,Yes,Yes,No,Yes,No,Mobile,Yes,Yes,No,Yes,Central,Mobile,None,0,2,34.77,280.27,No
+C00664,52,62,84.63,Two year,Cable,Bank transfer,Yes,Yes,No,Yes,No,No,Yes,Mobile,Yes,Yes,Yes,No,East,Mobile,None,3,1,43.92,5053.96,No
+C00665,58,8,75.66,Month-to-month,None,Bank transfer,No,No,Yes,Yes,Yes,Yes,Yes,Desktop,No,Yes,No,No,South,Desktop,None,1,0,47.8,310.29,Yes
+C00666,47,46,65.68,Month-to-month,Fiber,Electronic check,Yes,Yes,Yes,Yes,No,No,Yes,Mobile,No,No,Yes,Yes,North,Mobile,None,0,2,40.51,3346.41,No
+C00667,67,28,18.0,Month-to-month,DSL,Electronic check,Yes,No,No,Yes,No,No,No,Tablet,No,Yes,Yes,No,South,Tablet,None,1,0,45.32,550.86,No
+C00668,71,56,43.08,Two year,DSL,Bank transfer,No,No,No,Yes,No,No,Yes,Mobile,No,No,No,Yes,South,Mobile,10%,0,2,30.8,2480.64,No
+C00669,25,4,109.38,One year,Fiber,Bank transfer,Yes,Yes,No,No,No,No,No,Desktop,No,Yes,No,No,South,Desktop,5%,0,1,68.88,406.75,No
+C00670,73,65,59.39,Month-to-month,Fiber,Credit card,Yes,No,Yes,Yes,No,Yes,Yes,Desktop,Yes,Yes,No,No,Central,Desktop,15%,0,1,20.37,3930.22,Yes
+C00671,53,50,88.1,Month-to-month,Fiber,Mailed check,Yes,Yes,Yes,Yes,No,Yes,Yes,Desktop,No,Yes,No,No,West,Desktop,5%,0,0,28.67,4177.87,Yes
+C00672,54,32,39.06,Month-to-month,DSL,Mailed check,No,Yes,No,Yes,Yes,Yes,Yes,Mobile,No,Yes,Yes,No,South,Mobile,5%,2,2,45.82,1123.78,Yes
+C00673,23,15,118.28,One year,Cable,Mailed check,Yes,Yes,No,No,Yes,No,No,Desktop,No,No,Yes,No,West,Desktop,None,1,0,44.03,1789.97,No
+C00674,54,71,73.97,Month-to-month,Cable,Credit card,No,No,No,Yes,Yes,Yes,No,Desktop,Yes,Yes,Yes,No,West,Desktop,5%,2,1,40.85,4911.24,Yes
+C00675,60,22,86.12,Month-to-month,Fiber,Mailed check,No,No,No,Yes,No,Yes,No,Desktop,Yes,No,No,Yes,East,Desktop,None,1,1,43.1,1849.26,No
+C00676,51,35,143.12,Two year,Fiber,Bank transfer,Yes,No,No,Yes,No,Yes,Yes,Mobile,No,No,Yes,No,Central,Mobile,15%,0,0,10.0,4954.58,No
+C00677,22,28,120.46,One year,DSL,Bank transfer,No,No,Yes,Yes,Yes,Yes,No,Mobile,Yes,Yes,No,No,Central,Mobile,15%,2,0,54.07,3327.48,Yes
+C00678,48,16,69.42,Month-to-month,DSL,Credit card,No,Yes,No,Yes,Yes,No,No,Desktop,Yes,Yes,Yes,No,East,Desktop,None,2,0,32.55,1028.06,Yes
+C00679,72,30,61.39,Month-to-month,None,Mailed check,Yes,No,No,Yes,Yes,No,Yes,Mobile,No,No,No,Yes,East,Mobile,5%,1,0,49.95,1692.32,No
+C00680,59,11,68.88,Two year,Cable,Bank transfer,No,No,No,Yes,Yes,No,No,Mobile,No,Yes,Yes,Yes,South,Mobile,5%,0,2,10.6,484.38,Yes
+C00681,25,0,92.28,One year,None,Electronic check,Yes,No,No,Yes,Yes,No,No,Tablet,No,Yes,No,No,West,Tablet,5%,1,1,38.08,21.71,No
+C00682,73,21,75.05,One year,Cable,Mailed check,Yes,No,Yes,Yes,Yes,Yes,Yes,Mobile,Yes,Yes,Yes,No,Central,Mobile,None,2,0,28.24,1531.03,No
+C00683,73,8,66.93,Month-to-month,None,Electronic check,No,No,No,Yes,Yes,Yes,Yes,Mobile,Yes,Yes,No,No,West,Mobile,5%,2,1,41.87,329.15,Yes
+C00684,27,30,119.08,Month-to-month,DSL,Bank transfer,Yes,Yes,No,Yes,No,No,Yes,Desktop,No,Yes,Yes,No,South,Desktop,10%,1,1,38.8,3581.78,No
+C00685,64,62,74.8,Month-to-month,Fiber,Bank transfer,Yes,No,Yes,Yes,No,No,No,Mobile,No,No,No,No,East,Mobile,None,1,2,39.39,4593.36,Yes
+C00686,41,11,142.39,One year,Fiber,Bank transfer,Yes,No,No,Yes,No,No,Yes,Mobile,Yes,No,No,Yes,West,Mobile,5%,0,1,22.29,1497.14,Yes
+C00687,52,0,80.54,Month-to-month,Fiber,Electronic check,Yes,No,No,Yes,Yes,Yes,Yes,Mobile,No,No,No,No,North,Mobile,None,1,0,34.32,0.0,Yes
+C00688,43,8,127.99,Month-to-month,Fiber,Credit card,No,Yes,Yes,Yes,No,No,No,Mobile,Yes,Yes,No,Yes,East,Mobile,15%,0,0,32.84,1126.34,No
+C00689,63,37,88.0,One year,Fiber,Mailed check,No,No,Yes,No,No,Yes,Yes,Mobile,Yes,Yes,No,Yes,West,Mobile,None,0,4,40.94,3071.04,No
+C00690,75,20,104.96,Two year,None,Electronic check,Yes,Yes,Yes,Yes,No,Yes,Yes,Desktop,Yes,No,Yes,Yes,East,Desktop,None,2,4,46.87,2108.69,No
+C00691,64,35,57.71,One year,Fiber,Bank transfer,No,No,No,Yes,Yes,No,Yes,Mobile,No,Yes,No,No,West,Mobile,None,1,0,36.81,1898.61,No
+C00692,72,2,54.09,Month-to-month,None,Mailed check,Yes,No,Yes,Yes,No,No,No,Mobile,Yes,Yes,Yes,No,Central,Mobile,10%,1,3,19.69,49.87,Yes
+C00693,72,24,90.87,Month-to-month,Cable,Mailed check,Yes,Yes,No,Yes,No,No,Yes,Desktop,No,No,No,No,North,Desktop,10%,1,0,36.29,2353.72,No
+C00694,23,29,105.68,Month-to-month,DSL,Bank transfer,No,No,No,Yes,No,No,Yes,Mobile,No,Yes,No,No,East,Mobile,None,2,4,66.33,3144.46,Yes
+C00695,32,31,79.13,Month-to-month,DSL,Credit card,No,Yes,No,Yes,Yes,Yes,No,Mobile,No,No,No,No,West,Mobile,None,2,1,54.75,2622.54,No
+C00696,59,40,41.98,Month-to-month,Fiber,Bank transfer,Yes,No,Yes,Yes,No,No,Yes,Mobile,Yes,Yes,Yes,No,Central,Mobile,10%,1,0,0.0,1728.76,No
+C00697,52,56,39.91,Month-to-month,DSL,Credit card,Yes,No,No,Yes,No,No,No,Mobile,Yes,Yes,Yes,No,East,Mobile,None,0,1,35.76,2294.38,Yes
+C00698,20,34,38.04,One year,Fiber,Bank transfer,No,Yes,No,Yes,Yes,No,Yes,Mobile,Yes,No,Yes,No,Central,Mobile,None,0,1,46.19,1026.19,No
+C00699,23,61,28.51,Two year,None,Bank transfer,No,No,No,Yes,No,Yes,No,Mobile,No,Yes,Yes,No,South,Mobile,15%,2,0,32.81,1691.48,No
+C00700,48,38,81.07,Two year,Fiber,Bank transfer,Yes,Yes,Yes,Yes,No,No,No,Desktop,No,No,No,No,East,Desktop,None,2,1,29.48,3046.92,No
+C00701,53,19,109.5,Month-to-month,Fiber,Electronic check,No,No,No,Yes,Yes,Yes,No,Tablet,Yes,Yes,No,No,Central,Tablet,5%,2,1,31.8,2264.05,No
+C00702,27,16,77.62,Month-to-month,Cable,Mailed check,No,No,No,Yes,No,No,Yes,Desktop,No,Yes,Yes,No,East,Desktop,None,1,2,41.63,1165.99,Yes
+C00703,27,23,18.0,Month-to-month,DSL,Bank transfer,No,Yes,No,No,No,No,Yes,Mobile,No,No,Yes,No,South,Mobile,10%,0,0,21.22,453.73,Yes
+C00704,25,43,72.66,Month-to-month,DSL,Mailed check,Yes,No,Yes,Yes,Yes,No,No,Desktop,Yes,No,Yes,No,East,Desktop,10%,3,0,49.26,3158.24,No
+C00705,50,17,73.44,Month-to-month,DSL,Bank transfer,No,No,No,Yes,Yes,No,Yes,Desktop,Yes,No,No,Yes,West,Desktop,None,7,0,34.33,1422.13,No
+C00706,18,66,136.69,Month-to-month,Fiber,Mailed check,No,No,Yes,Yes,No,No,Yes,Mobile,Yes,No,Yes,No,Central,Mobile,5%,3,0,23.78,9001.48,No
+C00707,51,35,37.2,One year,DSL,Mailed check,No,No,Yes,Yes,No,Yes,No,Tablet,Yes,No,No,No,West,Tablet,15%,1,0,48.49,1426.17,No
+C00708,45,63,67.06,Month-to-month,Fiber,Mailed check,Yes,No,Yes,No,Yes,No,No,Desktop,No,No,Yes,No,North,Desktop,10%,1,1,16.46,3969.05,Yes
+C00709,45,49,125.76,Two year,Fiber,Bank transfer,Yes,No,No,Yes,No,No,No,Mobile,Yes,Yes,No,No,North,Mobile,None,1,0,28.34,5920.14,No
+C00710,57,24,90.6,Month-to-month,Fiber,Bank transfer,No,Yes,No,Yes,Yes,No,No,Tablet,No,No,Yes,Yes,Central,Tablet,None,0,0,28.14,1831.9,No
+C00711,48,16,93.77,Month-to-month,Fiber,Electronic check,Yes,Yes,Yes,Yes,Yes,No,No,Mobile,No,No,Yes,No,East,Mobile,10%,2,1,60.73,1618.22,Yes
+C00712,60,54,81.21,Month-to-month,Fiber,Credit card,No,No,No,Yes,No,No,Yes,Mobile,No,Yes,Yes,Yes,South,Mobile,None,0,2,26.78,4486.39,No
+C00713,62,24,87.24,Month-to-month,DSL,Credit card,No,Yes,No,Yes,Yes,No,Yes,Mobile,No,No,No,No,South,Mobile,None,2,1,9.14,2228.28,Yes
+C00714,71,18,99.77,Month-to-month,Fiber,Mailed check,Yes,No,Yes,Yes,No,No,No,Mobile,No,Yes,No,Yes,North,Mobile,None,1,1,28.02,1694.26,Yes
+C00715,64,67,55.33,Two year,Fiber,Bank transfer,No,Yes,No,Yes,Yes,Yes,No,Tablet,No,Yes,Yes,No,North,Tablet,10%,2,2,40.47,3622.58,No
+C00716,48,35,102.59,Month-to-month,DSL,Credit card,No,No,No,Yes,No,Yes,Yes,Desktop,No,Yes,Yes,No,West,Desktop,None,2,2,44.41,3572.49,Yes
+C00717,46,3,39.56,Month-to-month,Fiber,Electronic check,Yes,No,Yes,Yes,No,No,Yes,Mobile,No,No,No,No,West,Mobile,None,4,2,62.32,335.23,Yes
+C00718,31,36,87.19,Month-to-month,DSL,Bank transfer,No,Yes,No,Yes,Yes,Yes,Yes,Desktop,Yes,Yes,Yes,Yes,East,Desktop,5%,1,1,51.88,3392.91,Yes
+C00719,52,33,83.0,Month-to-month,None,Credit card,No,Yes,No,Yes,No,No,No,Desktop,No,Yes,Yes,No,North,Desktop,None,1,0,37.26,2858.07,No
+C00720,26,63,60.74,One year,DSL,Electronic check,Yes,Yes,No,Yes,Yes,Yes,No,Tablet,Yes,Yes,Yes,No,West,Tablet,None,2,1,24.3,3876.27,No
+C00721,72,51,77.36,Month-to-month,None,Credit card,No,No,No,Yes,Yes,No,Yes,Tablet,No,Yes,No,No,Central,Tablet,None,1,0,54.49,4145.67,No
+C00722,67,13,60.57,One year,Fiber,Mailed check,Yes,No,No,Yes,Yes,Yes,Yes,Tablet,No,Yes,Yes,No,Central,Tablet,None,0,0,30.58,749.03,No
+C00723,24,10,47.99,Month-to-month,Fiber,Electronic check,Yes,Yes,No,Yes,Yes,Yes,No,Desktop,No,No,No,Yes,South,Desktop,15%,0,2,27.1,421.26,Yes
+C00724,63,44,68.1,Month-to-month,Cable,Credit card,No,No,No,Yes,Yes,No,Yes,Mobile,No,No,Yes,No,West,Mobile,None,1,1,30.0,2977.05,No
+C00725,24,3,47.09,One year,Cable,Bank transfer,Yes,Yes,No,No,Yes,Yes,Yes,Tablet,Yes,Yes,No,Yes,South,Tablet,10%,1,2,19.97,0.0,No
+C00726,59,23,87.04,Two year,Cable,Electronic check,Yes,Yes,Yes,Yes,No,Yes,Yes,Mobile,No,No,Yes,Yes,Central,Mobile,None,1,2,29.42,1975.67,No
+C00727,23,10,45.8,Month-to-month,Fiber,Electronic check,Yes,Yes,No,No,No,Yes,No,Mobile,No,No,No,No,Central,Mobile,None,1,0,32.2,290.39,No
+C00728,46,1,97.94,Month-to-month,Cable,Mailed check,No,Yes,No,Yes,No,Yes,No,Mobile,No,Yes,No,No,South,Mobile,None,0,1,43.77,251.69,Yes
+C00729,56,67,44.92,Month-to-month,Fiber,Bank transfer,Yes,No,Yes,Yes,Yes,No,Yes,Mobile,No,No,Yes,Yes,East,Mobile,5%,0,1,30.34,3091.19,No
+C00730,60,6,62.14,Month-to-month,Fiber,Electronic check,No,No,No,Yes,Yes,Yes,Yes,Desktop,Yes,No,Yes,Yes,South,Desktop,None,4,3,19.79,587.27,Yes
+C00731,42,0,60.51,Month-to-month,Fiber,Electronic check,Yes,No,No,No,Yes,Yes,No,Tablet,No,Yes,Yes,Yes,West,Tablet,None,1,2,15.75,0.0,Yes
+C00732,71,68,115.1,One year,None,Credit card,Yes,No,No,Yes,No,No,No,Mobile,Yes,No,Yes,Yes,South,Mobile,15%,1,1,37.51,8112.05,No
+C00733,62,13,87.25,Month-to-month,Fiber,Bank transfer,Yes,Yes,No,No,No,No,Yes,Desktop,No,Yes,Yes,No,West,Desktop,None,0,1,35.87,898.38,Yes
+C00734,30,59,72.07,One year,Cable,Bank transfer,Yes,Yes,No,Yes,Yes,No,Yes,Mobile,No,Yes,No,Yes,Central,Mobile,15%,1,0,28.35,4072.38,No
+C00735,56,2,91.96,Month-to-month,DSL,Electronic check,Yes,No,Yes,Yes,Yes,Yes,No,Desktop,No,No,No,No,Central,Desktop,None,0,1,29.39,90.8,Yes
+C00736,60,11,19.0,Two year,Cable,Bank transfer,No,No,No,Yes,Yes,No,Yes,Mobile,No,Yes,No,Yes,North,Mobile,None,1,1,39.66,405.16,No
+C00737,37,8,76.79,Two year,Cable,Mailed check,Yes,No,No,Yes,No,No,Yes,Mobile,No,Yes,No,Yes,North,Mobile,5%,1,0,51.69,648.16,Yes
+C00738,60,51,133.93,Month-to-month,Cable,Electronic check,No,No,No,Yes,Yes,Yes,No,Desktop,No,No,No,No,Central,Desktop,None,2,1,25.64,6793.86,Yes
+C00739,70,45,81.71,Month-to-month,Fiber,Electronic check,No,No,No,Yes,Yes,No,Yes,Mobile,No,No,Yes,Yes,North,Mobile,None,1,3,36.07,3558.06,Yes
+C00740,65,34,79.9,Month-to-month,Fiber,Mailed check,No,No,Yes,Yes,No,No,Yes,Mobile,No,Yes,Yes,No,East,Mobile,None,1,0,46.5,2510.21,Yes
+C00741,62,17,93.35,Two year,DSL,Bank transfer,Yes,No,Yes,Yes,Yes,No,No,Mobile,No,Yes,Yes,No,Central,Mobile,None,0,1,25.69,1756.84,No
+C00742,54,6,103.08,Month-to-month,Fiber,Mailed check,No,No,No,Yes,No,No,Yes,Mobile,No,Yes,No,No,East,Mobile,10%,0,2,34.81,738.28,Yes
+C00743,33,41,22.07,Month-to-month,Fiber,Credit card,No,Yes,Yes,Yes,No,Yes,Yes,Desktop,No,Yes,Yes,No,North,Desktop,None,4,1,34.54,1107.74,Yes
+C00744,64,16,30.89,Month-to-month,Fiber,Credit card,No,Yes,No,Yes,No,No,No,Mobile,Yes,No,Yes,Yes,Central,Mobile,15%,2,1,19.26,553.76,Yes
+C00745,39,43,83.89,One year,Fiber,Electronic check,No,No,No,Yes,Yes,No,Yes,Mobile,Yes,No,No,No,West,Mobile,None,1,1,37.02,3210.95,Yes
+C00746,48,50,57.98,Month-to-month,Fiber,Electronic check,Yes,Yes,No,Yes,No,Yes,No,Desktop,Yes,Yes,Yes,No,South,Desktop,None,3,2,35.38,2712.31,Yes
+C00747,36,62,114.74,Month-to-month,Fiber,Credit card,No,No,No,Yes,Yes,Yes,No,Desktop,Yes,Yes,Yes,No,West,Desktop,None,1,3,41.66,7183.61,Yes
+C00748,36,36,69.18,Two year,None,Electronic check,Yes,No,No,Yes,No,Yes,No,Mobile,No,No,Yes,Yes,West,Mobile,5%,0,1,20.76,2435.02,No
+C00749,27,0,23.83,Month-to-month,Fiber,Mailed check,No,Yes,Yes,Yes,No,No,No,Desktop,Yes,No,Yes,No,East,Desktop,10%,3,1,35.12,0.0,Yes
+C00750,73,20,42.5,Two year,None,Bank transfer,No,Yes,No,Yes,No,Yes,Yes,Mobile,No,Yes,Yes,Yes,Central,Mobile,10%,1,1,51.58,684.52,No
+C00751,26,62,18.0,Month-to-month,None,Mailed check,No,No,No,Yes,No,Yes,No,Mobile,Yes,No,Yes,Yes,West,Mobile,None,0,0,59.93,1258.14,No
+C00752,23,38,71.44,Month-to-month,Fiber,Bank transfer,Yes,No,Yes,Yes,No,No,Yes,Desktop,Yes,Yes,No,No,South,Desktop,None,1,1,50.36,2783.15,Yes
+C00753,72,45,72.73,Two year,Cable,Credit card,Yes,Yes,Yes,Yes,No,No,Yes,Mobile,No,Yes,Yes,Yes,Central,Mobile,10%,0,0,20.88,3348.03,No
+C00754,50,33,66.12,One year,DSL,Bank transfer,No,No,No,Yes,Yes,Yes,Yes,Mobile,No,No,No,Yes,Central,Mobile,None,1,1,40.41,2086.92,No
+C00755,43,11,108.21,One year,DSL,Electronic check,No,Yes,Yes,Yes,Yes,No,No,Desktop,No,No,Yes,Yes,North,Desktop,5%,1,2,29.2,1216.75,No
+C00756,60,65,111.56,Month-to-month,Fiber,Mailed check,Yes,Yes,No,Yes,Yes,No,No,Desktop,No,No,Yes,No,South,Desktop,None,0,0,38.41,7050.74,Yes
+C00757,40,56,73.23,Month-to-month,Fiber,Bank transfer,Yes,Yes,Yes,Yes,Yes,No,No,Tablet,No,No,Yes,Yes,West,Tablet,None,2,1,25.73,4081.41,No
+C00758,25,72,18.23,Month-to-month,Fiber,Electronic check,Yes,No,Yes,Yes,No,Yes,No,Desktop,No,Yes,No,No,Central,Desktop,None,0,0,14.44,933.37,No
+C00759,60,62,95.28,Month-to-month,DSL,Bank transfer,No,No,No,No,Yes,Yes,Yes,Mobile,Yes,No,No,Yes,West,Mobile,None,2,2,30.87,5672.14,No
+C00760,28,21,93.55,Month-to-month,None,Bank transfer,Yes,No,Yes,Yes,Yes,No,No,Desktop,Yes,Yes,Yes,No,East,Desktop,10%,0,1,43.67,1916.2,No
+C00761,50,18,86.66,Month-to-month,DSL,Electronic check,Yes,Yes,Yes,Yes,No,Yes,No,Mobile,No,Yes,No,Yes,South,Mobile,5%,0,1,38.46,1916.15,No
+C00762,73,18,105.48,Month-to-month,Cable,Electronic check,No,No,No,Yes,Yes,No,Yes,Desktop,No,No,Yes,No,North,Desktop,15%,0,1,39.84,1628.53,Yes
+C00763,72,67,45.38,Month-to-month,None,Mailed check,Yes,No,No,Yes,No,Yes,Yes,Mobile,No,Yes,Yes,Yes,Central,Mobile,10%,0,0,37.6,2853.92,No
+C00764,38,40,134.25,Month-to-month,DSL,Credit card,No,Yes,No,Yes,No,No,Yes,Mobile,No,Yes,No,Yes,East,Mobile,None,0,0,39.85,5402.52,No
+C00765,63,33,51.14,Month-to-month,Fiber,Bank transfer,Yes,Yes,Yes,Yes,No,No,No,Mobile,Yes,No,No,Yes,East,Mobile,None,0,0,41.35,1953.03,No
+C00766,53,70,98.98,Two year,Cable,Electronic check,No,Yes,No,Yes,No,No,Yes,Desktop,No,No,Yes,Yes,Central,Desktop,None,1,1,31.7,6958.93,No
+C00767,45,44,30.75,One year,Fiber,Bank transfer,No,No,No,Yes,No,No,No,Mobile,No,No,Yes,Yes,North,Mobile,10%,2,2,35.99,1458.32,Yes
+C00768,26,66,51.95,Month-to-month,Fiber,Electronic check,No,Yes,No,Yes,Yes,No,No,Desktop,No,Yes,Yes,No,South,Desktop,None,3,1,55.92,3378.06,Yes
+C00769,39,71,120.46,One year,DSL,Credit card,Yes,Yes,No,Yes,Yes,No,Yes,Desktop,Yes,No,No,No,Central,Desktop,15%,0,1,36.7,8476.07,No
+C00770,55,5,70.69,Two year,None,Bank transfer,Yes,No,No,Yes,Yes,No,Yes,Desktop,No,Yes,Yes,Yes,South,Desktop,5%,1,1,35.51,365.78,No
+C00771,75,26,101.52,Month-to-month,Fiber,Credit card,Yes,No,No,Yes,No,No,Yes,Mobile,Yes,No,No,No,Central,Mobile,5%,0,0,36.23,2540.78,Yes
+C00772,18,53,84.63,Month-to-month,DSL,Bank transfer,No,No,No,Yes,No,No,Yes,Mobile,No,No,No,No,Central,Mobile,5%,0,0,32.39,4594.03,No
+C00773,59,59,75.06,Month-to-month,Fiber,Electronic check,Yes,No,No,Yes,Yes,No,Yes,Tablet,Yes,No,Yes,Yes,North,Tablet,5%,2,1,29.78,4187.6,Yes
+C00774,67,10,116.19,Month-to-month,Fiber,Credit card,Yes,Yes,No,Yes,Yes,No,No,Desktop,No,No,Yes,No,East,Desktop,5%,2,1,37.5,1295.4,Yes
+C00775,73,23,71.37,One year,Fiber,Mailed check,Yes,No,No,Yes,Yes,Yes,Yes,Mobile,Yes,Yes,No,Yes,West,Mobile,5%,1,0,28.93,1647.41,No
+C00776,42,40,28.14,Two year,Cable,Credit card,No,Yes,No,Yes,Yes,No,No,Tablet,No,Yes,Yes,Yes,East,Tablet,None,4,2,33.25,1093.39,No
+C00777,24,58,55.51,Month-to-month,Cable,Electronic check,No,Yes,Yes,Yes,No,No,No,Mobile,No,No,No,No,South,Mobile,5%,3,1,25.51,2973.13,Yes
+C00778,33,8,93.43,One year,Fiber,Mailed check,No,No,No,Yes,Yes,No,No,Mobile,No,No,No,No,North,Mobile,None,0,0,36.3,600.47,Yes
+C00779,67,43,89.07,Month-to-month,Fiber,Mailed check,No,Yes,No,Yes,No,No,No,Mobile,No,Yes,No,No,North,Mobile,5%,0,1,42.01,4009.81,Yes
+C00780,68,21,34.12,One year,Fiber,Bank transfer,No,Yes,No,Yes,Yes,No,Yes,Mobile,No,Yes,Yes,No,North,Mobile,5%,0,1,32.46,685.23,No
+C00781,54,15,57.72,One year,Fiber,Mailed check,Yes,No,No,No,Yes,No,No,Mobile,No,Yes,Yes,No,South,Mobile,None,3,3,10.9,907.56,Yes
+C00782,25,37,61.71,Month-to-month,DSL,Mailed check,Yes,Yes,No,Yes,No,Yes,No,Desktop,No,Yes,Yes,Yes,South,Desktop,10%,0,1,42.08,2151.34,No
+C00783,25,30,67.77,Month-to-month,DSL,Bank transfer,Yes,Yes,Yes,Yes,Yes,No,Yes,Mobile,No,No,Yes,Yes,Central,Mobile,None,0,1,36.44,2028.74,No
+C00784,45,46,39.47,One year,DSL,Bank transfer,Yes,No,No,Yes,Yes,Yes,Yes,Desktop,No,Yes,No,Yes,East,Desktop,5%,3,0,23.08,1609.8,Yes
+C00785,52,23,60.41,Two year,Fiber,Electronic check,Yes,No,No,Yes,No,Yes,No,Desktop,No,Yes,Yes,Yes,North,Desktop,5%,1,1,44.28,1404.41,No
+C00786,19,60,57.6,Month-to-month,DSL,Bank transfer,Yes,No,No,Yes,Yes,Yes,No,Desktop,No,No,No,Yes,North,Desktop,5%,0,1,18.22,3511.6,No
+C00787,57,5,99.6,Month-to-month,Fiber,Credit card,Yes,Yes,No,Yes,Yes,No,Yes,Mobile,No,Yes,No,No,North,Mobile,10%,0,1,47.54,546.09,No
+C00788,49,62,100.66,Month-to-month,Fiber,Mailed check,Yes,No,No,No,Yes,Yes,No,Desktop,Yes,Yes,No,Yes,South,Desktop,None,0,2,34.31,6105.38,No
+C00789,18,2,73.92,Month-to-month,None,Credit card,No,No,No,Yes,No,No,Yes,Mobile,No,No,No,Yes,West,Mobile,None,1,1,7.77,96.53,Yes
+C00790,23,53,67.02,One year,Cable,Mailed check,No,Yes,No,No,No,No,No,Desktop,Yes,Yes,No,No,North,Desktop,5%,2,1,37.14,3632.64,No
+C00791,44,25,81.92,One year,None,Bank transfer,No,Yes,Yes,Yes,No,No,No,Mobile,Yes,No,Yes,No,East,Mobile,None,2,0,30.13,2016.28,Yes
+C00792,59,27,55.14,One year,None,Bank transfer,Yes,Yes,No,Yes,Yes,Yes,Yes,Desktop,Yes,No,No,No,East,Desktop,None,0,1,28.32,1445.68,Yes
+C00793,65,1,45.89,Two year,DSL,Mailed check,Yes,No,No,Yes,Yes,Yes,No,Mobile,Yes,No,No,Yes,North,Mobile,None,2,2,26.15,331.41,No
+C00794,43,51,51.67,One year,None,Credit card,No,Yes,No,Yes,Yes,No,Yes,Desktop,No,Yes,Yes,No,North,Desktop,None,0,1,33.47,2492.52,No
+C00795,35,12,60.23,Month-to-month,Fiber,Credit card,No,No,No,Yes,Yes,No,No,Mobile,No,No,Yes,Yes,South,Mobile,15%,3,1,29.18,884.82,No
+C00796,74,48,45.42,Month-to-month,Fiber,Credit card,Yes,No,Yes,Yes,No,No,No,Mobile,Yes,No,No,No,North,Mobile,None,2,1,12.72,2006.96,Yes
+C00797,44,52,82.54,Month-to-month,Fiber,Mailed check,Yes,Yes,No,Yes,Yes,No,No,Desktop,No,Yes,Yes,Yes,West,Desktop,None,1,2,50.26,4390.3,Yes
+C00798,36,61,98.43,Month-to-month,Fiber,Mailed check,Yes,No,No,Yes,No,No,Yes,Mobile,No,No,Yes,Yes,Central,Mobile,15%,2,1,32.07,6110.45,No
+C00799,43,51,33.56,Two year,Fiber,Electronic check,No,Yes,No,Yes,No,No,Yes,Desktop,No,No,No,No,West,Desktop,15%,2,0,26.22,1635.01,Yes

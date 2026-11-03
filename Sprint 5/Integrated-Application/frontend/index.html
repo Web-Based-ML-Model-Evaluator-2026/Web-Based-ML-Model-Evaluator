@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Model Evaluator · Sprint 3 Data Studio</title><link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+<div class="shell">
+<aside class="sidebar">
+  <div class="brand"><div class="brand-icon">M</div><div><b>Model Evaluator</b><small>SPRINT 3 · DATA STUDIO</small></div></div>
+  <div class="nav-label">WORKSPACE</div><a class="nav active">◈ <span>Preprocessing studio</span></a>
+  <div class="side-card"><div class="pulse"></div><div><b>Unified pipeline</b><small>All Sprint 3 steps in one place</small></div></div>
+  <div class="sidebar-foot"><span class="avatar">PK</span><div><b>Local demo</b><small>Runs on this computer</small></div></div>
+</aside>
+<main>
+<header><div><span class="eyebrow">DATA PREPARATION / SPRINT 3</span><h1>Preprocessing studio</h1><p>Clean, encode, scale, and prepare your dataset for machine learning.</p></div><div class="status"><span></span> Local API ready</div></header>
+<section class="steps">
+<div class="step"><span>01</span><div><b>Missing values</b><small>Clean data</small></div></div><div class="step"><span>02</span><div><b>Encoding</b><small>Transform categories</small></div></div><div class="step"><span>03</span><div><b>Scaling</b><small>Normalize features</small></div></div><div class="step"><span>04</span><div><b>Target & split</b><small>Prepare dataset</small></div></div>
+</section>
+<div class="grid">
+<section class="panel upload-panel">
+<div class="panel-head"><div><span class="eyebrow">INPUT DATA</span><h2>Choose a dataset</h2></div><span class="tag">CSV only</span></div>
+<label class="dropzone" for="csvFile"><div class="upload-icon">↑</div><b>Drop your CSV here or browse</b><small>UTF-8 CSV · Up to 5 MB · At least 2 columns</small><input type="file" id="csvFile" accept=".csv,text/csv"></label>
+<div class="file-row" id="fileInfo"><div class="file-icon">CSV</div><div class="file-meta"><b>customer_churn_sample.csv</b><small>Sample dataset · 20 rows · includes missing values</small></div><button class="text-button" id="loadSample">Use sample</button></div>
+<div class="dataset-summary" id="datasetSummary"><span>Dataset not loaded</span><span>Choose a CSV to begin</span></div>
+<div class="notice">Your original CSV is never overwritten. Transformations are computed on the server and can be downloaded as a new file.</div>
+</section>
+<section class="panel config-panel">
+<div class="panel-head"><div><span class="eyebrow">TRANSFORMATION</span><h2>Configure pipeline</h2></div><span class="tag purple">4 tasks</span></div>
+<div class="form-grid">
+<label>Missing-value strategy<select id="missing"><option value="mean">Mean for numeric / Unknown for text</option><option value="mode">Most frequent value (mode)</option><option value="zero">Fill numeric with 0 / text with Unknown</option><option value="drop">Drop rows with missing values</option></select></label>
+<label>Categorical encoding<select id="encoding"><option value="onehot">One-hot encoding</option><option value="label">Label encoding</option><option value="none">No encoding</option></select></label>
+<label>Feature scaling<select id="scaling"><option value="standard">Standardization (z-score)</option><option value="minmax">Min-max scaling (0–1)</option><option value="none">No scaling</option></select></label>
+<label>Target column<select id="target"><option value="">No target selected</option></select></label>
+<label class="wide">Test set size <span class="inline-value" id="splitValue">20%</span><input id="testSize" type="range" min="10" max="50" step="5" value="20"><div class="range-labels"><span>10% test</span><span>50% test</span></div></label>
+</div>
+<button class="primary" id="runBtn">Run preprocessing pipeline <span>→</span></button><p class="form-help">The target is kept separate from the input features. Encoders and scalers are fitted on the training split only.</p>
+</section>
+</div>
+<section class="results" id="results" hidden>
+<div class="results-heading"><div><span class="eyebrow">PIPELINE RESULTS</span><h2>Transformation report</h2><p id="resultMessage">Preview generated.</p></div><button class="secondary" id="downloadBtn">↓ Download transformed CSV</button></div>
+<div class="metrics">
+<div class="metric"><small>Rows retained</small><strong id="rowsMetric">—</strong><span id="rowsDetail">before → after</span></div>
+<div class="metric"><small>Missing cells handled</small><strong id="missingMetric">—</strong><span id="missingDetail">Remaining missing: —</span></div>
+<div class="metric"><small>Training / test</small><strong id="splitMetric">—</strong><span id="splitDetail">80 / 20 split</span></div>
+<div class="metric"><small>Output features</small><strong id="featuresMetric">—</strong><span>Target excluded from features</span></div>
+</div>
+<div class="result-grid">
+<div class="panel"><div class="panel-head"><div><span class="eyebrow">TRANSFORMED DATA</span><h2>First 20 rows</h2></div><span class="tag" id="previewTag">Preview</span></div><div class="table-wrap"><table id="previewTable"><thead></thead><tbody></tbody></table></div></div>
+<div class="panel report-panel"><div class="panel-head"><div><span class="eyebrow">PIPELINE SUMMARY</span><h2>What changed</h2></div></div><div id="summaryList" class="summary-list"></div><div class="target-box"><small>SELECTED TARGET</small><b id="targetResult">Not selected</b><p>The target is preserved as a label and excluded from the feature matrix.</p></div></div>
+</div>
+</section>
+<footer><span>Model Evaluator · Sprint 3 integration</span><span>Model training and evaluation are reserved for later experiments.</span></footer>
+<div id="toast" role="status" aria-live="polite"></div>
+</main></div>
+<script src="/app.js"></script>
+</body></html>
