@@ -1,0 +1,901 @@
+patient_id,age,length_of_stay_days,severity,admission_type,department,comorbidity_count,medications_count,prior_admissions_year,lab_marker,bmi,systolic_bp,glucose_mg_dl,smoking_status,mobility_status,insurance_type,followup_scheduled,discharge_destination,attending_team,weekend_admission,procedure_performed,hospital_acquired_infection,medication_change,nutrition_plan,preferred_language,distance_to_hospital_km,estimated_cost,readmission_30d
+P00000,19,3,Critical,Elective,Pulmonology,2,6,0,4.8,18.9,107,119,Current,Limited,Private,Scheduled,Home,B,No,Yes,Yes,Yes,Normal,English,50.7,3557.04,Yes
+P00001,86,3,Moderate,Elective,Orthopedics,1,3,0,8.4,21.6,129,177,Never,Independent,Private,Scheduled,Nursing facility,E,No,No,No,No,Supplemented,Spanish,18.1,3303.7,No
+P00002,82,8,High,Urgent,Cardiology,0,4,1,5.3,27.4,105,137,Current,Independent,Private,Scheduled,Home,D,Yes,No,No,No,Normal,English,14.5,13729.08,No
+P00003,31,7,High,Emergency,Pulmonology,1,7,0,5.4,23.6,130,161,Never,Independent,Public,Scheduled,Home,C,No,No,No,No,Supplemented,English,11.4,11470.28,No
+P00004,65,10,Critical,Elective,General,4,2,3,7.6,28.7,128,145,Never,Independent,Public,Scheduled,Home,B,Yes,Yes,Yes,Yes,Supplemented,Other,10.1,13525.78,Yes
+P00005,30,4,Moderate,Emergency,Neurology,2,2,2,8.5,22.6,121,149,Never,Limited,Private,Scheduled,Home,E,No,No,No,Yes,Supplemented,English,3.1,7664.56,No
+P00006,70,2,High,Emergency,Neurology,4,3,0,6.6,23.5,124,73,Never,Assisted,Public,Not scheduled,Home,B,No,No,No,No,Supplemented,English,14.3,2919.91,Yes
+P00007,69,4,Critical,Elective,Cardiology,1,1,0,6.8,22.8,154,154,Current,Assisted,Self-pay,Scheduled,Home,E,Yes,No,No,No,Normal,English,5.1,5201.05,No
+P00008,72,4,High,Emergency,General,3,4,0,7.0,26.5,135,134,Current,Limited,Private,Scheduled,Rehab,E,No,No,No,No,Restricted,Other,7.6,9676.0,Yes
+P00009,57,15,High,Urgent,Neurology,1,6,3,5.6,31.3,128,99,Never,Independent,Public,Scheduled,Home,D,No,Yes,No,Yes,Restricted,English,4.9,29271.0,No
+P00010,19,6,Moderate,Urgent,Neurology,1,6,1,6.5,31.9,133,142,Former,Assisted,Public,Not scheduled,Home,D,No,No,Yes,No,Supplemented,English,48.1,10033.43,Yes
+P00011,32,1,Low,Elective,General,2,3,0,4.3,35.4,126,166,Former,Independent,Private,Scheduled,Rehab,C,No,Yes,Yes,No,Normal,English,17.7,1376.23,No
+P00012,90,6,Moderate,Urgent,Pulmonology,0,4,3,8.5,19.1,135,111,Current,Assisted,Public,Not scheduled,Home,E,No,Yes,No,Yes,Restricted,English,34.8,9205.84,No
+P00013,63,8,Low,Elective,Pulmonology,0,4,1,12.2,20.8,114,85,Never,Assisted,Public,Scheduled,Home,C,No,No,No,Yes,Supplemented,English,25.5,12905.94,No
+P00014,42,7,Moderate,Emergency,Cardiology,3,7,1,7.3,21.5,165,87,Former,Assisted,Public,Scheduled,Home,E,Yes,No,Yes,Yes,Normal,English,12.1,11458.37,No
+P00015,86,7,High,Urgent,Orthopedics,0,4,0,9.3,27.0,128,59,Former,Independent,Private,Scheduled,Home,B,No,No,No,No,Restricted,Spanish,8.6,11922.42,No
+P00016,49,5,Moderate,Urgent,Neurology,1,2,1,6.7,20.5,176,108,Never,Assisted,Private,Scheduled,Home,C,No,Yes,Yes,Yes,Normal,Spanish,12.0,7228.49,No
+P00017,80,3,Critical,Emergency,Orthopedics,0,8,1,4.8,22.9,165,139,Never,Independent,Public,Not scheduled,Rehab,A,Yes,No,No,No,Supplemented,English,6.8,4613.87,No
+P00018,76,2,Moderate,Emergency,Pulmonology,0,8,2,11.3,31.1,116,184,Never,Limited,Private,Scheduled,Home,A,No,No,No,Yes,Restricted,English,1.5,2573.36,No
+P00019,18,11,Moderate,Emergency,Orthopedics,2,8,0,5.7,33.4,129,83,Current,Independent,Private,Scheduled,Nursing facility,B,No,Yes,No,No,Normal,English,3.4,13266.26,No
+P00020,85,6,Low,Emergency,General,4,3,1,8.9,31.2,132,129,Former,Independent,Private,Not scheduled,Nursing facility,E,No,Yes,No,Yes,Restricted,English,22.4,8036.0,Yes
+P00021,82,3,Critical,Urgent,Pulmonology,4,6,0,7.6,28.9,142,116,Former,Limited,Public,Scheduled,Home,B,Yes,Yes,No,No,Normal,English,3.8,4851.2,No
+P00022,90,4,Moderate,Emergency,Neurology,0,3,0,9.3,23.0,127,115,Never,Assisted,Public,Scheduled,Home,E,Yes,No,No,No,Restricted,English,7.6,6830.44,No
+P00023,63,2,High,Urgent,Orthopedics,2,14,0,7.1,27.1,147,54,Former,Independent,Private,Scheduled,Home,B,No,Yes,No,No,Restricted,Other,11.5,3879.19,No
+P00024,68,4,Moderate,Elective,Oncology,2,4,0,5.1,33.8,93,75,Former,Independent,Private,Not scheduled,Home,D,No,Yes,No,Yes,Supplemented,English,5.2,7698.28,No
+P00025,37,9,Moderate,Urgent,Neurology,2,5,0,6.0,31.0,114,188,Former,Independent,Self-pay,Not scheduled,Home,A,No,No,No,No,Restricted,Spanish,20.9,17884.19,Yes
+P00026,29,6,High,Elective,Oncology,2,5,0,11.4,32.3,122,155,Never,Assisted,Private,Scheduled,Home,C,No,Yes,No,No,Supplemented,English,28.9,10251.06,No
+P00027,24,8,Moderate,Urgent,Neurology,1,8,1,7.8,32.7,113,126,Current,Independent,Public,Scheduled,Home,D,No,No,No,No,Normal,English,4.0,15972.89,No
+P00028,30,8,Moderate,Elective,Pulmonology,0,2,0,11.1,25.0,94,133,Never,Independent,Private,Not scheduled,Home,E,Yes,No,No,No,Normal,English,3.7,9256.05,No
+P00029,88,5,Moderate,Elective,Cardiology,1,5,2,6.5,30.8,141,145,Never,Independent,Public,Not scheduled,Home,B,No,No,No,Yes,Restricted,English,9.0,9905.64,Yes
+P00030,38,4,Moderate,Emergency,Oncology,0,7,0,8.5,24.7,105,97,Never,Independent,Private,Scheduled,Home,C,No,No,No,Yes,Restricted,English,23.6,7152.24,No
+P00031,20,3,High,Urgent,Pulmonology,5,4,0,4.9,30.6,113,99,Never,Independent,Public,Scheduled,Home,C,No,No,No,No,Restricted,English,23.2,6265.53,No
+P00032,68,10,Low,Urgent,Cardiology,2,4,2,7.3,34.4,139,90,Current,Limited,Private,Scheduled,Home,C,Yes,No,No,No,Normal,Spanish,3.3,9960.08,No
+P00033,31,6,Low,Elective,Orthopedics,1,2,1,11.2,36.3,147,122,Never,Limited,Private,Scheduled,Home,B,Yes,No,No,No,Normal,English,18.9,12441.76,No
+P00034,55,6,Low,Emergency,Pulmonology,1,2,1,5.8,30.6,115,69,Current,Independent,Private,Scheduled,Home,E,No,Yes,No,Yes,Restricted,Spanish,12.0,7872.76,No
+P00035,67,6,Moderate,Urgent,Cardiology,0,6,2,6.0,29.4,106,88,Former,Limited,Private,Scheduled,Home,C,No,No,No,Yes,Normal,English,31.6,12814.52,Yes
+P00036,59,3,High,Elective,Neurology,4,4,1,8.7,35.3,110,135,Former,Assisted,Self-pay,Scheduled,Rehab,D,No,No,No,No,Restricted,Other,6.3,4641.23,No
+P00037,73,5,Moderate,Elective,Pulmonology,1,4,1,7.4,21.8,145,101,Never,Assisted,Private,Not scheduled,Home,C,Yes,No,No,No,Supplemented,Spanish,5.1,9623.16,No
+P00038,19,2,Critical,Emergency,Cardiology,0,5,3,10.6,35.7,146,50,Never,Independent,Self-pay,Scheduled,Home,C,No,Yes,Yes,No,Restricted,Spanish,24.3,3548.29,Yes
+P00039,37,3,Moderate,Urgent,Pulmonology,2,4,0,6.8,27.8,131,100,Never,Assisted,Private,Scheduled,Home,C,No,No,No,Yes,Supplemented,English,3.4,6313.36,No
+P00040,47,6,Moderate,Emergency,Oncology,2,3,0,7.3,27.8,129,137,Former,Limited,Public,Scheduled,Rehab,A,No,No,No,No,Restricted,English,15.4,11072.16,No
+P00041,71,6,Moderate,Urgent,Neurology,1,4,0,7.8,24.3,101,120,Never,Assisted,Public,Scheduled,Home,B,Yes,No,No,No,Supplemented,English,12.8,13626.6,No
+P00042,57,7,High,Emergency,Neurology,1,7,1,5.3,20.0,133,50,Never,Independent,Public,Scheduled,Home,D,No,No,No,No,Normal,Spanish,9.2,11087.9,No
+P00043,73,7,Low,Elective,Neurology,2,2,0,4.9,35.8,139,156,Former,Independent,Self-pay,Scheduled,Home,E,No,No,No,Yes,Normal,English,10.8,10426.67,No
+P00044,72,3,Moderate,Urgent,General,1,4,1,4.7,29.4,128,105,Never,Independent,Self-pay,Scheduled,Home,D,No,Yes,Yes,Yes,Normal,English,15.4,4811.79,No
+P00045,76,4,Moderate,Emergency,Pulmonology,1,4,2,2.0,24.8,129,129,Never,Assisted,Public,Scheduled,Home,D,No,No,No,Yes,Normal,English,1.8,7960.0,No
+P00046,62,6,Critical,Emergency,Oncology,1,6,1,7.0,29.1,106,157,Current,Independent,Public,Scheduled,Nursing facility,E,Yes,No,No,No,Restricted,English,6.4,12014.59,No
+P00047,73,2,Low,Urgent,Cardiology,3,5,0,4.9,25.0,146,110,Never,Independent,Private,Scheduled,Home,D,No,Yes,No,Yes,Normal,English,2.3,2827.74,No
+P00048,67,1,Low,Urgent,General,0,7,0,6.2,16.8,101,50,Never,Assisted,Private,Not scheduled,Home,E,No,Yes,No,Yes,Normal,English,0.8,1545.59,No
+P00049,20,1,Moderate,Urgent,Neurology,0,3,0,9.0,25.9,125,185,Former,Limited,Private,Scheduled,Rehab,B,No,Yes,No,No,Normal,English,3.1,1886.52,No
+P00050,38,3,Moderate,Urgent,General,0,4,3,5.5,18.6,133,50,Never,Assisted,Self-pay,Scheduled,Home,E,No,No,No,No,Restricted,English,12.4,6520.85,No
+P00051,83,3,Moderate,Urgent,Orthopedics,2,3,0,8.4,28.4,146,102,Current,Independent,Private,Scheduled,Home,E,No,Yes,No,No,Normal,English,21.1,4767.92,No
+P00052,24,5,Moderate,Emergency,General,0,5,0,4.4,36.5,144,167,Never,Independent,Private,Not scheduled,Home,E,No,No,No,No,Restricted,Other,28.7,6860.2,No
+P00053,59,8,Moderate,Emergency,Oncology,0,7,0,6.0,23.2,146,87,Never,Assisted,Private,Not scheduled,Home,B,No,Yes,No,Yes,Normal,English,27.3,16807.59,No
+P00054,73,4,Moderate,Emergency,Neurology,2,4,1,10.3,31.7,120,89,Current,Assisted,Private,Not scheduled,Home,D,No,No,No,Yes,Restricted,Other,15.7,5102.14,No
+P00055,49,3,Moderate,Emergency,Orthopedics,2,2,0,6.4,23.2,167,106,Former,Independent,Private,Scheduled,Nursing facility,E,No,No,No,Yes,Restricted,English,1.5,5885.95,No
+P00056,31,2,Low,Elective,Cardiology,3,6,1,9.5,26.9,145,108,Never,Assisted,Private,Not scheduled,Home,C,No,No,No,Yes,Restricted,English,3.2,2298.85,No
+P00057,19,2,High,Emergency,Orthopedics,0,4,2,11.4,21.7,119,81,Former,Independent,Self-pay,Scheduled,Home,B,Yes,Yes,No,No,Restricted,English,20.6,3527.77,No
+P00058,66,2,Moderate,Urgent,Pulmonology,1,9,4,6.4,30.7,120,90,Current,Assisted,Self-pay,Scheduled,Home,A,Yes,Yes,Yes,No,Normal,English,5.6,3388.06,Yes
+P00059,61,5,Moderate,Emergency,Oncology,0,7,0,6.0,35.1,139,158,Never,Assisted,Private,Scheduled,Home,E,No,Yes,No,No,Normal,English,27.9,7826.31,No
+P00060,68,2,Moderate,Emergency,Oncology,7,7,1,3.3,28.2,117,94,Never,Assisted,Public,Not scheduled,Home,A,No,No,No,Yes,Restricted,Spanish,7.2,4463.71,No
+P00061,29,3,Low,Emergency,Pulmonology,3,14,2,7.7,30.2,102,135,Former,Independent,Private,Scheduled,Home,E,No,Yes,No,No,Restricted,Other,19.4,5325.0,No
+P00062,52,3,High,Emergency,General,1,5,1,7.9,30.2,126,78,Never,Independent,Private,Scheduled,Home,C,No,No,No,No,Normal,Spanish,19.0,5248.59,No
+P00063,57,4,Moderate,Emergency,Cardiology,2,6,0,8.6,25.5,84,170,Never,Limited,Public,Scheduled,Home,B,No,No,No,No,Restricted,English,33.2,6891.82,No
+P00064,79,6,Low,Elective,General,2,2,1,9.7,34.8,131,153,Never,Independent,Private,Not scheduled,Rehab,B,No,Yes,No,No,Normal,English,13.2,9417.6,No
+P00065,31,5,Critical,Emergency,Cardiology,2,5,2,5.4,23.9,136,111,Former,Independent,Private,Scheduled,Home,A,No,No,No,Yes,Normal,English,13.2,11741.48,Yes
+P00066,68,2,High,Emergency,Neurology,1,2,1,10.6,17.6,120,141,Never,Independent,Private,Scheduled,Home,C,Yes,No,No,Yes,Normal,Other,14.5,3373.88,No
+P00067,68,3,High,Elective,General,0,4,1,6.7,21.5,146,176,Never,Independent,Public,Not scheduled,Home,E,No,Yes,No,Yes,Supplemented,Spanish,27.2,7069.29,No
+P00068,61,7,Moderate,Emergency,Pulmonology,1,6,0,7.9,30.7,140,75,Current,Assisted,Private,Scheduled,Home,D,No,Yes,No,Yes,Normal,English,6.1,10866.31,No
+P00069,24,8,Moderate,Urgent,Neurology,1,2,1,7.1,24.7,107,73,Current,Independent,Private,Scheduled,Home,C,No,Yes,No,No,Supplemented,English,11.0,14443.71,No
+P00070,26,1,Moderate,Elective,Neurology,1,10,1,5.8,27.6,126,130,Never,Independent,Public,Scheduled,Home,C,No,No,Yes,No,Supplemented,Spanish,13.5,1656.54,No
+P00071,61,1,Low,Emergency,Oncology,2,8,2,5.0,25.6,116,63,Current,Independent,Private,Not scheduled,Home,B,No,Yes,No,Yes,Normal,English,3.4,1558.95,Yes
+P00072,63,11,Moderate,Emergency,Neurology,0,9,0,7.6,28.1,119,53,Never,Assisted,Private,Scheduled,Home,E,Yes,No,No,No,Supplemented,English,10.0,19176.32,No
+P00073,64,2,High,Elective,Neurology,3,4,1,5.5,33.6,146,51,Never,Independent,Public,Scheduled,Home,C,No,No,No,Yes,Normal,English,18.8,4598.84,No
+P00074,74,2,Moderate,Emergency,Neurology,1,4,2,6.8,36.2,136,121,Current,Assisted,Public,Scheduled,Home,E,No,No,No,No,Restricted,Other,4.3,4372.57,No
+P00075,46,3,High,Emergency,Oncology,1,1,1,6.5,21.2,112,50,Never,Assisted,Public,Scheduled,Home,E,Yes,Yes,No,No,Normal,English,23.4,5422.06,No
+P00076,39,2,Moderate,Emergency,General,2,9,3,6.5,32.6,129,99,Never,Independent,Private,Not scheduled,Nursing facility,E,No,No,No,Yes,Normal,English,14.5,2779.98,No
+P00077,84,2,Moderate,Emergency,Neurology,0,1,1,4.0,28.2,111,50,Never,Assisted,Private,Not scheduled,Home,E,No,Yes,No,Yes,Supplemented,Other,30.5,3793.18,No
+P00078,68,2,Moderate,Elective,Pulmonology,3,5,1,2.0,19.7,116,133,Never,Independent,Self-pay,Scheduled,Home,D,No,No,No,No,Restricted,Spanish,30.2,3282.61,Yes
+P00079,56,5,High,Elective,Orthopedics,0,4,1,8.7,30.0,153,135,Never,Independent,Public,Scheduled,Rehab,B,Yes,No,No,No,Restricted,English,39.0,7552.36,No
+P00080,58,1,Low,Elective,Oncology,1,6,1,9.2,38.1,171,107,Current,Assisted,Public,Scheduled,Home,B,No,No,No,Yes,Supplemented,Other,14.5,1991.6,No
+P00081,72,7,Moderate,Emergency,Neurology,1,7,0,2.6,22.6,157,162,Never,Independent,Private,Scheduled,Rehab,D,No,No,No,Yes,Supplemented,English,21.4,9910.53,No
+P00082,40,1,High,Elective,Pulmonology,2,2,1,8.0,25.6,130,147,Former,Independent,Public,Scheduled,Home,B,No,No,No,Yes,Supplemented,Spanish,15.7,1831.16,No
+P00083,50,10,Moderate,Urgent,Neurology,3,5,1,7.6,17.4,128,83,Never,Limited,Public,Scheduled,Rehab,C,No,Yes,No,No,Restricted,Spanish,11.0,19339.63,No
+P00084,21,3,Moderate,Urgent,Orthopedics,2,6,0,4.8,26.3,143,80,Former,Independent,Private,Scheduled,Home,D,No,No,No,Yes,Supplemented,English,12.5,5993.05,No
+P00085,75,3,Moderate,Urgent,General,0,6,1,8.8,28.0,127,150,Never,Limited,Private,Not scheduled,Home,B,No,No,No,No,Normal,English,8.6,4245.64,No
+P00086,54,1,High,Elective,General,1,4,0,9.2,38.8,99,142,Current,Assisted,Public,Scheduled,Home,A,Yes,No,No,Yes,Supplemented,English,5.0,2301.57,Yes
+P00087,83,1,Moderate,Emergency,General,1,4,2,9.1,21.4,158,104,Never,Independent,Private,Scheduled,Home,A,No,No,Yes,No,Supplemented,English,13.6,1879.99,Yes
+P00088,39,4,High,Urgent,Oncology,0,8,0,10.3,32.8,104,50,Current,Independent,Public,Not scheduled,Home,D,Yes,No,No,No,Normal,English,16.6,7167.74,No
+P00089,48,1,Low,Urgent,Oncology,1,6,2,9.0,28.8,147,152,Former,Independent,Public,Scheduled,Home,A,No,No,No,No,Supplemented,English,9.0,1394.14,No
+P00090,21,2,Moderate,Emergency,Orthopedics,0,8,1,5.7,40.4,139,118,Never,Assisted,Public,Scheduled,Home,D,No,No,No,No,Supplemented,Spanish,9.4,3089.09,No
+P00091,88,6,Moderate,Emergency,General,4,7,0,7.2,28.1,158,113,Never,Independent,Self-pay,Scheduled,Home,A,No,No,No,No,Normal,Spanish,39.7,10105.4,No
+P00092,43,4,Critical,Emergency,General,2,3,0,7.9,26.7,141,50,Former,Independent,Public,Not scheduled,Home,D,No,No,No,No,Supplemented,English,10.7,7131.09,No
+P00093,29,3,Low,Urgent,Orthopedics,2,8,1,9.9,32.1,114,136,Current,Assisted,Public,Scheduled,Home,D,Yes,Yes,No,No,Normal,English,3.7,5682.78,No
+P00094,62,4,Critical,Urgent,General,2,6,1,6.7,29.9,145,113,Never,Limited,Public,Scheduled,Home,B,No,No,No,No,Supplemented,English,13.4,6740.26,No
+P00095,79,6,Moderate,Elective,Oncology,1,3,0,6.1,32.6,118,93,Current,Assisted,Private,Scheduled,Home,B,No,No,No,Yes,Supplemented,English,12.8,13352.53,No
+P00096,26,3,Moderate,Urgent,Oncology,0,6,1,4.2,30.4,107,82,Never,Independent,Public,Scheduled,Home,C,No,No,No,No,Restricted,English,12.8,5032.07,No
+P00097,56,7,Moderate,Emergency,Cardiology,1,10,0,8.8,18.1,92,119,Never,Independent,Public,Scheduled,Home,C,Yes,No,No,No,Supplemented,English,14.3,12943.1,No
+P00098,52,4,Low,Urgent,Cardiology,1,6,1,7.6,30.1,123,134,Never,Independent,Private,Scheduled,Home,E,No,No,No,Yes,Restricted,Spanish,9.9,8528.15,No
+P00099,28,8,Low,Emergency,Oncology,1,8,2,5.6,30.0,95,100,Never,Independent,Private,Scheduled,Home,D,No,No,No,Yes,Supplemented,English,7.1,13009.55,No
+P00100,38,4,Moderate,Elective,General,0,7,1,8.6,22.6,151,137,Former,Limited,Private,Not scheduled,Home,C,No,Yes,No,No,Restricted,Other,1.9,5523.44,Yes
+P00101,63,1,High,Emergency,General,5,6,1,6.6,28.7,97,69,Never,Assisted,Private,Scheduled,Home,A,No,No,No,Yes,Normal,English,4.8,1666.58,No
+P00102,90,2,High,Elective,Pulmonology,0,6,1,4.8,16.0,118,89,Never,Independent,Self-pay,Scheduled,Home,E,No,No,No,No,Normal,Spanish,19.3,4129.42,No
+P00103,27,4,Critical,Emergency,Neurology,0,7,0,9.6,28.5,119,142,Never,Independent,Public,Scheduled,Home,C,No,No,No,No,Normal,English,38.9,7246.02,No
+P00104,63,16,Low,Urgent,Neurology,1,6,1,3.5,31.1,128,99,Never,Independent,Private,Scheduled,Home,E,Yes,Yes,No,Yes,Normal,Other,7.1,31901.41,No
+P00105,82,2,High,Emergency,General,1,4,1,7.5,32.8,109,184,Never,Independent,Public,Scheduled,Home,B,No,No,No,No,Restricted,English,9.7,2794.42,No
+P00106,73,14,Low,Emergency,Oncology,3,4,1,7.0,31.2,145,126,Never,Independent,Private,Scheduled,Rehab,B,No,Yes,No,No,Normal,English,13.2,18296.07,Yes
+P00107,77,7,Moderate,Urgent,Pulmonology,0,8,3,4.3,21.7,128,68,Never,Assisted,Private,Scheduled,Home,D,No,Yes,No,No,Normal,English,47.9,13756.2,No
+P00108,84,7,Low,Emergency,Pulmonology,1,4,0,7.8,18.2,125,52,Never,Independent,Private,Not scheduled,Home,D,No,Yes,No,Yes,Supplemented,English,13.0,13273.28,No
+P00109,65,6,Critical,Emergency,Orthopedics,1,6,0,6.0,32.6,113,146,Never,Independent,Private,Scheduled,Home,A,Yes,Yes,Yes,No,Normal,Spanish,51.2,9100.24,No
+P00110,20,13,Moderate,Emergency,Neurology,1,13,1,10.2,29.4,135,91,Former,Independent,Public,Not scheduled,Rehab,D,No,No,No,Yes,Restricted,English,1.8,18817.58,No
+P00111,35,2,Moderate,Emergency,General,0,6,1,9.0,30.0,150,152,Former,Independent,Self-pay,Scheduled,Home,C,No,No,No,No,Normal,English,2.3,3483.82,No
+P00112,48,7,Moderate,Emergency,Neurology,0,4,2,7.6,37.1,174,93,Never,Independent,Public,Not scheduled,Home,E,No,No,No,No,Supplemented,Other,35.6,12445.16,Yes
+P00113,88,1,Moderate,Emergency,Orthopedics,1,7,1,2.7,17.4,108,125,Never,Independent,Public,Scheduled,Home,C,No,No,No,No,Restricted,English,5.2,1425.6,Yes
+P00114,33,2,Low,Emergency,Neurology,2,6,2,6.2,37.8,123,102,Never,Independent,Self-pay,Not scheduled,Home,C,No,Yes,No,No,Normal,English,11.2,3541.25,No
+P00115,80,6,High,Emergency,Orthopedics,2,2,0,6.1,23.6,91,125,Never,Independent,Private,Scheduled,Home,D,Yes,No,No,Yes,Restricted,English,10.7,8138.2,No
+P00116,64,7,Moderate,Emergency,Pulmonology,0,5,3,9.4,31.9,137,144,Former,Independent,Private,Not scheduled,Rehab,C,Yes,No,Yes,Yes,Normal,Spanish,2.9,11203.58,No
+P00117,70,5,Low,Urgent,Neurology,2,2,1,7.5,26.9,100,116,Former,Assisted,Public,Scheduled,Home,A,Yes,Yes,No,Yes,Supplemented,English,11.5,6986.44,No
+P00118,25,1,Low,Urgent,Pulmonology,2,6,0,7.8,24.9,130,141,Former,Limited,Public,Scheduled,Home,B,No,No,No,No,Restricted,English,59.4,1759.02,No
+P00119,44,2,Moderate,Emergency,Neurology,1,4,2,9.0,17.9,147,50,Never,Limited,Private,Scheduled,Home,E,No,No,No,No,Normal,English,26.4,3199.55,No
+P00120,51,1,Moderate,Urgent,Neurology,2,3,0,10.1,23.0,118,132,Former,Assisted,Public,Scheduled,Home,B,Yes,No,No,No,Restricted,English,3.5,2196.72,No
+P00121,53,4,Low,Emergency,Neurology,2,4,1,9.8,29.8,108,116,Never,Independent,Private,Scheduled,Home,C,No,Yes,No,No,Supplemented,English,2.6,7533.22,No
+P00122,82,1,Low,Emergency,Oncology,0,6,2,8.2,29.1,149,105,Never,Independent,Public,Not scheduled,Rehab,B,No,No,No,Yes,Supplemented,English,20.2,1398.12,No
+P00123,42,2,Low,Urgent,Oncology,1,8,0,6.7,32.7,138,50,Never,Assisted,Public,Scheduled,Rehab,C,No,Yes,No,No,Normal,English,40.6,4130.35,No
+P00124,81,2,Moderate,Urgent,Cardiology,1,4,1,8.0,22.9,105,50,Never,Limited,Private,Scheduled,Home,D,No,No,No,No,Restricted,English,50.1,3465.03,No
+P00125,80,9,Moderate,Emergency,Neurology,1,4,2,7.1,31.5,128,124,Former,Limited,Public,Not scheduled,Rehab,D,Yes,No,No,No,Supplemented,English,18.6,18167.41,No
+P00126,64,3,Moderate,Emergency,Pulmonology,1,4,0,8.6,27.4,110,129,Former,Assisted,Public,Not scheduled,Home,A,Yes,No,No,No,Restricted,Spanish,3.5,4211.1,No
+P00127,40,14,Moderate,Emergency,General,1,6,0,6.2,30.8,144,131,Never,Assisted,Public,Not scheduled,Rehab,E,No,No,No,No,Supplemented,English,18.4,27608.58,No
+P00128,25,3,Moderate,Emergency,Neurology,3,4,0,8.8,30.1,127,115,Never,Independent,Public,Scheduled,Home,D,No,No,No,No,Restricted,English,5.2,7220.15,No
+P00129,35,6,Moderate,Urgent,Neurology,1,5,1,7.3,24.2,152,67,Never,Independent,Private,Not scheduled,Rehab,D,No,Yes,No,No,Normal,English,16.6,11801.83,No
+P00130,62,5,Moderate,Elective,Orthopedics,2,9,1,7.9,28.5,108,74,Never,Independent,Private,Scheduled,Rehab,D,No,No,No,No,Normal,English,23.1,8069.64,No
+P00131,33,4,Critical,Emergency,Neurology,0,5,2,5.0,29.8,129,50,Never,Independent,Private,Not scheduled,Home,D,No,No,No,Yes,Supplemented,Other,7.3,8547.2,No
+P00132,83,7,High,Elective,Orthopedics,5,3,0,6.7,31.7,125,120,Never,Assisted,Private,Scheduled,Home,E,No,No,No,No,Restricted,English,33.3,11106.97,No
+P00133,47,4,Moderate,Elective,General,3,8,0,8.0,36.0,130,191,Current,Independent,Public,Scheduled,Home,D,No,No,No,No,Restricted,English,11.8,7747.37,No
+P00134,38,2,Moderate,Elective,Orthopedics,1,2,3,6.9,23.2,115,111,Former,Assisted,Public,Scheduled,Home,E,No,No,No,Yes,Normal,English,11.0,4931.9,No
+P00135,63,6,Moderate,Emergency,General,4,4,1,3.0,20.0,84,85,Current,Assisted,Self-pay,Scheduled,Home,D,No,No,Yes,Yes,Restricted,English,7.1,9710.94,No
+P00136,29,2,Moderate,Elective,Cardiology,1,6,1,5.0,34.7,137,116,Never,Assisted,Public,Scheduled,Home,E,No,No,No,No,Normal,English,19.6,3891.5,No
+P00137,78,3,Low,Emergency,General,0,5,0,7.8,19.3,126,110,Former,Limited,Private,Scheduled,Home,C,No,No,Yes,No,Supplemented,English,22.0,7181.57,No
+P00138,58,7,High,Emergency,Cardiology,0,6,0,9.9,33.2,110,50,Never,Assisted,Public,Scheduled,Home,B,Yes,No,No,No,Restricted,English,34.8,14612.56,Yes
+P00139,85,4,High,Emergency,Oncology,1,4,0,6.8,21.5,116,125,Never,Assisted,Private,Scheduled,Home,C,No,No,No,No,Restricted,Other,10.4,8025.43,No
+P00140,80,5,Critical,Emergency,General,2,10,3,6.3,23.2,104,111,Never,Assisted,Private,Scheduled,Home,A,No,No,No,No,Restricted,English,16.0,6014.99,No
+P00141,23,5,Moderate,Emergency,General,0,4,0,9.1,26.5,92,108,Former,Independent,Private,Scheduled,Home,C,No,No,No,No,Normal,English,11.1,7517.52,No
+P00142,83,3,Critical,Emergency,Orthopedics,3,4,0,7.2,18.3,144,195,Current,Assisted,Public,Scheduled,Rehab,D,Yes,No,No,Yes,Supplemented,English,17.8,6157.33,No
+P00143,21,4,High,Urgent,Neurology,0,4,1,8.5,21.2,135,111,Former,Limited,Private,Scheduled,Home,D,No,No,No,Yes,Normal,English,24.0,6797.73,No
+P00144,75,2,Moderate,Urgent,Oncology,0,3,0,6.7,17.0,101,188,Never,Independent,Private,Not scheduled,Rehab,B,No,No,No,Yes,Supplemented,English,13.4,3288.11,No
+P00145,44,8,High,Urgent,Cardiology,1,7,0,6.5,31.0,170,82,Former,Independent,Private,Scheduled,Rehab,C,Yes,Yes,No,No,Normal,Spanish,10.6,17162.76,No
+P00146,43,3,Critical,Urgent,Orthopedics,0,2,2,8.7,26.9,105,55,Former,Independent,Self-pay,Scheduled,Rehab,C,Yes,Yes,Yes,Yes,Supplemented,English,12.7,5972.51,Yes
+P00147,77,8,Moderate,Emergency,Neurology,2,3,3,8.4,27.1,138,83,Current,Independent,Public,Scheduled,Home,A,No,Yes,Yes,No,Supplemented,English,18.1,12366.24,Yes
+P00148,38,3,High,Urgent,Orthopedics,2,5,1,6.6,26.6,125,162,Current,Assisted,Private,Not scheduled,Home,D,No,No,No,Yes,Restricted,English,13.5,6062.48,No
+P00149,84,6,High,Urgent,Orthopedics,1,4,0,5.2,26.9,102,85,Never,Assisted,Self-pay,Scheduled,Home,C,No,No,No,No,Supplemented,English,17.7,9022.36,No
+P00150,20,2,Moderate,Emergency,Orthopedics,1,1,2,4.2,24.1,131,58,Current,Independent,Self-pay,Not scheduled,Home,D,No,Yes,No,Yes,Supplemented,English,15.6,2629.92,Yes
+P00151,30,7,Moderate,Elective,Neurology,3,5,0,4.4,32.7,122,129,Former,Independent,Public,Not scheduled,Nursing facility,D,No,No,No,Yes,Restricted,English,13.4,13205.97,No
+P00152,44,3,Low,Urgent,Cardiology,2,4,0,6.1,16.4,114,100,Current,Assisted,Private,Scheduled,Home,A,No,No,No,Yes,Normal,English,12.8,4257.45,No
+P00153,38,3,Critical,Urgent,Orthopedics,4,2,1,7.8,18.3,149,138,Current,Limited,Public,Not scheduled,Home,C,No,Yes,No,No,Restricted,English,12.9,4242.01,Yes
+P00154,81,1,Low,Urgent,Neurology,3,6,0,4.2,35.1,136,88,Never,Independent,Private,Scheduled,Home,B,No,Yes,Yes,Yes,Restricted,English,10.5,1484.08,Yes
+P00155,83,18,Low,Urgent,Cardiology,1,2,0,4.3,28.6,138,78,Never,Independent,Private,Not scheduled,Home,D,No,Yes,No,Yes,Normal,English,7.7,33100.24,No
+P00156,48,1,Moderate,Urgent,Pulmonology,2,6,3,7.9,15.0,121,181,Former,Independent,Private,Scheduled,Home,D,Yes,No,No,Yes,Restricted,English,11.1,2024.83,No
+P00157,60,13,Moderate,Elective,Orthopedics,1,8,1,10.0,28.9,131,82,Never,Independent,Public,Scheduled,Home,B,Yes,No,Yes,No,Supplemented,English,13.2,22109.64,No
+P00158,42,11,Low,Emergency,Cardiology,2,3,1,9.2,17.5,125,82,Never,Independent,Public,Scheduled,Home,D,No,No,No,No,Restricted,English,21.8,15697.51,No
+P00159,47,1,Low,Emergency,Orthopedics,3,9,1,3.9,34.8,134,133,Never,Independent,Public,Scheduled,Nursing facility,A,No,No,No,No,Restricted,English,22.9,1450.17,No
+P00160,42,4,High,Emergency,Cardiology,1,5,3,7.9,32.5,108,50,Never,Independent,Public,Not scheduled,Home,B,Yes,No,Yes,Yes,Restricted,English,37.3,5287.22,No
+P00161,35,3,Moderate,Elective,Pulmonology,0,6,0,8.9,39.6,82,144,Former,Independent,Public,Not scheduled,Home,D,Yes,Yes,No,Yes,Restricted,English,17.2,6008.23,No
+P00162,68,4,Critical,Emergency,Orthopedics,1,4,0,6.3,25.2,149,187,Current,Independent,Private,Scheduled,Home,C,No,No,Yes,No,Restricted,English,1.4,6066.76,No
+P00163,26,5,High,Emergency,Pulmonology,1,5,1,6.8,19.7,125,150,Never,Limited,Private,Not scheduled,Home,A,Yes,Yes,No,No,Supplemented,English,12.0,9275.65,No
+P00164,39,8,Moderate,Emergency,Orthopedics,1,6,3,7.8,23.8,135,73,Never,Limited,Private,Scheduled,Nursing facility,C,No,No,No,Yes,Supplemented,English,12.6,9960.98,No
+P00165,25,1,Moderate,Urgent,Pulmonology,3,6,0,8.1,23.9,113,86,Former,Assisted,Private,Scheduled,Nursing facility,B,Yes,No,No,Yes,Supplemented,English,10.1,2168.01,No
+P00166,50,4,Low,Elective,Pulmonology,1,3,2,7.9,29.3,121,118,Never,Independent,Public,Scheduled,Home,E,Yes,Yes,Yes,Yes,Normal,English,1.5,7131.42,Yes
+P00167,67,3,Critical,Urgent,General,3,1,0,8.5,16.0,152,130,Current,Independent,Private,Not scheduled,Home,E,No,Yes,No,No,Supplemented,Spanish,22.1,3947.44,Yes
+P00168,55,2,Moderate,Emergency,Orthopedics,1,4,0,7.6,27.0,132,180,Never,Independent,Public,Scheduled,Home,A,No,No,No,No,Normal,English,15.6,3209.82,No
+P00169,70,4,High,Elective,Pulmonology,2,0,1,6.1,20.9,165,178,Former,Independent,Public,Not scheduled,Home,B,No,Yes,No,No,Restricted,English,9.6,7364.16,No
+P00170,59,3,Critical,Elective,General,1,3,3,6.4,23.9,141,106,Never,Assisted,Public,Scheduled,Home,C,No,No,No,Yes,Normal,English,5.1,4561.78,No
+P00171,44,1,Low,Urgent,Neurology,1,4,1,5.8,35.3,113,94,Former,Assisted,Private,Scheduled,Home,B,No,No,No,No,Normal,English,13.0,1895.14,No
+P00172,84,5,High,Urgent,Cardiology,0,3,0,6.4,33.0,133,84,Never,Independent,Private,Not scheduled,Rehab,D,Yes,No,No,No,Supplemented,English,56.5,10847.82,No
+P00173,62,1,High,Urgent,General,1,6,1,8.2,31.4,155,141,Never,Independent,Public,Scheduled,Home,A,No,No,No,No,Restricted,Spanish,15.6,2060.24,No
+P00174,20,8,Moderate,Elective,Neurology,0,5,0,5.8,30.8,129,158,Never,Independent,Self-pay,Scheduled,Home,E,No,No,No,Yes,Restricted,English,13.9,14227.63,No
+P00175,29,4,Critical,Elective,Oncology,1,6,2,9.1,25.4,137,118,Never,Assisted,Private,Scheduled,Home,B,Yes,Yes,No,Yes,Restricted,Spanish,5.3,8857.27,No
+P00176,67,3,Moderate,Urgent,General,1,5,0,5.4,26.7,150,115,Never,Assisted,Private,Scheduled,Home,B,No,No,No,Yes,Supplemented,English,19.0,5532.58,No
+P00177,19,1,Moderate,Urgent,Orthopedics,2,5,2,7.6,17.6,83,200,Current,Independent,Public,Scheduled,Home,B,Yes,No,No,No,Supplemented,English,8.7,1747.55,Yes
+P00178,30,5,Low,Emergency,Neurology,0,6,1,8.7,19.6,138,142,Never,Independent,Public,Not scheduled,Home,E,Yes,Yes,No,No,Normal,English,19.5,8777.37,No
+P00179,25,4,High,Emergency,Neurology,3,8,0,8.0,27.8,149,50,Never,Independent,Public,Scheduled,Home,B,No,No,No,Yes,Supplemented,English,2.2,7246.85,No
+P00180,77,4,High,Emergency,Neurology,3,8,0,3.9,20.3,111,114,Never,Assisted,Public,Scheduled,Home,B,Yes,No,No,No,Restricted,Spanish,6.0,7662.97,Yes
+P00181,25,4,Low,Urgent,General,2,9,0,7.4,31.1,144,123,Former,Independent,Private,Scheduled,Home,B,Yes,No,No,Yes,Supplemented,English,8.5,6067.32,No
+P00182,32,6,Moderate,Elective,Oncology,1,6,1,5.9,26.7,125,104,Never,Assisted,Public,Scheduled,Rehab,A,No,No,No,Yes,Normal,English,10.8,12750.55,No
+P00183,89,5,Low,Emergency,Pulmonology,2,3,0,4.8,25.2,95,165,Never,Independent,Public,Scheduled,Home,E,No,Yes,No,No,Normal,Spanish,35.8,10871.54,No
+P00184,26,10,Moderate,Emergency,Oncology,0,4,0,7.6,23.4,139,102,Never,Independent,Public,Not scheduled,Home,D,No,No,No,Yes,Normal,English,29.4,25264.76,No
+P00185,35,6,Moderate,Urgent,General,3,1,0,5.0,29.7,125,76,Former,Assisted,Private,Scheduled,Rehab,C,Yes,No,No,No,Restricted,English,17.3,7621.78,No
+P00186,77,5,High,Emergency,Oncology,1,6,1,7.6,31.1,124,87,Former,Limited,Public,Not scheduled,Home,A,No,Yes,No,Yes,Supplemented,English,5.3,8977.68,No
+P00187,27,4,Low,Emergency,Neurology,2,5,1,9.8,21.7,137,142,Never,Limited,Public,Scheduled,Home,A,No,No,Yes,Yes,Supplemented,English,5.5,6179.63,No
+P00188,34,2,Low,Elective,Pulmonology,0,2,0,7.7,23.9,108,61,Never,Assisted,Public,Not scheduled,Home,B,Yes,No,Yes,No,Supplemented,English,27.3,3960.12,Yes
+P00189,76,1,Low,Emergency,Cardiology,3,2,1,6.8,25.9,139,95,Never,Assisted,Private,Scheduled,Rehab,E,No,No,No,No,Restricted,English,10.3,2152.59,No
+P00190,18,1,Critical,Urgent,Pulmonology,1,5,1,6.9,28.9,109,149,Never,Independent,Private,Not scheduled,Home,C,No,No,Yes,No,Normal,English,7.5,1798.1,Yes
+P00191,44,6,Moderate,Urgent,Cardiology,1,4,0,8.8,28.8,152,61,Never,Limited,Private,Not scheduled,Rehab,E,Yes,No,No,No,Normal,Other,9.3,10168.14,No
+P00192,36,4,Low,Urgent,Pulmonology,2,6,0,6.6,26.4,146,74,Never,Independent,Private,Scheduled,Rehab,B,No,Yes,No,Yes,Restricted,Other,12.1,6570.66,No
+P00193,33,6,Low,Emergency,Oncology,3,7,0,6.4,31.2,153,50,Current,Assisted,Private,Not scheduled,Rehab,A,Yes,No,No,No,Supplemented,English,16.3,10381.57,No
+P00194,46,10,Low,Emergency,Orthopedics,0,8,1,5.5,26.2,133,79,Former,Independent,Public,Scheduled,Rehab,B,No,No,No,No,Supplemented,English,11.6,19013.01,No
+P00195,34,4,High,Emergency,Orthopedics,2,3,0,5.6,18.6,117,94,Former,Limited,Private,Scheduled,Rehab,B,No,No,No,Yes,Normal,Other,1.6,7597.49,No
+P00196,74,1,Moderate,Urgent,Neurology,2,5,1,8.8,35.0,112,106,Never,Assisted,Public,Not scheduled,Nursing facility,D,No,No,Yes,No,Supplemented,English,14.4,2237.81,No
+P00197,28,7,High,Emergency,Neurology,1,6,0,6.3,32.9,111,78,Never,Independent,Self-pay,Scheduled,Home,A,No,No,No,No,Restricted,English,17.0,12189.63,No
+P00198,47,3,Low,Urgent,Neurology,4,7,0,8.2,18.7,122,100,Current,Limited,Private,Scheduled,Home,E,Yes,Yes,No,No,Restricted,English,16.6,6192.24,No
+P00199,23,2,Moderate,Urgent,Pulmonology,2,8,0,8.3,28.1,113,154,Never,Independent,Private,Scheduled,Home,D,No,No,No,No,Supplemented,English,11.7,3049.4,No
+P00200,25,2,Moderate,Elective,Neurology,0,6,0,5.5,34.8,131,128,Never,Independent,Private,Not scheduled,Home,C,Yes,No,No,No,Restricted,Other,4.9,2824.35,Yes
+P00201,67,6,Low,Elective,Orthopedics,1,8,1,5.8,25.2,111,200,Former,Independent,Public,Not scheduled,Home,D,Yes,Yes,No,No,Normal,English,3.4,12569.13,No
+P00202,50,6,Moderate,Emergency,Oncology,2,5,2,8.2,31.6,114,88,Never,Independent,Private,Scheduled,Rehab,D,No,No,No,No,Normal,English,9.3,11507.29,No
+P00203,50,8,Low,Emergency,Oncology,2,3,0,7.5,33.7,118,97,Never,Assisted,Public,Scheduled,Rehab,D,No,No,No,Yes,Supplemented,Spanish,22.2,13103.57,No
+P00204,37,2,High,Emergency,Neurology,0,4,0,6.9,28.6,111,121,Current,Independent,Private,Scheduled,Home,A,Yes,No,No,No,Restricted,English,7.6,3040.97,No
+P00205,28,2,Moderate,Elective,Oncology,2,3,4,8.0,39.9,119,94,Never,Assisted,Public,Not scheduled,Rehab,C,No,No,No,Yes,Restricted,English,76.4,3308.48,Yes
+P00206,82,4,Moderate,Urgent,Neurology,0,7,2,9.0,30.9,136,114,Never,Independent,Private,Scheduled,Home,B,No,No,No,Yes,Supplemented,English,25.2,7449.67,No
+P00207,75,5,Moderate,Emergency,Oncology,0,3,0,7.1,27.6,109,50,Current,Independent,Public,Scheduled,Home,B,No,No,No,No,Restricted,English,9.9,9222.05,No
+P00208,51,8,Low,Urgent,Cardiology,2,4,2,6.2,26.0,103,100,Never,Assisted,Private,Not scheduled,Rehab,D,No,No,No,Yes,Supplemented,English,9.1,10908.53,No
+P00209,19,8,High,Emergency,Pulmonology,2,5,1,7.4,26.7,122,150,Never,Independent,Private,Scheduled,Rehab,B,No,Yes,Yes,No,Supplemented,English,10.8,11332.91,No
+P00210,83,4,High,Emergency,Cardiology,0,7,0,5.8,23.6,104,191,Former,Independent,Private,Scheduled,Rehab,B,No,No,No,Yes,Restricted,English,13.2,7356.51,No
+P00211,49,8,Low,Emergency,Pulmonology,2,2,0,7.5,20.3,149,173,Former,Independent,Private,Scheduled,Home,D,No,No,No,No,Normal,English,4.3,15790.19,No
+P00212,31,4,High,Emergency,Oncology,2,5,1,7.2,21.6,112,120,Never,Independent,Private,Scheduled,Home,A,No,Yes,No,No,Restricted,English,8.2,6247.43,No
+P00213,27,4,Moderate,Elective,Cardiology,1,3,0,5.7,26.1,126,134,Former,Independent,Private,Scheduled,Home,B,Yes,No,No,No,Restricted,Spanish,35.5,5489.8,No
+P00214,90,3,Moderate,Urgent,Oncology,1,7,0,6.5,31.8,133,128,Former,Independent,Public,Not scheduled,Home,D,No,No,No,Yes,Restricted,English,18.8,5426.19,No
+P00215,20,1,Moderate,Urgent,Orthopedics,2,5,2,6.6,29.0,102,93,Former,Assisted,Private,Scheduled,Rehab,C,No,No,No,No,Restricted,English,10.6,1137.63,No
+P00216,45,1,High,Urgent,Pulmonology,1,4,1,8.5,28.0,110,77,Never,Assisted,Self-pay,Not scheduled,Home,B,No,No,No,No,Restricted,English,16.9,1682.88,No
+P00217,58,4,Low,Emergency,Pulmonology,0,6,2,5.6,39.7,114,125,Never,Assisted,Private,Scheduled,Rehab,B,No,No,No,Yes,Normal,English,11.1,7912.35,No
+P00218,39,7,Low,Emergency,Pulmonology,2,3,0,5.7,37.1,139,111,Current,Assisted,Private,Scheduled,Home,C,No,No,No,Yes,Supplemented,English,23.7,12082.12,No
+P00219,29,2,Critical,Urgent,General,2,6,1,6.5,21.5,158,149,Former,Independent,Private,Scheduled,Home,D,No,No,No,Yes,Normal,English,44.0,2659.28,No
+P00220,65,8,Critical,Emergency,Pulmonology,2,7,2,8.2,31.2,158,50,Never,Limited,Public,Scheduled,Home,A,No,Yes,No,Yes,Supplemented,English,13.1,18014.41,No
+P00221,23,10,High,Urgent,Orthopedics,0,7,3,8.5,19.9,148,108,Never,Independent,Public,Scheduled,Rehab,D,No,No,No,Yes,Restricted,English,4.5,18017.01,Yes
+P00222,89,3,Low,Urgent,Cardiology,1,6,0,7.7,28.6,103,163,Former,Assisted,Private,Scheduled,Home,D,No,No,No,No,Normal,Spanish,5.3,5587.44,No
+P00223,52,1,Moderate,Emergency,Pulmonology,1,6,1,8.5,18.8,109,138,Never,Independent,Public,Not scheduled,Home,B,No,Yes,Yes,Yes,Supplemented,English,27.2,2063.41,Yes
+P00224,71,3,Moderate,Emergency,Cardiology,1,9,0,9.3,23.4,150,76,Current,Assisted,Public,Scheduled,Rehab,D,No,No,No,No,Normal,English,42.9,5236.57,No
+P00225,79,2,Low,Urgent,General,1,5,0,7.5,30.7,152,63,Current,Assisted,Public,Not scheduled,Home,C,No,No,No,No,Restricted,English,7.7,3434.71,No
+P00226,75,7,Low,Emergency,General,1,2,0,5.8,24.3,139,113,Never,Independent,Private,Scheduled,Home,A,No,No,No,No,Normal,English,7.5,15176.67,No
+P00227,53,5,High,Elective,Orthopedics,0,5,0,7.1,20.5,140,146,Never,Assisted,Private,Scheduled,Home,D,No,No,No,No,Restricted,English,19.1,7772.5,Yes
+P00228,23,1,Low,Emergency,Oncology,2,1,0,4.7,22.9,117,136,Current,Independent,Public,Scheduled,Nursing facility,D,No,No,No,No,Normal,English,4.2,2074.4,No
+P00229,23,5,Low,Emergency,Neurology,1,7,0,7.9,21.3,156,120,Never,Assisted,Public,Scheduled,Home,D,No,No,No,Yes,Supplemented,English,19.1,7304.23,No
+P00230,43,8,Low,Elective,Pulmonology,3,6,0,6.3,29.5,112,141,Never,Independent,Private,Scheduled,Home,A,No,No,Yes,Yes,Normal,English,20.9,12651.52,No
+P00231,40,4,Moderate,Emergency,Pulmonology,2,4,1,7.4,34.2,96,125,Never,Independent,Private,Not scheduled,Home,C,No,Yes,No,No,Normal,Spanish,7.0,7549.51,No
+P00232,82,3,High,Emergency,Pulmonology,0,6,0,7.0,25.8,139,139,Current,Independent,Private,Scheduled,Home,A,No,No,Yes,No,Supplemented,English,2.4,6685.5,No
+P00233,50,5,Low,Emergency,Pulmonology,0,6,0,6.5,33.2,115,152,Never,Independent,Public,Scheduled,Home,D,No,Yes,Yes,No,Normal,Spanish,6.8,9221.12,No
+P00234,90,11,High,Emergency,Oncology,1,6,0,7.6,23.6,102,97,Never,Independent,Private,Scheduled,Home,C,No,Yes,No,No,Normal,English,22.4,15179.52,Yes
+P00235,38,9,Low,Urgent,Pulmonology,2,5,0,7.0,26.4,141,80,Never,Assisted,Public,Scheduled,Rehab,D,No,No,No,No,Restricted,English,17.8,18119.89,No
+P00236,88,1,Moderate,Urgent,Pulmonology,1,7,1,6.1,37.7,92,144,Never,Independent,Self-pay,Scheduled,Home,E,No,No,Yes,No,Restricted,English,11.9,1561.71,Yes
+P00237,42,4,Low,Emergency,Oncology,1,4,0,5.2,25.9,133,95,Never,Independent,Self-pay,Not scheduled,Rehab,A,No,No,No,Yes,Restricted,English,28.2,7959.66,No
+P00238,90,2,Moderate,Elective,Oncology,0,7,3,7.8,33.4,117,50,Former,Independent,Public,Scheduled,Rehab,B,No,No,No,No,Normal,English,16.8,3772.49,No
+P00239,54,3,Critical,Emergency,Neurology,3,8,1,5.0,22.7,154,172,Current,Assisted,Public,Scheduled,Home,C,Yes,No,No,No,Normal,Other,15.4,4048.92,No
+P00240,19,9,High,Elective,Neurology,0,9,1,10.4,26.9,133,125,Never,Independent,Public,Scheduled,Home,E,No,No,No,Yes,Restricted,English,3.5,17172.68,No
+P00241,86,4,Low,Urgent,Orthopedics,1,3,0,9.5,21.9,144,123,Former,Assisted,Public,Scheduled,Home,A,No,Yes,No,No,Normal,English,17.5,5718.22,No
+P00242,33,2,Critical,Elective,Orthopedics,5,3,0,4.3,27.4,105,108,Former,Assisted,Private,Not scheduled,Home,E,Yes,No,Yes,Yes,Normal,English,22.3,4411.26,Yes
+P00243,76,3,High,Elective,Neurology,3,5,1,8.3,28.4,95,148,Current,Independent,Public,Not scheduled,Home,D,Yes,Yes,No,Yes,Supplemented,English,41.9,3984.63,No
+P00244,77,6,Moderate,Elective,Neurology,2,3,1,9.2,31.5,118,64,Former,Independent,Public,Scheduled,Home,A,No,No,No,Yes,Supplemented,Spanish,8.0,10513.02,No
+P00245,32,3,High,Elective,Neurology,1,3,1,6.1,23.5,136,115,Former,Independent,Public,Scheduled,Home,E,No,No,No,Yes,Supplemented,English,11.9,4548.47,No
+P00246,59,5,High,Elective,General,1,9,1,7.8,26.0,126,126,Former,Independent,Private,Scheduled,Home,C,No,Yes,No,Yes,Supplemented,English,31.7,11116.27,Yes
+P00247,75,3,High,Elective,Oncology,0,5,0,7.0,34.1,146,137,Former,Assisted,Public,Scheduled,Home,A,No,No,No,No,Supplemented,Spanish,20.7,4006.16,No
+P00248,87,3,Low,Emergency,Oncology,1,5,0,8.4,19.7,135,50,Never,Independent,Public,Scheduled,Home,A,No,No,No,Yes,Supplemented,English,19.6,7497.46,No
+P00249,46,10,Low,Elective,Cardiology,1,7,1,6.4,15.0,106,139,Never,Independent,Public,Scheduled,Home,B,No,No,No,No,Supplemented,English,5.7,16916.2,No
+P00250,47,4,High,Urgent,General,2,2,0,9.0,23.1,133,98,Never,Independent,Public,Scheduled,Home,C,No,Yes,No,No,Normal,English,12.0,6522.84,No
+P00251,77,6,High,Elective,Orthopedics,1,2,0,6.9,30.7,128,89,Never,Independent,Public,Not scheduled,Home,D,No,No,No,No,Supplemented,Spanish,21.7,12190.69,Yes
+P00252,53,4,High,Urgent,Oncology,2,6,1,6.6,27.5,148,53,Current,Independent,Private,Scheduled,Home,A,No,No,No,No,Supplemented,English,6.8,7158.89,No
+P00253,63,1,High,Emergency,Pulmonology,2,6,0,8.4,21.3,108,204,Former,Independent,Self-pay,Scheduled,Rehab,D,No,Yes,No,Yes,Restricted,Other,14.4,1544.98,No
+P00254,26,2,High,Emergency,Neurology,1,3,1,8.8,27.4,113,110,Current,Limited,Public,Scheduled,Home,D,Yes,No,No,Yes,Restricted,English,11.4,3141.57,No
+P00255,67,10,Moderate,Emergency,Oncology,0,1,0,3.0,24.8,132,125,Never,Limited,Public,Scheduled,Home,B,No,No,No,No,Supplemented,English,20.3,16508.54,No
+P00256,42,9,Moderate,Urgent,General,2,4,1,2.0,17.6,150,73,Never,Independent,Public,Scheduled,Home,B,No,No,No,Yes,Restricted,English,16.8,14328.82,No
+P00257,44,4,Low,Urgent,Neurology,2,5,1,7.8,25.0,121,54,Former,Independent,Public,Scheduled,Home,B,No,No,No,Yes,Supplemented,English,1.7,8172.4,Yes
+P00258,83,2,Low,Emergency,General,1,3,1,6.0,31.5,136,148,Never,Independent,Private,Scheduled,Home,C,No,No,No,No,Supplemented,English,11.6,3651.61,No
+P00259,70,1,Moderate,Emergency,Cardiology,0,5,1,4.8,25.3,126,61,Never,Assisted,Private,Scheduled,Home,B,No,Yes,No,Yes,Normal,English,38.5,1938.82,No
+P00260,58,14,Moderate,Emergency,Cardiology,1,2,0,6.5,17.9,124,167,Current,Independent,Public,Scheduled,Home,C,No,Yes,No,No,Restricted,English,25.8,23441.54,No
+P00261,59,1,Low,Elective,Orthopedics,1,5,0,12.4,37.4,146,187,Never,Independent,Public,Not scheduled,Home,A,No,No,No,Yes,Supplemented,English,11.2,1993.3,Yes
+P00262,80,2,Moderate,Emergency,Pulmonology,1,3,1,4.8,21.0,127,84,Current,Independent,Public,Scheduled,Rehab,D,No,No,No,Yes,Restricted,English,23.4,3183.68,No
+P00263,63,3,Moderate,Emergency,General,2,6,1,8.8,29.2,117,97,Former,Independent,Public,Scheduled,Home,E,Yes,Yes,No,No,Normal,Other,9.7,4571.04,No
+P00264,33,2,Moderate,Urgent,Oncology,3,1,1,5.8,32.0,116,50,Never,Independent,Private,Scheduled,Home,B,No,No,No,Yes,Restricted,English,20.2,3294.41,No
+P00265,57,4,Moderate,Emergency,Pulmonology,2,2,1,4.6,29.5,119,50,Former,Independent,Private,Not scheduled,Home,D,Yes,No,No,No,Supplemented,English,7.7,8909.51,No
+P00266,63,13,Moderate,Urgent,Orthopedics,1,5,0,6.1,25.6,113,140,Never,Independent,Public,Scheduled,Home,D,Yes,Yes,No,Yes,Restricted,Spanish,45.5,21153.82,No
+P00267,22,4,High,Elective,General,0,7,0,4.6,16.1,121,165,Never,Independent,Public,Not scheduled,Home,C,No,No,No,No,Supplemented,English,11.5,6563.0,No
+P00268,27,5,Moderate,Emergency,Neurology,0,3,0,4.4,34.0,126,84,Former,Assisted,Private,Scheduled,Home,B,No,Yes,Yes,No,Restricted,English,14.1,9327.69,No
+P00269,52,6,Moderate,Elective,Neurology,2,5,0,5.9,20.0,130,90,Former,Independent,Private,Scheduled,Rehab,E,Yes,No,No,Yes,Normal,English,28.2,10564.88,No
+P00270,59,7,Moderate,Urgent,Pulmonology,0,9,1,5.2,32.8,107,52,Never,Independent,Public,Scheduled,Nursing facility,D,No,No,No,No,Normal,English,13.8,10316.42,Yes
+P00271,21,4,Low,Emergency,Oncology,0,4,1,6.9,33.7,117,70,Never,Independent,Private,Scheduled,Home,B,No,No,No,No,Normal,English,15.6,5782.41,No
+P00272,51,2,High,Emergency,Cardiology,1,6,2,7.5,19.7,118,168,Never,Independent,Private,Scheduled,Rehab,B,No,No,No,Yes,Supplemented,English,15.5,4049.39,No
+P00273,30,6,Critical,Emergency,Orthopedics,3,7,1,5.8,19.6,111,127,Former,Independent,Public,Scheduled,Home,E,No,Yes,No,No,Supplemented,English,17.6,8660.79,No
+P00274,66,11,Low,Emergency,Oncology,2,7,1,8.3,24.6,115,50,Never,Assisted,Private,Scheduled,Home,D,No,No,No,Yes,Normal,English,5.5,22718.27,No
+P00275,52,2,Moderate,Emergency,Oncology,2,9,0,6.0,32.5,141,138,Current,Assisted,Private,Scheduled,Home,E,No,No,No,Yes,Supplemented,Other,18.7,3319.76,No
+P00276,24,5,High,Elective,General,1,9,1,6.9,23.4,150,210,Never,Independent,Public,Scheduled,Home,D,No,No,No,Yes,Supplemented,English,9.2,5515.31,No
+P00277,47,6,High,Emergency,Cardiology,0,4,1,3.3,27.6,119,99,Current,Independent,Self-pay,Not scheduled,Home,A,No,No,No,Yes,Supplemented,Other,8.3,11964.59,Yes
+P00278,85,3,Moderate,Elective,Orthopedics,1,2,0,7.3,24.0,112,88,Never,Independent,Public,Scheduled,Home,D,No,Yes,No,No,Restricted,English,10.9,6121.39,No
+P00279,21,7,Moderate,Urgent,Orthopedics,3,11,0,11.3,31.7,124,138,Former,Assisted,Public,Not scheduled,Home,E,No,No,No,No,Restricted,English,4.2,13822.46,No
+P00280,47,8,High,Urgent,Neurology,1,6,1,8.6,23.2,127,155,Current,Independent,Private,Not scheduled,Home,A,No,No,Yes,Yes,Normal,English,10.8,13281.15,Yes
+P00281,28,5,Low,Urgent,Orthopedics,1,3,1,6.9,22.7,137,148,Current,Independent,Public,Scheduled,Home,D,No,Yes,Yes,Yes,Supplemented,Other,5.1,8466.76,No
+P00282,83,7,Moderate,Elective,Orthopedics,1,4,0,5.1,20.8,118,102,Never,Assisted,Public,Scheduled,Home,D,Yes,No,No,Yes,Supplemented,English,1.6,11644.53,Yes
+P00283,51,4,High,Elective,General,2,6,1,10.1,20.6,115,98,Current,Independent,Private,Scheduled,Home,B,Yes,Yes,No,No,Restricted,English,23.2,6334.83,Yes
+P00284,63,1,Low,Emergency,Neurology,2,8,0,6.9,33.4,169,50,Former,Independent,Private,Not scheduled,Home,E,Yes,Yes,Yes,Yes,Supplemented,English,10.7,1884.19,No
+P00285,88,2,Critical,Emergency,Orthopedics,2,6,0,6.0,24.9,102,66,Never,Independent,Public,Scheduled,Home,C,No,Yes,No,No,Supplemented,English,16.2,3476.84,No
+P00286,21,12,Critical,Emergency,Pulmonology,1,5,1,6.0,21.3,141,129,Current,Limited,Private,Scheduled,Home,C,No,No,No,Yes,Normal,Spanish,20.6,19927.95,Yes
+P00287,53,9,High,Emergency,Orthopedics,1,4,0,10.9,17.0,152,94,Never,Assisted,Public,Scheduled,Home,A,Yes,No,No,No,Restricted,English,32.4,14277.76,Yes
+P00288,22,2,Moderate,Emergency,Neurology,1,6,1,7.0,25.4,120,125,Current,Assisted,Public,Scheduled,Home,B,No,No,No,Yes,Normal,English,11.0,3688.61,No
+P00289,74,2,Moderate,Urgent,Oncology,1,5,0,8.0,22.1,133,105,Never,Independent,Private,Scheduled,Home,D,No,No,No,Yes,Restricted,English,13.6,4360.61,No
+P00290,60,6,Moderate,Emergency,Neurology,1,1,0,6.8,20.9,95,117,Current,Independent,Private,Not scheduled,Home,C,No,Yes,No,Yes,Normal,English,19.5,11014.19,No
+P00291,50,19,Low,Elective,Neurology,0,4,3,7.1,22.4,125,116,Former,Limited,Private,Scheduled,Home,B,No,No,No,No,Restricted,Spanish,3.1,26476.18,No
+P00292,39,4,Moderate,Elective,Oncology,0,4,1,6.4,27.7,146,145,Never,Limited,Private,Not scheduled,Nursing facility,D,No,Yes,No,No,Normal,Other,9.8,7170.61,No
+P00293,31,2,Low,Emergency,Neurology,1,9,1,9.8,20.0,127,149,Current,Independent,Self-pay,Not scheduled,Rehab,B,No,No,No,Yes,Supplemented,Other,13.1,3888.76,No
+P00294,84,7,Moderate,Emergency,Cardiology,1,4,0,7.3,25.2,126,114,Never,Independent,Public,Not scheduled,Rehab,B,No,No,No,Yes,Supplemented,Other,8.4,14090.58,No
+P00295,19,9,High,Urgent,Cardiology,1,2,0,4.7,32.3,156,107,Never,Independent,Private,Scheduled,Home,C,Yes,Yes,No,No,Normal,English,8.5,17592.99,Yes
+P00296,27,6,High,Emergency,Oncology,3,1,1,7.9,23.7,140,114,Never,Independent,Private,Scheduled,Home,A,No,Yes,No,Yes,Normal,English,7.0,11040.85,No
+P00297,45,6,Moderate,Emergency,Neurology,3,8,2,7.0,20.6,138,84,Former,Independent,Self-pay,Scheduled,Home,C,Yes,Yes,No,No,Normal,English,69.6,15679.67,Yes
+P00298,46,2,Moderate,Emergency,Orthopedics,2,3,0,7.9,33.3,110,158,Former,Independent,Private,Scheduled,Home,D,No,Yes,No,Yes,Supplemented,English,13.1,2885.68,No
+P00299,85,7,Moderate,Emergency,General,3,2,0,6.6,26.5,81,93,Never,Independent,Public,Scheduled,Home,B,No,No,No,Yes,Supplemented,Other,6.6,15728.54,Yes
+P00300,40,6,Moderate,Urgent,Neurology,0,7,3,6.2,26.0,132,109,Current,Assisted,Private,Scheduled,Home,C,Yes,No,No,No,Restricted,English,11.1,11796.38,No
+P00301,41,3,High,Emergency,Neurology,1,3,1,8.8,30.1,125,122,Former,Independent,Private,Scheduled,Nursing facility,A,No,No,No,Yes,Restricted,English,6.2,7464.52,No
+P00302,35,1,Low,Emergency,Cardiology,4,10,1,10.5,26.5,139,127,Former,Independent,Private,Scheduled,Home,E,No,No,No,Yes,Restricted,English,14.0,1365.4,No
+P00303,44,3,Low,Urgent,Cardiology,0,7,0,3.9,27.4,127,126,Former,Assisted,Public,Scheduled,Home,D,No,Yes,Yes,No,Normal,Other,16.3,6783.13,No
+P00304,37,4,Moderate,Urgent,Pulmonology,3,6,1,7.3,17.6,126,110,Former,Independent,Self-pay,Scheduled,Home,D,No,Yes,No,No,Restricted,Spanish,32.8,9165.67,No
+P00305,68,7,Critical,Emergency,Pulmonology,1,7,0,6.2,22.0,126,181,Current,Limited,Private,Scheduled,Home,C,No,No,No,No,Restricted,Spanish,3.7,12269.85,Yes
+P00306,76,7,Critical,Emergency,General,1,6,1,5.6,38.2,105,118,Current,Independent,Private,Not scheduled,Home,C,No,No,No,Yes,Restricted,Spanish,25.7,10814.4,Yes
+P00307,71,4,Moderate,Emergency,Orthopedics,0,3,1,3.3,20.8,92,105,Never,Independent,Private,Scheduled,Home,D,No,Yes,No,No,Supplemented,Other,13.7,9747.62,No
+P00308,76,4,Moderate,Urgent,Oncology,1,5,1,7.8,27.4,109,187,Never,Independent,Public,Scheduled,Home,B,Yes,No,No,No,Supplemented,Other,22.4,6211.0,No
+P00309,62,8,Moderate,Emergency,Oncology,2,8,2,6.3,37.5,105,84,Never,Limited,Private,Not scheduled,Home,B,No,Yes,No,Yes,Normal,English,26.5,16912.05,No
+P00310,68,5,Moderate,Elective,Orthopedics,0,2,0,6.2,31.1,124,187,Never,Independent,Private,Scheduled,Home,B,No,No,No,No,Restricted,Other,30.2,11242.81,No
+P00311,42,6,Moderate,Emergency,Oncology,1,5,1,9.4,28.7,96,50,Never,Independent,Private,Scheduled,Rehab,B,No,Yes,No,Yes,Restricted,English,5.0,10510.87,No
+P00312,90,3,Low,Elective,Cardiology,2,7,1,6.4,22.2,116,99,Current,Independent,Public,Not scheduled,Home,D,No,Yes,No,No,Supplemented,English,20.3,5249.37,Yes
+P00313,87,8,Low,Emergency,Cardiology,5,4,2,6.3,23.3,160,50,Never,Assisted,Public,Scheduled,Rehab,E,No,No,No,No,Restricted,English,6.7,18636.8,No
+P00314,22,3,Critical,Emergency,Pulmonology,2,4,0,4.8,25.1,124,61,Never,Independent,Private,Not scheduled,Home,B,No,No,No,No,Restricted,English,6.5,5123.44,No
+P00315,43,13,High,Elective,General,1,2,1,5.6,29.0,126,133,Never,Independent,Public,Scheduled,Home,B,No,No,No,No,Supplemented,English,18.0,21225.51,Yes
+P00316,68,2,High,Elective,Oncology,0,9,0,9.8,34.6,125,126,Former,Assisted,Self-pay,Scheduled,Home,A,No,No,No,Yes,Supplemented,English,18.6,1980.73,No
+P00317,39,4,High,Urgent,General,3,3,2,8.3,27.7,129,91,Never,Independent,Private,Scheduled,Home,B,No,Yes,No,Yes,Supplemented,English,21.5,8545.88,No
+P00318,55,1,Moderate,Emergency,Cardiology,1,1,1,9.5,23.6,116,180,Never,Independent,Public,Not scheduled,Home,D,Yes,No,Yes,No,Supplemented,English,9.2,1687.96,No
+P00319,79,6,Moderate,Urgent,Cardiology,0,6,1,5.7,26.4,122,160,Former,Independent,Public,Not scheduled,Home,B,No,No,No,No,Supplemented,English,16.5,12209.12,No
+P00320,82,9,High,Elective,General,0,3,1,7.9,30.1,115,113,Never,Independent,Public,Not scheduled,Home,A,Yes,No,No,No,Normal,Spanish,17.5,15802.7,Yes
+P00321,86,6,Low,Emergency,Cardiology,3,7,0,9.1,29.0,98,50,Current,Independent,Public,Scheduled,Rehab,A,Yes,No,No,Yes,Supplemented,English,11.4,13203.82,No
+P00322,65,3,Low,Emergency,Pulmonology,1,2,0,8.2,25.5,146,153,Former,Independent,Public,Not scheduled,Home,B,No,No,No,No,Supplemented,Spanish,28.3,6637.63,No
+P00323,87,1,Moderate,Urgent,Neurology,0,8,0,10.0,20.3,109,96,Current,Assisted,Private,Scheduled,Home,B,No,Yes,Yes,No,Supplemented,English,2.4,1501.36,No
+P00324,65,3,Low,Elective,Oncology,5,2,0,7.9,33.5,154,127,Former,Assisted,Private,Scheduled,Home,E,No,No,No,Yes,Supplemented,Other,6.2,4982.43,No
+P00325,56,6,Moderate,Urgent,Neurology,3,4,1,7.2,25.4,111,147,Current,Assisted,Private,Scheduled,Home,E,No,No,No,No,Normal,Spanish,28.1,11846.06,No
+P00326,32,2,High,Emergency,Oncology,1,5,0,3.0,28.5,101,99,Never,Independent,Private,Scheduled,Nursing facility,C,No,No,No,No,Supplemented,English,17.9,4444.34,Yes
+P00327,81,1,High,Elective,Neurology,1,3,2,8.0,22.9,160,166,Never,Independent,Private,Scheduled,Home,A,Yes,No,No,No,Normal,English,52.5,1833.9,No
+P00328,36,3,Moderate,Elective,General,2,3,0,8.3,22.8,98,100,Never,Assisted,Public,Scheduled,Home,E,No,No,Yes,Yes,Restricted,English,21.0,5592.84,No
+P00329,31,1,Low,Urgent,Neurology,2,5,1,9.3,30.0,84,137,Never,Limited,Private,Scheduled,Home,D,No,No,Yes,No,Normal,English,7.9,1904.56,Yes
+P00330,73,5,Critical,Emergency,Pulmonology,1,6,1,5.8,19.4,99,145,Never,Independent,Public,Not scheduled,Home,E,Yes,No,No,Yes,Normal,English,26.5,7686.36,Yes
+P00331,82,4,High,Emergency,General,2,7,2,7.1,20.0,123,151,Never,Assisted,Private,Not scheduled,Home,A,No,No,No,No,Supplemented,Spanish,30.0,6655.85,No
+P00332,89,3,Moderate,Urgent,General,1,8,1,4.3,36.1,101,185,Never,Independent,Private,Not scheduled,Home,A,Yes,No,No,No,Supplemented,Other,17.0,5233.3,No
+P00333,73,14,High,Elective,Neurology,1,4,0,4.3,32.0,115,82,Never,Assisted,Public,Scheduled,Home,A,No,No,No,No,Supplemented,English,5.6,29403.87,No
+P00334,88,6,High,Emergency,Neurology,1,3,1,8.1,29.5,88,70,Never,Independent,Private,Scheduled,Home,E,No,Yes,No,No,Restricted,English,16.7,14030.86,No
+P00335,47,1,Moderate,Emergency,Oncology,3,3,1,9.5,20.6,145,102,Never,Assisted,Self-pay,Not scheduled,Home,D,No,No,No,Yes,Normal,Spanish,9.9,1526.98,Yes
+P00336,25,13,Moderate,Elective,Cardiology,2,4,2,9.5,28.3,133,237,Former,Independent,Private,Scheduled,Home,E,No,No,No,No,Restricted,English,8.4,26214.11,No
+P00337,35,4,Critical,Emergency,Cardiology,0,8,0,8.0,26.6,102,169,Never,Independent,Private,Scheduled,Rehab,D,Yes,Yes,No,No,Restricted,English,15.3,7461.99,No
+P00338,29,3,High,Elective,General,1,1,2,10.9,24.3,83,93,Never,Independent,Public,Scheduled,Home,B,Yes,Yes,No,Yes,Supplemented,English,2.6,4948.46,No
+P00339,73,5,Moderate,Urgent,General,3,3,0,6.5,26.5,109,101,Former,Assisted,Public,Scheduled,Home,B,No,No,No,No,Restricted,English,12.3,7560.38,No
+P00340,48,2,Critical,Urgent,Neurology,2,6,1,8.8,18.4,137,114,Never,Assisted,Public,Scheduled,Rehab,A,No,No,No,Yes,Supplemented,English,8.0,3737.18,No
+P00341,49,4,High,Emergency,Oncology,2,7,0,4.8,15.0,144,126,Former,Independent,Private,Scheduled,Home,B,Yes,No,No,Yes,Normal,Spanish,5.7,6498.05,No
+P00342,85,8,Low,Emergency,Cardiology,0,2,0,2.0,28.8,121,141,Never,Independent,Public,Scheduled,Home,D,No,No,No,Yes,Normal,Spanish,10.5,15295.19,Yes
+P00343,89,3,Moderate,Elective,Orthopedics,0,6,1,6.3,28.0,116,142,Never,Assisted,Public,Scheduled,Home,C,No,No,No,No,Restricted,English,9.4,4498.04,No
+P00344,28,3,High,Urgent,Pulmonology,2,5,0,7.0,28.5,115,163,Never,Assisted,Public,Scheduled,Home,C,No,Yes,No,Yes,Supplemented,Spanish,26.4,4406.56,No
+P00345,80,2,Low,Emergency,Neurology,0,4,0,7.6,31.6,130,195,Never,Independent,Private,Not scheduled,Home,E,Yes,No,No,Yes,Normal,English,13.0,4245.13,Yes
+P00346,64,7,Low,Urgent,Oncology,2,7,2,6.9,30.1,141,110,Former,Independent,Public,Not scheduled,Rehab,A,Yes,No,Yes,No,Normal,English,18.1,13010.18,No
+P00347,75,5,High,Emergency,Neurology,1,7,0,7.9,35.9,122,106,Never,Independent,Public,Scheduled,Rehab,D,No,No,No,No,Supplemented,English,31.9,9258.12,No
+P00348,87,13,High,Elective,Neurology,0,6,2,10.3,34.1,118,100,Never,Independent,Public,Scheduled,Home,E,No,No,No,No,Normal,English,8.1,21426.53,No
+P00349,42,12,Low,Emergency,Neurology,3,8,1,8.5,27.4,139,104,Current,Independent,Private,Not scheduled,Home,E,No,No,No,No,Normal,Spanish,13.5,24329.89,Yes
+P00350,76,3,Low,Emergency,Neurology,1,3,0,5.8,27.9,152,130,Never,Independent,Public,Not scheduled,Home,A,No,No,No,Yes,Restricted,English,19.8,5235.59,No
+P00351,69,6,High,Emergency,Cardiology,2,9,1,2.7,28.3,120,140,Current,Independent,Public,Scheduled,Home,B,No,Yes,No,No,Restricted,Spanish,14.8,12200.7,No
+P00352,66,3,Low,Urgent,Pulmonology,1,4,1,5.3,17.8,127,184,Never,Independent,Private,Not scheduled,Home,D,No,Yes,No,No,Supplemented,Other,12.0,4991.89,No
+P00353,73,3,Low,Emergency,General,3,3,2,9.6,32.5,111,87,Current,Independent,Public,Not scheduled,Home,C,No,Yes,No,No,Normal,Other,11.1,4443.86,No
+P00354,74,3,High,Elective,Pulmonology,0,11,1,6.3,30.5,126,129,Never,Independent,Private,Scheduled,Home,D,No,No,No,Yes,Restricted,Other,17.3,4745.98,No
+P00355,47,2,High,Elective,General,3,4,0,8.4,17.1,108,81,Current,Assisted,Private,Scheduled,Home,D,No,Yes,No,No,Restricted,Spanish,6.9,3854.0,No
+P00356,85,8,Moderate,Elective,Pulmonology,1,3,0,8.4,36.3,151,131,Never,Independent,Private,Scheduled,Home,A,No,No,No,Yes,Normal,Other,6.6,12028.25,No
+P00357,24,3,Moderate,Urgent,Orthopedics,1,6,2,7.1,24.4,141,222,Former,Assisted,Public,Not scheduled,Home,E,No,No,No,No,Supplemented,English,36.0,7030.57,No
+P00358,31,3,Moderate,Emergency,Neurology,2,5,0,7.0,26.3,156,110,Former,Independent,Public,Scheduled,Home,A,No,No,No,Yes,Restricted,English,2.4,4175.27,No
+P00359,71,5,Low,Elective,Pulmonology,2,8,3,6.0,26.1,115,213,Never,Independent,Private,Scheduled,Home,D,No,No,No,No,Supplemented,Spanish,7.3,8775.47,No
+P00360,51,5,Critical,Emergency,Oncology,2,4,0,11.2,26.0,162,82,Former,Independent,Public,Scheduled,Home,E,No,Yes,No,No,Supplemented,English,21.2,10786.43,Yes
+P00361,39,4,Moderate,Elective,Pulmonology,1,4,2,5.5,41.4,129,97,Former,Independent,Private,Scheduled,Home,A,No,No,Yes,Yes,Supplemented,English,26.6,7542.7,No
+P00362,55,9,Moderate,Emergency,Pulmonology,1,6,1,9.2,25.4,123,101,Never,Independent,Private,Scheduled,Rehab,C,Yes,Yes,No,Yes,Restricted,Other,4.3,15247.41,No
+P00363,27,3,Moderate,Elective,Neurology,0,6,1,8.7,25.1,148,122,Former,Independent,Public,Scheduled,Rehab,C,No,Yes,No,No,Supplemented,Spanish,28.6,6435.46,No
+P00364,18,2,Moderate,Elective,General,0,8,1,8.3,27.1,107,109,Never,Independent,Private,Not scheduled,Rehab,C,Yes,Yes,No,Yes,Normal,English,75.0,3042.82,No
+P00365,21,1,Moderate,Urgent,Oncology,3,7,1,7.0,21.9,126,146,Current,Assisted,Private,Scheduled,Home,E,No,No,No,No,Restricted,English,33.1,1713.48,No
+P00366,83,6,Moderate,Elective,Pulmonology,2,9,0,4.5,28.8,122,50,Never,Assisted,Self-pay,Not scheduled,Nursing facility,A,No,Yes,No,Yes,Restricted,English,12.5,7888.86,No
+P00367,41,6,Moderate,Emergency,Cardiology,3,6,0,5.1,22.1,133,76,Former,Independent,Public,Not scheduled,Home,D,Yes,Yes,No,Yes,Normal,Spanish,12.5,12391.02,No
+P00368,84,8,High,Emergency,Pulmonology,0,7,0,5.8,30.0,117,191,Never,Independent,Public,Scheduled,Home,A,No,Yes,No,No,Supplemented,Spanish,16.0,15744.23,No
+P00369,55,3,High,Emergency,Oncology,3,1,1,7.9,20.7,115,59,Former,Assisted,Public,Scheduled,Home,E,No,Yes,No,No,Restricted,Spanish,6.1,5906.31,No
+P00370,40,4,Low,Elective,Orthopedics,1,9,1,8.8,23.5,118,101,Current,Independent,Public,Not scheduled,Rehab,E,Yes,Yes,No,Yes,Normal,English,9.5,7356.23,No
+P00371,20,8,Moderate,Emergency,Oncology,0,7,1,7.8,21.0,120,139,Never,Assisted,Self-pay,Scheduled,Rehab,D,Yes,No,No,Yes,Normal,English,12.1,14595.09,No
+P00372,25,3,Moderate,Emergency,Neurology,3,4,0,7.7,23.8,126,113,Current,Assisted,Private,Not scheduled,Home,E,Yes,No,Yes,Yes,Supplemented,English,22.9,5497.26,No
+P00373,59,4,Moderate,Emergency,Orthopedics,0,5,1,9.1,16.3,148,81,Never,Independent,Public,Not scheduled,Home,A,No,No,No,Yes,Restricted,English,21.7,7565.9,No
+P00374,62,9,High,Elective,Neurology,2,5,0,3.4,15.0,86,133,Never,Independent,Public,Scheduled,Home,A,No,No,No,Yes,Supplemented,Other,5.6,16551.56,No
+P00375,83,6,High,Elective,Orthopedics,3,6,1,3.2,25.1,139,148,Never,Independent,Private,Scheduled,Nursing facility,B,Yes,Yes,No,No,Normal,English,11.4,9123.23,Yes
+P00376,32,3,Moderate,Elective,Neurology,2,5,0,4.4,17.8,117,91,Former,Independent,Public,Scheduled,Nursing facility,B,Yes,No,No,No,Supplemented,English,4.6,3367.61,No
+P00377,61,8,High,Emergency,General,2,1,1,8.9,37.4,122,131,Never,Independent,Public,Scheduled,Home,B,No,No,No,No,Normal,English,29.8,19411.26,No
+P00378,24,4,Low,Urgent,Orthopedics,3,6,1,3.6,24.8,105,149,Never,Limited,Private,Not scheduled,Home,A,Yes,No,Yes,Yes,Supplemented,English,10.9,6421.9,Yes
+P00379,56,8,Low,Emergency,Neurology,1,5,1,7.2,31.3,126,158,Never,Independent,Private,Scheduled,Home,A,No,Yes,No,No,Restricted,English,16.9,13978.46,No
+P00380,30,5,Low,Elective,Orthopedics,2,4,0,5.6,28.9,118,130,Never,Independent,Public,Scheduled,Home,E,No,No,No,Yes,Supplemented,Other,13.2,10670.23,No
+P00381,34,3,Moderate,Elective,General,1,7,0,7.5,20.6,121,183,Current,Independent,Private,Scheduled,Home,D,No,Yes,No,No,Supplemented,English,21.2,5703.21,No
+P00382,48,2,Moderate,Emergency,Oncology,2,3,0,6.9,24.5,135,117,Never,Independent,Private,Not scheduled,Home,E,Yes,No,No,Yes,Supplemented,English,5.5,2741.75,No
+P00383,50,7,Moderate,Urgent,Pulmonology,0,4,0,7.7,31.4,136,76,Current,Independent,Private,Scheduled,Home,B,Yes,No,Yes,No,Supplemented,Spanish,3.2,10153.95,Yes
+P00384,26,7,Moderate,Emergency,Neurology,2,4,0,6.5,31.1,151,106,Former,Independent,Public,Scheduled,Rehab,E,Yes,Yes,No,No,Normal,English,3.8,14448.6,No
+P00385,61,10,Low,Emergency,Orthopedics,1,4,1,8.5,32.2,114,163,Former,Independent,Private,Not scheduled,Nursing facility,A,No,No,No,No,Supplemented,Other,5.6,19790.8,No
+P00386,47,6,Moderate,Emergency,Oncology,1,3,1,9.8,23.1,137,79,Never,Assisted,Private,Scheduled,Home,D,No,No,No,Yes,Restricted,English,4.8,9870.61,No
+P00387,81,4,Low,Emergency,Neurology,1,4,0,9.5,30.5,136,50,Former,Assisted,Public,Not scheduled,Home,B,No,No,No,No,Supplemented,Other,7.5,7150.41,Yes
+P00388,62,5,Moderate,Emergency,Oncology,1,6,1,6.5,23.4,127,133,Current,Independent,Private,Not scheduled,Home,C,No,No,No,Yes,Supplemented,English,8.5,9057.72,Yes
+P00389,82,4,Moderate,Emergency,General,1,8,1,5.6,33.1,155,97,Never,Independent,Private,Scheduled,Home,E,No,No,No,Yes,Restricted,English,2.5,7497.06,No
+P00390,19,4,Low,Urgent,Cardiology,0,5,0,7.6,32.9,114,205,Never,Assisted,Private,Not scheduled,Rehab,A,No,Yes,No,No,Normal,English,13.2,7704.99,No
+P00391,50,2,Moderate,Urgent,General,4,3,2,10.8,18.8,128,126,Never,Independent,Private,Scheduled,Home,D,Yes,No,No,No,Supplemented,English,17.8,3366.7,No
+P00392,79,2,High,Elective,Cardiology,4,2,0,7.1,28.7,130,164,Never,Independent,Public,Not scheduled,Nursing facility,C,No,Yes,No,No,Normal,Spanish,5.0,4020.53,No
+P00393,31,7,Low,Emergency,General,0,8,2,8.7,20.4,103,95,Never,Independent,Public,Not scheduled,Home,B,No,Yes,No,Yes,Restricted,English,14.2,13847.27,No
+P00394,34,2,High,Urgent,Neurology,0,4,0,8.6,32.0,148,139,Former,Independent,Public,Scheduled,Home,E,Yes,Yes,No,No,Supplemented,English,6.2,4123.1,No
+P00395,69,3,Low,Elective,Cardiology,3,9,1,8.6,20.2,123,130,Former,Independent,Public,Scheduled,Home,D,Yes,No,No,No,Supplemented,English,27.9,6093.63,No
+P00396,19,1,High,Emergency,Oncology,1,3,0,9.5,28.9,133,170,Never,Limited,Private,Scheduled,Home,E,No,Yes,No,Yes,Supplemented,English,17.1,2023.59,Yes
+P00397,87,1,Low,Elective,Oncology,1,6,0,4.8,31.4,153,123,Never,Assisted,Private,Scheduled,Home,E,No,No,No,Yes,Supplemented,English,31.3,1663.58,No
+P00398,86,2,Critical,Elective,Neurology,0,7,0,5.5,27.4,129,94,Former,Limited,Public,Scheduled,Rehab,E,No,No,No,Yes,Restricted,Other,36.5,3525.57,No
+P00399,87,7,Low,Elective,Cardiology,2,7,0,7.3,32.2,126,157,Current,Limited,Private,Not scheduled,Home,D,No,No,No,No,Normal,Other,1.8,10812.08,No
+P00400,74,7,Critical,Emergency,Pulmonology,2,4,0,9.4,28.8,126,86,Never,Independent,Self-pay,Scheduled,Home,A,No,No,No,Yes,Supplemented,Spanish,13.2,13022.28,No
+P00401,90,5,Low,Emergency,Orthopedics,0,1,0,9.4,36.4,107,82,Never,Independent,Private,Scheduled,Home,B,Yes,Yes,No,Yes,Restricted,English,29.6,7797.86,No
+P00402,89,3,High,Emergency,Pulmonology,0,4,0,7.1,20.4,118,113,Never,Assisted,Private,Scheduled,Home,B,No,No,No,No,Normal,Other,25.1,5822.92,Yes
+P00403,36,10,Moderate,Urgent,Orthopedics,1,3,1,9.0,24.7,122,102,Never,Limited,Public,Not scheduled,Home,A,No,No,No,No,Restricted,English,7.3,21598.45,No
+P00404,29,3,Low,Urgent,Oncology,1,4,1,6.4,15.5,127,116,Never,Assisted,Private,Not scheduled,Home,B,Yes,Yes,No,Yes,Supplemented,English,9.0,5399.38,No
+P00405,79,11,Low,Emergency,Pulmonology,0,4,0,5.7,25.2,150,88,Never,Independent,Public,Not scheduled,Home,D,No,No,No,No,Restricted,English,12.6,18013.42,Yes
+P00406,51,5,Low,Emergency,Oncology,0,9,2,4.8,19.9,142,160,Former,Independent,Private,Scheduled,Home,C,No,No,No,No,Restricted,English,32.1,9741.05,No
+P00407,21,8,Moderate,Emergency,Pulmonology,2,3,1,7.0,18.7,114,159,Never,Limited,Private,Scheduled,Home,A,No,No,No,Yes,Normal,English,25.0,16877.48,No
+P00408,50,8,Moderate,Urgent,Cardiology,2,4,0,6.6,17.7,125,148,Never,Independent,Public,Not scheduled,Home,D,No,Yes,No,No,Supplemented,English,34.8,12605.37,No
+P00409,19,1,Moderate,Emergency,Oncology,0,6,0,9.0,24.2,150,144,Never,Limited,Public,Not scheduled,Home,B,Yes,Yes,No,No,Restricted,English,28.2,1834.66,No
+P00410,60,2,Moderate,Emergency,Oncology,1,5,0,8.2,28.5,94,50,Never,Independent,Private,Scheduled,Rehab,A,Yes,No,No,Yes,Normal,Spanish,13.2,3788.16,No
+P00411,67,3,Low,Urgent,Oncology,0,5,1,7.3,29.9,121,120,Former,Limited,Public,Scheduled,Home,A,No,Yes,No,Yes,Restricted,Other,46.8,5149.79,No
+P00412,21,2,Moderate,Emergency,General,4,1,3,7.3,33.0,101,149,Never,Independent,Public,Scheduled,Home,A,No,No,No,No,Restricted,Other,4.2,3907.73,No
+P00413,26,6,High,Urgent,Neurology,5,3,0,6.4,32.7,169,169,Never,Limited,Self-pay,Scheduled,Home,B,No,Yes,No,Yes,Normal,Spanish,11.5,7852.32,No
+P00414,84,6,Low,Emergency,General,2,5,0,4.0,20.2,139,107,Never,Independent,Private,Scheduled,Home,D,No,Yes,No,No,Restricted,English,12.0,11418.95,No
+P00415,46,3,High,Urgent,Oncology,1,4,1,5.1,22.5,116,167,Never,Assisted,Private,Scheduled,Home,B,No,No,No,Yes,Restricted,English,27.4,7014.19,Yes
+P00416,21,3,Low,Elective,Pulmonology,0,5,1,8.6,28.2,124,127,Never,Independent,Public,Not scheduled,Home,E,Yes,No,No,Yes,Normal,Other,9.3,5904.37,No
+P00417,18,8,Moderate,Emergency,Oncology,0,6,1,7.0,28.3,110,50,Current,Independent,Public,Scheduled,Home,B,Yes,No,No,No,Supplemented,English,40.9,14491.92,No
+P00418,47,3,High,Emergency,Pulmonology,1,3,2,4.8,35.3,161,111,Current,Independent,Public,Scheduled,Home,A,No,No,No,No,Normal,Spanish,20.1,4305.48,Yes
+P00419,24,8,High,Elective,Oncology,0,3,2,9.7,25.3,84,81,Never,Assisted,Public,Scheduled,Home,A,Yes,Yes,No,No,Normal,English,10.3,13576.62,No
+P00420,27,5,Moderate,Elective,Cardiology,3,3,2,10.3,31.6,131,91,Never,Independent,Public,Scheduled,Rehab,B,No,Yes,No,Yes,Normal,English,5.5,9463.39,No
+P00421,33,5,Moderate,Emergency,Oncology,3,3,0,9.4,26.1,124,157,Never,Assisted,Self-pay,Scheduled,Home,D,Yes,No,No,Yes,Supplemented,English,1.4,9139.99,No
+P00422,69,2,Moderate,Urgent,Oncology,1,1,2,8.0,29.1,106,127,Never,Independent,Public,Scheduled,Home,C,No,No,No,No,Restricted,Spanish,1.7,2859.51,No
+P00423,58,7,Moderate,Emergency,Cardiology,2,4,0,7.7,29.3,120,94,Current,Assisted,Public,Scheduled,Home,E,No,No,No,Yes,Restricted,Other,11.8,13123.49,No
+P00424,74,2,Critical,Urgent,Neurology,0,5,1,7.2,26.9,96,88,Never,Independent,Private,Not scheduled,Home,A,Yes,Yes,No,Yes,Supplemented,English,57.7,3085.52,Yes
+P00425,42,7,High,Elective,Neurology,0,2,0,7.5,21.1,153,133,Never,Limited,Private,Scheduled,Home,A,Yes,Yes,No,Yes,Restricted,English,19.5,11393.46,No
+P00426,23,6,Low,Emergency,General,1,5,0,8.3,28.7,125,108,Never,Independent,Self-pay,Scheduled,Home,C,Yes,No,No,No,Normal,Spanish,23.3,12414.41,No
+P00427,59,6,Moderate,Urgent,Oncology,1,7,0,8.5,30.9,141,143,Never,Limited,Public,Scheduled,Rehab,D,No,No,No,No,Supplemented,English,7.0,10370.51,No
+P00428,88,6,Moderate,Emergency,Pulmonology,0,4,1,8.0,27.6,116,82,Former,Independent,Public,Not scheduled,Home,C,Yes,No,No,Yes,Restricted,English,7.3,9636.84,Yes
+P00429,65,8,High,Urgent,Cardiology,1,6,1,2.0,15.0,149,100,Current,Independent,Private,Not scheduled,Rehab,A,No,Yes,No,No,Restricted,English,2.2,12036.78,No
+P00430,35,6,Low,Emergency,Pulmonology,1,5,0,9.3,25.9,126,70,Former,Assisted,Private,Scheduled,Home,C,No,No,No,No,Normal,Spanish,28.5,9512.54,No
+P00431,18,1,High,Elective,Cardiology,2,4,1,7.6,31.1,144,93,Current,Independent,Public,Not scheduled,Home,D,Yes,No,No,No,Supplemented,Spanish,1.3,1638.14,No
+P00432,23,5,Moderate,Urgent,General,2,5,0,4.8,21.1,135,202,Never,Independent,Self-pay,Not scheduled,Home,C,Yes,No,No,No,Normal,Spanish,15.0,10286.99,No
+P00433,79,2,Low,Elective,Pulmonology,1,3,1,7.6,33.4,124,86,Never,Independent,Private,Not scheduled,Home,A,Yes,Yes,No,No,Supplemented,English,12.7,3580.78,No
+P00434,39,1,Low,Emergency,Orthopedics,0,6,0,7.7,23.3,143,96,Former,Assisted,Public,Not scheduled,Home,A,No,Yes,No,No,Restricted,English,13.4,2161.26,No
+P00435,22,2,High,Emergency,Pulmonology,2,8,1,4.4,25.1,200,82,Never,Independent,Private,Scheduled,Home,E,No,Yes,No,No,Restricted,English,32.3,2899.04,No
+P00436,42,3,High,Elective,General,0,3,1,6.0,28.2,105,108,Current,Independent,Public,Scheduled,Rehab,B,No,No,No,Yes,Supplemented,English,14.3,6561.81,No
+P00437,81,6,Moderate,Emergency,Orthopedics,0,4,0,5.2,21.5,123,112,Never,Limited,Public,Not scheduled,Home,A,No,No,No,No,Restricted,English,6.7,10530.63,Yes
+P00438,48,3,Low,Elective,Pulmonology,1,5,1,5.4,32.5,102,164,Never,Independent,Public,Scheduled,Home,C,No,Yes,No,Yes,Supplemented,English,25.2,5196.54,No
+P00439,89,7,Low,Urgent,Cardiology,0,5,1,8.2,34.6,132,99,Former,Assisted,Public,Scheduled,Home,B,No,No,No,No,Supplemented,English,27.7,12101.19,No
+P00440,54,2,Moderate,Elective,Oncology,1,8,1,6.1,20.4,129,120,Current,Assisted,Public,Scheduled,Home,B,No,No,No,Yes,Normal,English,7.3,4955.76,No
+P00441,83,3,Moderate,Emergency,Orthopedics,3,2,2,7.4,25.9,160,50,Former,Independent,Private,Scheduled,Home,D,No,Yes,Yes,Yes,Normal,English,6.1,4970.96,No
+P00442,32,2,Low,Emergency,Oncology,0,4,1,8.5,38.4,120,80,Current,Independent,Private,Scheduled,Home,D,No,Yes,No,Yes,Normal,Other,9.3,4842.5,No
+P00443,57,1,High,Emergency,Cardiology,1,4,0,6.4,33.6,142,158,Never,Independent,Public,Scheduled,Home,D,Yes,No,No,Yes,Restricted,English,8.5,2059.05,Yes
+P00444,52,4,Low,Elective,Pulmonology,2,1,0,8.6,17.3,88,81,Current,Limited,Public,Scheduled,Home,E,Yes,Yes,No,No,Restricted,English,19.8,5873.8,No
+P00445,74,17,High,Emergency,Cardiology,0,6,1,9.6,34.0,128,146,Current,Limited,Private,Scheduled,Home,C,No,Yes,No,Yes,Restricted,English,9.9,25695.66,Yes
+P00446,27,1,High,Elective,General,1,2,2,8.7,15.0,109,78,Never,Limited,Public,Not scheduled,Home,D,No,No,No,No,Normal,English,15.4,1857.61,No
+P00447,30,7,Low,Urgent,Neurology,3,8,0,8.3,30.7,136,108,Former,Independent,Public,Scheduled,Home,B,Yes,Yes,No,No,Supplemented,Spanish,56.3,12817.96,No
+P00448,34,8,High,Elective,Pulmonology,0,4,1,8.7,21.9,146,184,Former,Independent,Public,Not scheduled,Home,D,Yes,No,No,No,Normal,English,11.8,13444.0,No
+P00449,86,4,High,Elective,Pulmonology,1,7,0,7.9,29.8,114,145,Former,Limited,Private,Scheduled,Rehab,D,No,No,No,No,Supplemented,English,8.8,6557.72,No
+P00450,83,1,High,Elective,Pulmonology,2,4,0,8.7,28.5,135,50,Never,Assisted,Self-pay,Not scheduled,Home,B,Yes,Yes,No,No,Restricted,English,33.7,2264.64,No
+P00451,19,14,Moderate,Emergency,Orthopedics,0,4,0,5.1,27.8,119,244,Never,Independent,Private,Scheduled,Home,E,No,Yes,No,No,Normal,Other,59.1,25846.41,No
+P00452,48,6,High,Elective,Neurology,1,3,1,7.1,30.5,126,73,Never,Independent,Private,Scheduled,Home,E,No,Yes,No,Yes,Supplemented,English,35.7,11646.48,No
+P00453,58,11,Moderate,Urgent,Cardiology,1,3,3,7.9,24.0,132,190,Former,Independent,Private,Scheduled,Home,D,No,No,No,No,Supplemented,English,12.5,20187.19,No
+P00454,83,1,Low,Urgent,Neurology,2,2,0,7.1,23.4,107,97,Former,Assisted,Self-pay,Not scheduled,Rehab,A,No,Yes,Yes,Yes,Restricted,Spanish,24.7,1813.0,Yes
+P00455,51,3,Critical,Emergency,General,1,3,0,11.7,32.6,107,66,Never,Independent,Private,Scheduled,Home,A,No,No,Yes,Yes,Restricted,Other,39.0,7339.06,No
+P00456,74,1,Critical,Elective,Orthopedics,1,7,0,6.9,27.0,141,97,Never,Independent,Public,Scheduled,Home,D,Yes,No,No,Yes,Normal,Spanish,8.6,1971.93,Yes
+P00457,76,8,Low,Emergency,Cardiology,1,6,2,4.0,23.6,113,89,Former,Assisted,Public,Scheduled,Home,E,No,Yes,Yes,No,Normal,English,15.8,20712.69,No
+P00458,55,1,Moderate,Elective,Pulmonology,1,8,1,7.3,25.9,148,93,Never,Independent,Public,Scheduled,Rehab,A,No,Yes,No,Yes,Restricted,Spanish,7.8,2033.51,No
+P00459,72,4,Critical,Emergency,Pulmonology,0,10,1,8.7,25.4,93,117,Former,Independent,Public,Scheduled,Home,D,Yes,No,No,No,Normal,English,4.8,6417.22,No
+P00460,23,3,Moderate,Urgent,Orthopedics,1,8,0,5.6,24.9,142,134,Current,Assisted,Private,Scheduled,Home,C,No,No,Yes,No,Supplemented,English,21.9,6519.41,No
+P00461,42,1,Moderate,Emergency,Neurology,2,8,2,7.1,29.7,125,172,Former,Assisted,Private,Scheduled,Home,C,No,Yes,Yes,No,Restricted,English,11.4,1776.95,No
+P00462,80,6,Low,Emergency,Orthopedics,1,5,0,7.1,21.8,123,124,Never,Independent,Private,Scheduled,Home,A,No,Yes,No,No,Supplemented,English,5.9,13544.51,No
+P00463,29,6,Moderate,Elective,Neurology,6,4,1,7.1,36.1,128,118,Never,Limited,Public,Scheduled,Home,A,No,No,No,No,Restricted,English,5.9,9583.1,No
+P00464,55,3,Moderate,Urgent,Cardiology,3,6,0,6.1,28.3,99,86,Current,Assisted,Private,Not scheduled,Home,C,No,Yes,No,No,Supplemented,English,27.1,3973.55,Yes
+P00465,75,11,High,Emergency,Orthopedics,1,7,1,9.2,16.0,145,104,Former,Independent,Public,Not scheduled,Home,B,No,No,No,No,Supplemented,Spanish,21.9,20137.02,Yes
+P00466,55,1,Moderate,Urgent,Cardiology,1,4,1,11.1,28.7,117,95,Current,Independent,Private,Scheduled,Home,D,No,Yes,No,Yes,Normal,English,22.9,2240.36,No
+P00467,89,1,Moderate,Elective,Cardiology,3,5,1,5.7,21.4,110,60,Former,Independent,Private,Scheduled,Home,C,Yes,No,No,No,Restricted,English,8.6,1610.82,No
+P00468,80,5,Low,Urgent,Pulmonology,1,2,0,4.8,26.8,164,217,Former,Independent,Private,Not scheduled,Home,D,Yes,Yes,No,No,Supplemented,English,32.7,9869.78,No
+P00469,25,2,High,Emergency,Cardiology,1,7,0,6.4,26.1,119,125,Current,Assisted,Public,Scheduled,Home,C,No,Yes,No,Yes,Supplemented,English,28.9,3195.61,No
+P00470,56,4,Low,Elective,Oncology,1,11,2,9.7,31.1,109,125,Never,Assisted,Private,Scheduled,Home,E,No,No,No,No,Normal,English,34.1,8333.02,No
+P00471,71,9,Moderate,Emergency,Pulmonology,3,3,0,6.7,31.0,140,164,Never,Independent,Self-pay,Scheduled,Nursing facility,B,No,No,No,Yes,Supplemented,English,4.8,15214.46,No
+P00472,72,1,High,Urgent,Orthopedics,0,4,1,7.9,28.3,130,50,Never,Independent,Private,Not scheduled,Home,B,No,Yes,No,No,Normal,English,18.9,1880.48,No
+P00473,55,8,High,Emergency,Pulmonology,0,6,0,5.6,38.5,143,205,Never,Independent,Public,Not scheduled,Home,D,No,Yes,No,No,Normal,English,18.9,13600.48,No
+P00474,47,1,Low,Urgent,General,2,2,0,10.4,22.7,127,81,Never,Independent,Public,Scheduled,Home,C,No,No,No,No,Restricted,English,7.8,1574.89,No
+P00475,40,3,High,Emergency,Pulmonology,1,7,0,6.7,35.2,142,80,Never,Independent,Private,Scheduled,Home,A,No,No,No,Yes,Supplemented,English,12.6,3669.6,No
+P00476,43,9,Low,Emergency,Oncology,1,2,1,7.6,35.4,162,93,Never,Independent,Public,Scheduled,Home,B,No,No,No,Yes,Normal,English,17.1,12690.35,No
+P00477,19,6,Low,Elective,Oncology,2,8,0,5.8,29.0,111,154,Current,Assisted,Private,Scheduled,Home,E,No,Yes,No,No,Normal,English,33.2,10298.87,No
+P00478,80,2,High,Elective,General,1,5,0,5.6,29.8,117,201,Current,Independent,Self-pay,Not scheduled,Home,A,No,No,No,Yes,Supplemented,English,15.3,3869.26,No
+P00479,70,5,Low,Elective,Cardiology,1,11,0,7.2,32.7,96,181,Never,Independent,Public,Scheduled,Home,A,Yes,No,Yes,Yes,Normal,Spanish,20.8,11781.0,No
+P00480,38,3,Moderate,Elective,Neurology,1,6,1,7.4,25.1,132,96,Never,Independent,Public,Scheduled,Home,D,Yes,Yes,No,Yes,Normal,Spanish,3.4,4932.17,No
+P00481,27,3,Critical,Emergency,Pulmonology,1,2,2,8.8,24.0,127,50,Current,Limited,Private,Not scheduled,Home,E,Yes,No,No,Yes,Restricted,English,10.2,4826.73,No
+P00482,56,3,Low,Urgent,Pulmonology,1,7,1,4.2,24.3,148,98,Never,Assisted,Public,Not scheduled,Home,E,No,Yes,No,Yes,Restricted,English,11.1,4207.5,No
+P00483,80,6,High,Emergency,Oncology,4,6,0,5.5,28.8,124,89,Never,Independent,Private,Scheduled,Home,D,No,Yes,No,Yes,Restricted,English,30.2,12340.01,No
+P00484,90,4,Moderate,Emergency,Orthopedics,1,4,1,6.0,24.2,123,50,Current,Independent,Public,Scheduled,Home,B,No,No,No,No,Restricted,Other,30.7,7885.77,No
+P00485,37,4,Moderate,Emergency,Orthopedics,1,7,3,7.4,22.7,129,138,Former,Assisted,Private,Scheduled,Home,D,No,Yes,Yes,Yes,Supplemented,English,4.7,7736.95,No
+P00486,49,4,Moderate,Emergency,Orthopedics,1,12,1,5.2,20.8,121,115,Never,Independent,Public,Not scheduled,Home,B,No,No,No,No,Supplemented,English,8.1,7613.6,No
+P00487,61,5,Moderate,Emergency,Oncology,0,7,0,7.0,21.1,132,135,Former,Assisted,Public,Scheduled,Home,B,No,Yes,No,No,Restricted,English,18.1,8440.14,No
+P00488,61,4,High,Emergency,Neurology,3,7,0,6.0,23.2,129,144,Current,Independent,Public,Scheduled,Home,B,No,Yes,No,Yes,Restricted,English,12.1,8830.13,Yes
+P00489,38,3,High,Urgent,General,2,8,1,7.0,23.3,135,142,Never,Limited,Public,Not scheduled,Home,B,Yes,Yes,No,Yes,Restricted,English,10.5,4700.98,No
+P00490,77,5,Moderate,Elective,General,1,8,1,5.8,27.6,121,112,Never,Assisted,Self-pay,Not scheduled,Home,D,No,No,No,No,Restricted,Other,9.7,8289.26,No
+P00491,69,5,High,Emergency,Oncology,1,9,1,5.4,22.3,135,181,Former,Independent,Public,Scheduled,Home,E,No,No,No,Yes,Normal,English,17.0,7475.52,No
+P00492,78,5,Moderate,Emergency,Cardiology,3,5,0,7.7,30.0,136,95,Former,Assisted,Public,Not scheduled,Home,D,No,No,No,No,Restricted,Other,17.1,8806.68,No
+P00493,26,7,High,Emergency,Oncology,2,4,2,9.2,38.8,119,89,Never,Independent,Private,Scheduled,Home,E,No,No,No,Yes,Supplemented,English,8.8,10971.69,No
+P00494,67,2,Low,Elective,Orthopedics,2,5,0,8.7,34.5,124,106,Never,Independent,Private,Scheduled,Home,B,Yes,No,No,Yes,Supplemented,Spanish,9.8,3222.37,No
+P00495,43,2,Moderate,Emergency,Pulmonology,1,5,0,9.2,20.6,122,137,Never,Independent,Self-pay,Not scheduled,Home,C,No,No,No,No,Normal,English,12.6,2880.08,No
+P00496,73,10,Moderate,Urgent,Orthopedics,4,4,1,9.4,25.2,103,142,Never,Independent,Public,Scheduled,Home,D,No,No,No,No,Restricted,English,14.6,15124.66,No
+P00497,55,2,Moderate,Emergency,Oncology,2,8,0,6.9,19.4,116,101,Never,Assisted,Private,Not scheduled,Home,B,No,No,No,No,Restricted,English,1.2,2634.84,Yes
+P00498,55,3,Low,Elective,Cardiology,0,5,1,10.6,28.2,139,102,Former,Independent,Public,Scheduled,Home,D,No,Yes,No,No,Supplemented,English,7.4,5722.27,No
+P00499,60,1,Moderate,Urgent,Pulmonology,1,7,1,8.6,28.5,140,167,Never,Independent,Private,Scheduled,Home,C,No,No,No,No,Restricted,English,8.4,1541.33,No
+P00500,34,1,Critical,Emergency,Cardiology,1,6,1,5.5,28.0,131,63,Never,Independent,Private,Not scheduled,Home,B,Yes,Yes,No,Yes,Restricted,English,12.1,2283.36,Yes
+P00501,60,3,Low,Elective,General,2,5,0,6.0,20.7,107,225,Never,Independent,Public,Not scheduled,Home,D,No,No,No,Yes,Supplemented,English,16.8,6252.28,No
+P00502,82,3,Moderate,Urgent,Oncology,3,7,1,7.5,23.1,143,103,Never,Independent,Private,Not scheduled,Home,A,No,Yes,No,Yes,Normal,Spanish,7.9,5462.71,No
+P00503,23,3,Low,Emergency,Orthopedics,2,6,0,8.8,32.7,158,107,Never,Assisted,Private,Scheduled,Nursing facility,D,No,No,No,No,Normal,English,11.5,5913.1,No
+P00504,30,11,Moderate,Urgent,Pulmonology,0,4,1,6.8,29.4,136,130,Never,Independent,Self-pay,Scheduled,Home,A,No,No,No,Yes,Normal,English,2.2,22633.08,No
+P00505,20,1,Low,Emergency,Oncology,1,1,2,5.5,21.8,125,136,Never,Limited,Public,Not scheduled,Home,C,No,No,No,No,Supplemented,English,34.3,1651.52,No
+P00506,53,4,High,Elective,Pulmonology,3,4,0,8.6,19.3,109,89,Current,Assisted,Public,Scheduled,Home,D,No,No,No,Yes,Supplemented,English,4.2,6955.85,No
+P00507,35,4,Moderate,Emergency,General,1,0,1,5.2,26.6,125,129,Never,Independent,Private,Scheduled,Home,D,No,Yes,No,Yes,Supplemented,English,44.6,8493.74,No
+P00508,61,13,Critical,Elective,Oncology,0,5,0,7.7,26.3,116,78,Current,Independent,Public,Not scheduled,Home,B,No,No,No,Yes,Supplemented,English,15.9,27856.84,No
+P00509,20,7,Low,Elective,Cardiology,1,0,2,7.3,19.3,121,91,Former,Independent,Private,Scheduled,Nursing facility,D,No,No,No,No,Normal,English,24.8,10980.35,No
+P00510,25,3,High,Urgent,Cardiology,0,1,0,4.8,25.2,148,51,Never,Independent,Private,Scheduled,Nursing facility,A,Yes,No,No,No,Normal,English,13.0,7466.36,No
+P00511,34,10,Low,Emergency,General,0,7,2,10.4,24.1,141,121,Never,Independent,Public,Not scheduled,Home,E,No,No,No,Yes,Restricted,English,17.2,13942.1,Yes
+P00512,66,3,Low,Emergency,Orthopedics,0,1,2,7.2,23.5,119,108,Former,Independent,Private,Scheduled,Home,B,No,No,No,No,Normal,Other,17.1,3343.04,No
+P00513,22,7,High,Elective,Orthopedics,4,2,2,5.1,24.4,127,50,Never,Independent,Public,Not scheduled,Home,E,No,No,Yes,No,Normal,English,26.5,16217.34,No
+P00514,56,11,Moderate,Urgent,General,0,4,1,7.3,28.6,125,88,Former,Independent,Private,Scheduled,Home,C,No,Yes,Yes,No,Normal,English,18.8,22204.7,No
+P00515,56,4,Moderate,Elective,Orthopedics,1,10,1,4.1,27.5,117,114,Former,Independent,Private,Not scheduled,Home,C,No,Yes,No,Yes,Normal,English,3.8,7422.47,No
+P00516,41,2,High,Urgent,Pulmonology,1,7,0,7.8,34.5,101,149,Never,Independent,Self-pay,Scheduled,Home,B,Yes,Yes,No,Yes,Supplemented,English,2.8,4086.04,No
+P00517,25,1,Moderate,Urgent,Oncology,1,4,1,8.7,28.2,140,64,Current,Independent,Public,Scheduled,Home,D,No,No,No,Yes,Normal,English,5.7,1596.3,Yes
+P00518,70,4,Low,Elective,General,2,1,0,12.1,31.8,146,103,Never,Independent,Private,Scheduled,Nursing facility,B,No,Yes,No,No,Normal,Spanish,13.2,5114.43,No
+P00519,48,7,High,Urgent,Pulmonology,4,3,0,7.4,19.1,114,71,Never,Assisted,Private,Scheduled,Rehab,D,No,No,No,No,Normal,English,27.3,11655.67,No
+P00520,61,20,Moderate,Emergency,Cardiology,1,4,2,6.0,27.9,113,144,Never,Assisted,Private,Scheduled,Home,A,No,No,No,Yes,Supplemented,English,7.8,31816.67,No
+P00521,74,9,High,Elective,Neurology,0,7,0,7.6,24.8,141,88,Never,Assisted,Private,Scheduled,Home,D,No,No,No,No,Supplemented,English,3.8,13531.17,No
+P00522,18,4,High,Emergency,Oncology,3,6,0,9.8,31.3,113,136,Former,Assisted,Public,Scheduled,Rehab,A,No,No,No,No,Supplemented,English,5.4,6476.73,No
+P00523,74,2,High,Urgent,Oncology,1,6,3,8.1,28.5,100,101,Never,Independent,Public,Scheduled,Nursing facility,B,No,No,No,Yes,Normal,English,46.6,3246.8,No
+P00524,24,4,Moderate,Emergency,General,0,7,0,8.7,36.5,117,50,Former,Assisted,Private,Scheduled,Home,D,No,Yes,No,Yes,Supplemented,Spanish,25.7,6633.66,No
+P00525,59,11,Low,Elective,Neurology,1,7,0,8.6,21.4,149,112,Never,Independent,Private,Scheduled,Home,D,No,No,No,Yes,Restricted,English,5.3,21057.57,No
+P00526,24,14,High,Elective,Neurology,0,5,0,8.1,22.7,116,68,Never,Assisted,Private,Scheduled,Home,A,No,Yes,No,No,Supplemented,Spanish,10.3,27542.93,No
+P00527,20,3,High,Elective,General,1,5,1,4.7,29.0,113,160,Never,Independent,Self-pay,Scheduled,Home,A,No,Yes,No,No,Restricted,Other,14.3,5669.58,No
+P00528,48,3,High,Emergency,Cardiology,0,4,2,4.6,26.2,117,188,Current,Independent,Public,Scheduled,Home,A,No,Yes,No,Yes,Restricted,English,18.8,3113.17,No
+P00529,57,10,High,Urgent,Pulmonology,2,6,2,4.4,21.3,104,141,Never,Limited,Public,Scheduled,Rehab,A,No,No,No,Yes,Normal,Spanish,69.0,14948.04,No
+P00530,40,10,Low,Emergency,Neurology,0,8,0,5.0,29.2,101,89,Never,Independent,Public,Scheduled,Home,B,No,No,No,No,Normal,English,13.2,14988.76,No
+P00531,36,3,Moderate,Emergency,Pulmonology,1,2,1,5.3,24.0,120,116,Former,Independent,Public,Scheduled,Rehab,B,No,Yes,No,No,Normal,English,6.8,6477.03,No
+P00532,31,7,Low,Elective,General,4,3,1,10.5,29.7,100,127,Former,Independent,Public,Not scheduled,Home,C,No,No,No,Yes,Normal,English,35.3,10818.24,No
+P00533,59,3,Moderate,Emergency,Neurology,2,7,0,5.9,16.8,118,158,Never,Independent,Public,Scheduled,Rehab,D,No,No,No,Yes,Restricted,Spanish,50.4,3692.46,No
+P00534,47,8,Moderate,Emergency,Cardiology,3,1,1,7.4,25.2,130,107,Never,Limited,Self-pay,Scheduled,Home,A,Yes,No,No,Yes,Supplemented,English,11.9,16053.58,No
+P00535,84,4,Low,Urgent,Oncology,3,6,0,6.8,27.9,132,131,Never,Assisted,Public,Scheduled,Home,C,No,No,No,Yes,Supplemented,English,19.6,7309.5,No
+P00536,49,3,Moderate,Elective,General,3,8,0,7.5,28.0,122,50,Never,Assisted,Self-pay,Scheduled,Rehab,A,No,No,No,No,Supplemented,Other,13.0,7662.96,No
+P00537,61,7,Moderate,Emergency,Pulmonology,1,3,0,7.3,31.2,103,125,Never,Independent,Public,Not scheduled,Rehab,D,Yes,No,No,No,Restricted,English,19.9,9699.62,No
+P00538,87,4,Moderate,Urgent,Neurology,4,5,0,4.9,25.5,118,81,Never,Independent,Private,Scheduled,Home,E,No,No,No,No,Normal,English,23.9,6938.46,No
+P00539,86,7,Low,Elective,Neurology,1,2,1,8.3,29.7,131,117,Current,Independent,Private,Not scheduled,Nursing facility,E,No,Yes,No,No,Restricted,English,16.9,10422.09,No
+P00540,54,2,Low,Emergency,Neurology,1,2,0,6.0,26.6,136,73,Current,Independent,Public,Scheduled,Rehab,A,No,No,No,No,Restricted,Other,32.3,2978.91,No
+P00541,33,2,Moderate,Elective,Orthopedics,2,1,0,5.9,31.4,120,131,Never,Independent,Public,Scheduled,Home,D,No,No,Yes,No,Supplemented,English,16.7,3106.37,No
+P00542,46,4,Low,Urgent,Orthopedics,3,5,1,6.6,17.8,112,141,Never,Independent,Private,Scheduled,Home,D,No,No,No,Yes,Restricted,Spanish,6.6,5881.93,No
+P00543,37,2,Moderate,Emergency,Oncology,0,2,2,8.7,15.0,126,106,Current,Independent,Self-pay,Scheduled,Home,E,No,Yes,No,No,Supplemented,Spanish,30.4,3711.54,No
+P00544,53,3,Moderate,Emergency,Pulmonology,1,3,0,6.1,34.5,119,80,Never,Limited,Private,Scheduled,Home,A,No,No,No,No,Normal,English,32.1,5456.7,No
+P00545,28,4,Critical,Emergency,Cardiology,2,2,1,7.4,23.6,107,138,Current,Independent,Private,Scheduled,Home,A,Yes,Yes,Yes,No,Normal,Spanish,1.4,7162.16,Yes
+P00546,47,3,Low,Elective,General,3,9,3,7.9,16.8,131,177,Never,Independent,Private,Scheduled,Home,B,No,No,No,No,Supplemented,English,53.7,6541.45,No
+P00547,23,11,Moderate,Urgent,General,1,5,0,7.7,26.0,125,192,Never,Independent,Private,Scheduled,Rehab,A,No,No,No,No,Supplemented,English,6.0,21641.76,No
+P00548,89,2,High,Emergency,Neurology,4,11,0,7.6,23.9,105,131,Current,Independent,Private,Scheduled,Rehab,B,No,No,No,Yes,Normal,English,12.0,4101.27,Yes
+P00549,18,4,Moderate,Emergency,Orthopedics,1,8,0,4.7,29.2,114,126,Never,Independent,Private,Not scheduled,Home,B,No,No,No,Yes,Restricted,English,10.1,7393.72,No
+P00550,82,4,Moderate,Elective,Oncology,2,8,1,7.4,30.0,122,62,Never,Assisted,Private,Not scheduled,Rehab,E,Yes,No,No,Yes,Normal,English,7.3,7571.03,No
+P00551,85,4,High,Emergency,General,1,5,1,5.6,24.5,98,168,Current,Independent,Private,Scheduled,Home,E,No,Yes,No,Yes,Normal,English,18.0,8313.25,No
+P00552,88,3,Low,Emergency,Cardiology,1,3,0,4.0,32.6,112,50,Former,Independent,Private,Not scheduled,Home,B,Yes,No,No,No,Normal,English,4.4,4371.13,No
+P00553,50,7,Critical,Elective,Orthopedics,2,4,2,6.4,19.7,136,163,Never,Independent,Private,Scheduled,Home,D,No,No,No,No,Normal,English,15.1,11226.4,No
+P00554,74,8,Moderate,Emergency,Neurology,2,7,1,6.3,15.0,116,116,Never,Assisted,Public,Scheduled,Home,A,Yes,No,No,No,Restricted,English,25.2,14575.6,No
+P00555,86,3,High,Elective,Neurology,1,6,2,12.5,27.9,111,50,Never,Independent,Private,Not scheduled,Home,B,No,No,No,No,Normal,English,13.6,5437.37,Yes
+P00556,79,8,High,Emergency,Cardiology,1,3,0,9.0,25.5,144,128,Current,Assisted,Self-pay,Scheduled,Home,E,Yes,Yes,No,No,Restricted,English,35.5,10989.08,No
+P00557,81,2,High,Emergency,Orthopedics,0,5,0,8.6,15.6,131,109,Former,Independent,Private,Scheduled,Home,E,No,Yes,No,Yes,Normal,English,4.3,4057.22,Yes
+P00558,53,4,Low,Emergency,Pulmonology,2,6,2,6.5,30.7,138,97,Former,Independent,Self-pay,Scheduled,Home,B,No,No,No,Yes,Normal,Spanish,9.9,8927.35,No
+P00559,72,4,Moderate,Elective,Pulmonology,1,4,1,6.9,16.8,111,104,Never,Limited,Private,Scheduled,Home,D,No,Yes,No,Yes,Normal,English,6.7,8836.39,No
+P00560,33,2,Moderate,Elective,Cardiology,1,2,1,11.8,26.3,120,114,Never,Independent,Private,Scheduled,Home,A,Yes,Yes,Yes,Yes,Normal,Spanish,23.6,3184.04,No
+P00561,85,1,Moderate,Emergency,General,1,1,0,6.1,31.6,125,114,Never,Independent,Public,Scheduled,Home,E,No,No,No,No,Normal,English,14.2,2054.98,No
+P00562,52,4,High,Elective,Oncology,3,6,0,7.7,28.5,129,56,Never,Independent,Private,Scheduled,Home,B,No,No,No,No,Restricted,English,10.5,6716.19,No
+P00563,37,2,Moderate,Elective,Orthopedics,1,6,0,10.5,28.2,166,131,Current,Assisted,Self-pay,Scheduled,Home,A,No,No,No,No,Restricted,Other,25.7,3642.29,No
+P00564,39,10,Moderate,Urgent,Cardiology,0,3,1,5.9,24.2,127,100,Former,Independent,Public,Scheduled,Nursing facility,C,Yes,Yes,No,Yes,Supplemented,English,41.5,21306.15,No
+P00565,80,3,Moderate,Urgent,Oncology,1,9,1,7.5,28.0,145,178,Former,Assisted,Public,Not scheduled,Home,E,No,No,No,No,Supplemented,English,19.6,6606.57,Yes
+P00566,31,7,Low,Urgent,Cardiology,3,7,2,7.2,30.1,166,149,Never,Assisted,Public,Not scheduled,Home,D,No,Yes,No,No,Restricted,English,28.6,11671.79,No
+P00567,67,6,Moderate,Emergency,Neurology,1,8,1,5.6,23.1,156,154,Never,Assisted,Private,Scheduled,Nursing facility,C,Yes,Yes,No,No,Restricted,English,1.1,9865.27,No
+P00568,38,2,Low,Elective,Neurology,0,4,1,8.6,20.2,128,189,Never,Limited,Private,Scheduled,Nursing facility,B,Yes,No,No,No,Normal,English,20.2,4498.99,No
+P00569,61,3,Moderate,Urgent,Cardiology,0,8,1,5.2,31.7,146,144,Former,Assisted,Private,Scheduled,Home,A,No,No,No,Yes,Restricted,Spanish,62.0,5309.17,No
+P00570,57,3,Low,Elective,Pulmonology,0,3,0,8.6,38.1,127,109,Never,Independent,Private,Not scheduled,Home,A,Yes,Yes,No,No,Restricted,Spanish,20.0,2699.38,Yes
+P00571,63,5,High,Elective,General,2,3,0,8.0,36.0,124,50,Never,Limited,Private,Not scheduled,Home,A,No,No,Yes,No,Restricted,English,20.6,9659.94,Yes
+P00572,34,18,Low,Elective,Oncology,2,3,2,8.8,15.0,140,125,Current,Independent,Public,Scheduled,Rehab,B,No,Yes,No,Yes,Normal,English,17.9,28072.67,No
+P00573,84,5,Moderate,Elective,Cardiology,2,5,1,6.9,34.5,141,184,Never,Assisted,Private,Scheduled,Nursing facility,C,No,Yes,No,No,Restricted,English,12.4,8573.6,No
+P00574,82,3,Moderate,Elective,Neurology,1,9,3,7.9,23.2,134,151,Former,Independent,Private,Scheduled,Home,A,Yes,Yes,No,Yes,Restricted,English,10.8,5933.85,No
+P00575,85,5,Moderate,Urgent,Cardiology,0,1,2,9.0,37.8,122,95,Never,Independent,Private,Scheduled,Home,C,No,Yes,No,No,Normal,Other,13.3,6226.58,No
+P00576,54,2,Moderate,Elective,Cardiology,2,9,1,4.7,20.8,116,117,Never,Assisted,Private,Scheduled,Home,D,No,Yes,No,No,Supplemented,English,19.2,4058.55,No
+P00577,30,2,High,Elective,Oncology,0,5,0,5.0,20.2,103,93,Never,Assisted,Private,Scheduled,Home,A,No,Yes,No,Yes,Normal,English,5.9,2690.93,No
+P00578,58,11,Low,Emergency,Cardiology,0,2,1,8.2,26.7,128,127,Never,Limited,Private,Scheduled,Home,C,No,Yes,No,Yes,Restricted,Other,13.2,17348.84,Yes
+P00579,23,3,Moderate,Urgent,Pulmonology,2,7,1,8.7,24.6,129,95,Never,Independent,Public,Scheduled,Home,B,No,No,No,Yes,Supplemented,Spanish,28.2,5686.35,No
+P00580,69,2,Moderate,Urgent,Oncology,3,4,1,7.4,24.9,140,173,Never,Assisted,Private,Not scheduled,Home,D,No,Yes,No,Yes,Supplemented,English,13.3,2861.74,No
+P00581,37,1,Moderate,Emergency,Neurology,1,4,0,8.9,32.7,99,120,Current,Independent,Self-pay,Scheduled,Rehab,B,No,Yes,No,Yes,Restricted,English,10.6,1431.91,No
+P00582,32,4,High,Urgent,Neurology,1,5,0,6.5,34.4,127,125,Never,Independent,Private,Scheduled,Rehab,D,No,No,No,Yes,Restricted,English,19.1,7601.98,No
+P00583,77,1,Moderate,Emergency,Orthopedics,2,5,1,9.5,21.3,121,82,Former,Independent,Private,Scheduled,Home,A,No,No,No,No,Restricted,Other,3.0,1958.8,No
+P00584,66,9,Low,Emergency,General,2,9,0,7.1,36.8,124,98,Never,Independent,Private,Scheduled,Home,E,No,No,No,No,Normal,English,12.3,15720.25,No
+P00585,25,6,Moderate,Urgent,Oncology,0,8,2,5.8,19.6,147,69,Never,Assisted,Public,Scheduled,Home,E,No,No,No,Yes,Normal,Spanish,5.4,11915.19,No
+P00586,81,3,Moderate,Emergency,Orthopedics,0,3,1,9.8,23.4,148,172,Current,Assisted,Self-pay,Not scheduled,Home,D,Yes,Yes,No,Yes,Supplemented,English,16.3,9025.51,No
+P00587,66,12,Low,Elective,Oncology,1,5,1,8.7,42.2,143,94,Former,Assisted,Public,Scheduled,Home,E,No,No,No,Yes,Supplemented,Spanish,9.3,16236.6,No
+P00588,37,3,Moderate,Urgent,Oncology,1,2,1,6.4,29.2,127,121,Never,Limited,Public,Not scheduled,Rehab,D,Yes,No,Yes,Yes,Supplemented,English,19.5,3384.56,No
+P00589,47,3,High,Emergency,Neurology,3,5,2,6.4,23.1,122,53,Current,Assisted,Public,Scheduled,Home,B,No,Yes,No,Yes,Restricted,English,12.5,6411.05,No
+P00590,51,2,High,Emergency,Orthopedics,4,2,2,8.3,28.6,147,66,Never,Assisted,Private,Not scheduled,Rehab,A,No,Yes,No,Yes,Restricted,English,21.4,2890.46,Yes
+P00591,84,6,Low,Emergency,Oncology,2,3,1,5.4,31.2,156,105,Former,Assisted,Private,Scheduled,Home,E,No,Yes,No,Yes,Supplemented,English,15.0,11465.18,No
+P00592,58,2,High,Urgent,Oncology,4,4,2,7.8,29.0,154,103,Former,Independent,Public,Scheduled,Home,A,Yes,No,No,No,Restricted,English,5.1,3964.29,Yes
+P00593,77,3,Moderate,Elective,Pulmonology,5,6,0,6.9,34.7,134,125,Never,Independent,Self-pay,Scheduled,Nursing facility,D,No,Yes,No,Yes,Supplemented,Other,5.6,5368.8,No
+P00594,20,2,Low,Urgent,Cardiology,2,7,2,7.6,21.8,126,195,Never,Limited,Private,Scheduled,Home,A,No,No,No,No,Restricted,English,4.0,3766.71,No
+P00595,55,5,Moderate,Emergency,Cardiology,1,4,0,3.6,23.1,137,50,Never,Independent,Self-pay,Scheduled,Rehab,A,Yes,Yes,No,No,Supplemented,English,17.5,11563.96,Yes
+P00596,24,1,Moderate,Emergency,General,2,5,3,5.6,21.7,139,154,Former,Independent,Private,Scheduled,Rehab,B,No,No,No,Yes,Supplemented,English,10.2,1616.34,No
+P00597,45,4,Moderate,Elective,Neurology,1,11,0,7.7,22.0,118,135,Current,Independent,Private,Scheduled,Home,D,No,No,No,Yes,Supplemented,Other,10.7,8732.13,No
+P00598,58,9,High,Elective,Oncology,1,3,3,9.1,27.3,122,90,Former,Independent,Self-pay,Not scheduled,Home,A,No,No,No,No,Supplemented,English,25.8,12663.14,Yes
+P00599,78,1,Low,Elective,Oncology,0,9,1,7.0,20.6,180,98,Never,Assisted,Self-pay,Not scheduled,Home,A,No,Yes,No,Yes,Normal,English,29.0,1905.28,No
+P00600,38,6,Moderate,Emergency,Orthopedics,4,7,0,8.5,28.7,118,160,Never,Limited,Private,Scheduled,Rehab,B,No,No,No,No,Supplemented,English,15.2,11676.23,No
+P00601,35,7,Low,Emergency,Cardiology,3,5,0,4.5,30.8,140,113,Former,Assisted,Public,Scheduled,Home,C,Yes,No,Yes,No,Normal,English,5.0,12439.74,No
+P00602,80,3,Low,Emergency,Orthopedics,1,8,2,6.4,19.7,116,102,Current,Assisted,Public,Scheduled,Home,B,No,Yes,No,No,Supplemented,English,15.5,6273.19,No
+P00603,57,1,Moderate,Emergency,Neurology,0,1,0,7.7,23.2,123,73,Never,Assisted,Public,Scheduled,Home,D,No,No,No,No,Supplemented,English,31.5,1812.99,No
+P00604,71,6,High,Urgent,Orthopedics,2,7,0,7.1,23.9,108,82,Never,Independent,Public,Scheduled,Home,C,No,Yes,Yes,Yes,Supplemented,English,7.5,11398.5,Yes
+P00605,86,8,Moderate,Emergency,Pulmonology,2,5,0,8.6,25.7,108,66,Never,Independent,Private,Scheduled,Home,E,No,No,No,No,Normal,English,26.1,12705.69,No
+P00606,21,12,Moderate,Elective,Oncology,0,4,1,6.7,26.0,136,150,Never,Independent,Private,Scheduled,Home,E,Yes,No,No,Yes,Supplemented,English,29.6,18006.35,No
+P00607,62,4,Moderate,Elective,Oncology,3,4,1,6.8,32.4,134,84,Never,Limited,Private,Scheduled,Home,B,No,Yes,No,No,Supplemented,English,32.9,5972.13,No
+P00608,23,1,Moderate,Elective,Cardiology,2,6,0,8.4,32.9,158,67,Current,Independent,Private,Scheduled,Rehab,D,No,No,No,No,Normal,English,16.5,1616.09,No
+P00609,85,6,Low,Elective,General,1,2,0,6.2,22.1,125,122,Never,Assisted,Public,Scheduled,Home,D,No,Yes,No,Yes,Restricted,Spanish,19.4,8493.84,No
+P00610,50,1,Moderate,Emergency,General,2,6,0,5.6,31.2,128,82,Current,Assisted,Private,Not scheduled,Home,D,No,No,Yes,Yes,Normal,Spanish,8.0,2360.31,No
+P00611,50,5,High,Urgent,General,0,7,1,8.0,35.2,124,177,Current,Independent,Private,Not scheduled,Home,E,No,Yes,No,No,Restricted,English,8.8,8537.95,Yes
+P00612,31,7,High,Elective,Orthopedics,1,4,1,5.5,34.3,107,117,Current,Independent,Private,Not scheduled,Home,A,No,Yes,No,Yes,Supplemented,English,12.4,12580.9,No
+P00613,63,9,Low,Emergency,General,1,5,1,9.8,28.2,136,123,Never,Independent,Private,Scheduled,Home,E,Yes,No,No,No,Normal,English,1.5,13101.1,No
+P00614,57,3,Moderate,Emergency,Orthopedics,1,8,3,3.9,26.7,122,123,Never,Independent,Self-pay,Not scheduled,Home,C,No,Yes,No,No,Supplemented,English,4.2,7239.95,No
+P00615,86,2,Moderate,Emergency,Oncology,2,5,1,6.7,18.6,99,138,Current,Independent,Private,Scheduled,Home,A,No,No,Yes,Yes,Supplemented,Other,19.3,3447.13,No
+P00616,18,4,High,Emergency,Orthopedics,1,8,2,10.1,24.5,145,143,Never,Independent,Private,Scheduled,Home,B,Yes,No,Yes,Yes,Supplemented,Spanish,30.5,6493.01,Yes
+P00617,71,1,Low,Urgent,Pulmonology,4,4,2,10.8,18.0,115,116,Never,Assisted,Private,Not scheduled,Rehab,A,No,No,No,Yes,Normal,English,8.9,1650.88,Yes
+P00618,87,3,Low,Emergency,Pulmonology,5,7,1,7.0,33.8,131,74,Never,Assisted,Private,Scheduled,Home,B,No,Yes,No,Yes,Supplemented,English,3.5,5210.11,No
+P00619,84,2,Critical,Emergency,Oncology,1,7,0,9.2,25.4,132,109,Former,Limited,Self-pay,Scheduled,Rehab,A,No,No,No,Yes,Restricted,English,17.3,3417.71,No
+P00620,63,8,Low,Urgent,General,6,4,1,8.6,26.5,129,117,Never,Assisted,Public,Not scheduled,Home,D,Yes,No,No,No,Supplemented,English,9.8,11169.71,No
+P00621,78,10,Critical,Elective,Orthopedics,0,9,0,6.3,23.3,107,50,Current,Assisted,Public,Scheduled,Home,A,No,No,No,No,Supplemented,English,11.5,20580.61,Yes
+P00622,21,6,Moderate,Emergency,General,3,5,1,8.0,18.5,150,50,Never,Independent,Self-pay,Scheduled,Home,A,No,No,No,No,Supplemented,English,12.0,8795.04,No
+P00623,23,7,Moderate,Elective,Oncology,1,8,1,5.6,31.3,112,66,Never,Independent,Private,Scheduled,Rehab,E,No,No,No,Yes,Restricted,English,7.8,14299.82,No
+P00624,68,4,Low,Elective,Pulmonology,1,5,1,4.4,30.0,81,50,Never,Independent,Public,Not scheduled,Home,C,No,No,No,No,Normal,English,6.1,5603.54,No
+P00625,36,4,High,Emergency,Oncology,1,6,1,8.1,32.6,140,96,Current,Assisted,Private,Scheduled,Rehab,A,No,No,No,No,Normal,Spanish,44.7,7407.88,No
+P00626,69,1,Low,Urgent,Oncology,2,6,0,8.2,16.5,140,84,Former,Independent,Public,Scheduled,Nursing facility,D,No,No,No,No,Restricted,English,24.7,1492.69,No
+P00627,72,5,Moderate,Emergency,Orthopedics,4,6,0,5.1,34.9,103,119,Current,Assisted,Private,Scheduled,Rehab,E,No,No,No,No,Normal,English,22.9,7908.31,No
+P00628,66,7,Low,Urgent,Neurology,4,3,0,6.9,26.2,125,143,Current,Assisted,Self-pay,Scheduled,Home,B,No,No,No,No,Normal,Spanish,0.5,13610.19,No
+P00629,82,3,Low,Elective,Orthopedics,3,1,2,5.1,31.7,144,127,Never,Independent,Private,Scheduled,Home,B,No,Yes,Yes,No,Normal,English,5.4,6462.87,Yes
+P00630,33,3,High,Emergency,Pulmonology,3,5,1,6.4,15.0,150,132,Former,Independent,Self-pay,Not scheduled,Home,C,No,No,No,Yes,Supplemented,Spanish,21.8,7040.28,No
+P00631,76,1,Low,Elective,Orthopedics,0,2,2,6.4,29.5,136,153,Former,Assisted,Public,Scheduled,Home,A,No,No,No,Yes,Supplemented,Spanish,3.4,1911.93,No
+P00632,76,3,Moderate,Emergency,Orthopedics,1,9,2,8.5,26.6,140,102,Never,Independent,Private,Not scheduled,Home,E,No,No,No,Yes,Supplemented,Spanish,13.5,5395.09,Yes
+P00633,40,8,High,Elective,Orthopedics,1,3,0,6.3,25.7,138,50,Former,Independent,Private,Scheduled,Home,B,Yes,Yes,No,No,Restricted,Other,13.9,12088.04,No
+P00634,32,5,Moderate,Urgent,Orthopedics,0,4,1,4.9,26.4,123,50,Former,Independent,Public,Not scheduled,Home,B,No,Yes,No,No,Restricted,English,9.3,6315.94,No
+P00635,63,4,Moderate,Emergency,Cardiology,1,7,0,10.3,23.4,105,135,Current,Independent,Private,Not scheduled,Rehab,D,Yes,Yes,No,No,Normal,English,17.8,7944.4,No
+P00636,82,2,Low,Elective,Neurology,2,3,1,8.1,18.5,120,123,Never,Independent,Public,Scheduled,Home,B,Yes,No,No,Yes,Restricted,Spanish,8.1,3447.96,No
+P00637,66,3,High,Urgent,Neurology,3,6,0,8.8,19.4,145,143,Never,Limited,Private,Scheduled,Home,A,Yes,No,Yes,No,Restricted,Spanish,8.1,5408.15,No
+P00638,26,2,Low,Emergency,Neurology,1,7,1,8.3,27.2,145,229,Former,Independent,Public,Scheduled,Home,C,No,Yes,No,Yes,Restricted,English,4.9,3361.09,No
+P00639,49,2,Moderate,Elective,Cardiology,0,4,1,8.9,34.9,129,124,Former,Independent,Self-pay,Scheduled,Rehab,E,No,Yes,No,Yes,Restricted,English,33.1,3169.26,Yes
+P00640,46,5,High,Emergency,Pulmonology,3,3,2,8.0,33.6,119,111,Never,Assisted,Private,Scheduled,Rehab,C,No,No,No,No,Restricted,English,5.7,10014.98,No
+P00641,60,3,High,Elective,Cardiology,2,6,2,8.0,28.4,156,129,Never,Independent,Private,Not scheduled,Nursing facility,A,No,Yes,No,Yes,Restricted,English,8.8,6934.44,Yes
+P00642,60,7,Low,Emergency,Cardiology,0,6,0,7.4,24.1,127,67,Current,Independent,Private,Scheduled,Rehab,B,No,No,No,No,Supplemented,English,12.6,10080.33,No
+P00643,89,4,Moderate,Urgent,General,1,6,4,6.4,39.4,136,145,Never,Independent,Public,Not scheduled,Nursing facility,E,Yes,Yes,No,No,Normal,English,9.9,4951.19,No
+P00644,79,12,High,Urgent,Pulmonology,4,4,1,8.8,31.1,103,108,Former,Assisted,Private,Not scheduled,Nursing facility,D,No,Yes,No,Yes,Supplemented,English,33.3,20754.13,No
+P00645,57,3,High,Urgent,Oncology,0,5,0,6.7,30.6,124,182,Former,Assisted,Private,Scheduled,Home,A,Yes,No,No,Yes,Normal,English,25.6,4754.02,No
+P00646,28,8,Moderate,Urgent,Cardiology,2,6,1,7.4,19.0,145,51,Never,Independent,Public,Scheduled,Home,B,Yes,Yes,No,Yes,Supplemented,English,12.2,17240.83,No
+P00647,32,10,Low,Emergency,General,2,2,3,7.9,28.5,100,115,Former,Limited,Public,Not scheduled,Home,D,No,Yes,No,No,Supplemented,English,12.1,19518.21,No
+P00648,30,3,Moderate,Urgent,General,2,1,1,8.0,19.6,124,90,Never,Independent,Private,Scheduled,Rehab,B,No,No,No,No,Supplemented,Spanish,6.9,7106.05,No
+P00649,54,4,Critical,Emergency,Oncology,0,2,1,5.4,39.5,132,72,Former,Independent,Private,Scheduled,Home,C,No,Yes,No,Yes,Supplemented,English,1.1,8493.37,No
+P00650,29,3,Low,Elective,Neurology,3,3,1,7.6,22.0,151,140,Current,Assisted,Private,Scheduled,Rehab,E,No,No,No,No,Normal,English,3.3,5494.32,No
+P00651,30,2,High,Emergency,Orthopedics,3,2,1,5.4,23.4,143,102,Current,Assisted,Private,Not scheduled,Home,D,No,No,No,Yes,Restricted,English,32.5,3688.54,No
+P00652,28,6,Moderate,Elective,Pulmonology,1,8,3,7.5,23.1,155,168,Former,Independent,Private,Scheduled,Home,D,No,Yes,No,Yes,Supplemented,English,19.5,11504.32,Yes
+P00653,68,6,High,Elective,Oncology,2,3,2,8.6,24.8,140,94,Never,Independent,Private,Scheduled,Home,D,No,Yes,No,Yes,Normal,Spanish,8.2,9161.76,No
+P00654,38,2,Low,Elective,Neurology,2,2,2,10.4,31.0,141,99,Former,Independent,Private,Not scheduled,Nursing facility,B,Yes,No,No,Yes,Restricted,English,17.6,3861.13,Yes
+P00655,83,2,Low,Emergency,Oncology,3,7,1,8.2,27.0,108,196,Never,Independent,Public,Scheduled,Rehab,A,Yes,No,No,No,Supplemented,Other,53.5,4422.36,No
+P00656,54,4,Moderate,Elective,Pulmonology,4,6,0,8.8,27.3,107,61,Never,Independent,Private,Scheduled,Home,E,No,No,No,No,Restricted,English,21.2,6441.82,No
+P00657,67,4,High,Urgent,Oncology,3,8,2,5.2,31.3,155,84,Never,Independent,Public,Scheduled,Home,A,No,No,No,No,Restricted,English,4.7,6909.79,No
+P00658,56,1,Moderate,Elective,General,0,3,1,8.2,17.9,117,50,Never,Independent,Public,Scheduled,Home,D,No,No,No,No,Restricted,English,11.1,1997.01,No
+P00659,82,6,Moderate,Emergency,Oncology,0,4,0,5.2,31.5,115,97,Former,Independent,Private,Scheduled,Nursing facility,C,No,Yes,Yes,Yes,Supplemented,Spanish,18.1,13497.98,No
+P00660,27,1,Critical,Elective,General,1,7,0,9.4,27.8,83,143,Never,Assisted,Public,Scheduled,Home,A,No,Yes,No,Yes,Normal,English,30.2,1577.32,Yes
+P00661,71,2,Moderate,Urgent,Neurology,1,6,1,5.3,22.8,144,131,Never,Independent,Private,Scheduled,Home,C,No,Yes,No,No,Normal,English,13.5,3746.72,No
+P00662,60,4,High,Elective,Orthopedics,2,6,0,5.4,27.8,105,121,Former,Independent,Private,Scheduled,Rehab,A,No,Yes,No,Yes,Normal,English,11.4,7162.42,No
+P00663,49,6,Low,Emergency,General,1,3,0,8.6,27.7,110,80,Former,Independent,Private,Scheduled,Home,E,No,No,No,No,Supplemented,English,8.1,10306.68,No
+P00664,68,2,Low,Emergency,Oncology,2,2,1,10.2,15.0,145,107,Current,Independent,Private,Scheduled,Home,B,No,Yes,No,No,Supplemented,English,3.7,2484.59,No
+P00665,57,3,Moderate,Elective,Oncology,1,5,0,9.1,35.2,85,99,Never,Limited,Public,Scheduled,Home,B,No,Yes,No,Yes,Normal,English,22.7,4730.23,No
+P00666,63,3,Critical,Emergency,Cardiology,1,5,1,6.6,34.3,149,115,Never,Independent,Public,Scheduled,Home,D,Yes,Yes,No,No,Restricted,English,11.0,4295.21,No
+P00667,56,1,High,Urgent,Cardiology,1,7,1,5.4,19.2,110,122,Former,Independent,Public,Not scheduled,Rehab,B,Yes,No,No,No,Supplemented,Spanish,3.6,1759.66,No
+P00668,26,3,Low,Emergency,Cardiology,1,2,2,6.4,22.5,122,101,Never,Assisted,Public,Scheduled,Nursing facility,B,No,Yes,No,Yes,Normal,English,7.1,4992.26,No
+P00669,46,2,Critical,Elective,Neurology,2,2,1,7.4,35.1,111,116,Never,Assisted,Private,Scheduled,Home,B,No,No,Yes,No,Restricted,English,15.7,2886.47,Yes
+P00670,88,4,High,Urgent,Neurology,4,6,2,7.1,31.0,101,111,Never,Assisted,Public,Scheduled,Home,C,No,No,No,Yes,Restricted,English,13.8,6880.39,Yes
+P00671,24,1,High,Emergency,Orthopedics,3,7,0,5.3,29.3,111,88,Former,Independent,Public,Not scheduled,Home,D,Yes,No,Yes,Yes,Restricted,English,20.4,2359.69,No
+P00672,34,3,Moderate,Elective,Oncology,1,3,0,9.5,29.6,110,118,Former,Independent,Public,Scheduled,Home,D,No,No,No,Yes,Restricted,English,8.7,4803.36,No
+P00673,69,3,Moderate,Emergency,Orthopedics,2,3,1,9.6,29.2,103,64,Never,Limited,Public,Scheduled,Rehab,A,No,No,No,Yes,Normal,English,12.5,5051.06,No
+P00674,28,4,Low,Emergency,Orthopedics,1,9,1,10.6,20.6,153,122,Never,Assisted,Public,Scheduled,Home,C,No,Yes,No,No,Normal,English,2.8,6928.64,No
+P00675,21,3,Moderate,Elective,Pulmonology,4,5,0,4.2,23.6,108,71,Never,Assisted,Public,Scheduled,Home,C,No,No,No,No,Supplemented,Other,7.7,4744.47,No
+P00676,73,8,Low,Emergency,Oncology,4,9,0,5.7,33.0,91,114,Never,Independent,Public,Not scheduled,Home,E,Yes,No,No,Yes,Normal,Spanish,26.0,10613.67,No
+P00677,32,5,Moderate,Emergency,Oncology,2,9,1,7.7,30.9,88,134,Former,Independent,Private,Scheduled,Home,C,No,No,No,Yes,Restricted,Spanish,15.2,11713.93,No
+P00678,34,6,Moderate,Urgent,Oncology,1,5,0,7.2,28.7,133,78,Never,Independent,Private,Scheduled,Home,E,Yes,No,No,No,Supplemented,English,10.1,7504.35,No
+P00679,51,4,Moderate,Emergency,Cardiology,0,7,2,6.4,23.1,94,156,Former,Assisted,Public,Scheduled,Home,C,No,Yes,No,No,Restricted,Spanish,22.1,5142.94,No
+P00680,79,1,High,Elective,Oncology,4,5,1,5.7,32.9,122,187,Never,Independent,Public,Scheduled,Rehab,C,No,Yes,No,Yes,Restricted,Other,16.6,2024.67,Yes
+P00681,90,1,Moderate,Elective,Orthopedics,0,10,1,5.4,21.2,160,89,Former,Independent,Private,Not scheduled,Rehab,C,No,No,No,No,Normal,English,27.2,1185.22,Yes
+P00682,37,1,Moderate,Elective,General,0,4,0,10.8,35.9,128,109,Former,Assisted,Private,Scheduled,Home,A,No,No,No,No,Restricted,English,4.5,2031.3,No
+P00683,40,3,Low,Elective,Oncology,2,7,1,4.6,22.6,131,163,Former,Limited,Private,Scheduled,Home,C,No,No,No,Yes,Normal,Spanish,17.3,6175.06,No
+P00684,55,9,Moderate,Elective,Cardiology,1,4,1,4.4,21.8,115,50,Never,Independent,Public,Scheduled,Home,E,No,Yes,No,No,Normal,Spanish,14.8,14035.8,No
+P00685,76,4,Low,Emergency,Oncology,3,5,0,5.1,27.2,125,116,Never,Independent,Self-pay,Not scheduled,Home,E,No,No,No,Yes,Restricted,Spanish,25.2,7249.85,No
+P00686,22,7,Low,Urgent,Pulmonology,0,4,2,7.5,28.3,121,103,Never,Assisted,Public,Scheduled,Home,A,Yes,No,Yes,Yes,Restricted,Other,7.1,12493.97,Yes
+P00687,48,2,Moderate,Elective,General,1,3,0,6.7,27.6,131,151,Never,Independent,Self-pay,Scheduled,Home,C,No,No,No,Yes,Normal,English,18.7,3116.89,No
+P00688,25,4,Moderate,Urgent,General,1,3,0,7.9,19.1,155,105,Never,Independent,Private,Scheduled,Rehab,E,No,No,No,Yes,Normal,English,0.3,6461.73,No
+P00689,34,8,Critical,Elective,Cardiology,1,6,1,5.9,29.5,117,133,Never,Limited,Public,Scheduled,Home,E,No,No,No,No,Restricted,English,24.1,14023.34,No
+P00690,63,7,Low,Elective,Oncology,1,5,0,7.4,32.9,111,82,Current,Independent,Public,Scheduled,Home,D,No,No,No,No,Restricted,English,20.3,11619.29,No
+P00691,19,2,Low,Emergency,Pulmonology,2,2,1,7.4,26.5,124,153,Current,Independent,Public,Not scheduled,Home,C,No,No,Yes,No,Normal,English,5.5,3945.4,Yes
+P00692,80,4,High,Urgent,Orthopedics,2,4,1,10.0,17.7,142,70,Former,Limited,Private,Scheduled,Home,E,No,No,No,No,Normal,English,12.5,7019.59,No
+P00693,24,7,Low,Emergency,Orthopedics,6,2,1,10.4,25.7,119,150,Former,Assisted,Self-pay,Scheduled,Home,D,No,Yes,No,No,Supplemented,English,4.6,13547.76,No
+P00694,78,2,Moderate,Elective,General,3,8,1,6.9,20.2,130,118,Never,Independent,Private,Not scheduled,Home,D,Yes,No,No,No,Supplemented,English,14.8,3367.33,No
+P00695,48,3,High,Elective,Cardiology,1,7,1,8.7,15.4,134,50,Former,Independent,Self-pay,Scheduled,Home,E,No,No,No,Yes,Restricted,English,23.3,5976.11,No
+P00696,59,1,Moderate,Urgent,Cardiology,3,7,2,7.5,23.7,164,118,Never,Independent,Public,Not scheduled,Home,B,No,Yes,No,Yes,Normal,Spanish,22.2,2065.16,No
+P00697,47,7,Moderate,Emergency,Cardiology,2,1,0,8.6,36.7,142,139,Never,Independent,Public,Scheduled,Nursing facility,E,No,No,No,Yes,Restricted,English,17.2,8442.35,No
+P00698,44,6,Low,Emergency,Cardiology,2,9,0,7.9,26.5,109,66,Never,Assisted,Private,Scheduled,Rehab,B,No,Yes,No,No,Supplemented,English,3.1,11480.66,No
+P00699,63,1,Critical,Emergency,Oncology,1,3,0,8.5,25.4,86,81,Former,Independent,Public,Scheduled,Home,A,No,No,No,No,Normal,Other,19.1,1591.61,No
+P00700,41,3,High,Urgent,General,2,6,0,8.7,31.3,128,119,Former,Independent,Public,Scheduled,Rehab,B,No,No,No,Yes,Normal,Spanish,18.3,5005.09,No
+P00701,22,8,High,Elective,General,0,3,0,8.0,30.7,112,95,Current,Independent,Public,Scheduled,Home,C,Yes,No,No,Yes,Supplemented,English,21.7,15151.19,No
+P00702,18,2,Low,Emergency,Cardiology,2,4,1,7.4,18.2,116,128,Never,Assisted,Public,Scheduled,Rehab,E,No,No,No,No,Restricted,English,6.6,3673.47,No
+P00703,38,5,Moderate,Elective,Neurology,1,3,0,9.1,38.2,107,107,Current,Independent,Private,Scheduled,Home,A,No,No,No,Yes,Supplemented,English,8.6,8649.57,No
+P00704,34,3,High,Elective,Pulmonology,0,3,0,7.0,28.2,116,62,Never,Independent,Public,Not scheduled,Home,D,Yes,No,No,Yes,Restricted,English,47.4,5995.13,No
+P00705,19,8,Low,Elective,General,3,3,0,6.2,32.4,116,208,Never,Assisted,Public,Scheduled,Home,A,Yes,No,No,Yes,Supplemented,English,4.4,14830.23,No
+P00706,25,1,Critical,Emergency,Cardiology,0,6,0,4.4,23.4,123,101,Never,Independent,Public,Scheduled,Home,C,No,Yes,No,Yes,Restricted,English,15.8,1572.5,No
+P00707,81,1,Critical,Emergency,Pulmonology,2,3,1,8.0,15.3,113,120,Former,Limited,Private,Scheduled,Home,E,Yes,Yes,No,Yes,Supplemented,English,6.3,2129.61,No
+P00708,54,2,Low,Emergency,General,2,3,0,8.4,26.3,112,186,Current,Assisted,Public,Not scheduled,Nursing facility,D,No,Yes,No,No,Supplemented,English,11.2,4238.7,No
+P00709,47,4,Low,Emergency,Orthopedics,2,5,0,4.1,20.4,135,150,Never,Independent,Private,Scheduled,Home,E,No,No,No,Yes,Normal,Spanish,12.4,7215.97,No
+P00710,84,4,Moderate,Emergency,General,2,9,2,6.1,34.0,125,137,Never,Limited,Private,Scheduled,Rehab,E,No,Yes,No,No,Supplemented,English,18.8,6529.91,Yes
+P00711,60,1,Moderate,Urgent,Orthopedics,2,3,0,8.6,18.5,125,157,Former,Assisted,Public,Not scheduled,Rehab,D,No,No,No,No,Restricted,Spanish,13.9,1568.58,No
+P00712,27,5,Moderate,Elective,Oncology,2,1,1,6.9,27.2,124,137,Never,Independent,Private,Scheduled,Home,A,No,No,No,Yes,Restricted,English,1.6,11509.35,No
+P00713,69,6,High,Emergency,Neurology,2,7,0,7.3,30.6,109,137,Former,Assisted,Public,Not scheduled,Home,C,No,No,No,No,Normal,Other,6.9,10468.31,No
+P00714,69,4,Moderate,Urgent,Orthopedics,2,4,1,8.8,29.6,151,138,Never,Independent,Private,Not scheduled,Home,A,Yes,No,No,No,Normal,Other,10.4,7374.71,No
+P00715,37,8,Low,Urgent,Neurology,2,3,0,7.0,24.0,162,108,Never,Assisted,Private,Scheduled,Home,D,No,Yes,No,No,Normal,English,23.9,15413.36,No
+P00716,66,5,Low,Emergency,Neurology,0,4,1,7.9,16.3,147,158,Never,Independent,Public,Scheduled,Home,A,No,Yes,No,Yes,Supplemented,English,8.7,4856.4,No
+P00717,27,3,Moderate,Emergency,Pulmonology,3,5,1,5.3,18.0,93,142,Never,Assisted,Private,Scheduled,Home,E,Yes,Yes,No,No,Restricted,English,13.1,4575.7,No
+P00718,90,9,Moderate,Emergency,Neurology,1,6,0,7.8,22.5,113,50,Current,Assisted,Public,Not scheduled,Home,D,No,Yes,No,No,Normal,Other,15.4,22144.26,No
+P00719,60,10,High,Urgent,Neurology,0,5,1,4.8,18.5,138,149,Never,Assisted,Private,Not scheduled,Home,E,No,No,No,Yes,Normal,English,14.9,9609.43,No
+P00720,38,5,Low,Urgent,Orthopedics,5,7,1,4.9,26.5,111,83,Never,Independent,Private,Scheduled,Rehab,E,No,No,No,No,Restricted,English,13.4,6755.39,No
+P00721,83,2,High,Emergency,Cardiology,3,1,1,6.3,22.4,112,125,Current,Assisted,Public,Scheduled,Rehab,E,No,No,No,No,Restricted,English,5.6,3330.27,No
+P00722,54,8,Moderate,Emergency,Orthopedics,2,1,1,8.2,19.2,100,50,Never,Limited,Private,Scheduled,Home,A,No,No,No,Yes,Restricted,Other,8.7,12018.8,No
+P00723,83,1,High,Emergency,Cardiology,1,5,0,7.3,18.5,118,92,Former,Limited,Public,Scheduled,Home,C,Yes,Yes,No,No,Supplemented,Other,22.8,1574.73,No
+P00724,24,2,Low,Emergency,Neurology,0,2,3,5.8,17.4,110,100,Never,Assisted,Public,Scheduled,Nursing facility,E,No,Yes,No,No,Supplemented,English,25.9,2906.92,No
+P00725,40,7,Moderate,Elective,Neurology,0,3,0,8.8,26.7,82,136,Former,Independent,Public,Not scheduled,Home,B,No,Yes,No,No,Restricted,English,28.2,12238.94,No
+P00726,49,2,Moderate,Urgent,Pulmonology,1,2,0,7.8,22.6,146,91,Current,Assisted,Public,Scheduled,Nursing facility,B,No,Yes,No,No,Supplemented,Spanish,7.6,3814.29,No
+P00727,37,9,High,Urgent,Orthopedics,1,2,0,9.1,27.2,133,50,Former,Independent,Public,Scheduled,Home,A,Yes,Yes,No,Yes,Normal,Spanish,9.7,17281.64,No
+P00728,55,2,Low,Urgent,Cardiology,0,4,0,5.6,26.5,101,95,Former,Assisted,Public,Scheduled,Home,C,No,No,No,No,Normal,English,17.1,3106.87,No
+P00729,43,3,Moderate,Emergency,Pulmonology,1,3,0,9.8,25.8,141,100,Never,Independent,Private,Not scheduled,Home,A,No,No,No,No,Normal,Spanish,39.9,6275.31,No
+P00730,82,3,Moderate,Emergency,Pulmonology,3,9,0,10.0,30.9,127,140,Never,Assisted,Private,Scheduled,Home,A,Yes,No,No,Yes,Restricted,Spanish,57.0,5528.71,No
+P00731,35,6,Moderate,Urgent,Cardiology,3,10,1,8.8,18.2,146,121,Current,Independent,Self-pay,Scheduled,Rehab,B,Yes,Yes,No,Yes,Restricted,English,7.6,12728.01,No
+P00732,31,6,Low,Elective,Cardiology,0,2,0,8.1,30.9,138,84,Former,Independent,Self-pay,Not scheduled,Home,D,No,No,No,Yes,Supplemented,English,6.7,11318.84,No
+P00733,88,3,Low,Elective,Cardiology,4,5,1,8.1,29.4,111,126,Never,Assisted,Private,Not scheduled,Rehab,A,Yes,No,No,No,Restricted,Spanish,3.7,5164.59,No
+P00734,70,5,High,Urgent,Neurology,0,6,1,7.8,25.8,137,188,Never,Independent,Private,Scheduled,Home,E,No,No,No,Yes,Restricted,Spanish,19.5,8644.69,No
+P00735,20,4,Moderate,Urgent,Orthopedics,1,4,0,4.7,22.2,138,162,Never,Independent,Public,Scheduled,Rehab,D,No,No,No,Yes,Restricted,English,3.2,7622.73,No
+P00736,79,6,Low,Elective,Oncology,2,3,0,6.1,27.2,144,50,Never,Assisted,Private,Scheduled,Rehab,E,No,Yes,No,No,Normal,English,18.0,13072.37,No
+P00737,31,6,Low,Elective,Pulmonology,2,6,2,7.0,29.7,143,214,Former,Independent,Public,Scheduled,Home,E,No,No,No,No,Supplemented,English,18.4,11025.23,No
+P00738,67,2,Moderate,Elective,Pulmonology,2,4,1,5.3,18.6,162,162,Former,Independent,Private,Not scheduled,Rehab,D,Yes,Yes,Yes,No,Normal,Other,35.9,3725.4,No
+P00739,20,9,Critical,Emergency,Pulmonology,1,2,0,9.8,30.7,142,178,Former,Assisted,Private,Scheduled,Rehab,D,No,Yes,No,No,Supplemented,English,6.6,17725.83,No
+P00740,36,1,High,Emergency,Cardiology,1,3,0,8.1,37.4,111,54,Never,Assisted,Self-pay,Scheduled,Nursing facility,D,No,Yes,No,No,Supplemented,English,1.6,1267.49,No
+P00741,80,3,High,Urgent,Pulmonology,2,3,1,10.4,26.6,128,98,Former,Independent,Public,Scheduled,Home,A,Yes,No,No,No,Restricted,English,4.0,4112.66,No
+P00742,19,5,Moderate,Emergency,General,2,6,2,8.6,34.8,106,139,Former,Independent,Public,Not scheduled,Rehab,D,No,No,No,No,Supplemented,Other,10.5,9326.73,No
+P00743,52,4,Moderate,Emergency,Cardiology,1,9,0,4.7,29.8,147,70,Never,Independent,Private,Not scheduled,Home,B,Yes,Yes,No,No,Normal,English,6.4,6052.53,No
+P00744,47,3,Critical,Elective,Pulmonology,2,6,2,9.6,28.6,110,136,Former,Limited,Private,Not scheduled,Home,A,Yes,No,No,Yes,Supplemented,English,8.8,5162.29,No
+P00745,34,3,Low,Urgent,Oncology,3,6,1,6.4,22.8,165,180,Former,Independent,Private,Scheduled,Nursing facility,E,No,Yes,Yes,Yes,Normal,English,22.6,5387.97,No
+P00746,26,3,High,Urgent,Oncology,2,4,1,9.7,25.0,120,102,Former,Independent,Public,Scheduled,Home,E,No,Yes,No,No,Supplemented,English,9.2,7571.42,No
+P00747,46,8,Low,Emergency,General,3,7,1,9.9,21.1,124,183,Former,Assisted,Private,Scheduled,Home,E,No,No,No,No,Normal,English,9.6,13975.86,No
+P00748,44,3,Moderate,Emergency,Oncology,2,9,0,9.6,32.7,117,143,Never,Assisted,Public,Scheduled,Home,A,No,No,Yes,No,Restricted,English,15.4,3497.15,Yes
+P00749,25,3,Critical,Urgent,Cardiology,6,1,2,9.1,22.5,112,50,Never,Assisted,Private,Scheduled,Home,E,No,Yes,No,Yes,Supplemented,English,7.6,5583.52,No
+P00750,70,2,High,Emergency,General,2,3,0,8.0,37.6,115,80,Former,Independent,Private,Scheduled,Home,A,Yes,Yes,No,No,Restricted,Spanish,18.2,4210.5,No
+P00751,25,6,High,Emergency,Oncology,2,5,1,7.2,29.6,129,159,Former,Independent,Self-pay,Scheduled,Home,E,No,No,No,No,Supplemented,English,23.2,11758.29,Yes
+P00752,45,1,High,Urgent,Pulmonology,1,6,0,10.6,29.4,125,74,Never,Independent,Private,Not scheduled,Home,A,No,No,No,No,Restricted,English,6.7,1939.41,No
+P00753,87,12,Moderate,Elective,Oncology,0,5,0,7.7,19.1,117,158,Never,Assisted,Private,Scheduled,Home,A,No,Yes,No,No,Restricted,Spanish,34.1,18947.53,No
+P00754,45,2,Moderate,Emergency,Neurology,2,7,0,6.5,31.0,131,139,Former,Independent,Private,Not scheduled,Home,A,No,Yes,No,No,Normal,English,3.4,3347.74,No
+P00755,68,3,Moderate,Emergency,General,3,6,1,8.0,25.7,115,127,Never,Independent,Private,Scheduled,Home,D,No,No,No,No,Supplemented,English,4.2,4635.82,No
+P00756,51,5,Moderate,Emergency,Neurology,2,12,0,9.3,23.6,125,92,Never,Limited,Private,Not scheduled,Home,E,No,No,No,No,Normal,English,9.7,7897.51,Yes
+P00757,64,7,Moderate,Emergency,Neurology,2,4,1,9.2,23.1,157,127,Former,Assisted,Private,Scheduled,Home,B,No,No,No,No,Normal,English,4.5,12162.37,No
+P00758,75,3,Low,Urgent,General,1,5,0,5.2,19.6,115,182,Never,Assisted,Public,Scheduled,Home,E,No,Yes,Yes,Yes,Supplemented,English,15.4,6228.08,No
+P00759,52,3,High,Emergency,Neurology,1,9,1,9.1,27.1,120,99,Never,Assisted,Public,Scheduled,Home,B,No,No,No,No,Supplemented,English,53.9,7992.77,No
+P00760,65,4,High,Emergency,Neurology,1,5,1,8.4,26.0,104,139,Current,Independent,Public,Not scheduled,Home,E,Yes,No,Yes,No,Normal,Spanish,9.8,7375.88,Yes
+P00761,53,2,Low,Elective,General,0,3,1,6.6,19.1,119,195,Never,Independent,Private,Scheduled,Home,C,No,Yes,Yes,No,Normal,English,9.3,3924.29,No
+P00762,40,3,Moderate,Emergency,Neurology,0,4,1,5.7,30.1,132,125,Never,Independent,Private,Scheduled,Home,C,No,Yes,No,No,Normal,English,4.2,3229.01,Yes
+P00763,74,10,High,Urgent,Cardiology,1,10,0,9.8,39.8,115,95,Former,Independent,Public,Not scheduled,Home,E,No,Yes,No,No,Restricted,English,61.8,16680.95,No
+P00764,46,2,High,Elective,Orthopedics,2,8,1,10.0,18.5,105,95,Never,Assisted,Private,Scheduled,Home,C,No,Yes,No,No,Restricted,English,33.7,4519.02,No
+P00765,21,1,Moderate,Urgent,Cardiology,0,8,0,10.0,26.3,132,50,Former,Independent,Private,Not scheduled,Home,C,No,No,No,No,Normal,Spanish,25.6,1828.08,No
+P00766,37,2,Moderate,Emergency,Oncology,1,5,1,4.8,36.9,133,67,Former,Independent,Public,Not scheduled,Home,C,Yes,No,No,No,Restricted,English,11.4,3537.05,No
+P00767,66,1,Low,Emergency,Oncology,0,5,1,6.8,22.3,136,129,Never,Limited,Private,Scheduled,Home,B,No,No,No,Yes,Restricted,Spanish,28.0,2670.27,No
+P00768,66,6,High,Elective,Pulmonology,0,4,0,7.3,29.6,103,154,Never,Independent,Public,Not scheduled,Home,C,No,No,No,No,Restricted,English,19.7,12941.57,No
+P00769,58,2,High,Elective,Cardiology,1,1,1,9.9,29.4,150,98,Former,Independent,Private,Scheduled,Rehab,E,Yes,No,No,No,Supplemented,English,7.7,4062.97,No
+P00770,50,8,Low,Emergency,Oncology,3,6,0,8.7,30.9,116,153,Never,Assisted,Private,Not scheduled,Nursing facility,D,No,Yes,No,No,Restricted,English,60.7,14247.25,No
+P00771,40,3,Moderate,Urgent,Cardiology,2,7,0,6.8,38.0,107,151,Never,Independent,Public,Scheduled,Home,B,No,No,No,Yes,Normal,Spanish,2.0,5644.8,No
+P00772,21,1,Low,Emergency,General,0,6,3,7.5,16.3,143,84,Former,Limited,Self-pay,Not scheduled,Home,E,No,Yes,No,No,Restricted,English,10.4,2441.37,Yes
+P00773,33,7,Moderate,Emergency,Neurology,1,3,2,8.5,28.1,149,91,Current,Independent,Private,Scheduled,Nursing facility,D,No,No,No,Yes,Supplemented,Other,7.0,17287.92,No
+P00774,90,2,Low,Elective,Oncology,3,5,0,8.5,24.0,119,61,Never,Assisted,Self-pay,Scheduled,Home,E,No,Yes,No,Yes,Supplemented,English,0.8,3277.56,No
+P00775,80,1,High,Emergency,Cardiology,2,3,3,10.2,26.8,110,145,Former,Independent,Public,Not scheduled,Home,D,Yes,No,No,Yes,Normal,English,1.9,1312.84,Yes
+P00776,23,5,Moderate,Emergency,Cardiology,0,5,1,9.8,27.3,133,115,Former,Independent,Public,Scheduled,Home,A,No,Yes,No,Yes,Normal,English,40.1,9074.11,No
+P00777,86,2,Moderate,Urgent,Neurology,2,3,2,9.4,25.2,101,151,Never,Independent,Private,Scheduled,Home,A,No,No,No,Yes,Restricted,Other,8.8,4058.22,No
+P00778,74,5,High,Elective,Orthopedics,2,4,1,5.8,20.5,171,113,Never,Independent,Private,Not scheduled,Nursing facility,A,Yes,No,No,No,Normal,English,10.8,11709.36,No
+P00779,24,6,High,Elective,Oncology,2,5,1,5.9,20.9,106,77,Never,Assisted,Private,Not scheduled,Home,C,No,Yes,Yes,No,Restricted,English,9.0,10610.99,No
+P00780,48,4,Moderate,Urgent,Neurology,2,8,1,5.4,39.8,131,146,Never,Independent,Private,Scheduled,Rehab,C,No,No,No,No,Restricted,English,9.3,6781.59,No
+P00781,30,2,High,Elective,Oncology,0,6,0,8.0,18.7,122,50,Former,Independent,Public,Scheduled,Home,A,Yes,Yes,No,No,Normal,English,1.8,4267.21,No
+P00782,70,7,Moderate,Elective,Orthopedics,0,2,0,6.4,34.4,108,102,Current,Independent,Private,Scheduled,Home,A,No,Yes,No,No,Normal,English,17.1,10661.79,No
+P00783,66,2,Low,Elective,Cardiology,2,4,0,8.3,20.8,108,84,Never,Independent,Private,Scheduled,Rehab,D,Yes,No,No,No,Restricted,English,18.8,3457.53,No
+P00784,33,5,Low,Urgent,Pulmonology,1,4,0,8.5,27.6,145,176,Former,Independent,Public,Not scheduled,Home,D,No,No,Yes,No,Restricted,English,8.0,9008.24,No
+P00785,74,6,High,Urgent,General,1,9,0,7.6,38.8,132,185,Never,Assisted,Private,Scheduled,Rehab,D,No,No,No,No,Normal,English,23.3,10671.01,No
+P00786,39,4,Low,Elective,Pulmonology,0,2,1,8.8,31.8,112,132,Never,Assisted,Private,Scheduled,Home,D,Yes,No,No,Yes,Normal,Other,40.6,8735.06,No
+P00787,53,6,Low,Emergency,Cardiology,2,7,1,6.1,18.4,115,92,Never,Independent,Private,Scheduled,Home,B,No,Yes,No,No,Restricted,English,2.1,11763.93,No
+P00788,26,4,Moderate,Urgent,Orthopedics,1,2,1,4.6,25.0,110,184,Current,Independent,Public,Scheduled,Home,C,Yes,No,No,Yes,Supplemented,English,11.2,6551.58,No
+P00789,85,5,High,Elective,Neurology,2,4,0,6.0,26.8,141,87,Current,Independent,Public,Scheduled,Home,D,No,No,No,Yes,Normal,English,16.9,8647.07,No
+P00790,31,6,High,Elective,General,0,2,0,8.8,33.2,142,60,Current,Independent,Private,Scheduled,Rehab,D,No,Yes,Yes,Yes,Restricted,Spanish,2.4,15836.0,No
+P00791,81,4,High,Emergency,Oncology,1,7,0,10.6,27.3,134,50,Former,Independent,Public,Scheduled,Home,C,No,Yes,No,No,Normal,Other,34.1,5467.62,No
+P00792,79,7,Low,Urgent,Pulmonology,3,2,1,9.9,26.0,130,119,Never,Independent,Private,Scheduled,Home,A,No,No,No,No,Restricted,English,21.4,8655.14,No
+P00793,27,9,High,Elective,Pulmonology,1,1,3,6.9,37.3,136,50,Former,Independent,Public,Not scheduled,Home,C,Yes,No,No,No,Normal,English,21.7,12848.58,No
+P00794,26,5,Moderate,Urgent,Neurology,2,3,1,9.0,36.5,95,172,Current,Limited,Private,Scheduled,Home,E,No,No,No,No,Normal,Other,34.1,9456.12,No
+P00795,28,6,Critical,Emergency,Neurology,0,6,2,4.8,31.2,130,92,Current,Independent,Public,Scheduled,Home,D,No,Yes,No,Yes,Restricted,English,11.0,12846.49,No
+P00796,79,4,Moderate,Emergency,Oncology,1,8,1,10.1,23.2,144,64,Never,Independent,Private,Not scheduled,Home,D,No,No,No,Yes,Restricted,English,11.2,7061.92,No
+P00797,24,9,Moderate,Emergency,Oncology,1,6,2,8.2,15.0,129,160,Current,Independent,Public,Scheduled,Home,E,No,Yes,No,No,Normal,English,13.8,14677.25,No
+P00798,62,5,High,Emergency,Neurology,2,4,1,8.7,19.3,126,150,Never,Independent,Private,Not scheduled,Home,D,No,No,No,Yes,Normal,English,18.1,7898.2,No
+P00799,81,6,Critical,Emergency,Orthopedics,2,6,0,3.8,17.7,114,182,Former,Independent,Private,Scheduled,Home,C,No,Yes,Yes,No,Normal,English,18.9,7680.59,No
+P00800,39,1,Low,Elective,Neurology,0,10,0,8.1,26.6,115,50,Never,Independent,Private,Scheduled,Nursing facility,D,No,No,No,Yes,Supplemented,English,5.8,2279.81,No
+P00801,58,6,Low,Emergency,Oncology,0,6,0,10.6,32.6,116,50,Never,Independent,Public,Scheduled,Home,D,Yes,No,No,Yes,Normal,English,4.1,10435.48,No
+P00802,23,4,Moderate,Emergency,Cardiology,2,3,0,7.8,38.9,129,177,Never,Assisted,Self-pay,Not scheduled,Home,C,Yes,Yes,No,No,Normal,English,20.1,7467.05,No
+P00803,86,6,Low,Urgent,General,1,6,0,7.1,34.6,116,50,Never,Independent,Public,Scheduled,Home,B,Yes,Yes,Yes,No,Normal,Spanish,18.9,12335.22,No
+P00804,62,6,Moderate,Emergency,Orthopedics,5,3,2,6.8,22.7,92,66,Never,Limited,Private,Scheduled,Home,B,No,No,Yes,Yes,Restricted,English,28.5,13296.28,Yes
+P00805,71,6,Low,Elective,General,2,1,2,6.0,28.5,139,117,Current,Independent,Private,Scheduled,Home,C,No,No,Yes,No,Normal,Spanish,24.9,10393.44,Yes
+P00806,36,6,Moderate,Emergency,Pulmonology,2,6,0,7.4,29.4,134,62,Current,Independent,Private,Not scheduled,Nursing facility,D,Yes,No,Yes,Yes,Normal,Spanish,3.2,9158.13,Yes
+P00807,71,3,Moderate,Elective,Oncology,4,10,1,5.1,17.6,131,123,Never,Independent,Private,Scheduled,Nursing facility,A,No,No,No,No,Restricted,English,4.1,5380.56,No
+P00808,63,11,Low,Emergency,Pulmonology,1,7,2,8.1,21.8,108,69,Never,Independent,Public,Scheduled,Home,D,No,No,No,No,Restricted,Other,6.5,19365.43,No
+P00809,27,8,Moderate,Elective,Oncology,0,6,2,9.3,24.4,116,167,Never,Independent,Self-pay,Scheduled,Home,C,No,No,No,No,Supplemented,English,15.3,13061.29,Yes
+P00810,59,4,Moderate,Urgent,Orthopedics,3,3,0,6.5,39.8,134,144,Current,Independent,Public,Scheduled,Home,A,No,No,No,No,Supplemented,Spanish,32.3,5685.29,No
+P00811,25,3,Critical,Elective,Pulmonology,3,5,0,8.0,29.3,125,126,Never,Limited,Private,Not scheduled,Home,B,No,No,No,Yes,Normal,English,15.2,5750.18,Yes
+P00812,66,1,Low,Emergency,General,5,3,2,7.2,19.1,112,101,Never,Independent,Public,Scheduled,Home,D,Yes,Yes,No,No,Restricted,English,12.3,2197.59,No
+P00813,85,2,High,Urgent,Orthopedics,0,1,0,8.0,24.5,148,74,Former,Independent,Public,Scheduled,Rehab,E,No,Yes,Yes,Yes,Normal,Other,4.4,4651.05,No
+P00814,80,2,Critical,Emergency,Pulmonology,3,4,1,8.9,29.7,110,110,Current,Independent,Private,Not scheduled,Home,E,Yes,Yes,No,Yes,Restricted,Spanish,11.8,3146.15,Yes
+P00815,53,3,Moderate,Emergency,Pulmonology,2,4,0,8.0,25.5,80,66,Former,Independent,Self-pay,Not scheduled,Home,B,No,No,No,Yes,Supplemented,English,21.4,6982.81,No
+P00816,82,8,High,Emergency,Orthopedics,1,5,1,8.8,24.9,127,192,Never,Independent,Public,Not scheduled,Rehab,C,Yes,Yes,No,No,Normal,English,9.5,11758.56,No
+P00817,90,3,Low,Elective,Oncology,1,1,0,8.2,31.4,127,128,Former,Limited,Private,Scheduled,Home,E,Yes,Yes,No,No,Supplemented,English,8.4,5534.3,No
+P00818,51,2,Moderate,Urgent,Orthopedics,1,5,0,8.8,35.4,126,80,Current,Independent,Private,Scheduled,Nursing facility,C,No,No,No,Yes,Supplemented,English,26.8,4227.33,No
+P00819,41,5,Low,Urgent,Orthopedics,3,9,3,7.9,34.3,132,178,Never,Independent,Private,Not scheduled,Home,B,No,No,No,No,Supplemented,English,18.3,9828.79,No
+P00820,31,6,Moderate,Emergency,General,1,3,3,7.9,25.2,115,113,Former,Independent,Private,Scheduled,Home,C,No,Yes,No,No,Normal,Spanish,24.8,13341.54,No
+P00821,63,3,Critical,Emergency,General,2,3,1,8.5,26.0,143,171,Never,Assisted,Public,Scheduled,Home,C,No,No,No,Yes,Restricted,English,6.7,4477.69,No
+P00822,45,8,Low,Urgent,Pulmonology,2,7,2,7.2,25.1,100,170,Former,Assisted,Public,Not scheduled,Home,B,Yes,Yes,Yes,No,Normal,Other,38.8,13961.76,No
+P00823,59,8,Moderate,Emergency,Pulmonology,2,3,1,8.1,33.3,125,132,Never,Assisted,Private,Scheduled,Home,B,No,No,No,No,Normal,Spanish,8.1,13912.6,No
+P00824,87,1,High,Emergency,Oncology,3,3,0,5.7,24.7,114,64,Former,Assisted,Private,Not scheduled,Rehab,E,No,No,No,No,Normal,Spanish,10.7,2141.76,Yes
+P00825,22,6,Moderate,Elective,General,4,10,0,4.0,15.5,143,92,Current,Assisted,Private,Not scheduled,Rehab,E,No,Yes,No,No,Normal,English,20.1,10383.42,No
+P00826,39,1,Moderate,Emergency,Cardiology,2,3,2,7.5,29.9,111,259,Never,Assisted,Public,Scheduled,Nursing facility,E,No,No,No,No,Restricted,Spanish,8.1,1870.12,No
+P00827,55,3,Moderate,Urgent,Orthopedics,1,4,1,5.9,30.2,126,93,Former,Independent,Public,Not scheduled,Home,C,No,No,No,Yes,Normal,English,16.5,5167.53,No
+P00828,70,14,Moderate,Emergency,Cardiology,1,1,1,10.8,24.6,127,105,Former,Independent,Public,Not scheduled,Home,E,No,No,No,Yes,Normal,English,16.9,26720.18,No
+P00829,85,6,Low,Urgent,Cardiology,1,10,2,5.8,38.1,129,96,Former,Assisted,Private,Not scheduled,Home,B,Yes,Yes,No,No,Restricted,English,11.3,9447.86,No
+P00830,81,2,Moderate,Urgent,General,3,3,1,8.7,23.7,112,77,Never,Independent,Public,Scheduled,Home,B,Yes,No,No,Yes,Restricted,English,17.5,2928.3,No
+P00831,51,6,Moderate,Urgent,Neurology,2,6,1,6.0,35.5,132,143,Never,Assisted,Public,Scheduled,Home,A,Yes,Yes,No,No,Restricted,English,9.3,9902.38,No
+P00832,58,2,Low,Elective,Cardiology,2,4,3,7.2,19.0,126,61,Current,Assisted,Private,Scheduled,Home,D,No,No,No,Yes,Restricted,Spanish,18.3,3049.08,No
+P00833,52,5,Moderate,Emergency,Neurology,0,6,1,5.3,28.7,131,82,Never,Independent,Private,Not scheduled,Home,D,No,Yes,No,No,Normal,English,21.5,8695.8,No
+P00834,25,2,Moderate,Emergency,Cardiology,2,6,1,5.1,22.1,153,127,Current,Independent,Private,Scheduled,Home,D,No,No,No,No,Normal,Other,13.5,4069.05,No
+P00835,69,3,Moderate,Emergency,Cardiology,2,9,2,7.8,26.6,127,105,Never,Assisted,Public,Scheduled,Home,E,No,No,No,No,Normal,English,23.4,4196.2,No
+P00836,77,8,Moderate,Urgent,Orthopedics,2,3,0,6.6,31.6,107,122,Never,Independent,Public,Scheduled,Home,B,Yes,Yes,No,Yes,Normal,English,6.9,13406.69,No
+P00837,74,11,Moderate,Emergency,Oncology,0,2,0,8.6,23.6,160,114,Former,Independent,Private,Scheduled,Home,D,Yes,No,No,No,Supplemented,Other,13.8,26962.14,No
+P00838,44,5,High,Urgent,Oncology,0,2,0,9.5,22.8,143,68,Never,Independent,Public,Not scheduled,Home,E,No,No,No,No,Restricted,Other,42.4,6307.79,No
+P00839,78,6,Moderate,Emergency,Orthopedics,1,1,0,4.4,25.7,137,174,Never,Assisted,Self-pay,Not scheduled,Home,C,Yes,No,No,No,Normal,English,13.6,8789.52,No
+P00840,33,3,Moderate,Urgent,Oncology,3,5,1,9.2,49.6,122,161,Never,Independent,Self-pay,Scheduled,Home,C,No,No,No,No,Normal,Other,11.4,5671.97,Yes
+P00841,50,2,Moderate,Emergency,Cardiology,0,4,1,5.5,28.2,138,77,Never,Independent,Private,Scheduled,Rehab,E,No,Yes,No,Yes,Normal,English,5.0,2637.65,No
+P00842,36,4,Moderate,Elective,Cardiology,0,5,0,6.6,27.9,88,134,Never,Assisted,Self-pay,Not scheduled,Home,A,No,Yes,No,Yes,Supplemented,English,7.4,7042.75,No
+P00843,50,4,High,Elective,Neurology,2,4,2,4.7,29.6,153,95,Never,Independent,Self-pay,Scheduled,Home,C,Yes,Yes,No,No,Normal,English,12.7,9207.66,No
+P00844,85,14,High,Emergency,General,2,5,1,4.7,16.7,141,158,Former,Limited,Private,Scheduled,Home,C,No,No,No,No,Normal,English,27.1,22571.39,Yes
+P00845,52,3,Low,Elective,Cardiology,1,5,2,3.7,32.5,122,149,Never,Limited,Public,Scheduled,Nursing facility,B,No,No,No,No,Restricted,Spanish,22.6,4594.02,No
+P00846,73,3,Moderate,Elective,Cardiology,2,7,1,6.5,31.3,141,165,Former,Assisted,Public,Scheduled,Home,A,No,Yes,Yes,Yes,Restricted,English,6.1,3934.54,No
+P00847,88,6,Low,Emergency,General,4,6,0,7.3,16.3,136,77,Never,Assisted,Public,Scheduled,Home,B,Yes,No,No,Yes,Normal,English,16.9,9214.22,No
+P00848,29,3,High,Urgent,Orthopedics,2,4,0,6.5,41.4,107,61,Never,Assisted,Private,Scheduled,Home,D,Yes,Yes,No,No,Restricted,English,13.6,5183.67,No
+P00849,85,2,Critical,Emergency,Orthopedics,3,2,1,4.0,27.0,128,50,Current,Independent,Private,Scheduled,Home,D,No,No,Yes,No,Restricted,English,14.4,4880.81,Yes
+P00850,26,5,Moderate,Elective,Orthopedics,2,4,0,3.7,20.3,132,222,Never,Independent,Private,Scheduled,Nursing facility,D,No,Yes,No,Yes,Normal,Spanish,21.5,8720.07,No
+P00851,63,1,Moderate,Elective,Pulmonology,3,3,0,7.2,28.9,123,151,Never,Independent,Private,Scheduled,Home,E,No,Yes,No,No,Restricted,English,19.9,1758.23,No
+P00852,50,5,Low,Urgent,Cardiology,0,4,1,8.6,21.5,121,165,Never,Independent,Private,Scheduled,Nursing facility,E,No,Yes,No,No,Supplemented,Other,19.0,8926.96,No
+P00853,38,3,Moderate,Urgent,General,2,3,1,7.6,17.3,141,58,Former,Independent,Public,Scheduled,Home,D,No,No,No,No,Supplemented,English,19.9,4614.52,No
+P00854,64,6,Moderate,Urgent,Oncology,1,6,0,10.6,25.4,128,140,Never,Independent,Private,Not scheduled,Home,A,No,Yes,No,Yes,Restricted,English,2.0,6551.19,No
+P00855,83,9,High,Urgent,Oncology,1,3,2,7.1,25.6,159,50,Current,Independent,Public,Scheduled,Home,A,No,No,No,No,Normal,English,43.5,20096.23,No
+P00856,23,2,Moderate,Emergency,Cardiology,0,4,3,7.8,17.6,113,133,Never,Independent,Private,Not scheduled,Home,A,Yes,No,No,No,Supplemented,English,14.1,3962.14,No
+P00857,30,3,Critical,Urgent,Orthopedics,2,6,0,7.2,22.3,132,116,Never,Assisted,Private,Not scheduled,Home,C,No,No,No,No,Normal,English,22.3,6399.36,No
+P00858,55,7,Moderate,Elective,Pulmonology,3,5,2,5.8,20.8,108,103,Current,Independent,Public,Scheduled,Home,A,Yes,No,Yes,No,Normal,Spanish,27.1,13093.02,No
+P00859,25,5,Low,Urgent,Oncology,1,4,1,6.9,24.9,137,93,Never,Assisted,Private,Not scheduled,Home,A,Yes,Yes,No,No,Supplemented,English,8.4,10738.19,No
+P00860,41,11,Moderate,Emergency,Pulmonology,0,2,1,8.7,30.9,105,162,Former,Independent,Public,Scheduled,Home,D,Yes,Yes,No,No,Normal,English,12.2,14706.48,No
+P00861,48,5,Low,Emergency,Oncology,1,1,0,8.8,27.8,130,94,Former,Independent,Private,Scheduled,Rehab,E,Yes,Yes,No,No,Restricted,English,27.2,9076.05,No
+P00862,49,9,Low,Emergency,Cardiology,0,2,0,7.8,26.8,146,169,Never,Independent,Private,Scheduled,Home,B,No,No,No,No,Restricted,English,32.5,17593.23,No
+P00863,68,1,Low,Urgent,Pulmonology,1,4,1,10.0,16.0,126,113,Former,Independent,Private,Not scheduled,Home,A,No,Yes,No,Yes,Restricted,English,13.8,2195.55,Yes
+P00864,51,2,Moderate,Emergency,Pulmonology,0,4,3,8.0,26.8,107,130,Former,Independent,Private,Scheduled,Home,A,No,No,No,Yes,Restricted,English,3.0,3849.71,No
+P00865,21,10,Low,Emergency,General,0,2,0,7.8,20.5,142,137,Never,Independent,Public,Not scheduled,Rehab,E,Yes,No,No,No,Restricted,Spanish,6.6,19250.95,No
+P00866,65,2,Critical,Elective,Cardiology,2,9,1,9.9,16.7,131,133,Former,Independent,Private,Not scheduled,Home,E,No,No,No,Yes,Normal,English,9.4,3735.65,No
+P00867,40,10,High,Elective,Pulmonology,1,3,0,5.9,32.3,123,124,Current,Assisted,Public,Scheduled,Home,B,No,No,No,No,Supplemented,English,16.6,13565.1,No
+P00868,18,2,High,Emergency,Pulmonology,2,5,0,9.8,19.0,108,201,Former,Independent,Self-pay,Scheduled,Home,C,No,No,No,No,Supplemented,English,17.7,3243.84,No
+P00869,75,1,Moderate,Urgent,Pulmonology,2,5,2,5.4,27.6,96,160,Never,Independent,Private,Scheduled,Nursing facility,C,No,Yes,No,No,Normal,Spanish,22.8,1648.61,No
+P00870,49,3,Low,Emergency,Neurology,0,5,0,6.7,24.1,166,50,Never,Limited,Private,Scheduled,Home,C,No,No,No,No,Supplemented,English,26.2,6149.83,No
+P00871,66,1,Moderate,Urgent,Pulmonology,3,4,1,3.9,21.3,115,107,Never,Independent,Private,Scheduled,Home,D,No,Yes,No,No,Supplemented,English,0.9,1954.14,No
+P00872,65,6,Low,Emergency,Cardiology,0,1,1,7.7,34.3,107,174,Never,Assisted,Public,Scheduled,Home,C,No,Yes,No,Yes,Supplemented,English,10.4,13510.99,No
+P00873,24,1,Moderate,Urgent,General,1,5,0,9.6,23.4,131,82,Former,Independent,Private,Scheduled,Home,E,No,No,No,Yes,Normal,English,26.0,1946.42,No
+P00874,78,12,Low,Urgent,Oncology,1,3,0,5.5,23.8,107,115,Never,Assisted,Private,Not scheduled,Nursing facility,C,No,No,No,No,Supplemented,English,36.1,20832.39,Yes
+P00875,32,4,Moderate,Emergency,Neurology,4,5,0,6.7,22.6,134,118,Never,Independent,Private,Not scheduled,Home,D,No,Yes,No,No,Normal,English,18.7,8739.03,No
+P00876,72,6,Moderate,Elective,Pulmonology,2,1,0,6.8,28.1,149,179,Never,Assisted,Private,Scheduled,Home,B,No,No,No,No,Supplemented,English,5.4,8560.3,Yes
+P00877,70,7,Moderate,Emergency,General,1,8,1,6.8,26.0,106,73,Never,Independent,Private,Scheduled,Rehab,C,No,No,Yes,Yes,Normal,English,15.1,11989.15,No
+P00878,26,4,High,Emergency,Cardiology,1,2,1,5.3,22.8,120,79,Current,Assisted,Private,Scheduled,Home,D,No,No,No,No,Supplemented,English,29.5,6063.59,No
+P00879,26,5,Low,Elective,Pulmonology,2,7,1,7.3,21.5,133,135,Former,Independent,Private,Scheduled,Home,B,No,No,No,No,Supplemented,English,3.8,7318.77,No
+P00880,79,3,Low,Emergency,Cardiology,0,3,0,10.0,26.8,103,129,Never,Independent,Public,Not scheduled,Home,C,No,No,No,Yes,Supplemented,English,5.6,4421.96,No
+P00881,18,7,Moderate,Emergency,Pulmonology,0,8,1,6.3,23.1,109,136,Former,Independent,Private,Scheduled,Rehab,B,No,No,No,Yes,Restricted,English,5.7,11210.92,Yes
+P00882,33,11,High,Emergency,Pulmonology,1,5,1,7.6,37.3,123,128,Former,Independent,Private,Scheduled,Nursing facility,E,No,Yes,No,No,Normal,Other,19.8,20428.17,No
+P00883,90,3,Low,Emergency,Pulmonology,0,5,0,7.6,23.8,160,110,Never,Independent,Private,Scheduled,Home,D,No,No,No,No,Normal,English,7.1,5084.43,No
+P00884,26,7,High,Elective,Neurology,2,8,1,6.5,29.0,110,137,Never,Assisted,Public,Scheduled,Rehab,C,No,No,No,No,Supplemented,English,0.5,13145.43,No
+P00885,62,8,Low,Emergency,Orthopedics,1,3,1,7.7,26.5,120,123,Never,Assisted,Self-pay,Not scheduled,Rehab,B,Yes,No,No,Yes,Supplemented,Spanish,29.7,14930.84,No
+P00886,44,3,Low,Elective,Oncology,4,10,0,6.5,25.3,170,105,Never,Independent,Private,Not scheduled,Home,D,No,No,No,Yes,Restricted,English,13.1,3296.89,No
+P00887,49,4,Moderate,Emergency,Oncology,0,6,0,8.0,32.4,139,112,Never,Assisted,Public,Scheduled,Home,D,No,No,No,Yes,Supplemented,Spanish,43.9,7385.59,No
+P00888,27,4,Low,Emergency,Neurology,1,6,1,7.1,30.5,95,93,Never,Assisted,Private,Scheduled,Home,E,Yes,Yes,Yes,No,Normal,English,22.0,6299.97,No
+P00889,61,3,Moderate,Urgent,Orthopedics,3,4,1,4.7,30.4,121,87,Never,Assisted,Private,Scheduled,Home,D,Yes,No,No,No,Restricted,English,13.4,3921.67,No
+P00890,42,2,Low,Emergency,Orthopedics,3,5,0,4.0,30.3,136,137,Current,Assisted,Private,Scheduled,Home,B,No,Yes,No,No,Restricted,English,24.0,3735.88,No
+P00891,66,4,Moderate,Emergency,Oncology,2,2,2,3.4,17.3,151,63,Current,Limited,Self-pay,Scheduled,Home,B,Yes,Yes,No,Yes,Normal,English,6.5,7276.41,No
+P00892,75,3,Moderate,Emergency,Oncology,3,1,0,6.5,29.6,150,143,Never,Assisted,Private,Scheduled,Home,D,Yes,No,No,Yes,Normal,English,17.2,5532.47,No
+P00893,54,9,Low,Emergency,Orthopedics,0,3,0,8.7,25.5,135,104,Never,Independent,Public,Not scheduled,Home,A,Yes,Yes,No,No,Restricted,English,16.9,18072.34,No
+P00894,19,5,Moderate,Elective,Pulmonology,2,7,0,5.9,23.9,138,111,Former,Assisted,Public,Not scheduled,Home,A,Yes,No,No,Yes,Normal,English,12.3,7977.78,No
+P00895,66,2,High,Elective,Neurology,1,5,1,6.8,47.8,102,108,Never,Independent,Public,Not scheduled,Home,C,Yes,Yes,No,No,Restricted,English,4.3,3004.52,No
+P00896,54,9,High,Emergency,Oncology,2,4,0,6.0,18.2,113,135,Current,Independent,Public,Not scheduled,Home,E,No,Yes,No,Yes,Restricted,English,16.5,16089.51,No
+P00897,69,8,Moderate,Urgent,Orthopedics,1,3,1,5.7,26.5,102,174,Never,Independent,Public,Scheduled,Home,B,No,No,No,No,Normal,English,15.9,13290.74,No
+P00898,75,3,Critical,Urgent,Cardiology,0,5,0,11.2,26.0,144,187,Former,Independent,Public,Scheduled,Home,D,No,Yes,No,No,Restricted,English,8.1,7828.65,No
+P00899,31,5,Low,Emergency,Neurology,1,6,1,5.8,26.5,132,157,Never,Independent,Private,Not scheduled,Home,A,No,No,Yes,Yes,Normal,English,4.0,8760.81,No

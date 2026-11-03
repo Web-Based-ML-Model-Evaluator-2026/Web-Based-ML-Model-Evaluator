@@ -1,65 +1,85 @@
-# Web-Based ML Model Evaluator — Final Integrated Demonstration Build
+# ModelLab — Web-Based ML Model Evaluator (Final Integrated Demo)
 
-A self-contained, locally hosted web application that combines the core Sprint 1–3 demonstration workflows for Team 13's Web-Based ML Model Evaluator. It uses Python's standard library, browser-based JavaScript, and SQLite. No separate database server or internet connection is required to run the application. Python 3.10 or newer is recommended.
+A local, end-to-end web application for supervised tabular machine-learning experiments. It provides account registration/login, project organization, CSV upload/validation, preprocessing, classification/regression model training, metrics, experiment history, comparison, and JSON report export.
 
-## Included Functionality
+## Architecture
 
-- **Sprint 1 — Authentication and Project Management:** Account registration, login/logout, salted PBKDF2 password hashing, session cookies, user-owned projects, project deletion, and SQLite persistence.
-- **Sprint 2 — Dataset Upload and Exploration:** CSV upload and validation, file-size and row/column limits, header and duplicate-column checks, dataset preview, missing-value counts, duplicate-row counts, inferred column types, unique counts, and numerical summaries.
-- **Sprint 3 — Data Preprocessing:** Missing-value handling, categorical one-hot/label encoding, min-max/standard scaling, optional target-column selection, and train/test split preview.
-- **Additional Components:** Responsive dashboard, project cards, sample CSV dataset, local SQLite database, automated tests, Windows startup script, and a retained source snapshot of the uploaded team repository.
-
-## Running the Application on Windows
-
-1. Extract the application ZIP into a normal folder on your computer. Do not run it directly from inside the ZIP archive.
-2. Install Python 3.10 or newer if it is not already installed. Select **Add Python to PATH** during installation if that option is available.
-3. Open the extracted application folder in File Explorer.
-4. Double-click `START-WINDOWS.bat`, or open PowerShell in the extracted folder and run:
-
-   ```powershell
-   py -3 app\server.py
-   ```
-
-5. Open **http://127.0.0.1:8000** in your browser.
-6. Register an account and create a project.
-7. Select **Datasets → Load sample dataset**, or upload `sample-data\customer_churn_sample.csv`.
-8. Open **Preprocessing**, select the project and dataset, configure the available options, and run the preprocessing preview.
-9. Stop the server by pressing **Ctrl+C** in the terminal.
-
-The server listens on localhost by default and is intended for a local academic demonstration, not public production hosting. SQLite data is created in the `data` folder on first run. To reset the demo, stop the server and delete `data\evaluator.sqlite3`.
-
-## Running Automated Tests
-
-Run the following command in PowerShell from the extracted application folder:
-
-```powershell
-py -3 -m unittest discover -s tests -v
+```text
+Browser (vanilla JS + responsive CSS)
+        │ JSON/HTTP + Bearer session token
+        ▼
+Python HTTP API (backend/server.py)
+        ├── Authentication (PBKDF2 password hashes; SQLite sessions)
+        ├── Project and dataset endpoints
+        ├── CSV validation and upload storage
+        ├── sklearn preprocessing + train/test split + model training
+        ├── Evaluation metrics and experiment persistence
+        └── Comparison/report endpoints
+        ▼
+SQLite database (database/modellab.sqlite3) + uploaded CSV files (datasets/uploads/)
 ```
 
-The test suite checks CSV validation and statistics, password hashing, registration, authentication boundaries, project creation, upload, preview, and preprocessing API workflows. Tests use a temporary database and should not modify the demonstration database.
+## Requirements
+- Windows 10/11 (or Linux/macOS)
+- Python 3.10 or newer
+- Internet connection only for first-time `pip` dependency installation
 
-`TEST-REPORT.txt` records the checks performed during packaging. Browser automation and execution on every target Windows environment have not been verified.
+## Run on Windows
+1. Extract the ZIP to a folder.
+2. Double-click `START-WINDOWS.bat`.
+3. If prompted, allow Python dependencies to install.
+4. Open `http://127.0.0.1:8000` (the script opens it automatically).
+5. Register, create a project, upload one of the CSVs in `datasets/`, and run an experiment.
+6. Stop the server with Ctrl+C in the console.
 
-## Scope and Limitations
+Or manually:
+```powershell
+python -m pip install -r backend\requirements.txt
+python backend\server.py
+```
 
-- The uploaded CSV is retained unchanged. Preprocessing produces a response preview and does not overwrite the original dataset.
-- The train/test split is a **row-count preview**, not a persisted model-ready split artifact.
-- This demonstration does not yet train or evaluate machine-learning models.
-- Experiments 4, 5, and 6—model selection, training, evaluation, comparison, and reporting—remain outside this application's implemented scope.
-- OTP email delivery and production CAPTCHA are not implemented.
-- The application is a local demonstration build assembled for reliable startup. The original Sprint source snapshot is retained under `reference-source/` for traceability; this does not imply that every standalone team implementation has been merged line-for-line.
-- Before public deployment, additional safeguards are required, including HTTPS, durable session storage, CSRF protection, stronger operational controls, and a production web server. Do not expose the demonstration server directly to the internet.
+## End-to-end workflow
+1. **Register / sign in** — user passwords are stored as salted PBKDF2-HMAC-SHA256 hashes.
+2. **Create a project** — give it a name and optional description.
+3. **Upload a CSV** — UTF-8 CSV, 2+ columns, max 5 MB, max 100,000 data rows. Original file is retained.
+4. **Configure training** — select classification or regression, target, supported model, test split, missing-value strategy, categorical encoding, and numeric scaling.
+5. **Train & evaluate** — preprocessing is fitted within the training pipeline; metrics are calculated on held-out test data.
+6. **History & comparison** — select saved experiments and compare their metrics.
+7. **Report** — export selected experiment metadata, configurations, and metrics as JSON.
 
-## Folder Structure
+## Supported models and metrics
+- Classification: Logistic Regression, Decision Tree, Random Forest, Gradient Boosting, SVM. Metrics: accuracy, weighted precision, weighted recall, weighted F1, confusion matrix.
+- Regression: Linear Regression, Decision Tree Regressor, Random Forest Regressor, Gradient Boosting Regressor, SVR. Metrics: MAE, RMSE, R².
+- Preprocessing: mean/mode imputation or dropping incomplete rows; one-hot or ordinal categorical encoding; standard or min-max scaling; configurable held-out test split.
 
-- `app/` — application server and browser interface.
-- `data/` — SQLite database, created during execution.
-- `sample-data/` — sample CSV dataset.
-- `tests/` — automated standard-library tests.
-- `reference-source/team-sprint-source-snapshot.zip` — retained team repository source snapshot for reference.
-- `START-WINDOWS.bat` — Windows startup script.
-- `TEST-REPORT.txt` — packaging verification report.
+## Included sample datasets
+- `datasets/customer_churn.csv` — binary classification
+- `datasets/iris_classification.csv` — multiclass classification
+- `datasets/house_prices_regression.csv` — regression
+- `datasets/student_performance.csv` — binary classification
+- `datasets/employee_attrition.csv` — binary classification
 
-## Project Status
+The data are synthetic teaching/demo examples, not real personal data.
 
-This build demonstrates the core Sprint 1–3 workflows. Later model training, evaluation, comparison, and reporting functionality must be verified separately before being described as implemented.
+## Tests
+Run `RUN-TESTS-WINDOWS.bat` or:
+```powershell
+python -m unittest discover -s tests -v
+```
+Tests cover API health, registration/login validation, project and dataset creation, classification training, regression training, and CSV validation.
+
+## Folder structure
+```text
+backend/       HTTP API, validation, preprocessing, model training, SQLite access
+frontend/      Single-page UI (HTML, CSS, JavaScript)
+database/     SQLite database is created here at first run
+ datasets/     Five sample CSV datasets; uploads stored in datasets/uploads/
+tests/        End-to-end and model pipeline tests
+reports/      Reserved for report artifacts; exports are downloaded from the UI
+```
+
+## Demo/security notes
+- This is a local academic demonstration. The server binds to `127.0.0.1` by default; do not expose it publicly.
+- Authentication is implemented for local user separation. For production deployment, add HTTPS, CSRF protections, rate limiting, secure cookie/session lifecycle, database migrations, centralized logging, and hardened upload isolation.
+- Trained estimators are evaluated and metrics are persisted; model binaries are not currently serialized for later inference/deployment.
+- The report export is JSON. PDF/CSV report formats and live deployment are outside this demo build.
