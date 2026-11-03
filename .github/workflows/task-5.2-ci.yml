@@ -1,0 +1,77 @@
+name: Task 5.2 & 6.1 CI - Performance Visualizations & Reports
+
+# Trigger workflow on pushes and pull requests targeting your task branch or main
+on:
+  push:
+    branches:
+      - task-5.2-shreyas-visualizations-and-reporting
+      - main
+      - develop
+    paths:
+      - 'Sprint 5/Task 5.2_Shreyas_Performance_Visualizations/**'
+      - '.github/workflows/task-5.2-ci.yml'
+  pull_request:
+    branches:
+      - main
+      - develop
+    paths:
+      - 'Sprint 5/Task 5.2_Shreyas_Performance_Visualizations/**'
+      - '.github/workflows/task-5.2-ci.yml'
+
+jobs:
+  # -------------------------------------------------------------
+  # Job 1: Backend CI (Python, ReportLab, Flask Syntax & Imports)
+  # -------------------------------------------------------------
+  backend-ci:
+    name: Backend Lint & Compilation
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: Sprint 5/Task 5.2_Shreyas_Performance_Visualizations/backend
+
+    steps:
+      - name: Check out repository code
+        uses: actions/checkout@v4
+
+      - name: Set up Python 3.10
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+          cache: 'pip'
+
+      - name: Install backend dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Verify Python syntax and compilation
+        run: |
+          python -m py_compile report_generator.py
+          python -m py_compile server.py
+
+  # -------------------------------------------------------------
+  # Job 2: Frontend CI (Node.js, Tailwind, Chart.js, Vite Build)
+  # -------------------------------------------------------------
+  frontend-ci:
+    name: Frontend Dependencies & Vite Build
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: Sprint 5/Task 5.2_Shreyas_Performance_Visualizations/frontend
+
+    steps:
+      - name: Check out repository code
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js 20
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: 'npm'
+          cache-dependency-path: 'Sprint 5/Task 5.2_Shreyas_Performance_Visualizations/frontend/package-lock.json'
+
+      - name: Install frontend dependencies
+        run: npm ci
+
+      - name: Run Vite production build
+        run: npm run build
