@@ -22,6 +22,8 @@ import {
  *   onPreferredChange  func     optional, called with the saved record (or null) on load/save/clear
  *   apiBaseUrl         string   optional, defaults to http://localhost:5001
  */
+
+
 export default function PreferredModelSelector({
   projectId,
   taskType,
@@ -67,6 +69,7 @@ export default function PreferredModelSelector({
   const saved = isLoading ? null : loaded.record;
 
   // Ignore results for a different task type (e.g. while a new fetch is in flight).
+
   const hasCandidates = visualizationData?.task_type === taskType;
   const metricsList = hasCandidates ? visualizationData.metrics_list : [];
   const candidates = hasCandidates ? visualizationData.models : [];
