@@ -45,7 +45,7 @@ The application supports supervised learning on tabular datasets for both classi
 |---|---|---|
 | Task 1.1 — Registration and Login | Pratham Kumar | Implement account registration, login, and related authentication workflows. |
 | Task 1.2 — Dashboard and Navigation | Shreyas | Develop the dashboard layout and application navigation. |
-| Task 1.3 — Project Creation and Management | Neerupama | Implement project creation and project-management functionality. |
+| Task 1.3 — Project Creation and Management | Nirupama | Implement project creation and project-management functionality. |
 | Task 1.4 — Access Control | Parinitha | Develop project ownership checks and input validation for access-controlled operations. |
 
 **Sprint deliverable:** A foundational application supporting authentication, navigation, and user project management.
