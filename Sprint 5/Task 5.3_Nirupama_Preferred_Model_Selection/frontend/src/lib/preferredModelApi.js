@@ -47,3 +47,32 @@ async function request(url, options) {
   }
   return body;
 }
+
+export async function getPreferredModel(projectId, taskType, baseUrl = DEFAULT_API_BASE_URL) {
+  const qs = new URLSearchParams({ project_id: projectId, task_type: taskType });
+  const body = await request(`${baseUrl}/api/preferred-model?${qs}`);
+  return body.preferred_model; // null when nothing has been saved yet
+}
+
+export async function savePreferredModel(
+  { projectId, taskType, modelName, metrics, hyperparameters = {} },
+  baseUrl = DEFAULT_API_BASE_URL
+) {
+  const body = await request(`${baseUrl}/api/preferred-model`, {
+    method: 'PUT',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({
+      project_id: projectId,
+      task_type: taskType,
+      model_name: modelName,
+      metrics,
+      hyperparameters,
+    }),
+  });
+  return body.preferred_model;
+}
+
+export async function clearPreferredModel(projectId, taskType, baseUrl = DEFAULT_API_BASE_URL) {
+  const qs = new URLSearchParams({ project_id: projectId, task_type: taskType });
+  await request(`${baseUrl}/api/preferred-model?${qs}`, { method: 'DELETE' });
+}
