@@ -27,4 +27,4 @@ cd ../frontend && npm install && npm run dev
 ```
 Tests: `cd "Task 4.4_Evaluation-Metrics/backend" && pytest`
 
-Note: `/api/evaluate` needs `results/predictions.csv`, so run training first. Evaluation uses test-set predictions only. ROC-AUC is not included because Task 4.3 saves hard predictions, not probabilities.
+Note: `/api/evaluate` needs `results/predictions.csv`, so we need to run training first. Evaluation uses test-set predictions only. ROC-AUC is not included because Task 4.3 saves hard predictions, not probabilities.
