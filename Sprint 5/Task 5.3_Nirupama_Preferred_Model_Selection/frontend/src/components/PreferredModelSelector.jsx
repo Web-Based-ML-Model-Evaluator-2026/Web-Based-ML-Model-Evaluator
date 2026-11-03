@@ -204,6 +204,18 @@ export default function PreferredModelSelector({
       )}
 
 
+      {resultsChanged && (
+        <p className="text-xs text-amber-700 mt-3">
+          The results for {selectedName} have changed since you saved it. Save again to update them.
+        </p>
+      )}
+      {error && (
+        <p role="alert" className="text-xs text-red-600 mt-3">
+          {error}
+        </p>
+      )}
+
+
       <div className="flex gap-3 mt-5">
         <button
           onClick={handleSave}
