@@ -1,0 +1,105 @@
+Unit testing
+test_csv_blank_header_rejected (tests.test_unit.TestCsvValidation.test_csv_blank_header_rejected) ... ok
+test_csv_blank_rows_ignored (tests.test_unit.TestCsvValidation.test_csv_blank_rows_ignored) ... ok
+test_csv_duplicate_headers_rejected (tests.test_unit.TestCsvValidation.test_csv_duplicate_headers_rejected) ... ok
+test_csv_empty_input_rejected (tests.test_unit.TestCsvValidation.test_csv_empty_input_rejected) ... ok
+test_csv_extra_values_rejected (tests.test_unit.TestCsvValidation.test_csv_extra_values_rejected) ... ok
+test_csv_missing_cell_is_normalized_to_empty_string (tests.test_unit.TestCsvValidation.test_csv_missing_cell_is_normalized_to_empty_string) ... ok
+test_csv_missing_header_rejected (tests.test_unit.TestCsvValidation.test_csv_missing_header_rejected) ... ok
+test_csv_no_data_rows_rejected (tests.test_unit.TestCsvValidation.test_csv_no_data_rows_rejected) ... ok
+test_csv_single_column_rejected (tests.test_unit.TestCsvValidation.test_csv_single_column_rejected) ... ok
+test_csv_trims_cell_whitespace (tests.test_unit.TestCsvValidation.test_csv_trims_cell_whitespace) ... ok
+test_csv_valid_returns_headers_and_rows (tests.test_unit.TestCsvValidation.test_csv_valid_returns_headers_and_rows) ... ok
+test_auth_user_without_authorization_is_none (tests.test_unit.TestDatabaseUtilities.test_auth_user_without_authorization_is_none) ... ok
+test_connect_enables_foreign_keys (tests.test_unit.TestDatabaseUtilities.test_connect_enables_foreign_keys) ... ok
+test_init_db_creates_required_tables (tests.test_unit.TestDatabaseUtilities.test_init_db_creates_required_tables) ... ok
+test_now_returns_timezone_aware_iso_timestamp (tests.test_unit.TestDatabaseUtilities.test_now_returns_timezone_aware_iso_timestamp) ... ok
+test_owned_returns_only_matching_user_record (tests.test_unit.TestDatabaseUtilities.test_owned_returns_only_matching_user_record) ... ok
+test_classification_accuracy_perfect (tests.test_unit.TestMetrics.test_classification_accuracy_perfect) ... ok
+test_classification_accuracy_zero (tests.test_unit.TestMetrics.test_classification_accuracy_zero) ... ok
+test_classification_confusion_matrix_shape (tests.test_unit.TestMetrics.test_classification_confusion_matrix_shape) ... ok
+test_classification_metrics_contains_expected_keys (tests.test_unit.TestMetrics.test_classification_metrics_contains_expected_keys) ... ok
+test_regression_error_non_negative (tests.test_unit.TestMetrics.test_regression_error_non_negative) ... ok
+test_regression_metrics_contains_expected_keys (tests.test_unit.TestMetrics.test_regression_metrics_contains_expected_keys) ... ok
+test_regression_perfect_error_is_zero (tests.test_unit.TestMetrics.test_regression_perfect_error_is_zero) ... ok
+test_single_sample_regression_r2_is_none (tests.test_unit.TestMetrics.test_single_sample_regression_r2_is_none) ... ok
+test_check_password_correct (tests.test_unit.TestPasswordUtilities.test_check_password_correct) ... ok
+test_check_password_incorrect (tests.test_unit.TestPasswordUtilities.test_check_password_incorrect) ... ok
+test_check_password_malformed_empty (tests.test_unit.TestPasswordUtilities.test_check_password_malformed_empty) ... ok
+test_check_password_malformed_extra_separator (tests.test_unit.TestPasswordUtilities.test_check_password_malformed_extra_separator) ... ok
+test_check_password_malformed_no_separator (tests.test_unit.TestPasswordUtilities.test_check_password_malformed_no_separator) ... ok
+test_hash_accepts_supplied_salt (tests.test_unit.TestPasswordUtilities.test_hash_accepts_supplied_salt) ... ok
+test_hash_returns_salt_separator_digest (tests.test_unit.TestPasswordUtilities.test_hash_returns_salt_separator_digest) ... ok
+test_hash_uses_unique_random_salts (tests.test_unit.TestPasswordUtilities.test_hash_uses_unique_random_salts) ... ok
+
+----------------------------------------------------------------------
+Ran 32 tests in 2.617s
+
+OK
+
+
+Component / functional testing
+test_dataset_upload_and_content_retrieval (tests.test_functional.TestFunctionalApi.test_dataset_upload_and_content_retrieval) ... ok
+test_dataset_upload_rejects_foreign_or_missing_project (tests.test_functional.TestFunctionalApi.test_dataset_upload_rejects_foreign_or_missing_project) ... ok
+test_dataset_upload_rejects_invalid_csv (tests.test_functional.TestFunctionalApi.test_dataset_upload_rejects_invalid_csv) ... ok
+test_duplicate_registration_returns_conflict (tests.test_functional.TestFunctionalApi.test_duplicate_registration_returns_conflict) ... ok
+test_frontend_root_is_served (tests.test_functional.TestFunctionalApi.test_frontend_root_is_served) ... ok
+test_health_endpoint_reports_service_status (tests.test_functional.TestFunctionalApi.test_health_endpoint_reports_service_status) ... ok
+test_login_rejects_wrong_password (tests.test_functional.TestFunctionalApi.test_login_rejects_wrong_password) ... ok
+test_logout_invalidates_session (tests.test_functional.TestFunctionalApi.test_logout_invalidates_session) ... ok
+test_me_requires_authentication (tests.test_functional.TestFunctionalApi.test_me_requires_authentication) ... ok
+test_me_returns_authenticated_profile (tests.test_functional.TestFunctionalApi.test_me_returns_authenticated_profile) ... ok
+test_project_creation_and_listing (tests.test_functional.TestFunctionalApi.test_project_creation_and_listing) ... ok
+test_project_creation_rejects_empty_name (tests.test_functional.TestFunctionalApi.test_project_creation_rejects_empty_name) ... ok
+test_register_rejects_invalid_email (tests.test_functional.TestFunctionalApi.test_register_rejects_invalid_email) ... ok
+test_register_rejects_missing_name (tests.test_functional.TestFunctionalApi.test_register_rejects_missing_name) ... ok
+test_register_rejects_short_password (tests.test_functional.TestFunctionalApi.test_register_rejects_short_password) ... ok
+
+----------------------------------------------------------------------
+Ran 15 tests in 9.383s
+
+OK
+
+
+Integration testing
+test_csv_parser_to_classification_training_and_metrics (tests.test_integration.TestDataToModelIntegration.test_csv_parser_to_classification_training_and_metrics) ... ok
+test_csv_parser_to_regression_training_and_metrics (tests.test_integration.TestDataToModelIntegration.test_csv_parser_to_regression_training_and_metrics) ... ok
+test_invalid_target_stops_pipeline_before_training (tests.test_integration.TestDataToModelIntegration.test_invalid_target_stops_pipeline_before_training) ... ok
+test_invalid_task_stops_pipeline (tests.test_integration.TestDataToModelIntegration.test_invalid_task_stops_pipeline) ... ok
+test_preprocessing_options_work_in_pipeline (tests.test_integration.TestDataToModelIntegration.test_preprocessing_options_work_in_pipeline) ... ok
+test_user_session_project_dataset_and_experiment_relations (tests.test_integration.TestDatabaseIntegration.test_user_session_project_dataset_and_experiment_relations) ... ok
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.514s
+
+OK
+
+
+System testing
+test_complete_classification_workflow_and_report (tests.test_system.TestCompleteSystemWorkflows.test_complete_classification_workflow_and_report) ... ok
+test_complete_regression_workflow (tests.test_system.TestCompleteSystemWorkflows.test_complete_regression_workflow) ... ok
+test_experiment_requires_owned_dataset (tests.test_system.TestCompleteSystemWorkflows.test_experiment_requires_owned_dataset) ... ok
+test_user_cannot_access_another_users_project (tests.test_system.TestCompleteSystemWorkflows.test_user_cannot_access_another_users_project) ... ok
+
+----------------------------------------------------------------------
+Ran 4 tests in 2.698s
+
+OK
+
+
+End-to-end testing
+test_health_and_frontend_assets_are_reachable (tests.test_end_to_end.TestEndToEnd.test_health_and_frontend_assets_are_reachable) ... ok
+test_user_journey_from_registration_to_experiment_history (tests.test_end_to_end.TestEndToEnd.test_user_journey_from_registration_to_experiment_history) ... ok
+
+----------------------------------------------------------------------
+Ran 2 tests in 1.435s
+
+OK
+
+
+COVERAGE
+Name                Stmts   Miss Branch BrPart  Cover   Missing
+---------------------------------------------------------------
+backend\server.py     193      5    110     35    87%   12->13, 37->exit, 39->exit, 41->exit, 44->exit, 47->exit, 48->exit, 55->56, 74->exit, 75->exit, 78->exit, 80->exit, 84->exit, 101->exit, 102->exit, 103->exit, 110->exit, 112->113, 113->114, 113->exit, 119->exit, 124->exit, 125->exit, 126->exit, 129->exit, 136, 140, 157->exit, 169->exit, 172->exit, 181->exit, 182->exit, 187->exit, 189->exit, 194->192, 196->exit, 200-201, 204
+---------------------------------------------------------------
+TOTAL                 193      5    110     35    87%

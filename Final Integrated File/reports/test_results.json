@@ -1,0 +1,72 @@
+{
+  "project": "ModelLab",
+  "started": "2026-11-10T17:07:27.390668+00:00",
+  "finished": "2026-11-10T17:07:44.369009+00:00",
+  "status": "PASSED",
+  "total_test_cases": 59,
+  "categories": [
+    {
+      "category": "Unit testing",
+      "module": "tests.test_unit",
+      "status": "PASSED",
+      "tests": 32,
+      "failures": 0,
+      "errors": 0,
+      "details": []
+    },
+    {
+      "category": "Component / functional testing",
+      "module": "tests.test_functional",
+      "status": "PASSED",
+      "tests": 15,
+      "failures": 0,
+      "errors": 0,
+      "details": []
+    },
+    {
+      "category": "Integration testing",
+      "module": "tests.test_integration",
+      "status": "PASSED",
+      "tests": 6,
+      "failures": 0,
+      "errors": 0,
+      "details": []
+    },
+    {
+      "category": "System testing",
+      "module": "tests.test_system",
+      "status": "PASSED",
+      "tests": 4,
+      "failures": 0,
+      "errors": 0,
+      "details": []
+    },
+    {
+      "category": "End-to-end testing",
+      "module": "tests.test_end_to_end",
+      "status": "PASSED",
+      "tests": 2,
+      "failures": 0,
+      "errors": 0,
+      "details": []
+    }
+  ],
+  "coverage": {
+    "covered_lines": 188,
+    "num_statements": 193,
+    "percent_covered": 86.79867986798679,
+    "percent_covered_display": "87",
+    "missing_lines": 5,
+    "excluded_lines": 0,
+    "percent_statements_covered": 97.40932642487047,
+    "percent_statements_covered_display": "97",
+    "num_branches": 110,
+    "num_partial_branches": 35,
+    "covered_branches": 75,
+    "missing_branches": 35,
+    "percent_branches_covered": 68.18181818181819,
+    "percent_branches_covered_display": "68"
+  },
+  "branch_coverage_percent": 68.18,
+  "coverage_report": "coverage_html/index.html"
+}

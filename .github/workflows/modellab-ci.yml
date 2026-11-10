@@ -1,0 +1,54 @@
+
+name: ModelLab Complete Testing CI
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "Final Integrated File/**"
+      - ".github/workflows/modellab-ci.yml"
+
+  pull_request:
+    branches: [main]
+    paths:
+      - "Final Integrated File/**"
+      - ".github/workflows/modellab-ci.yml"
+
+  workflow_dispatch:
+
+jobs:
+  modellab-testing:
+    name: ModelLab Testing and Coverage
+    runs-on: ubuntu-latest
+
+    defaults:
+      run:
+        working-directory: Final Integrated File
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install application dependencies
+        run: |
+          python -m pip install --upgrade pip
+          python -m pip install -r backend/requirements.txt
+          python -m pip install -r requirements-test.txt
+
+      - name: Run complete testing suite
+        run: python run_all_tests.py
+
+      - name: Upload testing and coverage reports
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: ModelLab-Testing-and-Coverage-Reports
+          path: |
+            Final Integrated File/reports/
+          if-no-files-found: warn
+          retention-days: 30
